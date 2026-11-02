@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 16 listeden toplanan 6.827 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 17 listeden toplanan 7.264 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -32,10 +32,13 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 | FDH — “Kolay Boykot” PDF kitapçığı, Türkçe rehberin “Utanç Listesi” ve çatı şirket görselleri (yalnız boykot tarafı) | 581 |
 | Boykot Rehberi — Filistin İnisiyatifi'nin “Market Ürünleri Boykot Listesi” kitapçığı | 160 |
 | AFSC — Gazze soykırımı şirketleri | 58 |
+| Yerli Reçete — yerli ilaç rehberi; boykot listesi değil, yalnız çatıların eksik ilaçları için firma bilgisi | 437 |
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 30 Ekim 2026. **FDH** 16. liste olarak eklendi: 11 çatı ve 570 marka; 452'si veritabanında zaten vardı, 129'u yeni (çoğu çatı görsellerindeki Kellogg's, General Mills, Kraft, Mondelēz, Nestlé markaları; General Mills yeni çatı). FDH üç görsel kaynaktan elle yazıya geçirildi:
+Son güncelleme: 2 Kasım 2026. **Yerli Reçete** (yerlirecete.com, veri Haziran 2024) 17. kaynak olarak eklendi: Eczanede Boykot'un sekiz boykot çatısının ve veritabanında bulunan diğer ilaç firmalarının (Abdi İbrahim, Sandoz, GSK, Viatris, Abbott, Eczacıbaşı, Roche, Nestle, Lilly, Danone…) veritabanında olmayan 437 ilacı kök marka olarak çatılarının altına girdi. Yerli Reçete boykot listesi değildir, yalnız ilacın firmasını gösterir; kayıttaki etiket hüküm değil, çatının geldiği gruptur.
+
+30 Ekim 2026: **FDH** 16. liste olarak eklendi: 11 çatı ve 570 marka; 452'si veritabanında zaten vardı, 129'u yeni (çoğu çatı görsellerindeki Kellogg's, General Mills, Kraft, Mondelēz, Nestlé markaları; General Mills yeni çatı). FDH üç görsel kaynaktan elle yazıya geçirildi:
 
 - “Kolay Boykot” adlı PDF kitapçığın ALMA / AL sayfaları. Bu kitapçığın kolayboykot.com sitesiyle ilgisi yok.
 - Türkçe rehberin “Utanç Listesi” sayfaları.
