@@ -2,15 +2,15 @@
  "afsc": {
   "durum": "ok",
   "parmak_izi": "bb8636835005fc2918486af694aa034c5fedd78322aa7b4741ca503693a2a4cd",
-  "son_basari": "2026-11-01T14:17:44+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "ak": {
   "durum": "ok",
   "parmak_izi": "7c5c77cccfe41e4df4768fdeefb19a936ed7214a21eb54a5e3b744fa15339645",
-  "son_basari": "2026-11-01T14:17:44+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-02"
  },
  "bco": {
@@ -31,39 +31,39 @@
  "bt": {
   "durum": "ok",
   "parmak_izi": "038cea6d891eb3f5",
-  "son_basari": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
   "son_degisiklik": "2026-10-28T13:36:29+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-18"
  },
  "bykt": {
   "durum": "ok",
   "parmak_izi": "HtJkb7ZpiVzl/OJjG+Lziw==",
-  "son_basari": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
   "son_degisiklik": "2026-10-23T15:44:32+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-20"
  },
  "dbio": {
   "durum": "ok",
   "parmak_izi": "7113c27ae328f22d4a31b419ed4e5f657f819b3543f2008853faee7b5988ea58",
-  "son_basari": "2026-11-01T14:17:44+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "eb": {
   "durum": "ok",
   "parmak_izi": "8ba620b68577111cfc4373e6c829d5826b64705e0086d5c5fd3a6655928d3e0d",
-  "son_basari": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
   "son_degisiklik": "2026-10-21T12:23:16+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "inv": {
   "durum": "ok",
   "parmak_izi": "f397e83c71017f944e72e059c0aee87175e75ab59e49d235ca28d14fbdaf1022",
-  "son_basari": "2026-11-01T14:17:44+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2025-07"
  },
  "kb": {
@@ -76,9 +76,9 @@
  "wp": {
   "durum": "ok",
   "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
-  "son_basari": "2026-11-01T14:17:44+03:00",
+  "son_basari": "2026-11-02T15:27:03+03:00",
   "son_degisiklik": "2026-10-20T15:23:49+03:00",
-  "son_kontrol": "2026-11-01T14:17:44+03:00",
+  "son_kontrol": "2026-11-02T15:27:03+03:00",
   "veri_tarihi": "2026-10-19"
  }
 }
