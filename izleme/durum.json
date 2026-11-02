@@ -2,83 +2,84 @@
  "afsc": {
   "durum": "ok",
   "parmak_izi": "bb8636835005fc2918486af694aa034c5fedd78322aa7b4741ca503693a2a4cd",
-  "son_basari": "2026-11-02T15:27:03+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "ak": {
   "durum": "ok",
   "parmak_izi": "7c5c77cccfe41e4df4768fdeefb19a936ed7214a21eb54a5e3b744fa15339645",
-  "son_basari": "2026-11-02T15:27:03+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-02"
  },
  "bco": {
   "durum": "ok",
-  "parmak_izi": "eb3bef793eb685c331c3d331f2c567f453e203010a1cbc457ef2e1068b5f16ab",
-  "son_basari": "2026-10-26T13:31:14+03:00",
-  "son_degisiklik": "2026-10-26T13:31:14+03:00",
-  "son_kontrol": "2026-10-26T13:31:14+03:00",
+  "parmak_izi": "9c52be85d9a01c5f5dc8f86523d130657570d86552da485932401919a37d0665",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_degisiklik": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-24"
  },
  "bd": {
   "durum": "ok",
-  "parmak_izi": "c8de35a684eb03fecc3131a46bfede5e621e596c17acb93b93830a13b8e0f472",
-  "son_basari": "2026-10-26T13:31:14+03:00",
-  "son_kontrol": "2026-10-26T13:31:14+03:00",
+  "parmak_izi": "468923145f3a75c89e74e7d3afa4bfa14d6bd01a8393f50d0b850e4e49843c49",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_degisiklik": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-07"
  },
  "bt": {
   "durum": "ok",
   "parmak_izi": "038cea6d891eb3f5",
-  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
   "son_degisiklik": "2026-10-28T13:36:29+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-18"
  },
  "bykt": {
   "durum": "ok",
   "parmak_izi": "HtJkb7ZpiVzl/OJjG+Lziw==",
-  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
   "son_degisiklik": "2026-10-23T15:44:32+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-20"
  },
  "dbio": {
   "durum": "ok",
   "parmak_izi": "7113c27ae328f22d4a31b419ed4e5f657f819b3543f2008853faee7b5988ea58",
-  "son_basari": "2026-11-02T15:27:03+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "eb": {
   "durum": "ok",
   "parmak_izi": "8ba620b68577111cfc4373e6c829d5826b64705e0086d5c5fd3a6655928d3e0d",
-  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
   "son_degisiklik": "2026-10-21T12:23:16+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "inv": {
   "durum": "ok",
   "parmak_izi": "f397e83c71017f944e72e059c0aee87175e75ab59e49d235ca28d14fbdaf1022",
-  "son_basari": "2026-11-02T15:27:03+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2025-07"
  },
  "kb": {
   "durum": "hata: toplu değişiklik",
-  "parmak_izi": "acc32e79c46cd3171a9467f974e14d6c72d9615a3329d1e3c9883ab8d0c55813",
-  "son_basari": "2026-10-26T13:31:14+03:00",
-  "son_kontrol": "2026-10-26T13:31:14+03:00",
+  "parmak_izi": "b430d7b964da4c446fe8aa68ffe1df98c9a36ede0aee2c43c972791da3186a67",
+  "son_basari": "2026-11-02T15:52:23+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "wp": {
   "durum": "ok",
   "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
-  "son_basari": "2026-11-02T15:27:03+03:00",
+  "son_basari": "2026-11-02T15:52:23+03:00",
   "son_degisiklik": "2026-10-20T15:23:49+03:00",
-  "son_kontrol": "2026-11-02T15:27:03+03:00",
+  "son_kontrol": "2026-11-02T15:52:23+03:00",
   "veri_tarihi": "2026-10-19"
  }
 }

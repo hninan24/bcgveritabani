@@ -1,5 +1,23 @@
 [
  {
+  "id": "2026-11-02|bco|vontier|metin",
+  "tespit": "2026-11-02",
+  "liste": "bco",
+  "kimlik": "vontier",
+  "marka": "Vontier",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.boykot.co/d/vontier",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "İsrail’in yanında olduklarını bildirmişler...."
+    ]
+   ]
+  }
+ },
+ {
   "id": "2026-10-28|bt|251|cati",
   "tespit": "2026-10-28",
   "liste": "bt",
