@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 17 listeden toplanan 7.264 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 21 listeden toplanan 10.874 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -16,6 +16,7 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 
 | Liste | Kayıt |
 |---|---:|
+| Boykot Market (boykotmarket.com) | 6.342 |
 | Boykot Dedektifi (boykotdedektifi.com) | 2.556 |
 | No Thanks (iOS uygulaması, üç seviye) | 2.191 |
 | DBIO — Don't Buy Into Occupation (2025) | 1.218 |
@@ -31,12 +32,24 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 | Investigate (AFSC) | 187 |
 | FDH — “Kolay Boykot” PDF kitapçığı, Türkçe rehberin “Utanç Listesi” ve çatı şirket görselleri (yalnız boykot tarafı) | 581 |
 | Boykot Rehberi — Filistin İnisiyatifi'nin “Market Ürünleri Boykot Listesi” kitapçığı | 160 |
+| BoykotListe (boykotliste.com) | 415 |
+| Boycott Israel (boycott-israel.org; 74 şirket, 140 alt marka) | 214 |
+| Genç Müslümanlar (gencmuslumanlar.com, sayfa Kasım 2023 tarihli) | 93 |
 | AFSC — Gazze soykırımı şirketleri | 58 |
 | Yerli Reçete — yerli ilaç rehberi; boykot listesi değil, yalnız çatıların eksik ilaçları için firma bilgisi | 437 |
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 2 Kasım 2026. **Yerli Reçete** (yerlirecete.com, veri Haziran 2024) 17. kaynak olarak eklendi: Eczanede Boykot'un sekiz boykot çatısının ve veritabanında bulunan diğer ilaç firmalarının (Abdi İbrahim, Sandoz, GSK, Viatris, Abbott, Eczacıbaşı, Roche, Nestle, Lilly, Danone…) veritabanında olmayan 437 ilacı kök marka olarak çatılarının altına girdi. Yerli Reçete boykot listesi değildir, yalnız ilacın firmasını gösterir; kayıttaki etiket hüküm değil, çatının geldiği gruptur.
+Son güncelleme: 2 Kasım 2026. Dört liste eklendi:
+
+- **Boykot Market** (6.342 marka). Sitenin kendi BDS / AMP / Boykot Market etiketi solda filtre olarak var. Bu etiket derece değil; site boş kalan değerleri de BDS sayıyor.
+- **BoykotListe** (415 satır). Yüksek / Orta / Düşük risk solda filtre olarak var.
+- **Boycott Israel** (74 şirket, 140 alt marka). Çok yüksek / Yüksek / Orta / Düşük etki solda filtre olarak var. Sayfanın dipnotu GPT-4 ile derlenen veri de kullanıldığını söylüyor.
+- **Genç Müslümanlar** (93 kayıt, tek düzey, sayfa Kasım 2023 tarihli).
+
+3.610 kuruluş veritabanına yeni girdi. Metinler özgün hâliyle duruyor. Bu listeler mevcut kuruluşların çatısını değiştirmez; çatı ve kategori etiketi yalnız yeni kuruluşlarda kullanıldı. Boykot Market'in sahip alanı metinde “Sahip” satırı olarak durur; yatırımcı, distribütör ve çok sahipli yazımlar çatı sayılmadı.
+
+Aynı gün önce **Yerli Reçete** (yerlirecete.com, veri Haziran 2024) 17. kaynak olarak eklendi: Eczanede Boykot'un sekiz boykot çatısının ve veritabanında bulunan diğer ilaç firmalarının (Abdi İbrahim, Sandoz, GSK, Viatris, Abbott, Eczacıbaşı, Roche, Nestle, Lilly, Danone…) veritabanında olmayan 437 ilacı kök marka olarak çatılarının altına girdi. Yerli Reçete boykot listesi değildir, yalnız ilacın firmasını gösterir; kayıttaki etiket hüküm değil, çatının geldiği gruptur.
 
 30 Ekim 2026: **FDH** 16. liste olarak eklendi: 11 çatı ve 570 marka; 452'si veritabanında zaten vardı, 129'u yeni (çoğu çatı görsellerindeki Kellogg's, General Mills, Kraft, Mondelēz, Nestlé markaları; General Mills yeni çatı). FDH üç görsel kaynaktan elle yazıya geçirildi:
 
