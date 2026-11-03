@@ -1,5 +1,18 @@
 [
  {
+  "id": "2026-11-03|nt|uygulama|bilgi",
+  "tespit": "2026-11-03",
+  "liste": "nt",
+  "kimlik": "uygulama",
+  "marka": "No Thanks uygulaması",
+  "cati": null,
+  "tur": "bilgi",
+  "url": "https://apps.apple.com/us/app/no-thanks-app/id6476206516",
+  "onceki": "surum: 3.5.0",
+  "sonraki": "surum: 3.5.2",
+  "tarih": "2026-10-31"
+ },
+ {
   "id": "2026-11-02|bco|vontier|metin",
   "tespit": "2026-11-02",
   "liste": "bco",

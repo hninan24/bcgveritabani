@@ -14,10 +14,10 @@
   "veri_tarihi": "2026-10-02"
  },
  "bc": {
-  "durum": "tohum",
+  "durum": "engel: https://research.boycat.io/company/5th-avenue: HTTP 403, sitenin bot koruması",
   "parmak_izi": "150b0107cd665568203a7c9246ac874da6641a5f5bd025c9789a7e78ed0ecc96",
   "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-10-24"
  },
  "bco": {
@@ -37,24 +37,24 @@
   "veri_tarihi": "2026-10-07"
  },
  "bi": {
-  "durum": "tohum",
+  "durum": "ok",
   "parmak_izi": "f771efc6fba9861b99420e88c9e1a94dc22ca10dd442205971509ec8d74ada30",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "bl": {
-  "durum": "tohum",
+  "durum": "ok",
   "parmak_izi": "92bb144cae0c73e0f8d1ffc256fdf8850c7ddbee1e3dfaaf6873e9850efcb709",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-11-03"
  },
  "bmk": {
-  "durum": "tohum",
+  "durum": "ok",
   "parmak_izi": "8657df5c195348488aa5585619d35d8d27f07b39fd20e2d33a7f62ecc65d5ab2",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "bt": {
@@ -89,10 +89,10 @@
   "veri_tarihi": "2026-10-19"
  },
  "gm": {
-  "durum": "tohum",
+  "durum": "ok",
   "parmak_izi": "df8ccb1885229713915525d4cc90f2185ed0ef7bde9bf28df4e1bed2dfd476e6",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "inv": {
@@ -110,10 +110,11 @@
   "veri_tarihi": "2026-10-19"
  },
  "nt": {
-  "durum": "tohum",
-  "parmak_izi": "3.5.0",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "durum": "ok",
+  "parmak_izi": "3.5.2",
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_degisiklik": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-10-26"
  },
  "wp": {
@@ -125,10 +126,10 @@
   "veri_tarihi": "2026-10-19"
  },
  "yr": {
-  "durum": "tohum",
+  "durum": "ok",
   "parmak_izi": "/_next/static/chunks/app/page-d6709ecf6d7eae14.js",
-  "son_basari": "2026-11-03T11:39:59+03:00",
-  "son_kontrol": null,
+  "son_basari": "2026-11-03T12:04:51+03:00",
+  "son_kontrol": "2026-11-03T12:04:51+03:00",
   "veri_tarihi": "2026-10-30"
  }
 }

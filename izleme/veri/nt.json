@@ -4,16 +4,15 @@
   "uygulama": {
    "ad": "No Thanks uygulaması",
    "ek": {
-    "surum": "3.5.0"
+    "surum": "3.5.2"
    },
    "kapsam": true,
+   "tarih": "2026-10-31",
    "url": "https://apps.apple.com/us/app/no-thanks-app/id6476206516"
   }
  },
  "kaynak": "nt",
- "meta": {
-  "tohum": "yerel dışa aktarım (2026-10-26), 2026-11-03T11:39:59+03:00"
- },
- "parmak_izi": "3.5.0",
- "tarih": "2026-10-26"
+ "meta": {},
+ "parmak_izi": "3.5.2",
+ "tarih": "2026-11-03T12:04:51+03:00"
 }
