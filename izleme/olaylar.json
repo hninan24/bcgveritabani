@@ -13,6 +13,7685 @@
   "tarih": "2026-10-31"
  },
  {
+  "id": "2026-11-03|kb|1301|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1301",
+  "marka": "Şıpsevdi",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/sipsevdi",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1311|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1311",
+  "marka": "Çerezza",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/cerezza",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1311|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1311",
+  "marka": "Çerezza",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cerezza",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "PepsiCo,"
+    ],
+    [
+     "+",
+     "SodaStream’i 3,2 milyar dolara satın almış ve Sabra’nın %50’sine sahip olmuştur; her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır. Cheetos, İsrail'de üretim tesisleri açarak,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "merkezli SodaStream markasının tamamına ve yine İsrail merkezli Sabra markasının %50’sine sahiptir. SodaStream, İsrail’in gayrimeşru yerleşimlerinde fabrikalar açarak yasadışı işgale olanak sağlamaktadır."
+    ],
+    [
+     "+",
+     "ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4534|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4534",
+  "marka": "Zara",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/zara",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Zara'nın ana çatı markasıdır."
+    ],
+    [
+     "=",
+     "ZARA, yeni koleksiyonunda Gazze'ye gönderme yapan enkaz ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1639|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1639",
+  "marka": "Yves Rocher",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/yves-rocher",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1280|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1280",
+  "marka": "Yumoş",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/yumos",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1528|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1528",
+  "marka": "Whiskas",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/whiskas",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc"
+    ],
+    [
+     "-",
+     "firmasına evcil hayvan ürünleri firmalarındandır."
+    ],
+    [
+     "+",
+     "firmasının adını da aldığı çikolata markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4526|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4526",
+  "marka": "Volkswagen",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/volkswagen",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1662|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1662",
+  "marka": "Vivident",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/vivident",
+  "onceki": "Boykot Mücahit",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1662|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1662",
+  "marka": "Vivident",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vivident",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Vivident,"
+    ],
+    [
+     "=",
+     "İtalyan-Hollanda ortaklı Perfetti Van Melle’ye ait. Aynı şirketin …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3688|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3688",
+  "marka": "Vital Proteins",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vital-proteins",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3899|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3899",
+  "marka": "Vim",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vim",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Birçok ülkede faaliyet gösteren Vim, temizlik çözümleri sunmaktadır. Vim serisi, tüketicilerin tüm ihtiyaçlarına yanıt vermek amacıyla aşındırıcılar, kremler, temizleme tozları, tetikleyiciler, çok amaçlı temizleyiciler sunmaktadır. Vim, Unilever'in sahip olduğu bir temizlik ürünü markasıdır."
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için İsrail dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2019|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2019",
+  "marka": "Vileda",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/vileda",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Öncü"
+ },
+ {
+  "id": "2026-11-03|kb|4544|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4544",
+  "marka": "Victoria's Secret",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/victoria-s-secret",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1559|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1559",
+  "marka": "Vicks",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vicks",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Vicks’in sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble,"
+    ],
+    [
+     "-",
+     "işgal altındaki Filistin’in"
+    ],
+    [
+     "+",
+     "kısa yazılımıyla P&G’nin,"
+    ],
+    [
+     "=",
+     "Tel"
+    ],
+    [
+     "-",
+     "Aviv kentinde yılda 2 milyar dolar yatırım"
+    ],
+    [
+     "+",
+     "Aviv’de ciddi kaynak aktarımı"
+    ],
+    [
+     "=",
+     "yaptığı bir"
+    ],
+    [
+     "-",
+     "Ar-Ge merkezi açtı. Vicks Amerikan şirketleri Procter & Gamble ve Helen of Troy Limited'in sahip olduğu reçetesiz ilaçların bir Amerikan markasıdır."
+    ],
+    [
+     "+",
+     "Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1558|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1558",
+  "marka": "Vichy",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vichy",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "L’Oreal Paris Company’nin markalarındandır. L’Oreal’in %34,70’i Francoise Bettencourt Meyers"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Yahudi ailesine aittir. L’Oreal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1350|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1350",
+  "marka": "Vernel",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vernel",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1338|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1338",
+  "marka": "Vaseline",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/vaseline",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Vaseline Unilever Grup'a aittir. Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1279|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1279",
+  "marka": "Unilever",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/unilever",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1364|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1364",
+  "marka": "Twix",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/twix",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mars, İsrailli start-up'ları ve şirket oluşumunu destekleyecek ve diğerlerinin yanı sıra İbrani Üniversitesi, Weizmann Enstitüsü, Technion, Migall ve Tel Hai Koleji gibi İsrail'in önde gelen akademik kurumlarıyla birlikte Gıda Teknolojisi yeniliklerini ilerletmek için birlikte çalışacak."
+    ],
+    [
+     "+",
+     "Mars Inc firmasının adını da aldığı çikolata markasıdır. Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1523|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1523",
+  "marka": "Tursil",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/tursil",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1353|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1353",
+  "marka": "Tropicana",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/tropicana",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Tropicana’nın sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın almış ve … her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır."
+    ],
+    [
+     "-",
+     "Üst kuruluşları: PepsiCo, PAI PARTNERS Kuruluş tarihi: 1947, Bradenton, Florida, ABD Kurucusu: Anthony T."
+    ],
+    [
+     "+",
+     "Cheetos, İsrail'de üretim tesisleri açarak, İsrail ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4726|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4726",
+  "marka": "Trendyol",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/trendyol",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Trendyol, çoğunluk hissesi (%86,5) Çin merkezli küresel e-ticaret devi Alibaba Group'a ait olan bir pazar yeridir. Çatı şirket"
+    ],
+    [
+     "=",
+     "Alibaba'nın İsrail pazarındaki yaygın ticari faaliyetleri (AliExpress), yerel …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1420|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1420",
+  "marka": "Tommy Hilfiger",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/tommy-hilfiger",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Tommy Hilfiger'ın sahibi Estée Lauder. Ronald Lauder, kardeşi Leonard Lauder ile birlikte Estée Lauder şirketinin mirasçısıdır. Aynı zamanda Dünya Yahudi Kongresi'nin başkanlığını yapmış, Siyonist ideolojiyi benimseyen Yahudi Ulusal Fonu'nun da başında bulunmuştur. İsrail’e hem mali hem de siyasi destek veren, etkili bir figür"
+    ],
+    [
+     "+",
+     "Firma açık"
+    ],
+    [
+     "=",
+     "olarak"
+    ],
+    [
+     "-",
+     "bilinmektedir."
+    ],
+    [
+     "+",
+     "İsrail yardım kuruluşlarına bağış yaptığını açıklıyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1289|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1289",
+  "marka": "Toblerone",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/toblerone",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4545|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4545",
+  "marka": "Timberland",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/timberland",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Timberland’in sahibi, Amerikan giyim ve aksesuar şirketi VF Corporation'dır."
+    ],
+    [
+     "=",
+     "VF Corporation, birçok markayı bünyesinde barındıran"
+    ],
+    [
+     "-",
+     "ve çeşitli"
+    ],
+    [
+     "+",
+     "Amerikan"
+    ],
+    [
+     "=",
+     "giyim"
+    ],
+    [
+     "-",
+     "kategorilerinde faaliyet gösteren büyük bir şirkettir. Timberland,"
+    ],
+    [
+     "+",
+     "şirketidir. The North Face, 2000’de VF tarafından satın alındı."
+    ],
+    [
+     "=",
+     "VF Corporation"
+    ],
+    [
+     "-",
+     "tarafından yönetilmektedir. Ayrıca, VF Corporation 1997 yılında İsrail’de"
+    ],
+    [
+     "+",
+     "ayrıca Vans’ın da ana şirketidir ve 1997’de"
+    ],
+    [
+     "=",
+     "kurulan"
+    ],
+    [
+     "+",
+     "İsrail merkezli"
+    ],
+    [
+     "=",
+     "yan kuruluşu VF Israel (Apparel)"
+    ],
+    [
+     "-",
+     "Ltd.’nin de sahibidir."
+    ],
+    [
+     "+",
+     "Ltd.’ye sahiptir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4539|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4539",
+  "marka": "The North Face",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/the-north-face",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "The North Face’in sahibi"
+    ],
+    [
+     "=",
+     "VF Corporation, birçok markayı bünyesinde barındıran Amerikan giyim …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4476|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4476",
+  "marka": "Tang",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/tang",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1540|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1540",
+  "marka": "Tampax",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/tampax",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2038|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2038",
+  "marka": "Taft",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/taft",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1380|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1380",
+  "marka": "Syoss",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/syoss",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1307|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1307",
+  "marka": "Sprite",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/sprite",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Appletiser’ın sahibi"
+    ],
+    [
+     "+",
+     "Coca Cola Company firması altında yer alan enerji içeceği alt markasıdır. Berkshire Hathaway Holding’in portföyünde"
+    ],
+    [
+     "=",
+     "olan"
+    ],
+    [
+     "-",
+     "Coca-Cola Şirketi, işgal altındaki Filistin’de"
+    ],
+    [
+     "+",
+     "Coca Cola Company’nin çalıntı Filistin toprakları üzerine"
+    ],
+    [
+     "=",
+     "inşa"
+    ],
+    [
+     "-",
+     "edilen"
+    ],
+    [
+     "+",
+     "edilmiş"
+    ],
+    [
+     "=",
+     "yasadışı"
+    ],
+    [
+     "+",
+     "bir"
+    ],
+    [
+     "=",
+     "İsrail yerleşimi"
+    ],
+    [
+     "+",
+     "olan"
+    ],
+    [
+     "=",
+     "Atarot’ta"
+    ],
+    [
+     "-",
+     "bir fabrika işletmektedir. Üretici: The Coca-Cola Company Sprite Coca Cola Firmasına ait bir gazoz markasıdır."
+    ],
+    [
+     "+",
+     "fabrikası vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1711|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1711",
+  "marka": "Solgar",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/solgar",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1513|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1513",
+  "marka": "Snickers",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/snickers",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc"
+    ],
+    [
+     "-",
+     "firmasına ait"
+    ],
+    [
+     "+",
+     "firmasının adını da aldığı"
+    ],
+    [
+     "=",
+     "çikolata"
+    ],
+    [
+     "-",
+     "barları üreten firmadır."
+    ],
+    [
+     "+",
+     "markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3914|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3914",
+  "marka": "Smart",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/smart",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1520|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1520",
+  "marka": "Skittles",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/skittles",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc"
+    ],
+    [
+     "-",
+     "firmasına ait meyve aromalı şeker üreten firmadır."
+    ],
+    [
+     "+",
+     "firmasının adını da aldığı çikolata markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1555|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1555",
+  "marka": "Skinceuticals",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/skinceuticals",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Skinceuticals'ın ana şirketi"
+    ],
+    [
+     "=",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1412|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1412",
+  "marka": "Simple",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/simple",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Simple, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1331|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1331",
+  "marka": "Signal",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/signal",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "İsrail'i destekleyen markanın ürünüdür. Signal dünyada 80 yıldır üretilen, ağız bakım alışkanlıklarını daha ileri düzeye taşımayı amaçlayan Unilever’in ağız ve diş bakım markasıdır. Signal Diş Macunu, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için İsrail dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4513|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4513",
+  "marka": "Siemens",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/siemens",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|4513|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4513",
+  "marka": "Siemens",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/siemens",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Siemens, EuroAsia Interconnector projesiyle İsrail’in Avrupa elektrik şebekesine bağlanmasına katkı sağlayarak işgal altındaki topraklardaki yasadışı yerleşimlerin elektrikten faydalanmasına aracılık etmektedir. Ayrıca, Gazze’deki çatışmaları \"terör saldırısı\" olarak nitelendirmiş"
+    ],
+    [
+     "+",
+     "Profilo, Bosch"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "+",
+     "Siemens’in ortak girişimi BSH Hausgeräte’ye aittir. BSH, 23 Ekim 2023’te"
+    ],
+    [
+     "=",
+     "İsrail’e"
+    ],
+    [
+     "-",
+     "desteğini açıkça göstermiştir. Şirket, Web Summit’ten de İsrail’e yönelik eleştiriler nedeniyle çekilerek bu desteğini pekiştirmiştir."
+    ],
+    [
+     "+",
+     "destek bildirisini imzaladığı için Profilo boykot edilmelidir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4549|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4549",
+  "marka": "Shell",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/shell",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1900|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1900",
+  "marka": "Sheba",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/sheba",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc firmasının"
+    ],
+    [
+     "-",
+     "kedi maması üreten"
+    ],
+    [
+     "+",
+     "adını da aldığı çikolata"
+    ],
+    [
+     "=",
+     "markasıdır. Amerikan toplumuna asimile olma çabalarına rağmen Mars …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2017|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2017",
+  "marka": "Sensodyne",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/sensodyne",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Sensodyne diş macununun mevcut sahibi İngiliz GSK plc (GlaxoSmithKline plc)’dir. ’GSK plc’ adlı şirketin yakın zamanda"
+    ],
+    [
+     "+",
+     "Haleon, İsrail'de \"Haleon CH Israel Ltd.\" (İbranice ticari kaydıyla: הלאון סי.אייץ'. ישראל בע\"מ) isimli %100"
+    ],
+    [
+     "=",
+     "kendi"
+    ],
+    [
+     "-",
+     "resmi internet sitesinde yaptığı açıklama boykot için sebep olarak görülmüştür."
+    ],
+    [
+     "+",
+     "iştiraki olan şirketi üzerinden doğrudan ve kapsamlı bir ticari faaliyet yürütmektedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1308|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1308",
+  "marka": "Schweppes",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/schweppes",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Schweppes’in sahibi"
+    ],
+    [
+     "+",
+     "Coca Cola Company firması altında yer alan enerji içeceği alt markasıdır. Berkshire Hathaway Holding’in portföyünde"
+    ],
+    [
+     "=",
+     "olan"
+    ],
+    [
+     "-",
+     "Coca-Cola Şirketi, işgal altındaki Filistin’de"
+    ],
+    [
+     "+",
+     "Coca Cola Company’nin çalıntı Filistin toprakları üzerine"
+    ],
+    [
+     "=",
+     "inşa"
+    ],
+    [
+     "-",
+     "edilen"
+    ],
+    [
+     "+",
+     "edilmiş"
+    ],
+    [
+     "=",
+     "yasadışı"
+    ],
+    [
+     "+",
+     "bir"
+    ],
+    [
+     "=",
+     "İsrail yerleşimi"
+    ],
+    [
+     "+",
+     "olan"
+    ],
+    [
+     "=",
+     "Atarot’ta"
+    ],
+    [
+     "-",
+     "bir fabrika işletmektedir. Sahibi: The Coca-Cola Company, Keurig Dr Pepper Kurucu: Johann Jacob Schweppe Ana şirket: Dr."
+    ],
+    [
+     "+",
+     "fabrikası vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1400|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1400",
+  "marka": "Schwarzkopf",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/schwarzkopf",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Henkele ait bir saç bakım markasıdır. 2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2342|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2342",
+  "marka": "Sandoz",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/sandoz",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|2012|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2012",
+  "marka": "Sana",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/sana",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan ve gayrimeşru İsrail yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden"
+    ],
+    [
+     "+",
+     "Upfield, 2018 senesinde KOHLBERG KRAVIS ROBERTS & CO. (KKR) tarafından satın alınmıştır. KKR ise İsrail’e desteğini açık"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "tanesidir."
+    ],
+    [
+     "+",
+     "şekilde ifade eden bir global sermayedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1514|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1514",
+  "marka": "San Pellegrino",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/san-pellegrino",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1312|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1312",
+  "marka": "Ruffles",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/ruffles",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "PepsiCo,"
+    ],
+    [
+     "+",
+     "SodaStream’i 3,2 milyar dolara satın almış ve Sabra’nın %50’sine sahip olmuştur; her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır. Cheetos, İsrail'de üretim tesisleri açarak,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "merkezli SodaStream markasının tamamına ve yine İsrail merkezli Sabra markasının %50’sine sahiptir. SodaStream, İsrail’in gayrimeşru yerleşimlerinde fabrikalar açarak yasadışı işgale olanak sağlamaktadır."
+    ],
+    [
+     "+",
+     "ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2584|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2584",
+  "marka": "Rotring",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/rotring",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Rotring, 1928 yılında piyasaya sürülen"
+    ],
+    [
+     "+",
+     "Rotring'in ana şirketi olan Newell Brands'in en büyük hissedarları arasında BlackRock"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "teknik kalemler, tükenmez kalemler, mürekkep doldurma sistemleri, aksesuarlar ve yedek parçalar konusunda uzmanlaşmış bir markadır."
+    ],
+    [
+     "+",
+     "Vanguard gibi küresel yatırım şirketleri bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1336|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1336",
+  "marka": "Rexona",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/rexona",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Rexona'nın sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben & Jerry's'in"
+    ],
+    [
+     "-",
+     "de"
+    ],
+    [
+     "=",
+     "sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4533|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4533",
+  "marka": "Reebok",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/reebok",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Adidas'a aittir."
+    ],
+    [
+     "=",
+     "Adidas, İsrailli tekstil firması Delta Galil Industries ile …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2013|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2013",
+  "marka": "Rama",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/rama",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan ve gayrimeşru İsrail yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden"
+    ],
+    [
+     "+",
+     "Upfield, 2018 senesinde KOHLBERG KRAVIS ROBERTS & CO. (KKR) tarafından satın alınmıştır. KKR ise İsrail’e desteğini açık"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "tanesidir."
+    ],
+    [
+     "+",
+     "şekilde ifade eden bir global sermayedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2760|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2760",
+  "marka": "Raid",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/raid",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|2760|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2760",
+  "marka": "Raid",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/raid",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Raid, ilk kez 1956'da piyasaya sürülen ve S. C. Johnson & Son tarafından üretilen bir dizi insektisit (böcek ilacı) ürünü markasıdır. Raid Sineksavar, karasinek ve sivrisineklerle mücadelede kullanılmaktadır. S. C. Johnson & Son şirketi israile açıkça"
+    ],
+    [
+     "+",
+     "Johnson&Johnson firması, Yale’e mail atarak"
+    ],
+    [
+     "=",
+     "desteğini"
+    ],
+    [
+     "-",
+     "iletmiştir."
+    ],
+    [
+     "+",
+     "belirtti. Mailde antisemitizme karşı olduklarını, Hamas’ın terörist faaliyetlerini kınadıklarını belirtttiler."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1383|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1383",
+  "marka": "Purina",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/purina",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1383|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1383",
+  "marka": "Purina",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/purina",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Purina, Nestle'ye ait"
+    ],
+    [
+     "+",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine sahip"
+    ],
+    [
+     "=",
+     "olan"
+    ],
+    [
+     "-",
+     "genellikle evcil hayvanlar için"
+    ],
+    [
+     "+",
+     "İsviçreli çok uluslu bir"
+    ],
+    [
+     "=",
+     "yiyecek ve"
+    ],
+    [
+     "-",
+     "mamalar üreten"
+    ],
+    [
+     "+",
+     "içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "markadır. Köpek, kedi, kuş,"
+    ],
+    [
+     "+",
+     "yerleşim yeri olan Sderot’ta bir Araştırma"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "diğer evcil hayvanlar için çeşitli beslenme ihtiyaçlarına yönelik ürünler sunarlar."
+    ],
+    [
+     "+",
+     "Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4536|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4536",
+  "marka": "Pull and Bear",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pull-and-bear",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Zara ile aynı gruptadır."
+    ],
+    [
+     "+",
+     "Zara'nın ana çatı markasıdır."
+    ],
+    [
+     "=",
+     "ZARA, yeni koleksiyonunda Gazze'ye gönderme yapan enkaz ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2045|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2045",
+  "marka": "Protex",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/protex",
+  "onceki": "Boykot Kararlı",
+  "kapsam": "cikti",
+  "eski": {
+   "hukum": "Boykot Kararlı",
+   "metin": "Colgate, diş macunu, diş fırçası, ağız bakım suyu ve diş ipi gibi ağız bakım ürünlerine sahip bir Amerikan markasıdır. Colgate-Palmolive şirketi tarafından üretilen ağız bakım ürünleri, şirketin kurucusu William Colgate'in ölümünden on altı yıl sonra, 1873'te satılmaya başlandı.",
+   "url": "https://www.kolayboykot.com/marka/protex"
+  },
+  "sonraki": "Rozet: Yabancı"
+ },
+ {
+  "id": "2026-11-03|kb|6472|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "6472",
+  "marka": "Procter & Gamble",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/procter-ve-gamble",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|6472|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "6472",
+  "marka": "Procter & Gamble",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/procter-ve-gamble",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|6472|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "6472",
+  "marka": "Procter & Gamble",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/procter-ve-gamble",
+  "onceki": "P&G",
+  "sonraki": "Procter & Gamble"
+ },
+ {
+  "id": "2026-11-03|kb|1532|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1532",
+  "marka": "Pritt",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pritt",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Henkele ait ev tipi bir yapıştırıcı markasıdır. 2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1580|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1580",
+  "marka": "Pringles",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pringles",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Pringles’ın sahibi Kellanova (eski adıyla Kellogg’s Company) 2012’de P&G’den satın alınmıştır."
+    ],
+    [
+     "=",
+     "Kellogg’s Company ve ürünlerinin boykot listesinde olmasının başlıca …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1277|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1277",
+  "marka": "Prima",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/prima",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "İşgal altındaki topraklardaki fabrikalarda üretilen Prima’nın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble,"
+    ],
+    [
+     "-",
+     "işgal altındaki Filistin’in"
+    ],
+    [
+     "+",
+     "kısa yazılımıyla P&G’nin,"
+    ],
+    [
+     "=",
+     "Tel"
+    ],
+    [
+     "-",
+     "Aviv kentinde yılda 2 milyar dolar yatırım"
+    ],
+    [
+     "+",
+     "Aviv’de ciddi kaynak aktarımı"
+    ],
+    [
+     "=",
+     "yaptığı bir"
+    ],
+    [
+     "-",
+     "Ar-Ge merkezi açtı."
+    ],
+    [
+     "+",
+     "Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1346|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1346",
+  "marka": "Pril",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pril",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Henkele ait bir bulaşık deterjanı markasıdır. 2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1422|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1422",
+  "marka": "Prada",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/prada",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1309|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1309",
+  "marka": "Powerade",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/powerade",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Coca Cola"
+    ],
+    [
+     "-",
+     "Company'nin"
+    ],
+    [
+     "+",
+     "Company firması altında yer alan enerji içeceği"
+    ],
+    [
+     "=",
+     "alt markasıdır."
+    ],
+    [
+     "-",
+     "Coca-Cola’nın,"
+    ],
+    [
+     "+",
+     "Berkshire Hathaway Holding’in portföyünde olan Coca Cola Company’nin"
+    ],
+    [
+     "=",
+     "çalıntı Filistin toprakları üzerine inşa edilmiş yasadışı bir İsrail yerleşimi olan Atarot’ta"
+    ],
+    [
+     "-",
+     "bir"
+    ],
+    [
+     "=",
+     "fabrikası"
+    ],
+    [
+     "-",
+     "var."
+    ],
+    [
+     "+",
+     "vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4458|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4458",
+  "marka": "Popeyes",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/popeyes",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Popeyes,"
+    ],
+    [
+     "+",
+     "Sahibi olduğu Burger King İsrail,"
+    ],
+    [
+     "=",
+     "İsrailli militanlara ücretsiz yiyecek ve içecek sağlayarak"
+    ],
+    [
+     "-",
+     "IDF’yi (İsrail Ordusu) destekleyen"
+    ],
+    [
+     "+",
+     "IDF'yi destekliyor. Referans için instagram yayınlarına bakın (çevir'e tıklayın)."
+    ],
+    [
+     "=",
+     "Burger"
+    ],
+    [
+     "-",
+     "King’e ait bir şirkettir. Burger King 2017 yılında bu markayı satın almıştır."
+    ],
+    [
+     "+",
+     "King, Restaurant Brands International bünyesindeki firmalardan birisidir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3007|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3007",
+  "marka": "Polo",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/polo",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|2177|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2177",
+  "marka": "Play-Doh",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/play-doh",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Play Doh, Hasbro, Inc., Amerika Birleşik Devletleri merkezli"
+    ],
+    [
+     "+",
+     "Blackrock ve Vanguard group gibi israil yanlısı firmalarin hissedarları olduğu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "oyun ve oyuncak şirketidir. Şirket, 1923 yılında Henry, Hillel ve Herman Hassenfeld tarafından Hassenfeld Brothers adıyla kurulmuştur. Şirketin sahibi Hasbro boykot olması sebebiyle listeye eklenmiştir."
+    ],
+    [
+     "+",
+     "firmadır. McDonald’s'ın en büyük hissedarları arasında yüzde 7’lik bir pay ile Blackrock Inc. yer alıyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4462|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4462",
+  "marka": "Pizza Hut",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pizza-hut",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Ana şirket"
+    ],
+    [
+     "=",
+     "Yum Brands İsrailli start up’lara yatırım yapıyor. Pizza Hut, İsrail’in Gazze’ye saldırısı sırasında IDF (İsrail"
+    ],
+    [
+     "+",
+     "Terör Devleti"
+    ],
+    [
+     "=",
+     "Ordusu) askerlerine bir çok yemek bağışı yapmış, açıktan …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1560|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1560",
+  "marka": "Philadelphia",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/philadelphia",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Kraft Foods'a aittir. Kraft Food altında Mondelez International"
+    ],
+    [
+     "+",
+     "The Kitchen Hub"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Kraft Heinz markaları bulunur. Markalar açıkla İsrail'e maddi destek sağlamaktadır."
+    ],
+    [
+     "+",
+     "Torr isimli iki İsrail’li gıda girişimine yatırımda bulunmuştur. İsrail’de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1368|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1368",
+  "marka": "Perwoll",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/perwoll",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Henkele ait bir çamaşır deterjanı markasıdır. 2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1351|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1351",
+  "marka": "Persil",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/persil",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Persil, Henkel'e aittir. 2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1297|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1297",
+  "marka": "Perrier",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/perrier",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1297|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1297",
+  "marka": "Perrier",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/perrier",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Perrier markasının sahibi"
+    ],
+    [
+     "=",
+     "Nestle,"
+    ],
+    [
+     "+",
+     "İsrail’in önde gelen gıda üreticisi"
+    ],
+    [
+     "=",
+     "Osem’in"
+    ],
+    [
+     "-",
+     "kontrol hissesine sahiptir. Osem, işgal altındaki Filistin’de faaliyet gösteren İsrailli"
+    ],
+    [
+     "+",
+     "%53,8’ine sahip olan İsviçreli çok uluslu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "gıda üreticisidir. İsviçre şirketi Nestlé'nin Nestlé Waters bölümünün"
+    ],
+    [
+     "+",
+     "yiyecek ve içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "parçasıdır."
+    ],
+    [
+     "+",
+     "yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1333|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1333",
+  "marka": "Permatik",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/permatik",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1299|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1299",
+  "marka": "Pepsi",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pepsi",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "PepsiCo,"
+    ],
+    [
+     "-",
+     "SodaStream’in"
+    ],
+    [
+     "+",
+     "SodaStream’i 3,2 milyar dolara satın almış"
+    ],
+    [
+     "=",
+     "ve Sabra’nın"
+    ],
+    [
+     "-",
+     "%50’sinin sahibidir ve"
+    ],
+    [
+     "+",
+     "%50’sine sahip olmuştur;"
+    ],
+    [
+     "=",
+     "her"
+    ],
+    [
+     "-",
+     "ikisi"
+    ],
+    [
+     "+",
+     "iki şirket"
+    ],
+    [
+     "=",
+     "de İsrail’in Filistin’i işgalinden faydalanmıştır."
+    ],
+    [
+     "+",
+     "Cheetos, İsrail'de üretim tesisleri açarak, İsrail ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1529|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1529",
+  "marka": "Pedigree",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pedigree",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc firmasının"
+    ],
+    [
+     "-",
+     "alt markası olarak köpeklere özel sağlıklı besinler hazırlamakta."
+    ],
+    [
+     "+",
+     "adını da aldığı çikolata markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2185|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2185",
+  "marka": "Parodontax",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/parodontax",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Paradontax, Almanya kökenli"
+    ],
+    [
+     "+",
+     "Haleon, İsrail'de \"Haleon CH Israel Ltd.\" (İbranice ticari kaydıyla: הלאון סי.אייץ'. ישראל בע\"מ) isimli %100 kendi iştiraki olan şirketi üzerinden doğrudan ve kapsamlı"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "diş macunu markasıdır. Markanın mevcut sahibi İngiliz GSK plc (GlaxoSmithKline plc)’dir. ’GSK plc’ adlı şirketin yakın zamanda kendi resmi internet sitesinde yaptığı açıklama boykot için sebep olarak görülmüştür."
+    ],
+    [
+     "+",
+     "ticari faaliyet yürütmektedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1327|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1327",
+  "marka": "Pantene",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pantene",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Pantene, Tel Aviv'de, İşgal Altındaki Filistin'de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble'a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1411|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1411",
+  "marka": "Pampers",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/pampers",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "İşgal altındaki topraklardaki fabrikalarda üretilen Pampers’ın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble,"
+    ],
+    [
+     "-",
+     "işgal altındaki Filistin’in"
+    ],
+    [
+     "+",
+     "kısa yazılımıyla P&G’nin,"
+    ],
+    [
+     "=",
+     "Tel"
+    ],
+    [
+     "-",
+     "Aviv kentinde yılda 2 milyar dolar yatırım"
+    ],
+    [
+     "+",
+     "Aviv’de ciddi kaynak aktarımı"
+    ],
+    [
+     "=",
+     "yaptığı bir"
+    ],
+    [
+     "-",
+     "Ar-Ge merkezi açtı."
+    ],
+    [
+     "+",
+     "Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1401|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1401",
+  "marka": "Palette",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/palette",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1329|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1329",
+  "marka": "Orkid",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/orkid",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Orkid, Tel Aviv’de, işgal altındaki Filistin’de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble’a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1319|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1319",
+  "marka": "Oreo",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/oreo",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1330|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1330",
+  "marka": "Oral-B",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/oral-b",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Oral B, Tel Aviv, İşgal Altındaki Filistin’de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan"
+    ],
+    [
+     "=",
+     "Procter and"
+    ],
+    [
+     "-",
+     "Gamble’a ait."
+    ],
+    [
+     "+",
+     "Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de ciddi kaynak aktarımı yaptığı bir Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1330|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1330",
+  "marka": "Oral-B",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/oral-b",
+  "onceki": "Oral B",
+  "sonraki": "Oral-B"
+ },
+ {
+  "id": "2026-11-03|kb|1348|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1348",
+  "marka": "Omo",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/omo",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Omo, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4486|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4486",
+  "marka": "Olips",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/olips",
+  "onceki": "Boykot Mücahit",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1527|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1527",
+  "marka": "Old Spice",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/old-spice",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1731|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1731",
+  "marka": "O.B",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/ob",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson"
+    ],
+    [
+     "-",
+     "şirketine ait tampon"
+    ],
+    [
+     "+",
+     "firmasının ürettiği ped"
+    ],
+    [
+     "=",
+     "markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|335|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "335",
+  "marka": "Nutella",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nutella",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Nutella, Dünyaca ünlü olan Ferrero şekerli gıdanın alt markasıdır."
+    ],
+    [
+     "+",
+     "Ferrero'nun İsrail'in Holon şehrinde bir ofisi bulunmakta ve İsrailli şeker şirketi Sugar Incredo ile Incredo teknolojisi üzerine ortak geliştirme anlaşması yapmıştır."
+    ],
+    [
+     "=",
+     "Bu"
+    ],
+    [
+     "-",
+     "sebepten ötürü boykot listemize eklenmiştir. Ferrero hakkındaki boykot sayfamızı inceleyiniz: https://www.boykot.co/d/ferrero"
+    ],
+    [
+     "+",
+     "teknoloji şekerin tadını daha tatlı hale getirmeyi hedeflemektedir. Ferrero, doğrudan değil, Teseo Capital aracılığıyla Incredo'ya yatırım yapmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1374|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1374",
+  "marka": "Neutrogena",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/neutrogena",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson firmasının ürettiği"
+    ],
+    [
+     "-",
+     "cilt/saç bakımı ve kozmetik ürünleri"
+    ],
+    [
+     "+",
+     "ped"
+    ],
+    [
+     "=",
+     "markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e … için üniversitenin kendi websitesinden bir çalışma yürütmeye başladı."
+    ],
+    [
+     "+",
+     "Siyonizme destek veren bazı markaların kaynakça linklerini paylaştılar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4510|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4510",
+  "marka": "Netflix",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/netflix",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|339|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "339",
+  "marka": "Nestlé",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/nestl",
+  "onceki": "Nestle",
+  "sonraki": "Nestlé"
+ },
+ {
+  "id": "2026-11-03|kb|4474|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4474",
+  "marka": "Nestle Pure Life",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nestle-pure-life",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Nestle Pure Life markasının sahibi"
+    ],
+    [
+     "=",
+     "Nestle,"
+    ],
+    [
+     "+",
+     "İsrail’in önde gelen gıda üreticisi"
+    ],
+    [
+     "=",
+     "Osem’in"
+    ],
+    [
+     "-",
+     "kontrol hissesine sahiptir. Osem, işgal altındaki Filistin’de faaliyet gösteren İsrailli"
+    ],
+    [
+     "+",
+     "%53,8’ine sahip olan İsviçreli çok uluslu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "gıda üreticisidir.."
+    ],
+    [
+     "+",
+     "yiyecek ve içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1291|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1291",
+  "marka": "Nesquik",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nesquik",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Nesquik markasının sahibi"
+    ],
+    [
+     "=",
+     "Nestle,"
+    ],
+    [
+     "+",
+     "İsrail’in önde gelen gıda üreticisi"
+    ],
+    [
+     "=",
+     "Osem’in"
+    ],
+    [
+     "-",
+     "kontrol hissesine sahiptir. Osem, işgal altındaki Filistin’de faaliyet gösteren İsrailli"
+    ],
+    [
+     "+",
+     "%53,8’ine sahip olan İsviçreli çok uluslu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "gıda üreticisidir."
+    ],
+    [
+     "+",
+     "yiyecek ve içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4475|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4475",
+  "marka": "Nespresso",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nespresso",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Nestle,"
+    ],
+    [
+     "-",
+     "İsrail'in en büyük"
+    ],
+    [
+     "+",
+     "İsrail’in önde gelen"
+    ],
+    [
+     "=",
+     "gıda"
+    ],
+    [
+     "-",
+     "üreticilerinden"
+    ],
+    [
+     "+",
+     "üreticisi Osem’in %53,8’ine sahip olan İsviçreli çok uluslu bir yiyecek"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "distribütörlerinden biri olan Osem Investments'ın sahibidir."
+    ],
+    [
+     "+",
+     "içecek şirketidir."
+    ],
+    [
+     "=",
+     "Aynı zamanda"
+    ],
+    [
+     "-",
+     "Nestle'nin,"
+    ],
+    [
+     "+",
+     "Nestle’nin,"
+    ],
+    [
+     "=",
+     "Gazze"
+    ],
+    [
+     "-",
+     "Şeridi'ne"
+    ],
+    [
+     "+",
+     "Şeridi’ne"
+    ],
+    [
+     "=",
+     "yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan"
+    ],
+    [
+     "-",
+     "Sderot'ta"
+    ],
+    [
+     "+",
+     "Sderot’ta"
+    ],
+    [
+     "=",
+     "bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3240|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3240",
+  "marka": "Nesfit",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nesfit",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|341|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "341",
+  "marka": "Nescafe",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/nescafe",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Nescafe markasının sahibi Nestle, Osem’in çoğunluk hissesine sahip. Osem, İşgal Altındaki Filistin’de faaliyet gösteren İsrailli bir gıda üreticisidir. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine … İsviçreli çok uluslu bir yiyecek ve içecek şirketidir."
+    ],
+    [
+     "+",
+     "Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2147|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2147",
+  "marka": "Mr. Muscle",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/mr-muscle",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Siyonizme destek veren bazı markaların kaynakça linklerini paylaştılar."
+    ],
+    [
+     "=",
+     "Johnson&Johnson"
+    ],
+    [
+     "-",
+     "firması ise"
+    ],
+    [
+     "+",
+     "firması,"
+    ],
+    [
+     "=",
+     "Yale’e mail atarak desteğini belirtti. Mailde antisemitizme karşı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1582|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1582",
+  "marka": "Milupa",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/milupa",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone’nin sahibi olduğu bebek gıdası üreten markalarından biridir. Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "iş birliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4484|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4484",
+  "marka": "Milky Way",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/milky-way",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc firmasının"
+    ],
+    [
+     "-",
+     "alt firması, çeşitli aromalarda"
+    ],
+    [
+     "+",
+     "adını da aldığı"
+    ],
+    [
+     "=",
+     "çikolata"
+    ],
+    [
+     "-",
+     "barları üretmektedir."
+    ],
+    [
+     "+",
+     "markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|336|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "336",
+  "marka": "Milka",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/milka",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1665|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1665",
+  "marka": "Mentos",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/mentos",
+  "onceki": "Boykot Mücahit",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1665|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1665",
+  "marka": "Mentos",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/mentos",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mentos doğrudan İsrail malı olmasa da, sahibi olan"
+    ],
+    [
+     "+",
+     "İtalyan-Hollanda ortaklı"
+    ],
+    [
+     "=",
+     "Perfetti Van"
+    ],
+    [
+     "-",
+     "Melle şirketi, İsrail’i doğrudan desteklemektedir. Şirketin “I"
+    ],
+    [
+     "+",
+     "Melle’ye ait. Aynı şirketin markası Mentos, geçmişte \"I"
+    ],
+    [
+     "=",
+     "Love"
+    ],
+    [
+     "-",
+     "Israel” (İsrail’i Seviyorum)"
+    ],
+    [
+     "+",
+     "Israel\""
+    ],
+    [
+     "=",
+     "temalı"
+    ],
+    [
+     "-",
+     "promosyon ürünleri üretmesi ve bu ürünleri piyasaya sunması, İsrail’e verilen desteğin somut bir ifadesidir."
+    ],
+    [
+     "+",
+     "ürünlerle gündeme gelmişti."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4455|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4455",
+  "marka": "McDonald's",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/mcdonald-s",
+  "onceki": "Mc Donalds",
+  "sonraki": "McDonald's"
+ },
+ {
+  "id": "2026-11-03|kb|1404|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1404",
+  "marka": "Maybelline",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/maybelline",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "L’Oreal Paris Company’nin markalarındandır. L’Oreal’in %34,70’i Francoise Bettencourt Meyers"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Yahudi ailesine aittir. L’Oreal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1561|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1561",
+  "marka": "Max",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/max",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Max, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1382|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1382",
+  "marka": "Mattel",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/mattel",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1363|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1363",
+  "marka": "Mars",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/mars",
+  "onceki": "Boykot Farkında",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1356|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1356",
+  "marka": "Magnum",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/magnum",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1518|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1518",
+  "marka": "Maggi",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/maggi",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Maggi, 19. yüzyılın sonlarında İsviçre'de ortaya çıkan uluslararası"
+    ],
+    [
+     "+",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine sahip olan İsviçreli çok uluslu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "baharat, hazır çorba"
+    ],
+    [
+     "+",
+     "yiyecek"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "erişte markasıdır. Maggi şirketi 1947'de Nestlé tarafından satın alındı."
+    ],
+    [
+     "+",
+     "içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1517|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1517",
+  "marka": "M&M'S",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/m-m-s",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc"
+    ],
+    [
+     "-",
+     "firmasına ait renkli bonibon atıştırmalıkları üreten bir alt firmadır. Üretilen atıştırmalıklar dünya çapında tüketilmektedir."
+    ],
+    [
+     "+",
+     "firmasının adını da aldığı çikolata markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi her zaman Yahudi miraslarına sadık kalmıştır."
+    ],
+    [
+     "+",
+     "Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1542|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1542",
+  "marka": "LVMH",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/lvmh",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1542|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1542",
+  "marka": "LVMH",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/lvmh",
+  "onceki": "Lvmh",
+  "sonraki": "LVMH"
+ },
+ {
+  "id": "2026-11-03|kb|4495|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4495",
+  "marka": "Lux",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/lux",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Lux, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1553|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1553",
+  "marka": "Loreal Professionnel",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/loreal-professionnel",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1526|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1526",
+  "marka": "Listerine",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/listerine",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson firmasının ürettiği"
+    ],
+    [
+     "-",
+     "ağız bakımı ürünüdür."
+    ],
+    [
+     "+",
+     "ped markasıdır."
+    ],
+    [
+     "=",
+     "Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e destek …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|3956|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3956",
+  "marka": "Lipton Ice Tea",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/lipton-ice-tea",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|3956|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3956",
+  "marka": "Lipton Ice Tea",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/lipton-ice-tea",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Sahibi PepsiCo, SodaStream’i 3,2 milyar dolara satın almış"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Sabra’nın %50’sine sahip olmuştur; her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır. Cheetos,"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını"
+    ],
+    [
+     "=",
+     "İsrail'de"
+    ],
+    [
+     "-",
+     "üretim tesisleri açarak,"
+    ],
+    [
+     "+",
+     "satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "ekonomisine katkıda bulunuyor."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1283|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1283",
+  "marka": "Lipton",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/lipton",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Lipton’un"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in"
+    ],
+    [
+     "=",
+     "sahibi"
+    ],
+    [
+     "-",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın almış"
+    ],
+    [
+     "+",
+     "Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Sabra’nın %50’sine sahip olmuştur; her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır. PepsiCo’nun sahibi olduğu alt markaları da bulunan çay markasıdır."
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için İsrail dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4542|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4542",
+  "marka": "Levi's",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/levi-s",
+  "onceki": "Levis",
+  "sonraki": "Levi's"
+ },
+ {
+  "id": "2026-11-03|kb|1306|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1306",
+  "marka": "Lay's",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/lay-s",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Lay’s’in sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın"
+    ],
+    [
+     "-",
+     "aldı"
+    ],
+    [
+     "+",
+     "almış"
+    ],
+    [
+     "=",
+     "ve Sabra’nın %50’sine sahip"
+    ],
+    [
+     "-",
+     "oldu;"
+    ],
+    [
+     "+",
+     "olmuştur;"
+    ],
+    [
+     "=",
+     "her"
+    ],
+    [
+     "-",
+     "ikisi"
+    ],
+    [
+     "+",
+     "iki şirket"
+    ],
+    [
+     "=",
+     "de İsrail’in Filistin’i işgalinden"
+    ],
+    [
+     "-",
+     "faydalandı. Tür : Patates cipsi Kurucu : Herman W. Lay Genel merkezi : ABD Hizmet alanları : Bütün Dünya Sahibi : PepsiCo"
+    ],
+    [
+     "+",
+     "faydalanmıştır. Cheetos, İsrail'de üretim tesisleri açarak, İsrail ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1306|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1306",
+  "marka": "Lay's",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/lay-s",
+  "onceki": "Lays",
+  "sonraki": "Lay's"
+ },
+ {
+  "id": "2026-11-03|kb|1417|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1417",
+  "marka": "Lancome",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/lancome",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "L’Oreal Paris Company’nin markalarındandır. L’Oreal’in %34,70’i Francoise Bettencourt Meyers"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Yahudi ailesine aittir. L’Oreal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1552|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1552",
+  "marka": "La Roche Posay",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/la-roche-posay",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "La Roche-Posay'in sahibi L'Oreal'dir."
+    ],
+    [
+     "=",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1324|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1324",
+  "marka": "L'Oréal Paris",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/l-or-al-paris",
+  "onceki": "Loreal Paris",
+  "sonraki": "L'Oréal Paris"
+ },
+ {
+  "id": "2026-11-03|kb|1323|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1323",
+  "marka": "L'Oréal",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/l-or-al",
+  "onceki": "Loreal",
+  "sonraki": "L'Oréal"
+ },
+ {
+  "id": "2026-11-03|kb|_liste|bilgi",
+  "tespit": "2026-11-03",
+  "tarih": "2026-10-26",
+  "liste": "kb",
+  "kimlik": "_liste",
+  "marka": "Kolay Boykot listesi",
+  "cati": null,
+  "tur": "bilgi",
+  "url": "https://www.kolayboykot.com/filistin-icin-c-843",
+  "onceki": "330 marka",
+  "sonraki": "1518 marka: 1188 yeni, 1068 tanesi seviyesiz. 130 markanın sayfası açılmıyor, veritabanına alınmadı."
+ },
+ {
+  "id": "2026-11-03|kb|1288|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1288",
+  "marka": "Knorr",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/knorr",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Knorr, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4482|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4482",
+  "marka": "Kit Kat",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kit-kat",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2015|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2015",
+  "marka": "Kinder",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kinder",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Kinder Chocolate, Ferrero tarafından üretilir."
+    ],
+    [
+     "=",
+     "Ferrero'nun İsrail'in Holon şehrinde bir ofisi bulunmakta ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4459|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4459",
+  "marka": "KFC",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kfc",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Yum Brands İsrailli start up’lara yatırım yapıyor. Pizza Hut,"
+    ],
+    [
+     "=",
+     "İsrail’in"
+    ],
+    [
+     "-",
+     "Gazze bombardımanında askerlere ücretsiz"
+    ],
+    [
+     "+",
+     "Gazze’ye saldırısı sırasında IDF (İsrail Terör Devleti Ordusu) askerlerine bir çok"
+    ],
+    [
+     "=",
+     "yemek"
+    ],
+    [
+     "-",
+     "sağlayarak"
+    ],
+    [
+     "+",
+     "bağışı yapmış, açıktan"
+    ],
+    [
+     "=",
+     "desteğini"
+    ],
+    [
+     "-",
+     "bildirmiştir. Kentucky Fried Chicken veya kısaca \"KFC\" olarak bilinen, Louisville, Kentucky, ABD merkezli bir fast food restoran zinciri. KFC, Dünya'nın en büyük ikinci restoran zinciridir."
+    ],
+    [
+     "+",
+     "göstermiştir. Üst kuruluşu: Yum!"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1543|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1543",
+  "marka": "Kenzo",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kenzo",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Kenzo'nun"
+    ],
+    [
+     "+",
+     "Louis Vuitton’un"
+    ],
+    [
+     "=",
+     "ana şirketi LVMH’nin sahibi Bernard Arnault, İsrailli şirketlere …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1292|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1292",
+  "marka": "Kent",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/kent",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1292|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1292",
+  "marka": "Kent",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kent",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|912|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "912",
+  "marka": "Kemal Kükrer",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kemal-kukrer",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Ajinomoto'nun alt markasıdır."
+    ],
+    [
+     "=",
+     "Ajinomoto Co., merkezi Tel Aviv'de bulunan SuperMeat adlı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|912|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "912",
+  "marka": "Kemal Kükrer",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/kemal-kukrer",
+  "onceki": "KEMAL KÜKRER",
+  "sonraki": "Kemal Kükrer"
+ },
+ {
+  "id": "2026-11-03|kb|4481|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4481",
+  "marka": "Kellogg's",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/kellogg-s",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… başlıca nedeni şirketin Tel Aviv Üniversitesi’yle yaptığı işbirliğidir."
+    ],
+    [
+     "-",
+     "Tel Aviv Üniversitesi, İsrail’in işgalini meşrulaştırma çabaları ve İsrail ordusuna verdiği desteklerle soykırımın ve işgalin suçlularından olan bir kurumdur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4481|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4481",
+  "marka": "Kellogg's",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/kellogg-s",
+  "onceki": "Kelloggs",
+  "sonraki": "Kellogg's"
+ },
+ {
+  "id": "2026-11-03|kb|1381|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1381",
+  "marka": "Johnson's Baby",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/johnson-s-baby",
+  "onceki": "Boykot Farkında",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|1381|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1381",
+  "marka": "Johnson's Baby",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/johnson-s-baby",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson firmasının ürettiği"
+    ],
+    [
+     "-",
+     "bebek için temizlik ve şampuan ürünleri"
+    ],
+    [
+     "+",
+     "ped"
+    ],
+    [
+     "=",
+     "markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e … için üniversitenin kendi websitesinden bir çalışma yürütmeye başladı."
+    ],
+    [
+     "+",
+     "Siyonizme destek veren bazı markaların kaynakça linklerini paylaştılar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1387|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1387",
+  "marka": "Johnson's",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/johnson-s",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson firmasının ürettiği"
+    ],
+    [
+     "-",
+     "kişisel temizlik ve şampuan ürünleri"
+    ],
+    [
+     "+",
+     "ped"
+    ],
+    [
+     "=",
+     "markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e … için üniversitenin kendi websitesinden bir çalışma yürütmeye başladı."
+    ],
+    [
+     "+",
+     "Siyonizme destek veren bazı markaların kaynakça linklerini paylaştılar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1285|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1285",
+  "marka": "Jacobs",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/jacobs",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı"
+    ],
+    [
+     "+",
+     "JAB Holding JDE Peet's yani Jacobs'un %68'ine sahiptir. Bu"
+    ],
+    [
+     "=",
+     "kuruluş"
+    ],
+    [
+     "-",
+     "Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve"
+    ],
+    [
+     "-",
+     "Torr isimli iki İsrail’li gıda girişimine yatırımda bulunmuştur. İsrail’de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları"
+    ],
+    [
+     "+",
+     "Strauss Group (Jacobs vb.)"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "pekiştirmektedir."
+    ],
+    [
+     "+",
+     "yürüttüğü teknolojik ve ticari ortaklıklar üzerinden İsrail'e doğrudan finansal destek sağlamaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1747|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1747",
+  "marka": "Hugo Boss",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/hugo-boss",
+  "onceki": "Boykot Öncü",
+  "kapsam": "cikti",
+  "eski": {
+   "hukum": "Boykot Öncü",
+   "metin": "Almanya merkezli bir giyim markasıdır. Almanya'nın Filistin meselesindeki tutumu nedeniyle bu marka boykot listemizde yer almaktadır.",
+   "url": "https://www.kolayboykot.com/marka/hugo-boss"
+  },
+  "sonraki": "Rozet: Yabancı"
+ },
+ {
+  "id": "2026-11-03|kb|2036|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2036",
+  "marka": "Huggies",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/huggies",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Kimberly-Clark"
+    ],
+    [
+     "-",
+     "şirketine ait bebek bezi markasıdır. Bünyesinde boykot ürünü olan prima ürünleri de vardır. İsraile desteğini açıkça belirmektedir. Bu yüzden boykot listemizdedir."
+    ],
+    [
+     "+",
+     "Corporation, halka açık bir şirket olduğu için, hisse senetlerini elinde bulunduran hissedarlar tarafından sahip olunmaktadır. Şirketin hisseleri, başta Vanguard Group, BlackRock ve State Street Corporation olmak üzere kurumsal yatırımcılar tarafından büyük oranda tutulmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1539|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1539",
+  "marka": "Herbal Essences",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/herbal-essences",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Herbal Essences, Tel Aviv, İşgal Altındaki Filistin'de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble'a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1392|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1392",
+  "marka": "Hellmann's",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/hellmann-s",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1410|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1410",
+  "marka": "Head&Shoulders",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/head-shoulders",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1807|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1807",
+  "marka": "Hasbro",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/hasbro",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|2106|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2106",
+  "marka": "Gourmet",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/gourmet",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Gourmet'in sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4508|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4508",
+  "marka": "Google",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/google",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Google,"
+    ],
+    [
+     "+",
+     "Google'ın çatı markasıdır. Google"
+    ],
+    [
+     "=",
+     "İsrail’in Nimbus Projesi kapsamında İsrail hükümeti ve ordusuna …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1375|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1375",
+  "marka": "Gliss",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/gliss",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2186|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2186",
+  "marka": "Glade",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/glade",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Glade S. C. Johnson & Son şirketine ait oda spreyi markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e destek veren, vermeyen grupların ilanı için üniversitenin kendi websitesinden bir çalışma yürütmeye başladı. Siyonizme destek veren bazı markaların kaynakça linklerini paylaştılar."
+    ],
+    [
+     "+",
+     "Johnson&Johnson firması, Yale’e mail atarak desteğini belirtti. Mailde antisemitizme karşı olduklarını, Hamas’ın terörist faaliyetlerini kınadıklarını belirtttiler."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1551|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1551",
+  "marka": "Givenchy",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/givenchy",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Givenchy'nin ana şirketi LVMH'nin sahibi Bernard Arnault İsrail şirketlerine yüz milyonlarca yatırım yapıyor Givenchy lüks giyim markasıdır. Givenchy’nin"
+    ],
+    [
+     "+",
+     "Louis Vuitton’un"
+    ],
+    [
+     "=",
+     "ana şirketi LVMH’nin sahibi Bernard Arnault, İsrailli şirketlere"
+    ],
+    [
+     "-",
+     "yüz milyonlarca dolarlık yatırım yapmaktadır."
+    ],
+    [
+     "+",
+     "büyük yatırımlar yapmış ve İsrail’in kuruluşunun 75. yılı için 75 milyon dolar bağışlamıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1545|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1545",
+  "marka": "Gillette Venus",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/gillette-venus",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Gilette Venus Tel Aviv'de, İşgal Altındaki Filistin'de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble'a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1322|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1322",
+  "marka": "Gillette",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/gillette",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Gillette’in sahibi Procter and Gamble, işgal altındaki Filistin’in Tel Aviv kentinde yılda 2 milyar dolar yatırım yaptığı bir Ar-Ge merkezi açtı. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1881|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1881",
+  "marka": "Gerber",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/gerber",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Gerber organik, Nestle kuruluşuna ait"
+    ],
+    [
+     "+",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine sahip olan İsviçreli çok uluslu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "bebek beslenme markasıdır. Nestle boykot listemizde olması sebebiyle Gerber ürünüde eklenmiştir. Nestle ile ilgili boykot sayfamızı inceleyiniz: https://www.boykot.co/d/nestle"
+    ],
+    [
+     "+",
+     "yiyecek ve içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1335|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1335",
+  "marka": "Garnier",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/garnier",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Garnier de L’Oreal’e aittir"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "L’Oreal, İsrail’in en büyük destekçilerinden biri olduğu için tüm alt şirketlerini ve markalarını İsrail’i desteklemeye teşvik etmektedir. Garnier'in sahibi L'Oreal'dir. L'Oreal'in %34,70'i Bayan Francoise Bettencourt Meyers ve ailesine aittir. Bu Aile Yahudidir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1534|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1534",
+  "marka": "Frito-Lay",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/frito-lay",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "PepsiCo’nun sahibi olduğu FritoLay’e bağlı bir çok cips markası mevcuttur. Sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo,"
+    ],
+    [
+     "+",
+     "SodaStream’i 3,2 milyar dolara satın almış ve Sabra’nın %50’sine sahip olmuştur; her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır. Cheetos, İsrail'de üretim tesisleri açarak,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "merkezli SodaStream markasının tamamına ve yine İsrail merkezli Sabra markasının %50’sine sahiptir."
+    ],
+    [
+     "+",
+     "ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1534|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1534",
+  "marka": "Frito-Lay",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/frito-lay",
+  "onceki": "Fritolay",
+  "sonraki": "Frito-Lay"
+ },
+ {
+  "id": "2026-11-03|kb|1591|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1591",
+  "marka": "Flormar",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/flormar",
+  "onceki": "Boykot Öncü",
+  "kapsam": "cikti",
+  "eski": {
+   "hukum": "Boykot Öncü",
+   "metin": "Yves Rocher'e aittir. Fransız Yves Rocher grubunun yan kuruluşu olan Sabon, 'İsrail Sonsuza Kadar' adlı bir grup aracılığıyla İsrail işgal ordusuna yüzlerce yardım paketi ulaştırıyor.",
+   "url": "https://www.kolayboykot.com/marka/flormar"
+  },
+  "sonraki": "Rozet: Yerli"
+ },
+ {
+  "id": "2026-11-03|kb|2845|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2845",
+  "marka": "Flora",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/flora",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|2845|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2845",
+  "marka": "Flora",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/flora",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Flora’nın çatı kuruluşu"
+    ],
+    [
+     "=",
+     "Upfield, 2018 senesinde KOHLBERG KRAVIS ROBERTS & CO. …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1541|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1541",
+  "marka": "Fixodent",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/fixodent",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1300|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1300",
+  "marka": "First",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/first",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Mondelez International’ın alt markasıdır. Çatı kuruluş Mondelez,"
+    ],
+    [
+     "=",
+     "The Kitchen Hub ve Torr isimli iki İsrail’li …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1724|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1724",
+  "marka": "Ferrero",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/ferrero",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1530|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1530",
+  "marka": "Felix",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/felix",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1343|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1343",
+  "marka": "Febreze",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/febreze",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1140|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1140",
+  "marka": "Fanta",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/fanta",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Fanta’nın sahibi"
+    ],
+    [
+     "+",
+     "Coca Cola Company firması altında yer alan enerji içeceği alt markasıdır. Berkshire Hathaway Holding’in portföyünde"
+    ],
+    [
+     "=",
+     "olan"
+    ],
+    [
+     "-",
+     "Coca-Cola Şirketi, işgal altındaki"
+    ],
+    [
+     "+",
+     "Coca Cola Company’nin çalıntı"
+    ],
+    [
+     "=",
+     "Filistin"
+    ],
+    [
+     "-",
+     "topraklarında"
+    ],
+    [
+     "+",
+     "toprakları üzerine"
+    ],
+    [
+     "=",
+     "inşa"
+    ],
+    [
+     "-",
+     "edilen"
+    ],
+    [
+     "+",
+     "edilmiş"
+    ],
+    [
+     "=",
+     "yasadışı"
+    ],
+    [
+     "+",
+     "bir"
+    ],
+    [
+     "=",
+     "İsrail yerleşimi"
+    ],
+    [
+     "+",
+     "olan"
+    ],
+    [
+     "=",
+     "Atarot’ta"
+    ],
+    [
+     "-",
+     "bir fabrika işletmektedir."
+    ],
+    [
+     "+",
+     "fabrikası vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1341|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1341",
+  "marka": "Fairy",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/fairy",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Fairy'nin sahibi, İşgal Altındaki Filistin'deki Tel Aviv'de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble'a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1372|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1372",
+  "marka": "Fa",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/fa",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4479|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4479",
+  "marka": "Evian",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/evian",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone’nin sahibi olduğu su markalarından biridir. Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "iş birliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1419|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1419",
+  "marka": "Estée Lauder",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/est-e-lauder",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1535|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1535",
+  "marka": "Elseve",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/elseve",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "L’Oreal Paris Company’nin markalarındandır. L’Oreal’in %34,70’i Francoise Bettencourt Meyers"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Yahudi ailesine aittir. L’Oreal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1321|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1321",
+  "marka": "Elidor",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/elidor",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1712|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1712",
+  "marka": "Duracell",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/duracell",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1712|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1712",
+  "marka": "Duracell",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/duracell",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Duracell’in çatı kuruluşu olan Berkshire Hathaway’in diğer markası olan American Express, 18 ekim 2023’te"
+    ],
+    [
+     "+",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de ciddi kaynak aktarımı"
+    ],
+    [
+     "=",
+     "yaptığı"
+    ],
+    [
+     "-",
+     "basın açıklamasına Haması terörist olarak adlandırmış ve israilin arkasında olduklarını açıkça belirtmiştir."
+    ],
+    [
+     "+",
+     "bir Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1328|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1328",
+  "marka": "Dove",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/dove",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Dove'un sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben & Jerry's'in"
+    ],
+    [
+     "-",
+     "de"
+    ],
+    [
+     "=",
+     "sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1313|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1313",
+  "marka": "Doritos",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/doritos",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Doritos’un sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın almış ve … her iki şirket de İsrail’in Filistin’i işgalinden faydalanmıştır."
+    ],
+    [
+     "-",
+     "PepsiCo’nun sahibi olduğu FritoLay’a bağlı cips markalarından biridir."
+    ],
+    [
+     "+",
+     "Cheetos, İsrail'de üretim tesisleri açarak, İsrail ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1340|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1340",
+  "marka": "Domestos",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/domestos",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Domestos'un sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben & Jerry's'in"
+    ],
+    [
+     "-",
+     "de"
+    ],
+    [
+     "=",
+     "sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4520|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4520",
+  "marka": "Disney+",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/disneyplus",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|4520|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4520",
+  "marka": "Disney+",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/disneyplus",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Disney,"
+    ],
+    [
+     "-",
+     "12 Ekim 2023’te Hamas’ı terörist ilan edip İsrail’e"
+    ],
+    [
+     "+",
+     "İsrail'i desteklemek için"
+    ],
+    [
+     "=",
+     "2 milyon dolar"
+    ],
+    [
+     "-",
+     "bağışlayacağını duyurmuştur."
+    ],
+    [
+     "+",
+     "bağışta bulunacağını ve daha fazla girişimde bulunacağını resmi olarak duyurdu."
+    ],
+    [
+     "=",
+     "CEO,"
+    ],
+    [
+     "-",
+     "İsrail’deki"
+    ],
+    [
+     "+",
+     "İsrail'deki"
+    ],
+    [
+     "=",
+     "Yahudilere"
+    ],
+    [
+     "+",
+     "yönelik"
+    ],
+    [
+     "=",
+     "saldırıları"
+    ],
+    [
+     "-",
+     "kınamış ancak"
+    ],
+    [
+     "+",
+     "açıkça kınarken, İsrail ordusu tarafından öldürülen"
+    ],
+    [
+     "=",
+     "Filistin"
+    ],
+    [
+     "-",
+     "halkına değinmemiştir."
+    ],
+    [
+     "+",
+     "halkından hiç bahsetmedi."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1416|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1416",
+  "marka": "Dior",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/dior",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Louis Vuitton’un ana şirketi LVMH’nin sahibi Bernard Arnault, İsrailli şirketlere büyük yatırımlar yapmış ve"
+    ],
+    [
+     "=",
+     "İsrail’in"
+    ],
+    [
+     "-",
+     "Gazze katliamı"
+    ],
+    [
+     "+",
+     "kuruluşunun 75. yılı"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "’Kariyerim bitse bile Filistin’i desteklemekten asla vazgeçmeyeceğim’ diye tepki gösteren ünlü menken Bella Hadid, İsrail destekçilerinin hedefinde. Dior, marka yüzü olan Bella Hadid yerine yeni reklam kampanyasında İsrailli mankeni tercih etti."
+    ],
+    [
+     "+",
+     "75 milyon dolar bağışlamıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4518|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4518",
+  "marka": "Dell",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/dell",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1281|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1281",
+  "marka": "Danone",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/danone",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Öncü"
+ },
+ {
+  "id": "2026-11-03|kb|1391|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1391",
+  "marka": "Danissimo",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/danissimo",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|2380|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2380",
+  "marka": "Danino",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/danino",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "işbirliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1384|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1384",
+  "marka": "Danette",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/danette",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "işbirliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1310|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1310",
+  "marka": "Damla",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/damla",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Coca Cola"
+    ],
+    [
+     "-",
+     "Company'nin"
+    ],
+    [
+     "+",
+     "Company firması altında yer alan enerji içeceği"
+    ],
+    [
+     "=",
+     "alt markasıdır."
+    ],
+    [
+     "-",
+     "Coca-Cola’nın,"
+    ],
+    [
+     "+",
+     "Berkshire Hathaway Holding’in portföyünde olan Coca Cola Company’nin"
+    ],
+    [
+     "=",
+     "çalıntı Filistin toprakları üzerine inşa edilmiş yasadışı bir İsrail yerleşimi olan Atarot’ta"
+    ],
+    [
+     "-",
+     "bir"
+    ],
+    [
+     "=",
+     "fabrikası"
+    ],
+    [
+     "-",
+     "var."
+    ],
+    [
+     "+",
+     "vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1578|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1578",
+  "marka": "Crunch",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/crunch",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Nestle,"
+    ],
+    [
+     "-",
+     "İsrail'in en büyük"
+    ],
+    [
+     "+",
+     "İsrail’in önde gelen"
+    ],
+    [
+     "=",
+     "gıda"
+    ],
+    [
+     "-",
+     "üreticilerinden"
+    ],
+    [
+     "+",
+     "üreticisi Osem’in %53,8’ine sahip olan İsviçreli çok uluslu bir yiyecek"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "distribütörlerinden biri olan Osem Investments'ın sahibidir."
+    ],
+    [
+     "+",
+     "içecek şirketidir."
+    ],
+    [
+     "=",
+     "Aynı zamanda"
+    ],
+    [
+     "-",
+     "Nestle'nin,"
+    ],
+    [
+     "+",
+     "Nestle’nin,"
+    ],
+    [
+     "=",
+     "Gazze"
+    ],
+    [
+     "-",
+     "Şeridi'ne"
+    ],
+    [
+     "+",
+     "Şeridi’ne"
+    ],
+    [
+     "=",
+     "yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan"
+    ],
+    [
+     "-",
+     "Sderot'ta"
+    ],
+    [
+     "+",
+     "Sderot’ta"
+    ],
+    [
+     "=",
+     "bir Araştırma ve Geliştirme Merkezi bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1386|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1386",
+  "marka": "Cornetto",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cornetto",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4537|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4537",
+  "marka": "Converse",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/converse",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Kararlı"
+ },
+ {
+  "id": "2026-11-03|kb|4537|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4537",
+  "marka": "Converse",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/converse",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Nike'a aittir."
+    ],
+    [
+     "=",
+     "Blackrock hisse sahipleri arasında yer alması, şirketin CEO …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1101|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1101",
+  "marka": "Coca-Cola",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/coca-cola",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Coca-Cola çok uluslu bir Amerikan şirketidir. Coca-Cola’nın,"
+    ],
+    [
+     "+",
+     "Coca Cola Company firması altında yer alan enerji içeceği alt markasıdır. Berkshire Hathaway Holding’in portföyünde olan Coca Cola Company’nin"
+    ],
+    [
+     "=",
+     "çalıntı Filistin toprakları üzerine inşa edilmiş yasadışı bir İsrail yerleşimi olan Atarot’ta"
+    ],
+    [
+     "-",
+     "bir"
+    ],
+    [
+     "=",
+     "fabrikası"
+    ],
+    [
+     "-",
+     "var."
+    ],
+    [
+     "+",
+     "vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1101|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1101",
+  "marka": "Coca-Cola",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/coca-cola",
+  "onceki": "Coca Cola",
+  "sonraki": "Coca-Cola"
+ },
+ {
+  "id": "2026-11-03|kb|1549|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1549",
+  "marka": "Clinique",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/clinique",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Clinique'in sahibi, özellikle"
+    ],
+    [
+     "+",
+     "Kardeşi Leonard Lauder ile birlikte Estee Lauder şirketinin mirasçısı olan"
+    ],
+    [
+     "=",
+     "Ronald"
+    ],
+    [
+     "-",
+     "Lauder olmak üzere,"
+    ],
+    [
+     "+",
+     "Lauder, Dünya Yahudi Kongresi'nin başkanı ve Yahudi Ulusal Fonu'nun başkanıdır,"
+    ],
+    [
+     "=",
+     "aşırı"
+    ],
+    [
+     "-",
+     "siyonist"
+    ],
+    [
+     "=",
+     "görüşlere sahip"
+    ],
+    [
+     "-",
+     "olan"
+    ],
+    [
+     "+",
+     "bir siyonisttir"
+    ],
+    [
+     "=",
+     "ve İsrail'in Filistin topraklarını işgalini"
+    ],
+    [
+     "-",
+     "finansal"
+    ],
+    [
+     "+",
+     "mali"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "politik"
+    ],
+    [
+     "+",
+     "siyasi"
+    ],
+    [
+     "=",
+     "olarak"
+    ],
+    [
+     "-",
+     "destekleyen Estee Lauder'dır. Clinique, Estee Lauder gurubun kozmetik ürünleri markalarındandır."
+    ],
+    [
+     "+",
+     "desteklemektedir. ."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1326|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1326",
+  "marka": "Clear",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/clear",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4494|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4494",
+  "marka": "Clean & Clear",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/clean-clear",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Johnson & Johnson firmasının ürettiği"
+    ],
+    [
+     "-",
+     "temizleyici losyon"
+    ],
+    [
+     "+",
+     "ped"
+    ],
+    [
+     "=",
+     "markasıdır. Yale Üniversitesi 9 ekim 2023 tarihinde İsrail’e …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1334|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1334",
+  "marka": "Cif",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cif",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Cif, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1317|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1317",
+  "marka": "Cheetos",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cheetos",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Cheetos’un sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın almış ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1548|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1548",
+  "marka": "Cerave",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cerave",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Cerave'nin sahibi L'Oreal'dir."
+    ],
+    [
+     "=",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1354|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1354",
+  "marka": "Carte D'or",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/carte-d-or",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Unilever’in, Filistinlilerin elinden zorla alınan"
+    ],
+    [
+     "+",
+     "Ben & Jerry's'in sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı bırakmaya karar verdiğinde Unilever, kararlarını atlatmak"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "gayrimeşru"
+    ],
+    [
+     "+",
+     "Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "yerleşimlerinde üretim yapan ve İsrail ekonomisine önemli katkılar sağlayan şirketlerle ortaklık yapması, markayı boykot listesine koyma sebeplerimizden bir tanesidir."
+    ],
+    [
+     "+",
+     "dağıtım haklarını Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1785|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1785",
+  "marka": "Carefree",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/carefree",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1389|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1389",
+  "marka": "Capri-Sun",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/capri-sun",
+  "onceki": "Boykot İradeli",
+  "kapsam": "cikti",
+  "eski": {
+   "hukum": "Boykot İradeli",
+   "metin": "Kraft Heinz şirketi birleşmeden önce İsrail’de ürün gamı genişletme çalışması yapmıştır. Ancak 2010’dan beri İsrail’deki operasyonlarıyla ilgili net bir bilgi yok.",
+   "url": "https://www.kolayboykot.com/marka/capri-sun"
+  },
+  "sonraki": "Rozet: Yabancı"
+ },
+ {
+  "id": "2026-11-03|kb|1389|ad",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1389",
+  "marka": "Capri-Sun",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://www.kolayboykot.com/marka/capri-sun",
+  "onceki": "Caprisun",
+  "sonraki": "Capri-Sun"
+ },
+ {
+  "id": "2026-11-03|kb|1296|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1296",
+  "marka": "Cappy",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/cappy",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Coca Cola"
+    ],
+    [
+     "-",
+     "Company'nin"
+    ],
+    [
+     "+",
+     "Company firması altında yer alan enerji içeceği"
+    ],
+    [
+     "=",
+     "alt markasıdır."
+    ],
+    [
+     "-",
+     "Coca-Cola’nın,"
+    ],
+    [
+     "+",
+     "Berkshire Hathaway Holding’in portföyünde olan Coca Cola Company’nin"
+    ],
+    [
+     "=",
+     "çalıntı Filistin toprakları üzerine inşa edilmiş yasadışı bir İsrail yerleşimi olan Atarot’ta"
+    ],
+    [
+     "-",
+     "bir"
+    ],
+    [
+     "=",
+     "fabrikası"
+    ],
+    [
+     "-",
+     "var."
+    ],
+    [
+     "+",
+     "vardır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1536|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1536",
+  "marka": "Calvin Klein",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/calvin-klein",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi olan üst firma"
+    ],
+    [
+     "+",
+     "Firma"
+    ],
+    [
+     "=",
+     "açık olarak İsrail yardım kuruluşlarına bağış yaptığını açıklıyor."
+    ],
+    [
+     "-",
+     "Ek olarak şirketin en büyük hissedarları olan Blackrock, Vanguard, Fidelity gibi yatırım şirketleri yahudi/siyonist sermayesi kökenli."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1287|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1287",
+  "marka": "Calve",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/calve",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Calve, Unilever şirketinin bünyesindedir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait bir markadır."
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s İsrail’de ürün"
+    ],
+    [
+     "+",
+     "Jerry, İsrail'de ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s satışlarının"
+    ],
+    [
+     "+",
+     "Jerry'nin marka adını İsrail'de satış yapmaya"
+    ],
+    [
+     "=",
+     "devam"
+    ],
+    [
+     "-",
+     "etmesi"
+    ],
+    [
+     "+",
+     "etmeye zorlamak"
+    ],
+    [
+     "=",
+     "için"
+    ],
+    [
+     "-",
+     "distribütörlük"
+    ],
+    [
+     "+",
+     "İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını Avi"
+    ],
+    [
+     "-",
+     "Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1371|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1371",
+  "marka": "Calgon",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/calgon",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1421|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1421",
+  "marka": "Cacharel",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/cacharel",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|4454|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4454",
+  "marka": "Burger King",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/burger-king",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Sahibi olduğu"
+    ],
+    [
+     "=",
+     "Burger King İsrail, İsrailli militanlara ücretsiz yiyecek ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1349|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1349",
+  "marka": "Bref",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/bref",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "2020 yılından beri Henkel’in ceo’su olan Carsten Knobel 13 ekim 2023’te yaptığı açıklamada İsrail’e yapılan saldırıların terörist gruplar tarafından yapıldığını, İsrail’e yapılan hiçbir saldırının kabul edilemeyeceğini, tüm süreç boyunca"
+    ],
+    [
+     "+",
+     "Alman menşeili firma,"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "tarafında yer alacaklarını belirtti."
+    ],
+    [
+     "+",
+     "teknolojilerini aktif olarak destekliyor ve bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4499|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4499",
+  "marka": "Braun",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/braun",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Braun, Tel Aviv'de, İşgal Altındaki Filistin'de bir Ar-Ge merkezi açan ve yılda 2 milyar dolar yatırım yapan Procter and Gamble'a ait. Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1515|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1515",
+  "marka": "Bounty",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/bounty",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1515|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1515",
+  "marka": "Bounty",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/bounty",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Mars Inc firmasının"
+    ],
+    [
+     "-",
+     "alt firması, çeşitli aromalarda"
+    ],
+    [
+     "+",
+     "adını da aldığı"
+    ],
+    [
+     "=",
+     "çikolata"
+    ],
+    [
+     "-",
+     "barları üretmektedir."
+    ],
+    [
+     "+",
+     "markasıdır."
+    ],
+    [
+     "=",
+     "Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4509|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4509",
+  "marka": "Bosch",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/bosch",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Bosch, Tel Aviv’de robotik, IoT"
+    ],
+    [
+     "+",
+     "Profilo, Bosch"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "siber güvenlik gibi alanlarda faaliyet gösteren bir araştırma ofisi kurmuş olup, 1965’ten bu yana İsrail’de aktiftir. 17"
+    ],
+    [
+     "+",
+     "Siemens’in ortak girişimi BSH Hausgeräte’ye aittir. BSH, 23"
+    ],
+    [
+     "=",
+     "Ekim 2023’te"
+    ],
+    [
+     "-",
+     "Bosch, Hamas’ın direnişini “terör” olarak nitelendiren 100’den fazla Alman şirket arasında yer aldı ve Axel Springer medyasında Yahudi karşıtlığına karşı başlatılan kampanyaya katıldı. Ayrıca BMW, Yahudi vakıflarını desteklemekte ve Siyonist söylemleri destekleyen açıklamalarda bulunmaktadır."
+    ],
+    [
+     "+",
+     "İsrail’e destek bildirisini imzaladığı için Profilo boykot edilmelidir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4525|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4525",
+  "marka": "BMW",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/bmw",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|3281|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "3281",
+  "marka": "Bloomberg",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/bloomberg",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|616|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "616",
+  "marka": "Bizim Mutfak",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/bizim-mutfak",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot İradeli"
+ },
+ {
+  "id": "2026-11-03|kb|4493|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4493",
+  "marka": "Biotherm",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/biotherm",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "L’Oreal Paris Company’nin markalarındandır. L’Oreal’in %34,70’i Francoise Bettencourt Meyers"
+    ],
+    [
+     "+",
+     "İsrail'e ait şirketlerden biri olan L’Oreal, üretim tesisleri ile İsrail'i desteklemekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Yahudi ailesine aittir. L’Oreal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir."
+    ],
+    [
+     "+",
+     "Migdal Ha’emek kasabasında üretim yapıyor. Ama bu kasabanın kuruluşu, etnik temizlik sonucu Filistinlilere ait araziler üzerine yapılmıştır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4538|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4538",
+  "marka": "Bershka",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/bershka",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Zara ile aynı gruptadır."
+    ],
+    [
+     "+",
+     "Zara'nın ana çatı markasıdır."
+    ],
+    [
+     "=",
+     "ZARA, yeni koleksiyonunda Gazze'ye gönderme yapan enkaz ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1314|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1314",
+  "marka": "Becel",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/becel",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Becel Unilever şirketinin bünyesindedir. Ben"
+    ],
+    [
+     "+",
+     "Upfield, 2018 senesinde KOHLBERG KRAVIS ROBERTS"
+    ],
+    [
+     "=",
+     "&"
+    ],
+    [
+     "-",
+     "Jerry’s de Unilever’e ait"
+    ],
+    [
+     "+",
+     "CO. (KKR) tarafından satın alınmıştır. KKR ise İsrail’e desteğini açık"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "markadır. Ben & Jerry’s İsrail’de ürün satmayı durdurma kararı aldığında, Unilever İsrail, bu kararı göz ardı edip Ben & Jerry’s satışlarının devam etmesi için distribütörlük haklarını Avi Zinger’a satmıştır."
+    ],
+    [
+     "+",
+     "şekilde ifade eden bir global sermayedir."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2127|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2127",
+  "marka": "Bebelac",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/bebelac",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Bebelac bebek beslenme ürünleri geliştiren bir markadır. 2007'den bu yana Danone şirketler grubunun bir parçasıdır."
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in en büyük gıda şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin ile ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1332|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1332",
+  "marka": "Axe",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/axe",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Axe'in sahibi Unilever'dir."
+    ],
+    [
+     "=",
+     "Ben & Jerry's'in"
+    ],
+    [
+     "-",
+     "de"
+    ],
+    [
+     "=",
+     "sahibi Unilever'dir. Ben & Jerry, İsrail'de ürünlerini satmayı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4524|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4524",
+  "marka": "Audi",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/audi",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|4524|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4524",
+  "marka": "Audi",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/audi",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Ana şirketi"
+    ],
+    [
+     "=",
+     "Volkswagen, 17 Ekim 2023’te Hamas’ın direnişini terör saldırısı …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2773|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2773",
+  "marka": "Astra",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/astra",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Astra Tıraş Bıçakları (Astra Jilet) Boykotu: İsrail İlişkisi Astra Tıraş Bıçakları (Astra Jilet), eski Demir Perde ülkelerinde yaşanan özelleştirmelerin"
+    ],
+    [
+     "+",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de ciddi kaynak aktarımı yaptığı"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "parçası olarak 1996 yılında \"The Gillette Company\" bünyesine katılmıştır."
+    ],
+    [
+     "+",
+     "Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1342|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1342",
+  "marka": "Ariel",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/ariel",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Ariel,"
+    ],
+    [
+     "=",
+     "Procter"
+    ],
+    [
+     "-",
+     "& Gamble (P&G) şirketine ait"
+    ],
+    [
+     "+",
+     "and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de ciddi kaynak aktarımı yaptığı"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "çamaşır deterjanı markasıdır ve hem el yıkama hem de çamaşır makineleri için kullanılabilir. P&G, 1946 yılında ilk deterjan markası olan Alo'yu piyasaya sürerek tüketicilerin dikkatini çekmiştir."
+    ],
+    [
+     "+",
+     "Araştırma-Geliştirme Merkezi mevcuttur."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|4472|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4472",
+  "marka": "Aquafina",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/aquafina",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Öncü"
+ },
+ {
+  "id": "2026-11-03|kb|4472|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4472",
+  "marka": "Aquafina",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/aquafina",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Sahibi"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın almış ve …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1519|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1519",
+  "marka": "Aptamil",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/aptamil",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone’nin sahibi olduğu bebek gıdası üreten markalarından biridir. Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "iş birliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1293|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1293",
+  "marka": "Alpro",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/alpro",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone’nin sahibi olduğu badem sütü üreten markalarından biridir. Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "iş birliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1344|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1344",
+  "marka": "Alo",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/alo",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Alo, Procter & Gamble şirketine ait deterjan markalarından biri. Elde yıkama"
+    ],
+    [
+     "+",
+     "Alman menşeili firma, İsrail teknolojilerini aktif olarak destekliyor"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "çamaşır makinesi deterjanları mevcuttur. Türkiye'de \"Alo\" olarak tanınan markanın orijinal ismi Tide'dir."
+    ],
+    [
+     "+",
+     "bunlara yatırım yapıyor.. Kendi resmi sitelerinde İsrail’in Hayfa kentindeki Feelit’e yatırım yaptıklarını belirtiyorlar."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1355|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1355",
+  "marka": "Algida",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/algida",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1355|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1355",
+  "marka": "Algida",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/algida",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Algida boykotu, Unilever'in İsrail'i destekleyen politikalarına karşı bir duruş sergilemeyi amaçlamaktadır. Unilever,"
+    ],
+    [
+     "=",
+     "Ben &"
+    ],
+    [
+     "-",
+     "Jerry’s markasının"
+    ],
+    [
+     "+",
+     "Jerry's'in sahibi Unilever'dir. Ben & Jerry,"
+    ],
+    [
+     "=",
+     "İsrail'de"
+    ],
+    [
+     "-",
+     "ürün"
+    ],
+    [
+     "+",
+     "ürünlerini"
+    ],
+    [
+     "=",
+     "satmayı"
+    ],
+    [
+     "-",
+     "durdurma kararını göz ardı ederek distribütörlük"
+    ],
+    [
+     "+",
+     "bırakmaya karar verdiğinde Unilever, kararlarını atlatmak ve Ben & Jerry'nin marka adını İsrail'de satış yapmaya devam etmeye zorlamak için İsrail dağıtım"
+    ],
+    [
+     "=",
+     "haklarını"
+    ],
+    [
+     "-",
+     "İsrailli bir iş adamına devretmiştir."
+    ],
+    [
+     "+",
+     "Avi Zinger'e sattı."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1361|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1361",
+  "marka": "Ajinomoto Group",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/ajinomoto-group",
+  "onceki": "Boykot İradeli",
+  "sonraki": "Boykot Mücahit"
+ },
+ {
+  "id": "2026-11-03|kb|1370|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1370",
+  "marka": "Air Wick",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/air-wick",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Kararlı"
+ },
+ {
+  "id": "2026-11-03|kb|4528|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "4528",
+  "marka": "Adidas",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/adidas",
+  "onceki": "Boykot Öncü",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1533|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1533",
+  "marka": "Activia",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/activia",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Danone, İsrail’in"
+    ],
+    [
+     "+",
+     "Strauss Group, İsrail'in"
+    ],
+    [
+     "=",
+     "en büyük gıda"
+    ],
+    [
+     "-",
+     "işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies"
+    ],
+    [
+     "+",
+     "şirketlerinden biri olup Danone, PepsiCo, Haier ve Virgin"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "işbirliği içerisindedir ve %20’lik hisse sahibidir."
+    ],
+    [
+     "+",
+     "ortaklıkları bulunmaktadır."
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|1347|seviye",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1347",
+  "marka": "Ace",
+  "cati": null,
+  "tur": "seviye",
+  "url": "https://www.kolayboykot.com/marka/ace",
+  "onceki": "Boykot Kararlı",
+  "sonraki": "Boykot Farkında"
+ },
+ {
+  "id": "2026-11-03|kb|1347|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "1347",
+  "marka": "Ace",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/ace",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Markanın sahibi"
+    ],
+    [
+     "=",
+     "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de …"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "2026-11-03|kb|2877|metin",
+  "tespit": "2026-11-03",
+  "liste": "kb",
+  "kimlik": "2877",
+  "marka": "7up",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://www.kolayboykot.com/marka/7up",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "7up’ın uluslararası dağıtımcısı"
+    ],
+    [
+     "=",
+     "PepsiCo, SodaStream’i 3,2 milyar dolara satın"
+    ],
+    [
+     "-",
+     "aldı"
+    ],
+    [
+     "+",
+     "almış"
+    ],
+    [
+     "=",
+     "ve Sabra’nın %50’sine sahip"
+    ],
+    [
+     "-",
+     "oldu;"
+    ],
+    [
+     "+",
+     "olmuştur;"
+    ],
+    [
+     "=",
+     "her"
+    ],
+    [
+     "-",
+     "ikisi"
+    ],
+    [
+     "+",
+     "iki şirket"
+    ],
+    [
+     "=",
+     "de İsrail’in Filistin’i işgalinden"
+    ],
+    [
+     "-",
+     "yararlandı."
+    ],
+    [
+     "+",
+     "faydalanmıştır. Cheetos, İsrail'de üretim tesisleri açarak, İsrail ekonomisine katkıda bulunuyor."
+    ]
+   ]
+  }
+ },
+ {
   "id": "2026-11-02|bco|vontier|metin",
   "tespit": "2026-11-02",
   "liste": "bco",

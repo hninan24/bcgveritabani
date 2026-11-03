@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 21 listeden toplanan 10.874 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 21 listeden toplanan 11.345 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -24,7 +24,7 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 | Boykot.co (yalnız “Boykot” durumundakiler) | 934 |
 | Abbott & Keefer | 687 |
 | Who Profits | 472 |
-| Kolay Boykot — Filistin İçin | 330 |
+| Kolay Boykot — Filistin İçin | 1.384 |
 | Eczanede Boykot (ilaçlar, kök marka) | 316 |
 | Bilinçli Tüketim | 296 |
 | BM OHCHR A/HRC/63/20 (Liste A) | 219 |
@@ -40,7 +40,14 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 2 Kasım 2026. Dört liste eklendi:
+Son güncelleme: 3 Kasım 2026. Kolay Boykot'un “Filistin İçin” listesi yenilendi: liste 330 markadan 1.518 adrese çıktı (site 26 Ekim'de çatı şirketlerin alt markalarını topluca eklemiş). Veritabanına 1.384 kayıt alındı; 471 kuruluş yeni.
+
+- **Seviye.** Yeni markaların çoğu sitenin beş seviyesinden hiçbirinde değil. 938 marka “Seviyesiz” etiketiyle alındı; Kolay Boykot filtresinde ayrı seçenek.
+- **Alınmayanlar.** Sayfası açılmayan 130 ürün adı (iPhone, Whopper…) alınmadı, izleniyor. Rozeti “Boykot” olmaktan çıkan Capri-Sun, Flormar, Hugo Boss ve 19 Ekim'de de bu rozeti taşımayan Protex'in Kolay Boykot kaydı “geri çekildi” işaretli; bu kuruluşlar diğer listelerdeki kayıtlarıyla duruyor.
+- **Çatı.** Sitede çatı alanı yok ama toplu eklenen markalar çatılarının gerekçesini aynen taşıyor. Yeni kuruluşlar ve veritabanında çatısı olmayan 60 kuruluş bu ortak gerekçeyle çatıya bağlandı (elle gözden geçirildi). Çatısı olan kuruluşlar değişmedi. Bu yüzden Kolay Boykot'un gerekçe metni çoğu markada marka için değil, çatı şirket içindir.
+- **Kategori.** Sitenin toplu eklemedeki kategorileri güvenilir değil (Nike Running “Gıda”). Yeni kuruluşlarda yalnız çatının kategorileriyle uyuşan etiketler kullanıldı, uyuşmayanlar elle düzeltildi; mevcut kuruluşların kategorisi bundan etkilenmedi.
+
+Daha önce (2 Kasım 2026) dört liste eklendi:
 
 - **Boykot Market** (6.342 marka). Sitenin kendi BDS / AMP / Boykot Market etiketi solda filtre olarak var. Bu etiket derece değil; site boş kalan değerleri de BDS sayıyor.
 - **BoykotListe** (415 satır). Yüksek / Orta / Düşük risk solda filtre olarak var.

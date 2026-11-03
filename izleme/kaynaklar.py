@@ -310,7 +310,9 @@ def _kb_kartlar(h):
             continue
         etiket = re.search(r'<div class="on-sale-item[^"]*"[^>]*>\s*([^<]*?)\s*</div>', parca)
         ad = re.search(r'class="title link">\s*([^<]*?)\s*</a>', parca)
-        out.append((m.group(1), etiket.group(1) if etiket else "", H.unescape(ad.group(1)) if ad else ""))
+        kim = re.search(r"upsertLike\((\d+),\s*1", parca)
+        out.append((m.group(1), etiket.group(1) if etiket else "", H.unescape(ad.group(1)) if ad else "",
+                    int(kim.group(1)) if kim else 0))
     return out
 
 
@@ -318,13 +320,25 @@ def kb_marka(h):
     s = BeautifulSoup(h, "html.parser")
     rozet = [_kb_text(b) for b in s.select(".kb-brand-badges .kb-badge")]
     sec = s.select_one("#neden-boykot")
-    return {"rozet_durum": rozet[0].replace("🚫", "").strip() if rozet else "",
-            "gerekce": _kb_text(sec.select_one(".announcement-box")) if sec else ""}
+    return {"rozet_durum": re.sub(r"[^\w ]", "", rozet[0]).strip() if rozet else "",     # 🚫 🌍 🇹🇷
+            "gerekce": re.sub(r"^Boykot Bildirisi\s*", "", _kb_text(sec.select_one(".announcement-box"))) if sec else ""}
+
+
+def _kb_api_gerekce(ad, kim):
+    """Sayfası açılmayan markanın gerekçesi yalnız arama API'sinde."""
+    try:
+        satirlar = al(f"{KB}api/app/Search.php", params={"name": ad, "type": 1}).json()
+    except ValueError:
+        return None
+    return next((x.get("announcement") for x in satirlar if x.get("type") == 1 and x.get("id") == kim), None)
 
 
 def normalle_kb(markalar):
-    return {r["slug"]: kayit(r["ad"], r.get("seviye"), True, None, r.get("gerekce"), (), r.get("url"),
-                             durum=r.get("rozet_durum"))
+    """Anahtar sitenin kayıt numarası: adres değişse de kayıt aynı kalır, ad değişikliği geri çekme sayılmaz (2026-11-03:
+    Loreal → L'Oréal, Nestle → Nestlé...). Kapsam: sayfası açılan ve rozeti "Boykot" olan markalar; seviye kategorisinde
+    durup rozeti Yabancı ya da Yerli olan (Capri-Sun, Flormar) ve sayfası açılmayan (iPhone, Whopper) kapsam dışı."""
+    return {str(r["id"]): kayit(r["ad"], r.get("seviye") or "Seviyesiz", r.get("rozet_durum") == "Boykot", None,
+                                r.get("gerekce"), (), r.get("url"), durum=r.get("rozet_durum"))
             for r in markalar}
 
 
@@ -337,22 +351,27 @@ def cek_kb(onceki):
             k = _kb_kartlar(h)
             if not k:
                 break
-            for ms, etiket, ad in k:
-                kartlar.setdefault(cid, []).append((ms, etiket, ad))
+            kartlar.setdefault(cid, []).extend(k)
             s += 1
             time.sleep(0.3)
     if not kartlar.get(843):
         raise KaynakHatasi("Kolay Boykot: Filistin İçin listesi okunamadı")
-    seviye = {ms: etiket for cid, ks in kartlar.items() if cid != 843 for ms, etiket, _ in ks}
+    seviye = {ms: etiket for cid, ks in kartlar.items() if cid != 843 for ms, etiket, _, _ in ks}
+    # Aynı adreste iki kayıt olabilir (26.10.2026 toplu eklemesi: "Capri Sun" 8361, "Capri-Sun" 1389): küçük numaralı eski kayıt
     fil = {}
-    for ms, _, ad in kartlar[843]:
-        fil.setdefault(ms, ad)
-    markalar = []
+    for ms, _, ad, kim in sorted(kartlar[843], key=lambda x: -x[3]):
+        fil[ms] = (kim, ad)
+    # numarası değişip adresi aynı kalan kayıt önceki anahtarını korur
+    eski = {v.get("url"): k for k, v in (onceki.get("kayitlar") or {}).items()}
 
     def getir(ms):
-        r = al(f"{KB}marka/{ms}")
+        kim, ad = fil[ms]
+        url = f"{KB}marka/{ms}"
+        r = al(url)
         d = kb_marka(r.text.replace("\r\n", "\n").replace("\r", "\n")) if r.status_code == 200 else {}
-        return dict(slug=ms, ad=fil[ms], seviye=seviye.get(ms, ""), url=f"{KB}marka/{ms}", **d)
+        if not d.get("rozet_durum"):
+            d["gerekce"] = _kb_api_gerekce(ad, kim)
+        return dict(id=eski.get(url, kim), slug=ms, ad=ad, seviye=seviye.get(ms, ""), url=url, **d)
 
     with ThreadPoolExecutor(3) as ex:
         markalar = list(ex.map(getir, fil))
@@ -1075,7 +1094,7 @@ KAYNAKLAR = {
     "bd": dict(ad="Boykot Dedektifi", site="https://boykotdedektifi.com", cek=cek_bd, siklik="haftalik", birim="marka",
                kapsam="Boykot, İkincil Boykot ve Şüpheli"),
     "kb": dict(ad="Kolay Boykot (Filistin İçin)", site="https://www.kolayboykot.com/filistin-icin-c-843", cek=cek_kb,
-               siklik="haftalik", birim="marka", kapsam="listenin tamamı"),
+               siklik="haftalik", birim="marka", kapsam="sayfası açılan ve rozeti “Boykot” olan markalar"),
     "bco": dict(ad="Boykot.co", site="https://www.boykot.co", cek=cek_bco, siklik="haftalik", birim="marka",
                 kapsam="“Boykot” durumundaki markalar (“Boykot değil” markalar da izlenir)"),
     "eb": dict(ad="Eczanede Boykot", site="https://eczanedeboykot.com/tr", cek=cek_eb, siklik="gunluk", birim="ilaç",
