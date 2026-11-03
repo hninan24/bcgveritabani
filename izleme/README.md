@@ -10,8 +10,8 @@ GitHub Actions'taki **Kaynak izleme** iş akışı (`.github/workflows/izleme.ym
 
 | Zaman | Kontrol edilen kaynaklar |
 |---|---|
-| Her gün 07:17 (TSİ) | bykt, Bilinçli Tüketim, Eczanede Boykot, Who Profits, AFSC Gazze listesi, DBIO, AFSC Investigate, Abbott & Keefer |
-| Pazartesi 07:47 (TSİ) | Yukarıdakiler ve tam tarama gerektiren Boykot Dedektifi, Kolay Boykot ve Boykot.co |
+| Her gün 07:17 (TSİ) | bykt, Bilinçli Tüketim, Eczanede Boykot, Who Profits, AFSC Gazze listesi, DBIO, AFSC Investigate, Abbott & Keefer, BoykotListe, Genç Müslümanlar, Boycott Israel, Yerli Reçete, No Thanks |
+| Pazartesi 07:47 (TSİ) | Yukarıdakiler ve tam tarama gerektiren Boykot Dedektifi, Kolay Boykot, Boykot.co, Boykot Market ve Boycat |
 
 GitHub zamanlanmış çalışmaları yoğunluğa göre birkaç dakika ile bir saat arasında geciktirebilir. Elle çalıştırmak için deponun **Actions** sekmesinde **Kaynak izleme → Run workflow** seçilir. Kutuya `hizli`, `tam` ya da virgülle kaynak adları (örneğin `bd,kb`) yazılır.
 
@@ -30,8 +30,15 @@ GitHub zamanlanmış çalışmaları yoğunluğa göre birkaç dakika ile bir sa
 | DBIO | Veri sayfasındaki CSV dosyaları (ad ve içerik) | yeni ya da değişen veri dosyası |
 | AFSC Investigate | İndirme sayfasındaki veri seti (ad ve içerik) | yeni ya da değişen veri seti |
 | Abbott & Keefer | Site haritasındaki marka sayfaları | yalnız eklenen ve çıkan markalar |
+| Boykot Market | Arama dosyası ve bütün marka sayfaları (yaklaşık 6.300 sayfa, 10–15 dakika) | listenin tamamı |
+| Boycat | research.boycat.io'daki şirket sayfaları: seviye ve gerekçe | veritabanındaki 199 marka; listeye yeni giren marka görülmez |
+| BoykotListe | Site haritasındaki marka sayfaları. Veriyi veren `/api/` yolu robots.txt ile botlara kapalı, sayfalar da veriyi oradan yüklüyor. | yalnız eklenen ve çıkan markalar; hüküm ve metin değişikliği görülmez |
+| Genç Müslümanlar | Liste sayfası (başlıklar, metinler, bağlantılar) | listenin tamamı |
+| Boycott Israel | Liste sayfası (şirketler, seviyeler, metinler, alt markalar) | listenin tamamı |
+| Yerli Reçete | Sitenin veri paketi. Paket adı aynıysa indirilmez. | veritabanına ilaçları alınan 24 firma |
+| No Thanks | App Store'daki sürüm. Liste Mac'teki uygulamanın klasöründe (`nothanks.db`), buradan erişilmez. Uygulama listeyi sunucudan eşitlediği için liste yeni sürüm çıkmadan da değişebilir. Karşılaştırmak için güncel `nothanks.db` kopyası `listeler/No Thanks/` altına eklenir. | yalnız uygulama sürümü (zayıf işaret) |
 
-BM OHCHR listesi (A/HRC/63/20) yıllık bir rapor olduğu için izlenmez. Boycat ve No Thanks da izlenmez: verileri uygulamalardan elle alındı; tam listeyi veren herkese açık bir adresleri yok.
+İzlenmeyen listeler: BM OHCHR (A/HRC/63/20, yıllık rapor), Boykot Rehberi (Filistin İnisiyatifi, görsel kitapçık) ve FDH (kaynakları internette yayımlanmayan PDF ve görseller).
 
 ## Değişiklikler nereye yazılır
 
@@ -71,7 +78,7 @@ Geri çekmeler, veritabanı derlenirken olay kaydından kendiliğinden işaretle
 3. `python3 build_db.py v && python3 build_outputs.py v`, ardından `python3 build_db.py vi && python3 build_outputs.py vi`.
 4. VI'nın html'i bu depoda `index.html` olarak güncellenir ve gönderilir.
 
-İlk anlık görüntüler, veritabanının o gün kullandığı yerel dışa aktarımlardan kuruldu (`izleme_tohum.py`). Böylece izlemenin ilk raporu, veritabanına henüz işlenmemiş değişiklikleri gösterir. Bu dışa aktarımlar şunlardır: bykt 20.10.2026, Bilinçli Tüketim 18.10.2026, Boykot Dedektifi 07.10.2026, Kolay Boykot ve Eczanede Boykot 19.10.2026, Boykot.co 24.10.2026 (izlemeye 26.10.2026'da eklendi), Who Profits 19.10.2026, AFSC Gazze 05.10.2026, Abbott & Keefer 02.10.2026, DBIO 2025, AFSC Investigate Temmuz 2025.
+İlk anlık görüntüler, veritabanının o gün kullandığı yerel dışa aktarımlardan kuruldu (`izleme_tohum.py`). Böylece izlemenin ilk raporu, veritabanına henüz işlenmemiş değişiklikleri gösterir. Bu dışa aktarımlar şunlardır: bykt 20.10.2026, Bilinçli Tüketim 18.10.2026, Boykot Dedektifi 07.10.2026, Kolay Boykot ve Eczanede Boykot 19.10.2026, Boykot.co 24.10.2026 (izlemeye 26.10.2026'da eklendi), Who Profits 19.10.2026, AFSC Gazze 05.10.2026, Abbott & Keefer 02.10.2026, DBIO 2025, AFSC Investigate Temmuz 2025. Sonradan eklenenler: Boycat 24.10.2026, No Thanks 26.10.2026 (uygulama sürümü 3.5.0), Yerli Reçete 30.10.2026, Boykot Market, Genç Müslümanlar ve Boycott Israel 02.11.2026, BoykotListe 03.11.2026 (site haritası).
 
 ## Sınırlar
 

@@ -90,7 +90,7 @@ Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünü
 
 ## Kaynak izleme
 
-Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot ve Boykot.co'yu her pazartesi) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/ortak-kriter-veritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
+Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot, Boykot.co, Boykot Market ve Boycat'i her pazartesi) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/ortak-kriter-veritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
 
 ## Öncelikli Boykot Listesi (ÖBL) nasıl hazırlanır
 

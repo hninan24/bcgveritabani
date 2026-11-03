@@ -149,7 +149,7 @@ def ayrinti(d, k, db):
             ea, eb = a.get("ek") or {}, b.get("ek") or {}
             parcalar.append("; ".join(f"{x}: {kirp(str(ea.get(x) or '—'), 40)} → {kirp(str(eb.get(x) or '—'), 40)}"
                                       for x in sorted(set(ea) | set(eb)) if ea.get(x) != eb.get(x)))
-    if not (k in ("dbio", "inv") or d["id"] == "_liste" or d["id"].startswith("/tr")):   # dosyalar ve ilaç ürünleri hariç
+    if not (k in olaylar.DOSYA or k in ("yr", "nt") or d["id"] == "_liste" or d["id"].startswith("/tr")):   # dosyalar, uygulama ve ilaç ürünleri hariç
         hit = db.get(anahtar(r.get("ad")))
         parcalar.append(f"veritabanında: {hit[0]}" + (f" (çatı: {hit[1]})" if hit and hit[1] else "") if hit
                         else "veritabanında yok")

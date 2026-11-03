@@ -1,0 +1,2086 @@
+{
+ "ad": "BoykotListe",
+ "kayitlar": {
+  "3m": {
+   "ad": "3M",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/3m"
+  },
+  "7up": {
+   "ad": "7UP",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/7up"
+  },
+  "ace-bleach": {
+   "ad": "ace bleach",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ace-bleach"
+  },
+  "actimel": {
+   "ad": "Actimel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/actimel"
+  },
+  "activia": {
+   "ad": "Activia",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/activia"
+  },
+  "adidas": {
+   "ad": "Adidas",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/adidas"
+  },
+  "after-eight": {
+   "ad": "After Eight",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/after-eight"
+  },
+  "ahava": {
+   "ad": "AHAVA",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ahava"
+  },
+  "air-wick": {
+   "ad": "Air Wick",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/air-wick"
+  },
+  "airbnb": {
+   "ad": "Airbnb",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/airbnb"
+  },
+  "ajax": {
+   "ad": "Ajax",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ajax"
+  },
+  "algida": {
+   "ad": "Algida",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/algida"
+  },
+  "alpro": {
+   "ad": "Alpro",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/alpro"
+  },
+  "always": {
+   "ad": "Always",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/always"
+  },
+  "amazon": {
+   "ad": "Amazon",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/amazon"
+  },
+  "apple": {
+   "ad": "Apple",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/apple"
+  },
+  "aptamil": {
+   "ad": "Aptamil",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/aptamil"
+  },
+  "aquafina": {
+   "ad": "Aquafina",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/aquafina"
+  },
+  "ariel": {
+   "ad": "Ariel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ariel"
+  },
+  "aveda": {
+   "ad": "Aveda",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/aveda"
+  },
+  "axa": {
+   "ad": "AXA",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/axa"
+  },
+  "axe": {
+   "ad": "Axe",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/axe"
+  },
+  "band-aid": {
+   "ad": "Band-Aid",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/band-aid"
+  },
+  "barclays": {
+   "ad": "Barclays",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/barclays"
+  },
+  "baskin-robbins": {
+   "ad": "Baskin-Robbins",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/baskin-robbins"
+  },
+  "bebelac": {
+   "ad": "Bebelac",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bebelac"
+  },
+  "becel": {
+   "ad": "Becel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/becel"
+  },
+  "belvita": {
+   "ad": "belVita",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/belvita"
+  },
+  "ben-jerrys": {
+   "ad": "Ben & Jerry's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ben-jerrys"
+  },
+  "bens-original": {
+   "ad": "Ben's Original",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bens-original"
+  },
+  "bnp-paribas": {
+   "ad": "BNP Paribas",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bnp-paribas"
+  },
+  "bobbi-brown": {
+   "ad": "Bobbi Brown",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bobbi-brown"
+  },
+  "booking": {
+   "ad": "booking",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/booking"
+  },
+  "bosch": {
+   "ad": "Bosch",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bosch"
+  },
+  "bounty": {
+   "ad": "Bounty",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bounty"
+  },
+  "bounty-chocolate": {
+   "ad": "bounty chocolate",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bounty-chocolate"
+  },
+  "braun": {
+   "ad": "Braun",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/braun"
+  },
+  "bref": {
+   "ad": "Bref",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/bref"
+  },
+  "buitoni": {
+   "ad": "Buitoni",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/buitoni"
+  },
+  "burger-king": {
+   "ad": "Burger King",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/burger-king"
+  },
+  "burn-energy": {
+   "ad": "burn energy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/burn-energy"
+  },
+  "cadbury": {
+   "ad": "Cadbury",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cadbury"
+  },
+  "calgon": {
+   "ad": "Calgon",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/calgon"
+  },
+  "calgonit": {
+   "ad": "Calgonit",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/calgonit"
+  },
+  "caltex": {
+   "ad": "Caltex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/caltex"
+  },
+  "calve": {
+   "ad": "Calvé",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/calve"
+  },
+  "calvin-klein": {
+   "ad": "Calvin Klein",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/calvin-klein"
+  },
+  "camel": {
+   "ad": "Camel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/camel"
+  },
+  "cappy": {
+   "ad": "Cappy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cappy"
+  },
+  "carrefour": {
+   "ad": "Carrefour",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/carrefour"
+  },
+  "carte-dor": {
+   "ad": "Carte d'Or",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/carte-dor"
+  },
+  "caterpillar": {
+   "ad": "Caterpillar",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/caterpillar"
+  },
+  "cerave": {
+   "ad": "CeraVe",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cerave"
+  },
+  "cerelac": {
+   "ad": "Cerelac",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cerelac"
+  },
+  "cesar": {
+   "ad": "Cesar",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cesar"
+  },
+  "checkpoint": {
+   "ad": "checkpoint",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/checkpoint"
+  },
+  "cheerios": {
+   "ad": "Cheerios",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cheerios"
+  },
+  "cheetos": {
+   "ad": "Cheetos",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cheetos"
+  },
+  "chesterfield": {
+   "ad": "Chesterfield",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/chesterfield"
+  },
+  "chevron": {
+   "ad": "Chevron",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/chevron"
+  },
+  "cif": {
+   "ad": "Cif",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cif"
+  },
+  "cillit-bang": {
+   "ad": "Cillit Bang",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cillit-bang"
+  },
+  "cisco": {
+   "ad": "Cisco",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cisco"
+  },
+  "citibank": {
+   "ad": "Citibank",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/citibank"
+  },
+  "clear-shampoo": {
+   "ad": "clear shampoo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/clear-shampoo"
+  },
+  "clearasil": {
+   "ad": "Clearasil",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/clearasil"
+  },
+  "clinique": {
+   "ad": "Clinique",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/clinique"
+  },
+  "clorox": {
+   "ad": "Clorox",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/clorox"
+  },
+  "coca-cola": {
+   "ad": "Coca-Cola",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/coca-cola"
+  },
+  "coco-pops": {
+   "ad": "Coco Pops",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/coco-pops"
+  },
+  "coffee-mate": {
+   "ad": "Coffee-Mate",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/coffee-mate"
+  },
+  "colgate": {
+   "ad": "Colgate",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/colgate"
+  },
+  "comfort": {
+   "ad": "Comfort",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/comfort"
+  },
+  "comfort-softener": {
+   "ad": "comfort softener",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/comfort-softener"
+  },
+  "corn-flakes": {
+   "ad": "Corn Flakes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/corn-flakes"
+  },
+  "cornetto": {
+   "ad": "Cornetto",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/cornetto"
+  },
+  "costa": {
+   "ad": "costa",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/costa"
+  },
+  "crowne-plaza": {
+   "ad": "Crowne Plaza",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/crowne-plaza"
+  },
+  "crunch": {
+   "ad": "Crunch",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/crunch"
+  },
+  "damla-su": {
+   "ad": "Damla Su",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/damla-su"
+  },
+  "danino": {
+   "ad": "Danino",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/danino"
+  },
+  "danone": {
+   "ad": "Danone",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/danone"
+  },
+  "danone-yogurt": {
+   "ad": "Danone Yogurt",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/danone-yogurt"
+  },
+  "dasani": {
+   "ad": "Dasani",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dasani"
+  },
+  "dell": {
+   "ad": "Dell",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dell"
+  },
+  "dettol": {
+   "ad": "Dettol",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dettol"
+  },
+  "deutsche-bank": {
+   "ad": "Deutsche Bank",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/deutsche-bank"
+  },
+  "diadermine": {
+   "ad": "Diadermine",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/diadermine"
+  },
+  "dior": {
+   "ad": "Dior",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dior"
+  },
+  "disney-plus": {
+   "ad": "disney plus",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/disney-plus"
+  },
+  "dkny-beauty": {
+   "ad": "DKNY Beauty",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dkny-beauty"
+  },
+  "domestos": {
+   "ad": "Domestos",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/domestos"
+  },
+  "dominos": {
+   "ad": "dominos",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dominos"
+  },
+  "doritos": {
+   "ad": "Doritos",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/doritos"
+  },
+  "dove": {
+   "ad": "Dove",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dove"
+  },
+  "dove-chocolate": {
+   "ad": "Dove Chocolate",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dove-chocolate"
+  },
+  "downy": {
+   "ad": "Downy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/downy"
+  },
+  "duck-cleaner": {
+   "ad": "duck cleaner",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/duck-cleaner"
+  },
+  "dunhill-sigara": {
+   "ad": "Dunhill Sigara",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dunhill-sigara"
+  },
+  "dunkin": {
+   "ad": "dunkin",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/dunkin"
+  },
+  "duplo-chocolate": {
+   "ad": "duplo chocolate",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/duplo-chocolate"
+  },
+  "durex": {
+   "ad": "Durex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/durex"
+  },
+  "ebay": {
+   "ad": "eBay",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ebay"
+  },
+  "elidor": {
+   "ad": "Elidor",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/elidor"
+  },
+  "elmex": {
+   "ad": "Elmex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/elmex"
+  },
+  "elseve": {
+   "ad": "Elsève",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/elseve"
+  },
+  "erikli": {
+   "ad": "Erikli",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/erikli"
+  },
+  "espn": {
+   "ad": "ESPN",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/espn"
+  },
+  "essie": {
+   "ad": "Essie",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/essie"
+  },
+  "estee-lauder": {
+   "ad": "Estée Lauder",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/estee-lauder"
+  },
+  "eucerin": {
+   "ad": "Eucerin",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/eucerin"
+  },
+  "eukanuba": {
+   "ad": "Eukanuba",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/eukanuba"
+  },
+  "evian": {
+   "ad": "Evian",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/evian"
+  },
+  "expedia": {
+   "ad": "Expedia",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/expedia"
+  },
+  "extra-gum": {
+   "ad": "extra gum",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/extra-gum"
+  },
+  "fa": {
+   "ad": "Fa",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fa"
+  },
+  "fa-deodorant": {
+   "ad": "fa deodorant",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fa-deodorant"
+  },
+  "fairy": {
+   "ad": "Fairy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fairy"
+  },
+  "falim": {
+   "ad": "Falım",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/falim"
+  },
+  "fancy-feast": {
+   "ad": "Fancy Feast",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fancy-feast"
+  },
+  "fanta": {
+   "ad": "Fanta",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fanta"
+  },
+  "febreze": {
+   "ad": "Febreze",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/febreze"
+  },
+  "felix": {
+   "ad": "Felix",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/felix"
+  },
+  "fendi": {
+   "ad": "Fendi",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fendi"
+  },
+  "ferrero-rocher": {
+   "ad": "Ferrero Rocher",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ferrero-rocher"
+  },
+  "finish": {
+   "ad": "Finish",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/finish"
+  },
+  "first-gum": {
+   "ad": "first gum",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/first-gum"
+  },
+  "fiverr": {
+   "ad": "Fiverr",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fiverr"
+  },
+  "fox": {
+   "ad": "fox",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fox"
+  },
+  "friskies": {
+   "ad": "Friskies",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/friskies"
+  },
+  "fritos": {
+   "ad": "Fritos",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fritos"
+  },
+  "froot-loops": {
+   "ad": "Froot Loops",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/froot-loops"
+  },
+  "fruko": {
+   "ad": "Fruko",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fruko"
+  },
+  "fuze-tea": {
+   "ad": "Fuze Tea",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/fuze-tea"
+  },
+  "gain": {
+   "ad": "Gain",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gain"
+  },
+  "garnier": {
+   "ad": "Garnier",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/garnier"
+  },
+  "gatorade": {
+   "ad": "Gatorade",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gatorade"
+  },
+  "gaviscon": {
+   "ad": "Gaviscon",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gaviscon"
+  },
+  "ge": {
+   "ad": "ge",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ge"
+  },
+  "gerber": {
+   "ad": "Gerber",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gerber"
+  },
+  "gillette": {
+   "ad": "Gillette",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gillette"
+  },
+  "givenchy": {
+   "ad": "Givenchy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/givenchy"
+  },
+  "glade": {
+   "ad": "Glade",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/glade"
+  },
+  "gliss": {
+   "ad": "Gliss",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/gliss"
+  },
+  "glo-tobacco": {
+   "ad": "glo tobacco",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/glo-tobacco"
+  },
+  "goldman-sachs": {
+   "ad": "Goldman Sachs",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/goldman-sachs"
+  },
+  "google": {
+   "ad": "Google",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/google"
+  },
+  "haagen-dazs": {
+   "ad": "Häagen-Dazs",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/haagen-dazs"
+  },
+  "haci-sakir": {
+   "ad": "Hacı Şakir",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/haci-sakir"
+  },
+  "halls": {
+   "ad": "Halls",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/halls"
+  },
+  "hanuta": {
+   "ad": "Hanuta",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hanuta"
+  },
+  "harpic": {
+   "ad": "Harpic",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/harpic"
+  },
+  "hayat-su": {
+   "ad": "Hayat Su",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hayat-su"
+  },
+  "head-shoulders": {
+   "ad": "Head & Shoulders",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/head-shoulders"
+  },
+  "heets": {
+   "ad": "HEETS",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/heets"
+  },
+  "heinz": {
+   "ad": "Heinz",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/heinz"
+  },
+  "hellmanns": {
+   "ad": "Hellmann's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hellmanns"
+  },
+  "hennessy": {
+   "ad": "Hennessy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hennessy"
+  },
+  "herbal-essences": {
+   "ad": "Herbal Essences",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/herbal-essences"
+  },
+  "hersheys": {
+   "ad": "Hershey's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hersheys"
+  },
+  "hikvision": {
+   "ad": "Hikvision",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hikvision"
+  },
+  "hilton": {
+   "ad": "Hilton",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hilton"
+  },
+  "hm": {
+   "ad": "hm",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hm"
+  },
+  "holiday-inn": {
+   "ad": "Holiday Inn",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/holiday-inn"
+  },
+  "hp": {
+   "ad": "HP",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hp"
+  },
+  "hpe": {
+   "ad": "hpe",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hpe"
+  },
+  "hsbc": {
+   "ad": "HSBC",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hsbc"
+  },
+  "hubba-bubba": {
+   "ad": "Hubba Bubba",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hubba-bubba"
+  },
+  "huggies": {
+   "ad": "Huggies",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/huggies"
+  },
+  "hugo-boss": {
+   "ad": "Hugo Boss",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hugo-boss"
+  },
+  "hyatt": {
+   "ad": "Hyatt",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hyatt"
+  },
+  "hyundai": {
+   "ad": "Hyundai",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/hyundai"
+  },
+  "iams": {
+   "ad": "Iams",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/iams"
+  },
+  "ibm": {
+   "ad": "IBM",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ibm"
+  },
+  "intel": {
+   "ad": "Intel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/intel"
+  },
+  "intercontinental": {
+   "ad": "InterContinental",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/intercontinental"
+  },
+  "ipana": {
+   "ad": "İpana",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ipana"
+  },
+  "iqos": {
+   "ad": "IQOS",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/iqos"
+  },
+  "jacobs-coffee": {
+   "ad": "jacobs coffee",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/jacobs-coffee"
+  },
+  "jelibon": {
+   "ad": "Jelibon",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/jelibon"
+  },
+  "johnson-johnson": {
+   "ad": "Johnson & Johnson",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/johnson-johnson"
+  },
+  "johnsons-baby": {
+   "ad": "Johnson's Baby",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/johnsons-baby"
+  },
+  "jpmorgan": {
+   "ad": "jpmorgan",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/jpmorgan"
+  },
+  "kelloggs": {
+   "ad": "Kellogg's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kelloggs"
+  },
+  "kelloggs-corn-flakes": {
+   "ad": "Kellogg's Corn Flakes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kelloggs-corn-flakes"
+  },
+  "kent-sigara": {
+   "ad": "Kent Sigara",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kent-sigara"
+  },
+  "kerastase": {
+   "ad": "Kérastase",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kerastase"
+  },
+  "kfc": {
+   "ad": "KFC",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kfc"
+  },
+  "kiehls": {
+   "ad": "Kiehl's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kiehls"
+  },
+  "kinder": {
+   "ad": "Kinder",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kinder"
+  },
+  "kitkat": {
+   "ad": "KitKat",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kitkat"
+  },
+  "kiwi-shoe": {
+   "ad": "kiwi shoe",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kiwi-shoe"
+  },
+  "kleenex": {
+   "ad": "Kleenex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kleenex"
+  },
+  "knorr": {
+   "ad": "Knorr",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/knorr"
+  },
+  "knorr-corba": {
+   "ad": "Knorr Çorba",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/knorr-corba"
+  },
+  "kotex": {
+   "ad": "Kotex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kotex"
+  },
+  "kraft": {
+   "ad": "Kraft",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/kraft"
+  },
+  "la-prairie": {
+   "ad": "La Prairie",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/la-prairie"
+  },
+  "la-roche-posay": {
+   "ad": "La Roche-Posay",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/la-roche-posay"
+  },
+  "labello": {
+   "ad": "Labello",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/labello"
+  },
+  "lancome": {
+   "ad": "Lancôme",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lancome"
+  },
+  "lark": {
+   "ad": "Lark",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lark"
+  },
+  "lays": {
+   "ad": "Lay's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lays"
+  },
+  "ld-cigarettes": {
+   "ad": "ld cigarettes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ld-cigarettes"
+  },
+  "le-petit-marseillais": {
+   "ad": "Le Petit Marseillais",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/le-petit-marseillais"
+  },
+  "lenovo": {
+   "ad": "Lenovo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lenovo"
+  },
+  "levis": {
+   "ad": "Levi's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/levis"
+  },
+  "lifebuoy": {
+   "ad": "Lifebuoy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lifebuoy"
+  },
+  "lipton": {
+   "ad": "Lipton",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lipton"
+  },
+  "lipton-ice-tea": {
+   "ad": "Lipton Ice Tea",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lipton-ice-tea"
+  },
+  "listerine": {
+   "ad": "Listerine",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/listerine"
+  },
+  "lm-cigarettes": {
+   "ad": "lm cigarettes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lm-cigarettes"
+  },
+  "loctite": {
+   "ad": "Loctite",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/loctite"
+  },
+  "loreal": {
+   "ad": "L'Oréal",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/loreal"
+  },
+  "louis-vuitton": {
+   "ad": "Louis Vuitton",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/louis-vuitton"
+  },
+  "lucky-strike": {
+   "ad": "Lucky Strike",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lucky-strike"
+  },
+  "lucky-strike-bat": {
+   "ad": "lucky strike bat",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lucky-strike-bat"
+  },
+  "lux": {
+   "ad": "Lux",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/lux"
+  },
+  "mac": {
+   "ad": "mac",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mac"
+  },
+  "maggi": {
+   "ad": "Maggi",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/maggi"
+  },
+  "maggi-noodles": {
+   "ad": "Maggi Noodles",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/maggi-noodles"
+  },
+  "magnum": {
+   "ad": "Magnum",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/magnum"
+  },
+  "magnum-icecream": {
+   "ad": "magnum icecream",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/magnum-icecream"
+  },
+  "maltesers": {
+   "ad": "Maltesers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/maltesers"
+  },
+  "marks-spencer": {
+   "ad": "Marks & Spencer",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/marks-spencer"
+  },
+  "marlboro": {
+   "ad": "Marlboro",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/marlboro"
+  },
+  "marriott": {
+   "ad": "Marriott",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/marriott"
+  },
+  "mars": {
+   "ad": "Mars",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mars"
+  },
+  "marvel": {
+   "ad": "Marvel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/marvel"
+  },
+  "matrix-haircare": {
+   "ad": "matrix haircare",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/matrix-haircare"
+  },
+  "maybelline": {
+   "ad": "Maybelline",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/maybelline"
+  },
+  "mcdonalds": {
+   "ad": "McDonald's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mcdonalds"
+  },
+  "meridol": {
+   "ad": "Meridol",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/meridol"
+  },
+  "meta-facebook": {
+   "ad": "Meta (Facebook)",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/meta-facebook"
+  },
+  "microsoft": {
+   "ad": "Microsoft",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/microsoft"
+  },
+  "milka": {
+   "ad": "Milka",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/milka"
+  },
+  "milky-way": {
+   "ad": "Milky Way",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/milky-way"
+  },
+  "milo": {
+   "ad": "Milo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/milo"
+  },
+  "minute-maid": {
+   "ad": "Minute Maid",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/minute-maid"
+  },
+  "mirinda": {
+   "ad": "Mirinda",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mirinda"
+  },
+  "mms": {
+   "ad": "mms",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mms"
+  },
+  "mon-cheri": {
+   "ad": "Mon Chéri",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mon-cheri"
+  },
+  "monday": {
+   "ad": "monday",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/monday"
+  },
+  "mondelez": {
+   "ad": "Mondelez",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mondelez"
+  },
+  "monster-energy": {
+   "ad": "Monster Energy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/monster-energy"
+  },
+  "moon-active": {
+   "ad": "Moon Active",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/moon-active"
+  },
+  "motorola": {
+   "ad": "Motorola",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/motorola"
+  },
+  "mountain-dew": {
+   "ad": "Mountain Dew",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mountain-dew"
+  },
+  "mr-clean": {
+   "ad": "Mr. Clean",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mr-clean"
+  },
+  "mr-muscle": {
+   "ad": "Mr. Muscle",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mr-muscle"
+  },
+  "mr-proper": {
+   "ad": "Mr. Proper",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/mr-proper"
+  },
+  "muratti": {
+   "ad": "Muratti",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/muratti"
+  },
+  "nan": {
+   "ad": "NAN",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nan"
+  },
+  "national-geographic": {
+   "ad": "National Geographic",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/national-geographic"
+  },
+  "nature-valley": {
+   "ad": "Nature Valley",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nature-valley"
+  },
+  "nescafe": {
+   "ad": "Nescafé",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nescafe"
+  },
+  "nescafe-gold": {
+   "ad": "Nescafé Gold",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nescafe-gold"
+  },
+  "nesfit": {
+   "ad": "Nesfit",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nesfit"
+  },
+  "nespresso": {
+   "ad": "Nespresso",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nespresso"
+  },
+  "nesquik": {
+   "ad": "Nesquik",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nesquik"
+  },
+  "nestle": {
+   "ad": "Nestlé",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nestle"
+  },
+  "nestle-pure-life": {
+   "ad": "Nestle Pure Life",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nestle-pure-life"
+  },
+  "netflix": {
+   "ad": "Netflix",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/netflix"
+  },
+  "neutrogena": {
+   "ad": "Neutrogena",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/neutrogena"
+  },
+  "new-balance": {
+   "ad": "New Balance",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/new-balance"
+  },
+  "nido": {
+   "ad": "Nido",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nido"
+  },
+  "nike": {
+   "ad": "Nike",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nike"
+  },
+  "nivea": {
+   "ad": "Nivea",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nivea"
+  },
+  "nokia": {
+   "ad": "Nokia",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nokia"
+  },
+  "north-face": {
+   "ad": "north face",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/north-face"
+  },
+  "nurofen": {
+   "ad": "Nurofen",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nurofen"
+  },
+  "nutella": {
+   "ad": "Nutella",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nutella"
+  },
+  "nutricia": {
+   "ad": "Nutricia",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nutricia"
+  },
+  "nvidia": {
+   "ad": "NVIDIA",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nvidia"
+  },
+  "nyx": {
+   "ad": "NYX",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nyx"
+  },
+  "nyx-cosmetics": {
+   "ad": "nyx cosmetics",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/nyx-cosmetics"
+  },
+  "ogx": {
+   "ad": "OGX",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ogx"
+  },
+  "olay": {
+   "ad": "Olay",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/olay"
+  },
+  "old-spice": {
+   "ad": "Old Spice",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/old-spice"
+  },
+  "omo": {
+   "ad": "Omo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/omo"
+  },
+  "oracle": {
+   "ad": "Oracle",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/oracle"
+  },
+  "oral-b": {
+   "ad": "Oral-B",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/oral-b"
+  },
+  "oralb-pro": {
+   "ad": "oralb pro",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/oralb-pro"
+  },
+  "orbit": {
+   "ad": "Orbit",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/orbit"
+  },
+  "oreo": {
+   "ad": "Oreo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/oreo"
+  },
+  "origins": {
+   "ad": "Origins",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/origins"
+  },
+  "orkid": {
+   "ad": "Orkid",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/orkid"
+  },
+  "palantir": {
+   "ad": "Palantir",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/palantir"
+  },
+  "palette": {
+   "ad": "Palette",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/palette"
+  },
+  "pall-mall": {
+   "ad": "Pall Mall",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pall-mall"
+  },
+  "palmolive": {
+   "ad": "Palmolive",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/palmolive"
+  },
+  "pampers": {
+   "ad": "Pampers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pampers"
+  },
+  "pantene": {
+   "ad": "Pantene",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pantene"
+  },
+  "papa-johns": {
+   "ad": "Papa John's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/papa-johns"
+  },
+  "parliament": {
+   "ad": "Parliament",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/parliament"
+  },
+  "pedigree": {
+   "ad": "Pedigree",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pedigree"
+  },
+  "pepsi": {
+   "ad": "Pepsi",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pepsi"
+  },
+  "perrier": {
+   "ad": "Perrier",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/perrier"
+  },
+  "persil": {
+   "ad": "Persil",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/persil"
+  },
+  "perwoll": {
+   "ad": "Perwoll",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/perwoll"
+  },
+  "philadelphia": {
+   "ad": "Philadelphia",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/philadelphia"
+  },
+  "philips": {
+   "ad": "Philips",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/philips"
+  },
+  "pixar": {
+   "ad": "Pixar",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pixar"
+  },
+  "pizza-hut": {
+   "ad": "Pizza Hut",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pizza-hut"
+  },
+  "playtika": {
+   "ad": "Playtika",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/playtika"
+  },
+  "ploom": {
+   "ad": "Ploom",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ploom"
+  },
+  "popeyes": {
+   "ad": "Popeyes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/popeyes"
+  },
+  "powerade": {
+   "ad": "Powerade",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/powerade"
+  },
+  "prada": {
+   "ad": "Prada",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/prada"
+  },
+  "pril": {
+   "ad": "Pril",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pril"
+  },
+  "prima": {
+   "ad": "Prima",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/prima"
+  },
+  "pringles": {
+   "ad": "Pringles",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pringles"
+  },
+  "pritt": {
+   "ad": "Pritt",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pritt"
+  },
+  "pro-plan": {
+   "ad": "Pro Plan",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pro-plan"
+  },
+  "pronto": {
+   "ad": "Pronto",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/pronto"
+  },
+  "protex": {
+   "ad": "Protex",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/protex"
+  },
+  "protex-soap": {
+   "ad": "protex soap",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/protex-soap"
+  },
+  "puma": {
+   "ad": "Puma",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/puma"
+  },
+  "purina": {
+   "ad": "Purina",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/purina"
+  },
+  "quaker": {
+   "ad": "Quaker",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/quaker"
+  },
+  "qualcomm": {
+   "ad": "Qualcomm",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/qualcomm"
+  },
+  "raffaello": {
+   "ad": "Raffaello",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/raffaello"
+  },
+  "raid": {
+   "ad": "Raid",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/raid"
+  },
+  "ralph-lauren": {
+   "ad": "Ralph Lauren",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ralph-lauren"
+  },
+  "redken": {
+   "ad": "Redken",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/redken"
+  },
+  "reebok": {
+   "ad": "Reebok",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/reebok"
+  },
+  "reeses": {
+   "ad": "Reese's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/reeses"
+  },
+  "remax": {
+   "ad": "remax",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/remax"
+  },
+  "rexona": {
+   "ad": "Rexona",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/rexona"
+  },
+  "rinso": {
+   "ad": "Rinso",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/rinso"
+  },
+  "ritz-crackers": {
+   "ad": "ritz crackers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ritz-crackers"
+  },
+  "rothmans": {
+   "ad": "Rothmans",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/rothmans"
+  },
+  "royal-canin": {
+   "ad": "Royal Canin",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/royal-canin"
+  },
+  "ruffles": {
+   "ad": "Ruffles",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ruffles"
+  },
+  "safeguard": {
+   "ad": "Safeguard",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/safeguard"
+  },
+  "san-pellegrino": {
+   "ad": "San Pellegrino",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/san-pellegrino"
+  },
+  "sap": {
+   "ad": "SAP",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sap"
+  },
+  "schauma": {
+   "ad": "Schauma",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/schauma"
+  },
+  "schwarzkopf": {
+   "ad": "Schwarzkopf",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/schwarzkopf"
+  },
+  "schweppes": {
+   "ad": "Schweppes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/schweppes"
+  },
+  "secret": {
+   "ad": "Secret",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/secret"
+  },
+  "sephora": {
+   "ad": "Sephora",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sephora"
+  },
+  "servicenow": {
+   "ad": "ServiceNow",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/servicenow"
+  },
+  "sheba": {
+   "ad": "Sheba",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sheba"
+  },
+  "siemens": {
+   "ad": "Siemens",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/siemens"
+  },
+  "signal": {
+   "ad": "Signal",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/signal"
+  },
+  "sirma": {
+   "ad": "Sırma",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sirma"
+  },
+  "skechers": {
+   "ad": "Skechers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/skechers"
+  },
+  "skip": {
+   "ad": "Skip",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/skip"
+  },
+  "skittles": {
+   "ad": "Skittles",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/skittles"
+  },
+  "smarties": {
+   "ad": "Smarties",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/smarties"
+  },
+  "smartwater": {
+   "ad": "smartwater",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/smartwater"
+  },
+  "snickers": {
+   "ad": "Snickers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/snickers"
+  },
+  "sodastream": {
+   "ad": "SodaStream",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sodastream"
+  },
+  "special-k": {
+   "ad": "Special K",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/special-k"
+  },
+  "speed-stick": {
+   "ad": "Speed Stick",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/speed-stick"
+  },
+  "sprite": {
+   "ad": "Sprite",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sprite"
+  },
+  "starbucks": {
+   "ad": "Starbucks",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/starbucks"
+  },
+  "starburst": {
+   "ad": "Starburst",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/starburst"
+  },
+  "strauss": {
+   "ad": "strauss",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/strauss"
+  },
+  "strepsils": {
+   "ad": "Strepsils",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/strepsils"
+  },
+  "subway": {
+   "ad": "Subway",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/subway"
+  },
+  "sunlight": {
+   "ad": "Sunlight",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sunlight"
+  },
+  "sunsilk": {
+   "ad": "Sunsilk",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/sunsilk"
+  },
+  "swiffer": {
+   "ad": "Swiffer",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/swiffer"
+  },
+  "syoss": {
+   "ad": "Syoss",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/syoss"
+  },
+  "tampax": {
+   "ad": "Tampax",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tampax"
+  },
+  "tang": {
+   "ad": "Tang",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tang"
+  },
+  "teavana": {
+   "ad": "Teavana",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/teavana"
+  },
+  "teva": {
+   "ad": "Teva",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/teva"
+  },
+  "texaco": {
+   "ad": "Texaco",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/texaco"
+  },
+  "tic-tac": {
+   "ad": "Tic Tac",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tic-tac"
+  },
+  "tide": {
+   "ad": "Tide",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tide"
+  },
+  "tim-hortons": {
+   "ad": "Tim Hortons",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tim-hortons"
+  },
+  "timberland": {
+   "ad": "Timberland",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/timberland"
+  },
+  "toblerone": {
+   "ad": "Toblerone",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/toblerone"
+  },
+  "tofita": {
+   "ad": "Tofita",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tofita"
+  },
+  "tom-ford-beauty": {
+   "ad": "Tom Ford Beauty",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tom-ford-beauty"
+  },
+  "tommy-hilfiger": {
+   "ad": "Tommy Hilfiger",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tommy-hilfiger"
+  },
+  "toyota": {
+   "ad": "Toyota",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/toyota"
+  },
+  "tresemme": {
+   "ad": "TRESemmé",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tresemme"
+  },
+  "tripadvisor": {
+   "ad": "TripAdvisor",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tripadvisor"
+  },
+  "tropicana": {
+   "ad": "Tropicana",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tropicana"
+  },
+  "tuc": {
+   "ad": "TUC",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tuc"
+  },
+  "tuc-crackers": {
+   "ad": "tuc crackers",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tuc-crackers"
+  },
+  "tursil": {
+   "ad": "Tursil",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/tursil"
+  },
+  "twix": {
+   "ad": "Twix",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/twix"
+  },
+  "under-armour": {
+   "ad": "Under Armour",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/under-armour"
+  },
+  "urban-decay": {
+   "ad": "Urban Decay",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/urban-decay"
+  },
+  "vanish": {
+   "ad": "Vanish",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vanish"
+  },
+  "vaseline": {
+   "ad": "Vaseline",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vaseline"
+  },
+  "veet": {
+   "ad": "Veet",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/veet"
+  },
+  "veet-hair": {
+   "ad": "veet hair",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/veet-hair"
+  },
+  "venus": {
+   "ad": "Venus",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/venus"
+  },
+  "vernel": {
+   "ad": "Vernel",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vernel"
+  },
+  "vichy": {
+   "ad": "Vichy",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vichy"
+  },
+  "vicks": {
+   "ad": "Vicks",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vicks"
+  },
+  "victorias-secret": {
+   "ad": "Victoria's Secret",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/victorias-secret"
+  },
+  "vogue-cigarettes": {
+   "ad": "vogue cigarettes",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/vogue-cigarettes"
+  },
+  "volkswagen": {
+   "ad": "Volkswagen",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/volkswagen"
+  },
+  "volvic": {
+   "ad": "Volvic",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/volvic"
+  },
+  "volvo": {
+   "ad": "volvo",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/volvo"
+  },
+  "warner-bros": {
+   "ad": "Warner Bros",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/warner-bros"
+  },
+  "waze": {
+   "ad": "Waze",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/waze"
+  },
+  "wendys": {
+   "ad": "Wendy's",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/wendys"
+  },
+  "whirlpool": {
+   "ad": "Whirlpool",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/whirlpool"
+  },
+  "whiskas": {
+   "ad": "Whiskas",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/whiskas"
+  },
+  "winston": {
+   "ad": "Winston",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/winston"
+  },
+  "wix": {
+   "ad": "Wix",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/wix"
+  },
+  "woolite": {
+   "ad": "Woolite",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/woolite"
+  },
+  "yedigun": {
+   "ad": "Yedigün",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/yedigun"
+  },
+  "ysl-beauty": {
+   "ad": "YSL Beauty",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ysl-beauty"
+  },
+  "yumos": {
+   "ad": "Yumoş",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/yumos"
+  },
+  "zara": {
+   "ad": "Zara",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/zara"
+  },
+  "ziploc": {
+   "ad": "Ziploc",
+   "kapsam": true,
+   "url": "https://boykotliste.com/marka/ziploc"
+  }
+ },
+ "kaynak": "bl",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2026-11-03), 2026-11-03T11:39:59+03:00"
+ },
+ "parmak_izi": "92bb144cae0c73e0f8d1ffc256fdf8850c7ddbee1e3dfaaf6873e9850efcb709",
+ "tarih": "2026-11-03"
+}

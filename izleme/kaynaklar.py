@@ -38,7 +38,7 @@ class EngelHatasi(KaynakHatasi):
     Çoğunlukla GitHub'ın sunucu adreslerine özgü ve geçicidir (aynı sayfa başka yerden açılır)."""
 
 
-ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "Just a moment", "cf_chl")
+ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "just a moment", "cf_chl", "imunify")
 
 
 def oturum():
@@ -57,7 +57,7 @@ def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
             if r.status_code in kabul or r.status_code == 404:
                 return r
             son = f"HTTP {r.status_code}"
-            engel = r.status_code == 202 or (r.status_code in (403, 429, 503) and any(x in r.text[:20000] for x in ENGEL_IZI))
+            engel = r.status_code in (202, 406) or (r.status_code in (403, 415, 429, 503) and any(x in r.text[:20000].lower() for x in ENGEL_IZI))
             if engel and i >= 1:           # doğrulama sayfası: bir kez daha denenir, sonra uzun beklemeden bırakılır
                 break
         except requests.RequestException as e:
@@ -68,9 +68,16 @@ def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
     raise KaynakHatasi(f"{url}: {son}")
 
 
+def metin_coz(r):
+    """Yanıtın metni. Başlıkta karakter kümesi yoksa requests Latin-1 varsayar ve Türkçe harfler bozulur: UTF-8 okunur."""
+    if "charset" not in r.headers.get("content-type", "").lower():
+        r.encoding = "utf-8"
+    return r.text
+
+
 def sayfa_metni(url, **kw):
     """Sayfanın metni; satır sonları \\n'e çevrilir (yerel dışa aktarımlar dosyadan okunduğu için öyle)."""
-    return al(url, **kw).text.replace("\r\n", "\n").replace("\r", "\n")
+    return metin_coz(al(url, **kw)).replace("\r\n", "\n").replace("\r", "\n")
 
 
 def sha(b):
@@ -770,6 +777,293 @@ def _slug_tr(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+# ===================================================================== Boycott Israel
+# Tek statik sayfa. Okuma, yerel dışa aktarımı üreten Boycott Israel/kod/build.py ile aynı.
+BI = "https://boycott-israel.org/boycott.html"
+BI_SEVIYE = {"very high": "Çok yüksek", "high": "Yüksek", "medium": "Orta", "low": "Düşük"}
+
+
+def _h_duz(s):
+    return re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", " ", s))).strip()
+
+
+def bi_ayristir(h):
+    bolumler = [(m.start(), _h_duz(m.group(1))) for m in re.finditer(r'<h3[^>]*class="[^"]*boycott-category[^"]*"[^>]*>(.*?)</h3>', h, re.S)] or \
+               [(m.start(), _h_duz(m.group(1))) for m in re.finditer(r"<h3[^>]*>(.*?)</h3>", h, re.S)]
+    parcalar = list(re.finditer(r'<div class="md:flex items-center" id="([^"]*)">', h))
+    out = []
+    for i, m in enumerate(parcalar):
+        blok = h[m.end():parcalar[i + 1].start() if i + 1 < len(parcalar) else h.find("<h2", m.end())]
+        blok = blok[:blok.find("</li>")] if "</li>" in blok else blok
+        ad = re.search(r"<h4>(.*?)<span class=\"label ([^\"]+)\">", blok, re.S)
+        if not ad:
+            continue
+        icerik = blok[blok.find("</h4>"):]
+        alt = re.search(r'<div class="subbrands">(.*?</div>)\s*</div>', icerik, re.S)
+        k = dict(id=m.group(1), ad=_h_duz(ad.group(1)), seviye=ad.group(2), bolum=[n for p, n in bolumler if p < m.start()][-1],
+                 metin=" ".join(_h_duz(x) for x in re.findall(r"<p(?![^>]*class=)[^>]*>(.*?)</p>", icerik, re.S)),
+                 alt_markalar=[_h_duz(x) for x in re.findall(r"<div>(.*?)</div>", alt.group(1), re.S)] if alt else [],
+                 ulke=" ".join(_h_duz(x) for x in re.findall(r'<p class="country">(.*?)</p>', icerik, re.S)),
+                 alternatif=" ".join(_h_duz(x) for x in re.findall(r'<p class="alternative">(.*?)</p>', icerik, re.S)),
+                 linkler=[dict(ad=_h_duz(a), url=H.unescape(u)) for u, a in re.findall(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', icerik, re.S)])
+        if k["ad"] == "Imperva" and not k["ulke"]:      # kaynak hatası: Imperva'da ülke, alternatif etiketiyle yazılmış
+            k["ulke"], k["alternatif"] = k["alternatif"], ""
+        out.append(k)
+    return out
+
+
+def normalle_bi(sirketler):
+    out = {}
+    for k in sirketler:
+        sv, url = BI_SEVIYE.get(k["seviye"], k["seviye"]), f"{BI}#{k['id']}"
+        out[k["id"]] = kayit(k["ad"], sv, True, None, k["metin"], [x["url"] for x in k["linkler"]], url, bolum=k["bolum"],
+                             ulke=k["ulke"], alternatif=k["alternatif"])
+        for a in k["alt_markalar"]:
+            out[f"{k['id']}:{a}"] = kayit(a, sv, True, k["ad"], None, (), url)
+    return out
+
+
+def cek_bi(onceki):
+    yeni = normalle_bi(bi_ayristir(sayfa_metni(BI)))
+    if len(yeni) < 0.8 * max(len(onceki.get("kayitlar") or {}), 100):
+        raise KaynakHatasi(f"Boycott Israel: sayfada yalnız {len(yeni)} kayıt okundu")
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"kayit": len(yeni)}}
+
+
+# ===================================================================== BoykotListe
+# Bütün veri /api/export'ta, ama robots.txt /api/ yolunu botlara kapatıyor ve marka sayfaları veriyi tarayıcıda o yoldan
+# yüklüyor. Bu yüzden izleme yalnız izinli site haritasını okur: eklenen ve çıkan marka sayfaları görülür; hüküm ve metin
+# değişiklikleri görülmez. Site haritasındaki lastmod her gün bütün sayfalarda aynı (işe yaramaz).
+BL_SM = "https://boykotliste.com/sitemap.xml"
+
+
+def bl_sayfalar():
+    xml = metin_coz(al(BL_SM))
+    return sorted(set(re.findall(r"<loc>https://boykotliste\.com/marka/([^<]+)</loc>", xml)))
+
+
+def cek_bl(onceki):
+    sl = bl_sayfalar()
+    eski = onceki.get("kayitlar") or {}
+    if len(sl) < 0.8 * max(len(eski), 300):
+        raise KaynakHatasi(f"BoykotListe: site haritasında yalnız {len(sl)} marka")
+    yeni, n = {}, 0
+    for s in sl:
+        if s in eski:
+            yeni[s] = eski[s]
+            continue
+        url, ad = f"https://boykotliste.com/marka/{s}", s.replace("-", " ")
+        if n < 60:                         # yeni sayfaların adı sayfa başlığından (toplu değişimde ilk 60)
+            n += 1
+            m = re.search(r"<title>(.*?)</title>", metin_coz(al(url)), re.S)
+            ad = re.split(r"\s+[|–—-]\s+", H.unescape(m.group(1)).strip())[0] if m else ad
+            time.sleep(1)
+        yeni[s] = kayit(ad, None, True, None, None, (), url)
+    return {"kayitlar": yeni, "parmak_izi": sha(",".join(sl)), "meta": {"marka": len(sl)}}
+
+
+# ===================================================================== Genç Müslümanlar
+# Tek WordPress sayfası (bölüm başlıkları ve açılır kutular). Okuma Genç Müslümanlar/kod/build.py ile aynı. Aynı başlık iki
+# bölümde geçebilir (Chanel, Sudocrem): tek kayıt.
+GM = "https://gencmuslumanlar.com/boykot-listesi/"
+
+
+def gm_ayristir(h):
+    basliklar = [(m.start(), H.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip()) for m in re.finditer(r"<h3[^>]*>(.*?)</h3>", h, re.S)]
+    ham = []
+    for m in re.finditer(r'<div class="su-spoiler-title"[^>]*><span class="su-spoiler-icon"></span>(.*?)</div><div class="su-spoiler-content[^>]*>(.*?)</div></div>', h, re.S):
+        ham.append(dict(bolum=[n for p, n in basliklar if p < m.start()][-1], ad=H.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip(),
+                        metin=H.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(2)))).strip(),
+                        linkler=re.findall(r'href="([^"]+)"', m.group(2))))
+    return ham
+
+
+def normalle_gm(ham, tarih=None):
+    gr = {}
+    for r in ham:
+        g = gr.setdefault(r["ad"], dict(metin=[], linkler=[], bolum=[]))
+        for a, v in (("metin", [r["metin"]]), ("bolum", [r["bolum"]]), ("linkler", r["linkler"])):
+            g[a] += [x for x in v if x not in g[a]]
+    return {a: kayit(a, "Boykot", True, None, " | ".join(g["metin"]), g["linkler"], GM, tarih=(tarih or "")[:10], bolum=" + ".join(g["bolum"]))
+            for a, g in gr.items()}
+
+
+def cek_gm(onceki):
+    h = sayfa_metni(GM)
+    ham = gm_ayristir(h)
+    if len(ham) < 0.8 * max(len(onceki.get("kayitlar") or {}), 60):
+        if "imunify" in h.lower():         # sunucunun bot doğrulama sayfası
+            raise EngelHatasi(f"{GM}: sitenin bot koruması")
+        raise KaynakHatasi(f"Genç Müslümanlar: sayfada yalnız {len(ham)} başlık okundu")
+    m = re.search(r'article:modified_time" content="([^"]+)"', h)
+    yeni = normalle_gm(ham, m.group(1) if m else None)
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"baslik": len(ham)}}
+
+
+# ===================================================================== Boykot Market
+# brands-search.json bütün markaları verir ama metni 199 karakterde keser ve tarih içermez; tam veri her markanın statik
+# sayfasındaki brand-data JSON'unda. Okuma, yerel dışa aktarımı üreten Boykot Market/kod/build.py ile aynı.
+BMK = "https://www.boykotmarket.com"
+_BMK_DATA = re.compile(r'<script id="brand-data"[^>]*>(.*?)</script>', re.S)
+_KONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
+def _bmk_duz(h):
+    h = re.sub(r"</(h\d|p|li|ol|ul)>|<br\s*/?>", "\n", h or "")
+    t = H.unescape(re.sub(r"<[^>]+>", "", h))
+    return _KONTROL.sub("", re.sub(r"\n\s*\n+", "\n", re.sub(r"[ \t]+", " ", t))).strip()
+
+
+def bmk_marka(slug, b):
+    return dict(ad=b["name"], slug=slug, url=f"{BMK}/tr/brand/{slug}/", kategori=b.get("category"), liste=b.get("boycottList"),
+                sahip=b.get("owner") or "", alternatifler=b.get("alternatives") or "", kaynak=b.get("source") or "",
+                guncelleme=(b.get("updatedAt") or "")[:10], gerekce_tr=_bmk_duz(b.get("description_tr")),
+                metin_linkleri=tekil(re.findall(r'href="(https?://[^"]+)"', b.get("description_tr") or "")))
+
+
+def normalle_bmk(markalar):
+    return {m["slug"]: kayit(m["ad"], m["liste"], True, m["sahip"], m["gerekce_tr"], [m["kaynak"]] + m["metin_linkleri"], m["url"],
+                             tarih=m["guncelleme"], kategori=m["kategori"], alternatifler=m["alternatifler"]) for m in markalar}
+
+
+def cek_bmk(onceki, isci=4):
+    slugs = [b["slug"] for b in al(BMK + "/brands-search.json").json()["brands"]]
+    eski = onceki.get("kayitlar") or {}
+    if len(slugs) < 0.8 * max(len(eski), 3000):
+        raise KaynakHatasi(f"Boykot Market: arama dosyasında yalnız {len(slugs)} marka (önceki {len(eski)})")
+    recs, alinamayan = [], []
+    kilit = threading.Lock()
+
+    def getir(s):
+        url = f"{BMK}/tr/brand/{urllib.parse.quote(s)}/"
+        for i in range(4):
+            try:
+                r = oturum().get(url, timeout=60)
+                if r.status_code == 404:
+                    return
+                m = _BMK_DATA.search(metin_coz(r)) if r.status_code == 200 else None
+                if m:
+                    rec = bmk_marka(s, json.loads(m.group(1))["brand"])
+                    with kilit:
+                        recs.append(rec)
+                    time.sleep(0.1)
+                    return
+            except (requests.RequestException, ValueError, KeyError):
+                pass
+            time.sleep(3 * (i + 1))
+        with kilit:
+            alinamayan.append(s)
+
+    with ThreadPoolExecutor(isci) as ex:
+        list(ex.map(getir, slugs))
+    if len(alinamayan) > 0.05 * len(slugs):
+        raise KaynakHatasi(f"Boykot Market: {len(alinamayan)}/{len(slugs)} marka sayfası okunamadı")
+    yeni = normalle_bmk(recs)
+    for s in alinamayan:                   # okunamayan sayfanın önceki kaydı korunur (kalkmış sayılmaz)
+        if s in eski:
+            yeni[s] = eski[s]
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"marka": len(yeni)},
+            "uyarilar": [f"{len(alinamayan)} marka sayfası okunamadı; önceki kayıtları korundu"] if alinamayan else []}
+
+
+# ===================================================================== Yerli Reçete
+# Bütün veri Next.js sayfa paketine gömülü (JSON.parse('{"_Y":[ilaçlar],"kI":[firma kategorileri]}')). Paket adı içerik
+# değişince değişir: adı aynıysa indirilmez. Boykot listesi değildir; veritabanına yalnız aşağıdaki firmaların (Yerli Reçete/
+# kod/yr_vt.py FIRMA) eksik ilaçları alındı, bu yüzden kapsam bu firmalardır.
+YR = "https://yerlirecete.com"
+YR_FIRMA = {"BAYER", "JOHNSON", "ACTELION", "MERCK", "MERCK_SHARP", "NOVARTIS", "ORGANON", "PFIZER", "TEVA", "NESTLE", "RECKITT_BENCKISER",
+            "PROCTER_GAMBLE", "GLAXOSMITHKLINE", "ECZACIBASI", "ABDI_IBRAHIM", "ABBOTT", "LILLY", "PERRIGO", "NUMIL", "ROCHE", "ALCON", "SANDOZ",
+            "VIATRIS", "MEDA"}
+
+
+def normalle_yr(ilaclar, firmalar):
+    kat = {f["slug"]: f["categ"] for f in firmalar}
+    return {i["barcode"]: kayit(i["name"], None, i.get("cSlug") in YR_FIRMA, i.get("cName"), None, (), YR,
+                                firma_kategori=kat.get(i.get("cSlug"), "K"), esdeger=i.get("equiv")) for i in ilaclar}
+
+
+def cek_yr(onceki):
+    m = re.search(r"/_next/static/chunks/app/page-[0-9a-f]+\.js", al(YR + "/").text)
+    if not m:
+        raise KaynakHatasi("Yerli Reçete: ana sayfada veri paketi bulunamadı")
+    iz = m.group(0)
+    if iz == onceki.get("parmak_izi"):
+        return {"degismedi": True, "parmak_izi": iz}
+    js = al(YR + iz).content.decode("utf-8")
+    raw = js[js.index("JSON.parse('") + 12: js.index("}')") + 1]
+    d = json.loads(re.sub(r"\\x([0-9a-f]{2})", lambda x: chr(int(x.group(1), 16)), raw).replace("\\'", "'"))
+    return {"kayitlar": normalle_yr(d["_Y"], d["kI"]), "parmak_izi": iz, "meta": {"ilac": len(d["_Y"]), "firma": len(d["kI"])}}
+
+
+# ===================================================================== Boycat
+# Tam veritabanı şifreli uygulama uçlarında (kullanılmaz). Veritabanındaki 199 marka (Top Companies) research.boycat.io'daki
+# şirket sayfalarından kontrol edilir: seviye ve gerekçe. Listeye yeni giren marka buradan görülmez; uygulamadaki kaynak alan
+# adları sayfada yok.
+BC_SEVIYE = {"tier-1": "Official BDS Priority Campaign", "tier-2": "Level 2: Connected Companies", "tier-3": "Level 3: Broad Connections"}
+
+
+def bc_sirket(html):
+    """Sayfanın Next.js verisindeki şirket kaydı (Boycat/kod/research_cek.py ile aynı okuma)."""
+    t = "".join(json.loads('"' + p + '"') for p in re.findall(r'self.__next_f.push\(\[1,"(.*?)"\]\)</script>', html, flags=re.S))
+    i = t.find('"company":{"slug"')
+    if i < 0:
+        return None
+    return json.JSONDecoder().raw_decode(t[i + len('"company":'):])[0]
+
+
+def normalle_bc(markalar):
+    return {m["slug"]: kayit(m["ad"], m["seviye"], True, None, m.get("gerekce"), (), m["url"]) for m in markalar}
+
+
+def cek_bc(onceki):
+    eski = onceki.get("kayitlar") or {}
+    if not eski:
+        raise KaynakHatasi("Boycat: izlenecek marka listesi (önceki anlık görüntü) yok")
+    yeni, okunamayan = {}, []
+    for s, e in eski.items():
+        url = f"https://research.boycat.io/company/{s}"
+        try:
+            r = al(url, deneme=3)
+            if r.status_code == 404:
+                continue                   # sayfa kalkmış
+            c = bc_sirket(metin_coz(r))
+        except (KaynakHatasi, ValueError) as x:
+            if isinstance(x, EngelHatasi):
+                raise
+            c = None
+        if not c:
+            okunamayan.append(s)
+            yeni[s] = e
+        else:
+            yeni[s] = kayit(e.get("ad"), BC_SEVIYE.get(c.get("verdict"), c.get("verdict")), True, None,
+                            (c.get("blurb") or "").replace("​", "").strip(), (), url)
+        time.sleep(0.5)
+    if len(okunamayan) > 0.05 * len(eski):
+        raise KaynakHatasi(f"Boycat: {len(okunamayan)}/{len(eski)} şirket sayfası okunamadı")
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"marka": len(yeni)},
+            "uyarilar": [f"{len(okunamayan)} şirket sayfası okunamadı; önceki kayıtları korundu"] if okunamayan else []}
+
+
+# ===================================================================== No Thanks
+# Liste girişle korunan API'de ve Mac'teki uygulamanın klasöründeki nothanks.db'de; web'de marka sayfası yok, o klasöre buradan
+# erişilmez. Yalnız App Store'daki sürüm izlenir. Bu zayıf bir işarettir: nothanks.db'nin sync_status tablosu ve kayıt tarihleri
+# uygulamanın listeyi sunucudan eşitlediğini gösteriyor, yani liste yeni sürüm çıkmadan da değişebilir. Listeyi karşılaştırmak için
+# kullanıcının uygulamadaki güncel nothanks.db'yi listeler/No Thanks/ altına yeniden kopyalaması gerekir.
+NT_API = "https://itunes.apple.com/lookup?bundleId=com.bashsquare.nothanks"
+NT_URL = "https://apps.apple.com/us/app/no-thanks-app/id6476206516"
+
+
+def normalle_nt(surum, tarih=None):
+    return {"uygulama": kayit("No Thanks uygulaması", None, True, None, None, (), NT_URL, tarih=(tarih or "")[:10], surum=surum)}
+
+
+def cek_nt(onceki):
+    r = al(NT_API).json().get("results") or []
+    if not r:
+        raise KaynakHatasi("No Thanks: App Store kaydı bulunamadı")
+    return {"kayitlar": normalle_nt(r[0]["version"], r[0].get("currentVersionReleaseDate")), "parmak_izi": r[0]["version"], "meta": {}}
+
+
 # ===================================================================== kayıt defteri
 # siklik: "gunluk" kaynaklar her gün, "haftalik" olanlar yalnız tam taramada (pazartesi) kontrol edilir.
 # birim: raporda kayıtların adı.
@@ -796,4 +1090,15 @@ KAYNAKLAR = {
                 birim="veri dosyası", kapsam="indirme sayfasındaki veri seti"),
     "ak": dict(ad="Abbott & Keefer", site="https://directory.abbottandkeefer.com", cek=cek_ak, siklik="gunluk",
                birim="marka", kapsam="marka dizini (yalnız eklenen ve çıkan markalar izlenir)"),
+    "bc": dict(ad="Boycat", site="https://research.boycat.io", cek=cek_bc, siklik="haftalik", birim="marka",
+               kapsam="veritabanındaki 199 marka (seviye ve gerekçe); listeye yeni giren marka görülmez"),
+    "nt": dict(ad="No Thanks", site=NT_URL, cek=cek_nt, siklik="gunluk", birim="uygulama",
+               kapsam="yalnız App Store sürümü; liste uygulamanın içinde, karşılaştırmak için güncel kopya gerekir"),
+    "yr": dict(ad="Yerli Reçete", site=YR, cek=cek_yr, siklik="gunluk", birim="ilaç",
+               kapsam="veritabanına ilaçları alınan 24 firma (Yerli Reçete boykot listesi değildir)"),
+    "bmk": dict(ad="Boykot Market", site=BMK + "/tr/", cek=cek_bmk, siklik="haftalik", birim="marka", kapsam="listenin tamamı"),
+    "bl": dict(ad="BoykotListe", site="https://boykotliste.com", cek=cek_bl, siklik="gunluk", birim="marka",
+               kapsam="site haritası (yalnız eklenen ve çıkan markalar izlenir)"),
+    "gm": dict(ad="Genç Müslümanlar", site=GM, cek=cek_gm, siklik="gunluk", birim="marka", kapsam="listenin tamamı"),
+    "bi": dict(ad="Boycott Israel", site=BI, cek=cek_bi, siklik="gunluk", birim="şirket", kapsam="listenin tamamı"),
 }

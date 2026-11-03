@@ -1,0 +1,1931 @@
+{
+ "ad": "Boycott Israel",
+ "kayitlar": {
+  "": {
+   "ad": "Tara",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Local)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "A smaller dairy company compared to Tnuva but still has a significant presence in the Israeli market. Purchased by Coca Cola in 1997.",
+   "url": "https://boycott-israel.org/boycott.html#"
+  },
+  "achva": {
+   "ad": "Achva",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "An Israeli food company specializing in tahini, halva, and other similar products. Its products are distributed both domestically and internationally.",
+   "url": "https://boycott-israel.org/boycott.html#achva"
+  },
+  "actavis": {
+   "ad": "Actavis Generics",
+   "ek": {
+    "bolum": "Pharmaceutical and medicin",
+    "ulke": "German"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Teva_Pharmaceuticals"
+   ],
+   "metin": "Actavis Generics, acquired by Teva Pharmaceutical Industries in 2016, was a global leader in generic pharmaceuticals, specializing in the development and manufacture of affordable medications. This integration bolstered Teva's generic product portfolio and global market presence.",
+   "url": "https://boycott-israel.org/boycott.html#actavis"
+  },
+  "ahava": {
+   "ad": "AHAVA",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3807?ahava-dead-sea-laboratories"
+   ],
+   "metin": "Manufactures cosmetic products using minerals from the Dead Sea. The company's production site, visitor center and main store are located in the Mitzpe Shalem settlement in the occupied Jordan Valley.",
+   "url": "https://boycott-israel.org/boycott.html#ahava"
+  },
+  "airbnb": {
+   "ad": "Airbnb",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "United States"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3815?airbnb"
+   ],
+   "metin": "A publicly traded American company operating an online vacation rental platform. The company offers listings in over 220 countries and regions globally. Airbnb offers listings of accommodation in illegal settlements on occupied Palestinian and Syrian land.",
+   "url": "https://boycott-israel.org/boycott.html#airbnb"
+  },
+  "amazon": {
+   "ad": "Amazon",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "A multinational technology giant focusing on e-commerce, cloud computing, and various other sectors. Amazon has established data centers and offices in Israel. Project Nimbus is a collaboration between Google and Amazon to provide cloud services to the Israeli government and military, launched in 2021. While aimed at enhancing Israel's technological infrastructure, the project has faced criticism for potentially aiding surveillance and affecting Palestinian rights, raising ethical concerns.",
+   "url": "https://boycott-israel.org/boycott.html#amazon"
+  },
+  "apple": {
+   "ad": "Apple",
+   "ek": {
+    "alternatif": "Samsung",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "Acquired several Israeli companies and conducts limited R&D activities in Israel focusing on semiconductor technologies. Apple matches worker donations to IDF and illegal settlements, employees allege although not confirmed.",
+   "url": "https://boycott-israel.org/boycott.html#apple"
+  },
+  "axa": {
+   "ad": "AXA",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "France"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "metin": "A multinational insurance company, due to its investments in certain Israeli businesses and banks that are allegedly involved in activities related to the Israel-Palestine conflict. Boycott supporters believe that AXA’s investments indirectly contribute to violations of international law and human rights abuses against Palestinians",
+   "url": "https://boycott-israel.org/boycott.html#axa"
+  },
+  "bankinvest": {
+   "ad": "Bankinvest",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "Denmark"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://dontbuyintooccupation.org/wp-content/uploads/2021/10/DBIO-report-DEF_aangepast.pdf"
+   ],
+   "metin": "Bankinvest has financial links to Israel's occupation of the Palestinian territories. They make loans and guarantees available to companies with activities on occupied land or invest money in them.",
+   "url": "https://boycott-israel.org/boycott.html#bankinvest"
+  },
+  "bnp": {
+   "ad": "BNP Paribas",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "France"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "BNP Paribas has been accused of maintaining business relationships and investments with companies implicated in the construction and sustainability of Israeli settlements. Critics argue that such ties make the bank complicit in the legal and human rights issues associated with the occupation.",
+   "url": "https://boycott-israel.org/boycott.html#bnp"
+  },
+  "booking": {
+   "ad": "Booking Holdings (Booking.com)",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "USA"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3768?booking-com"
+   ],
+   "metin": "Through its website, Booking.com promotes properties located on occupied Palestinian and Syrian land. Properties in Israeli settlements in the occupied West Bank are listed as located either in Israel or in “Palestinian Territory - Israeli settlement,” while those located in occupied East Jerusalem and Syrian Golan are listed exclusively as located in Israel, misinforming consumers that book short term or long-term rentals.",
+   "url": "https://boycott-israel.org/boycott.html#booking"
+  },
+  "carrefour": {
+   "ad": "Carrefour",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "France"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/boycott-carrefour"
+   ],
+   "metin": "On March 8, 2022, the Carrefour Group unveiled a franchise agreement in Israel, partnering with Electra Consumer Products and its subsidiary, Yenot Bitan. These entities are engaged in activities within the contentious Israeli settlements. This makes Carrefour complicit in war crimes committed by the Israeli regime of occupation, settler-colonialism and apartheid",
+   "url": "https://boycott-israel.org/boycott.html#carrefour"
+  },
+  "carrefour:Promocash": {
+   "ad": "Promocash",
+   "cati": "Carrefour",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#carrefour"
+  },
+  "cat": {
+   "ad": "Caterpillar",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "United States"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Caterpillar_D9"
+   ],
+   "metin": "Caterpillar manufactures products, including heavy machinery, industrial and gardening tools, as well as footwear and cloathing. Caterpillar's D9 bulldozers (nicknamed Teddy Bear in Israel) have been deployed in the dismantling of homes in Palestinian territories. This model was tailor-made to meet the specifications of the Israel Defense Forces.",
+   "url": "https://boycott-israel.org/boycott.html#cat"
+  },
+  "checkpoint": {
+   "ad": "Check Point Software Technologies",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "A pioneer in cybersecurity, Check Point offers extensive security solutions and has a profound footprint in global cybersecurity landscapes, originating and headquartered in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#checkpoint"
+  },
+  "cisco": {
+   "ad": "Cisco",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/6529?cisco-systems"
+   ],
+   "metin": "The Company integrates platforms across networking, security, collaboration, applications and the cloud. Through its fully owned Israeli subsidiaries, Cisco Systems has a broad base of complicity with Israel’s occupation economy, predominantly through the provision of services to the Israeli military.",
+   "url": "https://boycott-israel.org/boycott.html#cisco"
+  },
+  "citibank": {
+   "ad": "Citibank (Citigroup)",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Citibank has been alleged to have financial relationships with companies involved in military and security operations in occupied territories. Activists argue that these relationships indirectly support actions associated with the Israeli occupation.",
+   "url": "https://boycott-israel.org/boycott.html#citibank"
+  },
+  "cocacola": {
+   "ad": "The Central Bottling Company (Coca Cola)",
+   "ek": {
+    "alternatif": "Local soft drinks",
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Local)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/4081?the-central-bottling-company-cbc-coca-cola-israel"
+   ],
+   "metin": "The Central Beverage Company, known as Coca-Cola Israel, is a private Israeli manufacturer and distributor of soft drinks, dairy products and alcoholic beverages. The company is the exclusive franchisee of The Coca-Cola Company in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Coca Cola": {
+   "ad": "Coca Cola",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Dasani": {
+   "ad": "Dasani",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:FUZE tea": {
+   "ad": "FUZE tea",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Fanta": {
+   "ad": "Fanta",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Minute Maid": {
+   "ad": "Minute Maid",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Powerade": {
+   "ad": "Powerade",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "cocacola:Sprite": {
+   "ad": "Sprite",
+   "cati": "The Central Bottling Company (Coca Cola)",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#cocacola"
+  },
+  "crazylabs": {
+   "ad": "Crazy Labs",
+   "ek": {
+    "bolum": "App & game studios",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Crazy Labs is a prominent Israeli mobile game publisher headquartered in Tel Aviv. Founded in 2010, the company specializes in hyper-casual games, rapidly developing and launching titles that capture current trends. Crazy Labs collaborates with local developers to maintain a position in the global gaming market.",
+   "url": "https://boycott-israel.org/boycott.html#crazylabs"
+  },
+  "cyberark": {
+   "ad": "CyberArk",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "CyberArk specializes in privileged access management, a critical aspect of cybersecurity. Headquartered in Israel, CyberArk has a broad international reach with offices globally.",
+   "url": "https://boycott-israel.org/boycott.html#cyberark"
+  },
+  "danskebank": {
+   "ad": "Danske Bank",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "Denmark"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://dontbuyintooccupation.org/wp-content/uploads/2021/10/DBIO-report-DEF_aangepast.pdf"
+   ],
+   "metin": "Since 2018 Danske Bank has made loans and guarantees worth almost DKK 16 billion available to companies with settlement connections. Loan includes to the German HeidelbergCement. HeidelbergCement has been criticized for years for extracting natural resources from occupied Palestinian land in violation of international law and for supplying cement for the expansion of surrounding illegal Israeli settlements.",
+   "url": "https://boycott-israel.org/boycott.html#danskebank"
+  },
+  "dell": {
+   "ad": "Dell",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7370?dell-technologies",
+    "https://www.dell.org/israel/"
+   ],
+   "metin": "Dell's products include personal computers and servers. In 2023, Dell Technologies won the Israeli Ministry of Defense's server tender, which is considered the largest server tender in Israel so far. The scope is USD 150 million for a period of two years, during which Dell will provide servers and maintenance to the Israeli military and the Israeli Ministry of Defense (IMOD). The Michael & Susan Dell Foundation, established by Dell's founders, is known to provide direct support to Israel.",
+   "url": "https://boycott-israel.org/boycott.html#dell"
+  },
+  "dell:Michael & Susan Dell Foundation": {
+   "ad": "Michael & Susan Dell Foundation",
+   "cati": "Dell",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#dell"
+  },
+  "disney": {
+   "ad": "Disney",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://thewaltdisneycompany.com/the-walt-disney-company-donates-to-support-humanitarian-relief-following-terrorist-attacks-in-israel-2/"
+   ],
+   "metin": "Following the attacks in Israel, The Walt Disney Company is donating $2 million to organizations that are providing humanitarian relief to Israel.",
+   "url": "https://boycott-israel.org/boycott.html#disney"
+  },
+  "ebay": {
+   "ad": "eBay",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "eBay, an American multinational e-commerce corporation, has a presence in Israel primarily through acquisition of local companies and establishment of development centers.",
+   "url": "https://boycott-israel.org/boycott.html#ebay"
+  },
+  "expedia": {
+   "ad": "Expedia Group",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7282?7282-2"
+   ],
+   "metin": "Expedia Group Inc. is a online travel company. The Group provides booking of hotel rooms, airline seats, car rentals, and destination services through its travel suppliers. Through its travel booking and search websites, Expedia.com, Hotels.com and its majority-owned subsidiary trivago, the company promotes properties located on occupied Palestinian and Syrian land.",
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:CarRentals": {
+   "ad": "CarRentals",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:CheapTickets": {
+   "ad": "CheapTickets",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Egencia": {
+   "ad": "Egencia",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Expedia Cruises": {
+   "ad": "Expedia Cruises",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Expedia.com": {
+   "ad": "Expedia.com",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Hotels.com": {
+   "ad": "Hotels.com",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Hotwire": {
+   "ad": "Hotwire",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Orbitz": {
+   "ad": "Orbitz",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Travelocity": {
+   "ad": "Travelocity",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Trivago": {
+   "ad": "Trivago",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Vrbo": {
+   "ad": "Vrbo",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:Wotif": {
+   "ad": "Wotif",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "expedia:ebookers": {
+   "ad": "ebookers",
+   "cati": "Expedia Group",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#expedia"
+  },
+  "fiverr": {
+   "ad": "Fiverr",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "An online marketplace for freelance services, Fiverr was founded in Israel and has since grown globally. It connects businesses with freelancers offering digital services in various categories.",
+   "url": "https://boycott-israel.org/boycott.html#fiverr"
+  },
+  "g4s": {
+   "ad": "G1 Secure Solutions (G4S)",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3798?g4s-israel-hashmira"
+   ],
+   "metin": "Also known as G4S the company has provided security services, including security equipment and personnel, to businesses in the settlements in the occupied West Bank, including Modi’in Illit, Ma’ale Adumim, and the Kalia settlement in the Jordan Valley. The company has also provided services to the settlement neighborhood of Har Adar in occupied East Jerusalem. Including many more cases.",
+   "url": "https://boycott-israel.org/boycott.html#g4s"
+  },
+  "ge": {
+   "ad": "General Electric",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/6337?general-electric"
+   ],
+   "metin": "A US-based publicly traded multinational conglomerate company active in the fields of power, renewable energy, aviation and healthcare. The company provides wind turbines and maintenance services to two large wind energy projects in the occupied Syrian Golan, “Emek Habacha” and “Ruach Beresheet”, the largest renewable energy projects in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#ge"
+  },
+  "google": {
+   "ad": "Google (Alphabet)",
+   "ek": {
+    "alternatif": "Firefox & DuckDuckGo",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://economictimes.indiatimes.com/news/international/business/google-fires-workers-protesting-1-2-billion-contract-to-provide-israel-ai-cloud-services-through-project-nimbus/articleshow/109390145.cms?from=mdr"
+   ],
+   "metin": "Google has established R&D centers in Israel, focusing primarily on search algorithms, advertising technologies, and security. Additionally, it has acquired Israeli startups, including Waze. In collaboration with Amazon, Google launched Project Nimbus in 2021 to provide cloud services to the Israeli government and military. While this project aims to enhance Israel's technological infrastructure, it has also faced criticism for aiding surveillance and impacting Palestinian rights.",
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "google:Android": {
+   "ad": "Android",
+   "cati": "Google (Alphabet)",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "google:Chrome": {
+   "ad": "Chrome",
+   "cati": "Google (Alphabet)",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "google:DeepMind": {
+   "ad": "DeepMind",
+   "cati": "Google (Alphabet)",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "google:Waymo": {
+   "ad": "Waymo",
+   "cati": "Google (Alphabet)",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "google:YouTube": {
+   "ad": "YouTube",
+   "cati": "Google (Alphabet)",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#google"
+  },
+  "hp": {
+   "ad": "HP",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3774?hewlett-packard-enterprise-hpe"
+   ],
+   "metin": "HP has R&D centers in Kiryat Gat contributing to printing and computing technologies. HP was the sole provider of Itanium servers for the Aviv System, which is Israeli Administration of Border Crossings, Population and Immigration.",
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hp:Fitstation": {
+   "ad": "Fitstation",
+   "cati": "HP",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hp:HP Wolf Security": {
+   "ad": "HP Wolf Security",
+   "cati": "HP",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hp:HyperX": {
+   "ad": "HyperX",
+   "cati": "HP",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hp:OMEN": {
+   "ad": "OMEN",
+   "cati": "HP",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hp:Z": {
+   "ad": "Z",
+   "cati": "HP",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#hp"
+  },
+  "hsbc": {
+   "ad": "HSBC",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "United Kingdom"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "Activists have alleged that HSBC had investments in companies supplying military equipment and services to Israel, which they claim contributes to the perpetuation of the Israeli occupation and alleged human rights violations against Palestinians.",
+   "url": "https://boycott-israel.org/boycott.html#hsbc"
+  },
+  "ibm": {
+   "ad": "IBM",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Has a strong R&D presence in Israelthat focus on cloud, AI, and cybersecurity technologies and has acquired several Israeli tech companies.",
+   "url": "https://boycott-israel.org/boycott.html#ibm"
+  },
+  "imperva": {
+   "ad": "Imperva",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "Initially founded in Israel, now headquartered in the United States. Imperva offers cybersecurity solutions focused on protecting websites and data applications in the cloud and on-premises.",
+   "url": "https://boycott-israel.org/boycott.html#imperva"
+  },
+  "intel": {
+   "ad": "Intel",
+   "ek": {
+    "alternatif": "AMD",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Kiryat_Gat",
+    "https://edition.cnn.com/2023/12/26/tech/intel-israel-investment/index.html"
+   ],
+   "metin": "Has multiple facilities in Israel and has developed several of its chips at its Israeli R&D centers. Intel's Fab 28 plant producing 7 nm chips is based in Kiryat Gat which is founded just west of the ruins of the Palestinian village of Iraq al-Manshiyya. On 26 December 2023, Intel announced its largest investment to date—a $25 billion plan to construct a new chip factory in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#intel"
+  },
+  "jpmorgan": {
+   "ad": "JPMorgan Chase",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "JPMorgan has faces accusations of having significant financial relationships and business dealings with various Israeli companies and institutions. Critics argue that some of these entities are directly or indirectly involved in the occupation and the continuation of settlement activities in the West Bank.",
+   "url": "https://boycott-israel.org/boycott.html#jpmorgan"
+  },
+  "loreal": {
+   "ad": "L'Oréal",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "France"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.independent.co.uk/news/world/middle-east/israelgaza-conflict-garnier-apologises-after-girly-care-packages-sent-to-female-idf-soldiers-sparks-threats-to-boycott-company-9658876.html"
+   ],
+   "metin": "L'Oréal has faced scrutiny and calls for boycotts in the past due to supporting Israel, particularly during conflicts involving Israel and Palestine. This scrutiny has often revolved around donations of products to women serving in the Israeli Defense Forces or other actions that are seen as supportive of Israel.",
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Biotherm": {
+   "ad": "Biotherm",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:CeraVe": {
+   "ad": "CeraVe",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Garnier": {
+   "ad": "Garnier",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Giorgio Armani": {
+   "ad": "Giorgio Armani",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Kiehl’s": {
+   "ad": "Kiehl’s",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Kérastase": {
+   "ad": "Kérastase",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:La Roche-Posay": {
+   "ad": "La Roche-Posay",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Lancôme": {
+   "ad": "Lancôme",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Maybelline New York": {
+   "ad": "Maybelline New York",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:NYX Professional Makeup": {
+   "ad": "NYX Professional Makeup",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Redken": {
+   "ad": "Redken",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:SkinCeuticals": {
+   "ad": "SkinCeuticals",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Urban Decay": {
+   "ad": "Urban Decay",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Vichy": {
+   "ad": "Vichy",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "loreal:Yves Saint Laurent": {
+   "ad": "Yves Saint Laurent",
+   "cati": "L'Oréal",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#loreal"
+  },
+  "mcafee": {
+   "ad": "McAfee",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "A global cybersecurity company with various business interests in Israel, McAfee offers comprehensive internet security solutions.",
+   "url": "https://boycott-israel.org/boycott.html#mcafee"
+  },
+  "mcdonalds": {
+   "ad": "McDonalds",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.moneycontrol.com/news/trends/israel-hamas-war-mcdonalds-faces-boycott-after-providing-free-meals-to-israeli-troops-amid-conflict-with-hamas-11535301.html"
+   ],
+   "metin": "Has multiple restaurants in Israel and of one their largest investors donates large amounts to different causes in Israel. McDonald's also provided free meals to Israeli troops amid war with Hamas. McDonald's from other middle eastern country has also donated money to support civilians in Gaza.",
+   "url": "https://boycott-israel.org/boycott.html#mcdonalds"
+  },
+  "micron": {
+   "ad": "Micron",
+   "ek": {
+    "alternatif": "TSCM or Samsung produced chips",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Kiryat_Gat"
+   ],
+   "metin": "One of Micron's factories is based in Kiryat Gat which is founded just west of the ruins of an old Palestinian village.",
+   "url": "https://boycott-israel.org/boycott.html#micron"
+  },
+  "microsoft": {
+   "ad": "Microsoft",
+   "ek": {
+    "alternatif": "Linux or MacOS",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7371?microsoft"
+   ],
+   "metin": "Acquired several Israeli startups and has a large R&D presence in the country specializes in cybersecurity and AI technologies. Microsoft has a history of deep engagement with the Israeli high-tech industry and close ties to the Israeli military. In 2023, Microsoft is expected to open the first Cloud Datacenter Region in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#microsoft"
+  },
+  "monday": {
+   "ad": "Monday.com",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://investorplace.com/2021/06/mndy-stock-ipo-what-to-know-as-monday-com-starts-trading-today/"
+   ],
+   "metin": "Monday.com, a Tel Aviv-based tech firm, specializes in customizable work management software. As one of Israel's most valuable startups, it's known for Work OS platform, catering to a global customer base in various industries.",
+   "url": "https://boycott-israel.org/boycott.html#monday"
+  },
+  "moonactive": {
+   "ad": "Moon Active",
+   "ek": {
+    "bolum": "App & game studios",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Moon Active is an Israeli mobile game developer known for its popular game Coin Master. Based in Tel Aviv and founded in 2011, the company specializes in creating addictive, casual games that appeal to a broad audience. Moon Active is a prominent player in Israel's tech scene, continually updating its games to keep users engaged.",
+   "url": "https://boycott-israel.org/boycott.html#moonactive"
+  },
+  "nestle": {
+   "ad": "Nestlé",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "switzerland"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "Nestlé, a Swiss multinational, has a presence in Israel through its investment in Osem, a major Israeli food producer. This investment connects Nestlé to various local industries and markets, broadening its involvement in the region.",
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Boost": {
+   "ad": "Boost",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Cerelac": {
+   "ad": "Cerelac",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Crunch": {
+   "ad": "Crunch",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Gerber": {
+   "ad": "Gerber",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Häagen-Dazs": {
+   "ad": "Häagen-Dazs",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Kit Kat": {
+   "ad": "Kit Kat",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Lean Cuisine": {
+   "ad": "Lean Cuisine",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Milo": {
+   "ad": "Milo",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:NIDO": {
+   "ad": "NIDO",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Nescafé": {
+   "ad": "Nescafé",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Nespresso": {
+   "ad": "Nespresso",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Nestea": {
+   "ad": "Nestea",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Perrier": {
+   "ad": "Perrier",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:PowerBar": {
+   "ad": "PowerBar",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Purina": {
+   "ad": "Purina",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Smarties": {
+   "ad": "Smarties",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nestle:Stouffer's": {
+   "ad": "Stouffer's",
+   "cati": "Nestlé",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#nestle"
+  },
+  "nvidia": {
+   "ad": "NVIDIA",
+   "ek": {
+    "alternatif": "AMD",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.channelnewsasia.com/business/israel-hamas-war-nvidia-chipmaker-raises-15-million-war-hit-civilians-4009491"
+   ],
+   "metin": "NVIDIA’s operations in Israel mainly involve AI and deep learning technologies. NVIDIA also aquired the Israeli company Mellanox Technologies which is prominent in networking products. Nvidia recently raised $10 million for Israeli charities aiding war-affected civilians, donated computers to evacuated from the north and south of Israel, and provided hot meals from its Yokneam office.",
+   "url": "https://boycott-israel.org/boycott.html#nvidia"
+  },
+  "nykredit": {
+   "ad": "Nykredit",
+   "ek": {
+    "bolum": "Banking",
+    "ulke": "Denmark"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://dontbuyintooccupation.org/wp-content/uploads/2021/10/DBIO-report-DEF_aangepast.pdf"
+   ],
+   "metin": "Nykredit has financial links to Israel's occupation of the Palestinian territories. They make loans and guarantees available to companies with activities on occupied land or invest money in them.",
+   "url": "https://boycott-israel.org/boycott.html#nykredit"
+  },
+  "oracle": {
+   "ad": "Oracle",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "Acquired several Israeli companies and has a presence in Israel mainly through sales and support services.",
+   "url": "https://boycott-israel.org/boycott.html#oracle"
+  },
+  "osem": {
+   "ad": "Osem",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Local)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "A subsidiary of Nestlé, Osem produces a wide range of food products and it is headquartered in Israel. It has various facilities located throughout Israel, producing goods consumed domestically and internationally.",
+   "url": "https://boycott-israel.org/boycott.html#osem"
+  },
+  "pepsi": {
+   "ad": "Pepsi",
+   "ek": {
+    "alternatif": "Local soft drinks",
+    "bolum": "Food and Beverages",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.bloomberg.com/view/articles/2018-08-22/pepsico-s-sodastream-purchase-is-sweet-news-for-israelis?leadSource=uverify%20wall"
+   ],
+   "metin": "In 2018, PepsiCo acquired SodaStream for for US$3.2 billion, an Israel-based company. This acquisition have sparked reactions given the location of some of SodaStream’s operations in disputed territories. PepsiCo also has joint venture with Sabra.",
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:7 Up": {
+   "ad": "7 Up",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Gatorade": {
+   "ad": "Gatorade",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Lipton Iced Teas": {
+   "ad": "Lipton Iced Teas",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Mirinda": {
+   "ad": "Mirinda",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Mountain Dew": {
+   "ad": "Mountain Dew",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Pepsi": {
+   "ad": "Pepsi",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Rockstar Energy": {
+   "ad": "Rockstar Energy",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "pepsi:Tropicana": {
+   "ad": "Tropicana",
+   "cati": "Pepsi",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#pepsi"
+  },
+  "plarium": {
+   "ad": "Plarium",
+   "ek": {
+    "bolum": "App & game studios",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Plarium"
+   ],
+   "metin": "Plarium is an Israeli game developer headquartered in Herzliya, founded in 2009. The company is renowned for its MMO strategy games like Vikings: War of Clans and Raid: Shadow Legends. As a key player in Israel’s tech scene.",
+   "url": "https://boycott-israel.org/boycott.html#plarium"
+  },
+  "playtika": {
+   "ad": "Playtika Holdings Corp",
+   "ek": {
+    "bolum": "App & game studios",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Playtika"
+   ],
+   "metin": "Playtika Holding Corp., co-founded by Robert Antokol and Uri Shahak in 2010, is an Israeli company that develops mobile games and applications. Uri Shahak is the son of Amnon Lipkin-Shahak, a former Chief of Staff of the Israel Defense Forces and Israeli Minister.",
+   "url": "https://boycott-israel.org/boycott.html#playtika"
+  },
+  "prigat": {
+   "ad": "Prigat",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Produces juice and juice products, owned by the Gan Shmuel Foods. It has operations based in Israel and exports to various countries.",
+   "url": "https://boycott-israel.org/boycott.html#prigat"
+  },
+  "puma": {
+   "ad": "Puma",
+   "ek": {
+    "bolum": "Clothing",
+    "ulke": "Germany"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/boycott-puma"
+   ],
+   "metin": "Puma is complicit in supporting the Israel-Palestine conflict due to its sponsorship of the Israel Football Association (IFA). Critics point out that the IFA includes teams from Israeli settlements located in the occupied territories, a situation considered illegal under international law. Puma has announced they won't be renewing its sponsorship. Puma's contract with the Israel Football Association expires in December 2024.",
+   "url": "https://boycott-israel.org/boycott.html#puma"
+  },
+  "puregym": {
+   "ad": "Puregym",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "UK"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.dailymail.co.uk/news/article-13405331/puregym-customers-boycott-cancel-membership-ceo-humphrey-cobbold-question-time-israel-arms-support.html"
+   ],
+   "metin": "PureGym, an international gym chain, has been the target of boycotts starting May 9, 2024. This came after CEO Humphrey Cobbold voiced support for UK arms sales to Israel during an appearance on BBC Question Time. The UK faces increasing pressure to cease these sales amidst allegations of human rights violations by Israel in the ongoing conflict in Gaza.",
+   "url": "https://boycott-israel.org/boycott.html#puregym"
+  },
+  "qualcomm": {
+   "ad": "Qualcomm",
+   "ek": {
+    "alternatif": "TSCM or Samsung produced chips",
+    "bolum": "Technology and Computers",
+    "ulke": "United States"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "metin": "Qualcomm operates R&D facilities in Israel focusing on wireless communication technologies.",
+   "url": "https://boycott-israel.org/boycott.html#qualcomm"
+  },
+  "radware": {
+   "ad": "Radware",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Radware is a cybersecurity firm that provides solutions to ensure the service availability of applications in physical, virtual, cloud, and software-defined data centers.",
+   "url": "https://boycott-israel.org/boycott.html#radware"
+  },
+  "ratiopharm": {
+   "ad": "Ratiopharm",
+   "ek": {
+    "bolum": "Pharmaceutical and medicin",
+    "ulke": "German"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.wikipedia.org/wiki/Teva_Pharmaceuticals"
+   ],
+   "metin": "Ratiopharm, a leading generic pharmaceutical company acquired by Teva Pharmaceutical Industries in 2010, specialized in producing affordable generic medications. This acquisition significantly expanded Teva's generic drug portfolio and strengthened its position in the global pharmaceutical market",
+   "url": "https://boycott-israel.org/boycott.html#ratiopharm"
+  },
+  "sabra": {
+   "ad": "Sabra",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "Sabra, a company known for its hummus and other food products, is partially owned by Strauss Group, an Israeli corporation. Critics argue that supporting Sabra indirectly contributes to the continuation of the conflict due to Strauss Group’s reported support for the Israeli Defense Forces.",
+   "url": "https://boycott-israel.org/boycott.html#sabra"
+  },
+  "siemens": {
+   "ad": "Siemens",
+   "ek": {
+    "bolum": "Technology and Computers",
+    "ulke": "Germany"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3958?siemens"
+   ],
+   "metin": "Who Profits team documented Siemens traffic control systems on Road 5 and Road 443 in the occupied West Bank, as part of an Israeli road system on which Palestinians are forbidden from travelling. In March 2018, Siemens and the state-owned Israel Railways signed a USD 917 million contract for the delivery of 60 Desiro HC regional train sets, total of 330 electric train cars, over a period of ten years.",
+   "url": "https://boycott-israel.org/boycott.html#siemens"
+  },
+  "sodastream": {
+   "ad": "SodaStream",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "An Israeli manufacturing company best known for its device for making carbonated water. It was acquired by PepsiCo, but the primary operations remain in Israel in disputed territories.",
+   "url": "https://boycott-israel.org/boycott.html#sodastream"
+  },
+  "starbucks": {
+   "ad": "Starbucks",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://fortune.com/2021/04/07/wiz-howard-schultz-investment-fundraising-cybersecurity-startups-starbucks-ceo/"
+   ],
+   "metin": "Howard Shultz is the largest private owner of Starbucks shares and is a staunch zionist who invests heavily in Israels economy including a recent $1.7 Billion investment in cybersecurity startup Wiz.",
+   "url": "https://boycott-israel.org/boycott.html#starbucks"
+  },
+  "strauss": {
+   "ad": "Strauss Group",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "An Israeli multinational food company, significant in dairy products and snacks, with a variety of partnerships and cooperations across Israel and globally.",
+   "url": "https://boycott-israel.org/boycott.html#strauss"
+  },
+  "tabnine": {
+   "ad": "Tabnine",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "Tabnine is an AI-powered code completion tool developed in Israel, enhancing coding efficiency across various programming languages. It's designed to streamline the software development process by integrating with multiple code editors.",
+   "url": "https://boycott-israel.org/boycott.html#tabnine"
+  },
+  "tempo": {
+   "ad": "Tempo Beverages",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Local)"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Produces a variety of alcoholic and non-alcoholic beverages. It has a significant presence in the Israeli beverage market.",
+   "url": "https://boycott-israel.org/boycott.html#tempo"
+  },
+  "tempur": {
+   "ad": "Tempur Sealy",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7212?tempur-sealy"
+   ],
+   "metin": "The company is a bedding provider. It develops, manufactures and markets mattresses, adjustable bases, pillows and other sleep and relaxation products. Through its Israeli distributor, the company operates a branch in the Design City Complex in Mishor Adumim settlement IZ, occupied West Bank.",
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "tempur:Cocoon": {
+   "ad": "Cocoon",
+   "cati": "Tempur Sealy",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "tempur:Sealy": {
+   "ad": "Sealy",
+   "cati": "Tempur Sealy",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "tempur:Stearns & Foster": {
+   "ad": "Stearns & Foster",
+   "cati": "Tempur Sealy",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "tempur:Tempur": {
+   "ad": "Tempur",
+   "cati": "Tempur Sealy",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "tempur:Tempur-Pedic": {
+   "ad": "Tempur-Pedic",
+   "cati": "Tempur Sealy",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tempur"
+  },
+  "teva": {
+   "ad": "Teva",
+   "ek": {
+    "bolum": "Pharmaceutical and medicin",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/4212?teva-pharmaceutical-industries"
+   ],
+   "metin": "Teva Pharmaceutical Industries Ltd., often referred to simply as Teva, is an Israeli multinational pharmaceutical company headquartered in Petah Tikva, Israel. Teva's activities in Israel are substantial, given that it originated there and has established its global headquarters in the country. Teva operates manufacturing facilities across Israel, which produce a variety of medications distributed both locally and internationally",
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Allen & Hanburys": {
+   "ad": "Allen & Hanburys",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Assia": {
+   "ad": "Assia",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Auspex Pharmaceuticals": {
+   "ad": "Auspex Pharmaceuticals",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Cephalon": {
+   "ad": "Cephalon",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Gecko Health Innovations": {
+   "ad": "Gecko Health Innovations",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Glaxo": {
+   "ad": "Glaxo",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:IVAX Corporation": {
+   "ad": "IVAX Corporation",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Ikapharm": {
+   "ad": "Ikapharm",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Labrys Biologics": {
+   "ad": "Labrys Biologics",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Margarine Unie": {
+   "ad": "Margarine Unie",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:MicroDose": {
+   "ad": "MicroDose",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Novopharm": {
+   "ad": "Novopharm",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:NuPathe after": {
+   "ad": "NuPathe after",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Plantex": {
+   "ad": "Plantex",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Rimsa": {
+   "ad": "Rimsa",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Salomon, Levin, and Elstein Ltd": {
+   "ad": "Salomon, Levin, and Elstein Ltd",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Taiyo Pharmaceutical Industry": {
+   "ad": "Taiyo Pharmaceutical Industry",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "teva:Zori": {
+   "ad": "Zori",
+   "cati": "Teva",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#teva"
+  },
+  "tnuva": {
+   "ad": "Tnuva",
+   "ek": {
+    "bolum": "Food and Beverages",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "metin": "Tnuva is the largest food manufacturer in Israel; its sales account for 70% of the country's dairy market as well as sales of meat, eggs and packaged food.",
+   "url": "https://boycott-israel.org/boycott.html#tnuva"
+  },
+  "toyota": {
+   "ad": "Toyota Motor Corporation",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "Japan"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/4175?toyota-motor-corporation"
+   ],
+   "metin": "Toyota Hilux Vehicles are used by the Israeli military and border police to protect illegal settlements and military bases along the West Bank, to suppress Palestinian demonstrators and to carry out house demolitions.",
+   "url": "https://boycott-israel.org/boycott.html#toyota"
+  },
+  "tripadvisor": {
+   "ad": "TripAdvisor",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "United States"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3767?trip-advisor"
+   ],
+   "metin": "Through its travel booking websites, TripAdvisor advertises hotels, resorts, restaurants and guesthouses in the occupied West Bank, occupied East Jerusalem and the occupied Syrian Golan.",
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Bokun.io": {
+   "ad": "Bokun.io",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Cruisecritic": {
+   "ad": "Cruisecritic",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Flipkey": {
+   "ad": "Flipkey",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Helloreco": {
+   "ad": "Helloreco",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Holidaylettings": {
+   "ad": "Holidaylettings",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Housetrip": {
+   "ad": "Housetrip",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Jetsetter": {
+   "ad": "Jetsetter",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Niumba": {
+   "ad": "Niumba",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Seatguru": {
+   "ad": "Seatguru",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Singleplatform": {
+   "ad": "Singleplatform",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Thefork": {
+   "ad": "Thefork",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Vacationhomerentals": {
+   "ad": "Vacationhomerentals",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "tripadvisor:Viator": {
+   "ad": "Viator",
+   "cati": "TripAdvisor",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#tripadvisor"
+  },
+  "unilever": {
+   "ad": "Unilever",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "United Kingdom"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/"
+   ],
+   "metin": "Unilever owns multiple brands including Ben & Jerry's. When Ben & Jerry's decided to stop selling its products in Israel, Unilever sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Axe": {
+   "ad": "Axe",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Ben & Jerry's": {
+   "ad": "Ben & Jerry's",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Cif": {
+   "ad": "Cif",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Comfort": {
+   "ad": "Comfort",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Dove": {
+   "ad": "Dove",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Hellmann's": {
+   "ad": "Hellmann's",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Knorr": {
+   "ad": "Knorr",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:LUX": {
+   "ad": "LUX",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Love Beauty & Planet": {
+   "ad": "Love Beauty & Planet",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Magnum": {
+   "ad": "Magnum",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:OLLY Vitamins": {
+   "ad": "OLLY Vitamins",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:OMO": {
+   "ad": "OMO",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Rexona": {
+   "ad": "Rexona",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:SmartyPants Vitamins": {
+   "ad": "SmartyPants Vitamins",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Sunsilk": {
+   "ad": "Sunsilk",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Vaseline": {
+   "ad": "Vaseline",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "unilever:Wall's (Frisko)": {
+   "ad": "Wall's (Frisko)",
+   "cati": "Unilever",
+   "hukum": "Orta",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#unilever"
+  },
+  "varonis": {
+   "ad": "Varonis",
+   "ek": {
+    "bolum": "Cybersecurity",
+    "ulke": "Israel & United States"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "metin": "Co-founded in Israel and the United States. Varonis specializes in data security and analytics, focusing on protecting sensitive data, detecting insider threats, and ensuring compliance.",
+   "url": "https://boycott-israel.org/boycott.html#varonis"
+  },
+  "volkswagen": {
+   "ad": "Volkswagen Group",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "Germany"
+   },
+   "hukum": "Düşük",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7374?volkswagen-group"
+   ],
+   "metin": "MAN supplies the chassis for armored riot control vehicles in the service of the Israel Police, manufactured by Beit Alfa Technologies of HOS Technology R&D. The Skunk has been widely used by Israeli forces against Palestinians both in demonstrations and as a punitive measure in the occupied West Bank, East Jerusalem, and within the Green Line, and used against schools and medical teams.",
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Audi": {
+   "ad": "Audi",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Bentley": {
+   "ad": "Bentley",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Bugatti": {
+   "ad": "Bugatti",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Ducati": {
+   "ad": "Ducati",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Lamborghini": {
+   "ad": "Lamborghini",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:MAN": {
+   "ad": "MAN",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Porsche": {
+   "ad": "Porsche",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:SEAT": {
+   "ad": "SEAT",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:SKODA": {
+   "ad": "SKODA",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Scania": {
+   "ad": "Scania",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volkswagen:Volkswagen": {
+   "ad": "Volkswagen",
+   "cati": "Volkswagen Group",
+   "hukum": "Düşük",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#volkswagen"
+  },
+  "volvo": {
+   "ad": "Volvo Group",
+   "ek": {
+    "bolum": "Others",
+    "ulke": "Sweden"
+   },
+   "hukum": "Orta",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/3644?volvo-group-ab-volvo"
+   ],
+   "metin": "A Swedish-based, multinational public company, which manufactures trucks, buses, construction equipment and more. The Volvo Group provides heavy machinery used for the demolition of Palestinian houses in the occupied West Bank and East Jerusalem, construction of Israeli settlements and construction of the Separation Wall.",
+   "url": "https://boycott-israel.org/boycott.html#volvo"
+  },
+  "wix": {
+   "ad": "Wix.com",
+   "ek": {
+    "bolum": "Online Services and Platforms",
+    "ulke": "Israel (Global)"
+   },
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.irishtimes.com/ireland/2023/10/24/internal-wix-chat-encouraged-staff-to-support-israels-narrative-in-hamas-conflict/"
+   ],
+   "metin": "Wix is a platform that allows users to create websites through the use of online drag and drop tools. It has a significant user base worldwide. Wix encouraged its employees to create content supporting “Israel’s narrative” in the country’s conflict with Hamas militants in Gaza, leaked internal messages show.",
+   "url": "https://boycott-israel.org/boycott.html#wix"
+  },
+  "wix:Wixanswers.com": {
+   "ad": "Wixanswers.com",
+   "cati": "Wix.com",
+   "hukum": "Çok yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#wix"
+  },
+  "zara": {
+   "ad": "ZARA",
+   "ek": {
+    "bolum": "Clothing",
+    "ulke": "Spain"
+   },
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.euronews.com/2022/10/24/israel-election-zara"
+   ],
+   "metin": "In 2022 Zara's franchise holder in Israel, Joey Schwebel, hosted an event for far-right politician Itamar Ben-Gvir, sparking public outrage and calls for boycotts, including from prominent figures like the Israeli Transportation Minister Merav Michaeli. Other companies under the Inditex corporations also includes:",
+   "url": "https://boycott-israel.org/boycott.html#zara"
+  },
+  "zara:Bersheka": {
+   "ad": "Bersheka",
+   "cati": "ZARA",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#zara"
+  },
+  "zara:Pull&Bear": {
+   "ad": "Pull&Bear",
+   "cati": "ZARA",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#zara"
+  },
+  "zara:Stradivarious": {
+   "ad": "Stradivarious",
+   "cati": "ZARA",
+   "hukum": "Yüksek",
+   "kapsam": true,
+   "url": "https://boycott-israel.org/boycott.html#zara"
+  }
+ },
+ "kaynak": "bi",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2026-11-02), 2026-11-03T11:39:59+03:00"
+ },
+ "parmak_izi": "f771efc6fba9861b99420e88c9e1a94dc22ca10dd442205971509ec8d74ada30",
+ "tarih": "2026-11-02"
+}
