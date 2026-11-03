@@ -7692,6 +7692,310 @@
   }
  },
  {
+  "id": "2026-11-03|bt|216|metin",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "216",
+  "marka": "SOCAR",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/socar",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… ait bir petrol ve doğal gaz şirketidir. SOCAR,"
+    ],
+    [
+     "+",
+     "1 Temmuz 2026'dan beri"
+    ],
+    [
+     "=",
+     "Bakü-Tiflis-Ceyhan"
+    ],
+    [
+     "+",
+     "(BTC)"
+    ],
+    [
+     "=",
+     "Boru"
+    ],
+    [
+     "-",
+     "Hattı"
+    ],
+    [
+     "+",
+     "Hattı’nın işletmecisi ve %32,97 payla en büyük hissedarıdır; bu hat"
+    ],
+    [
+     "=",
+     "üzerinden"
+    ],
+    [
+     "-",
+     "İsrail'e"
+    ],
+    [
+     "+",
+     "İsrail’e"
+    ],
+    [
+     "=",
+     "petrol ihracatında bulunmaktadır. 7 Ekim 2023 sonrası süreçte … biri olan Tamar gaz sahasında %10 hisseye sahiptir."
+    ],
+    [
+     "-",
+     "SOCAR'ın Türkiye'de"
+    ],
+    [
+     "+",
+     "SOCAR, Türkiye’de SOCAR ve Hazar markalarıyla yaklaşık 285 akaryakıt istasyonu üzerinden"
+    ],
+    [
+     "=",
+     "perakende"
+    ],
+    [
+     "-",
+     "petrol satışı da bulunmaktadır."
+    ],
+    [
+     "+",
+     "satış yapmaktadır."
+    ],
+    [
+     "=",
+     "İsrail ile doğrudan işbirliği halinde olmak, SOCAR'ı üç …"
+    ]
+   ]
+  },
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|216|kaynak",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "216",
+  "marka": "SOCAR",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/socar",
+  "baglanti": {
+   "eklenen": [
+    "https://www.socar.com.tr/faaliyet-alanlari/socar-ticaret",
+    "https://socar.com.tr/istasyon-listesi",
+    "https://www.interfax.com/newsroom/top-stories/118273/",
+    "https://www.trend.az/business/energy/4078059.html"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|380|ekleme",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "380",
+  "marka": "Shell",
+  "cati": null,
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/shell",
+  "sonraki": "1 Çarpılı Şirket",
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|215|metin",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "215",
+  "marka": "Petrol Ofisi",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/petrol-ofisi",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… boşaltım ve pazarlama (offload and market) hizmetini üstlenmiştir."
+    ],
+    [
+     "-",
+     "Bu kapsamda İsrail'in Doğu Akdeniz'den çıkardığı petrol, Vitol aracılığıyla Avrupa'ya pazarlanacaktır."
+    ],
+    [
+     "+",
+     "Ayrıca Vitol, 13 Ekim 2023 – 30 Haziran 2026 arasında 16 kargoyla İsrail’e yaklaşık 14 milyon varil ham petrol taşımıştır; bunun yaklaşık 7,6 milyon varili Bakü-Tiflis-Ceyhan boru hattıyla gelen Azerbaycan petrolüdür. Vitol’ün 2025'te İsrail’e taşıdığı hacim, 2020–2024 yıllık ortalamasının 4 katından fazladır (Oil Change International ve SOMO, 3 Eylül 2026)."
+    ],
+    [
+     "=",
+     "İsrail devletiyle doğrudan işbirliği halinde olmak, Petrol Ofisi'ni …"
+    ]
+   ]
+  },
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|215|kaynak",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "215",
+  "marka": "Petrol Ofisi",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/petrol-ofisi",
+  "baglanti": {
+   "eklenen": [
+    "https://oilchange.org/?p=71446"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|379|ekleme",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "379",
+  "marka": "Hazar",
+  "cati": "SOCAR",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/hazar",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|198|metin",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "198",
+  "marka": "BP",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/bp",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "BP hâlihazırda"
+    ],
+    [
+     "+",
+     "BP,"
+    ],
+    [
+     "=",
+     "Bakü–Tiflis–Ceyhan (BTC) petrol boru"
+    ],
+    [
+     "-",
+     "hattını işletmekte"
+    ],
+    [
+     "+",
+     "hattında %30,10 hisseye sahiptir"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "çoğunluk hissesine sahip bulunmaktadır;"
+    ],
+    [
+     "+",
+     "hattı 1 Temmuz 2026'ya kadar işletmiştir (bu tarihten beri hattın işletmecisi, %32,97 ile en büyük hissedar olan SOCAR’dır);"
+    ],
+    [
+     "=",
+     "çok sayıda soruşturma ve hukuki belge, bu hattı … jetlerini yakıtlandırmak için kullanılmaktadır. Ek olarak, BP, SOCAR"
+    ],
+    [
+     "+",
+     "(işletmeci, %33,34)"
+    ],
+    [
+     "=",
+     "ve İsrailli şirket NewMed Energy"
+    ],
+    [
+     "+",
+     "(%33,33)"
+    ],
+    [
+     "=",
+     "ile"
+    ],
+    [
+     "-",
+     "birlikte, İsrail’in Münhasır Ekonomik Bölgesi’nde devlet tarafından verilen"
+    ],
+    [
+     "+",
+     "birlikte %33,33 paya sahip olduğu"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "arama konsorsiyumu"
+    ],
+    [
+     "+",
+     "konsorsiyum"
+    ],
+    [
+     "=",
+     "aracılığıyla İsrail’in açık deniz doğalgaz sektörüne"
+    ],
+    [
+     "-",
+     "girmiştir;"
+    ],
+    [
+     "+",
+     "girmiştir: konsorsiyum Ekim 2023'te İsrail’in Münhasır Ekonomik Bölgesi’ndeki arama ihalesini kazanmış, lisans 17 Mart 2025'te Leviathan sahası yakınındaki 1.677 km²’lik Bölge I için verilmiş, ortaklık sözleşmesi 22 Aralık 2025'te imzalanmıştır;"
+    ],
+    [
+     "=",
+     "İsrail’in kendi Enerji Bakanlığı bu durumu, İsrail’in stratejik … karşılık gelmekte ve üç çarpılı sınıflandırmasına yol açmaktadır."
+    ],
+    [
+     "+",
+     "BP, Türkiye’deki akaryakıt operasyonlarını Petrol Ofisi’ne satmıştır: anlaşma 14 Kasım 2023'te imzalanmış, devir 1 Kasım 2024'te tamamlanmış, birleşme 28 Şubat 2025'te tescil edilmiştir. Türkiye’deki yaklaşık 770 BP istasyonu artık Vitol’e ait Petrol Ofisi’ne bağlıdır ve Petrol Ofisi markasına geçmesi planlanmaktadır."
+    ]
+   ]
+  },
+  "tarih": "2026-11-02"
+ },
+ {
+  "id": "2026-11-03|bt|198|kaynak",
+  "tespit": "2026-11-03",
+  "liste": "bt",
+  "kimlik": "198",
+  "marka": "BP",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/bp",
+  "baglanti": {
+   "eklenen": [
+    "https://newmedenergy.com/wp-content/uploads/2023/10/NewMed-IR-The-Ministry-of-Energys-Approval-for-the-Granting-of-Licenses-in-a-Fourth-Competitive-Process-for-Natural-Gas-Exploration-in-the-EEZ-of-the-State-of-Israel.pdf",
+    "https://interfax.com/newsroom/top-stories/116670/",
+    "https://interfax.com/newsroom/top-stories/118147/",
+    "https://www.interfax.com/newsroom/top-stories/118273/",
+    "https://www.trend.az/business/energy/4078059.html",
+    "https://www.vitol.com/vitol-owned-petrol-ofisi-agrees-to-purchase-bps-turkish-fuel-operations"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-02"
+ },
+ {
   "id": "2026-11-02|bco|vontier|metin",
   "tespit": "2026-11-02",
   "liste": "bco",
