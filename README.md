@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 21 listeden toplanan 11.344 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
