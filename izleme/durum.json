@@ -44,11 +44,11 @@
   "veri_tarihi": "2026-11-02"
  },
  "bl": {
-  "durum": "ok",
-  "parmak_izi": "92bb144cae0c73e0f8d1ffc256fdf8850c7ddbee1e3dfaaf6873e9850efcb709",
-  "son_basari": "2026-11-03T12:04:51+03:00",
-  "son_kontrol": "2026-11-03T12:04:51+03:00",
-  "veri_tarihi": "2026-11-03"
+  "durum": "tohum",
+  "parmak_izi": "37507656890a78fc625b77cdfa22065fe9ae95863e1628469f77dbc00886306c",
+  "son_basari": "2026-11-03T12:33:27+03:00",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-11-02"
  },
  "bmk": {
   "durum": "ok",

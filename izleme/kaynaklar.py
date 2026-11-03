@@ -831,35 +831,34 @@ def cek_bi(onceki):
 
 
 # ===================================================================== BoykotListe
-# Bütün veri /api/export'ta, ama robots.txt /api/ yolunu botlara kapatıyor ve marka sayfaları veriyi tarayıcıda o yoldan
-# yüklüyor. Bu yüzden izleme yalnız izinli site haritasını okur: eklenen ve çıkan marka sayfaları görülür; hüküm ve metin
-# değişiklikleri görülmez. Site haritasındaki lastmod her gün bütün sayfalarda aynı (işe yaramaz).
-BL_SM = "https://boykotliste.com/sitemap.xml"
+# Sitenin kendi "Veriyi İndir" dosyası: /api/export (tek JSON). robots.txt /api/ yolunu botlara kapatıyor; kullanıcı kararıyla
+# (2026-11-03: "BoykotListe verisini de oku") bu dosya günde bir kez okunur. Marka sayfaları veriyi tarayıcıda yüklediği için
+# başka yol yok. Dosyada kimlik yok: anahtar ad + kategori; aynı ad ve kategoride iki satır varsa metne göre sıralanıp numaralanır
+# (Bounty, Magnum, Fa, NYX, Protex, Veet, Lucky Strike). exported_at her istekte değişir, karşılaştırmaya girmez.
+BL = "https://boykotliste.com/api/export"
+BL_RISK = {"high": "Yüksek", "medium": "Orta", "low": "Düşük"}
 
 
-def bl_sayfalar():
-    xml = metin_coz(al(BL_SM))
-    return sorted(set(re.findall(r"<loc>https://boykotliste\.com/marka/([^<]+)</loc>", xml)))
+def normalle_bl(brands):
+    gr = {}
+    for b in brands:
+        gr.setdefault(f"{b['name']}|{b['category']['tr']}", []).append(b)
+    out = {}
+    for k0, L in gr.items():
+        for n, b in enumerate(sorted(L, key=lambda b: b["reasons"]["tr"]), 1):
+            out[k0 if n == 1 else f"{k0}|{n}"] = kayit(
+                b["name"], BL_RISK.get(b["risk_level"], b["risk_level"]), True, None, b["reasons"]["tr"], [b.get("source_url")],
+                "https://boykotliste.com/?search=" + re.sub(r"\s+", "+", b["name"]), kategori=b["category"]["tr"],
+                alternatifler=b["alternatives"]["tr"])
+    return out
 
 
 def cek_bl(onceki):
-    sl = bl_sayfalar()
-    eski = onceki.get("kayitlar") or {}
-    if len(sl) < 0.8 * max(len(eski), 300):
-        raise KaynakHatasi(f"BoykotListe: site haritasında yalnız {len(sl)} marka")
-    yeni, n = {}, 0
-    for s in sl:
-        if s in eski:
-            yeni[s] = eski[s]
-            continue
-        url, ad = f"https://boykotliste.com/marka/{s}", s.replace("-", " ")
-        if n < 60:                         # yeni sayfaların adı sayfa başlığından (toplu değişimde ilk 60)
-            n += 1
-            m = re.search(r"<title>(.*?)</title>", metin_coz(al(url)), re.S)
-            ad = re.split(r"\s+[|–—-]\s+", H.unescape(m.group(1)).strip())[0] if m else ad
-            time.sleep(1)
-        yeni[s] = kayit(ad, None, True, None, None, (), url)
-    return {"kayitlar": yeni, "parmak_izi": sha(",".join(sl)), "meta": {"marka": len(sl)}}
+    d = json.loads(metin_coz(al(BL)))
+    yeni = normalle_bl(d["brands"])
+    if len(yeni) < 0.8 * max(len(onceki.get("kayitlar") or {}), 300):
+        raise KaynakHatasi(f"BoykotListe: dosyada yalnız {len(yeni)} satır okundu")
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"satir": len(yeni)}}
 
 
 # ===================================================================== Genç Müslümanlar
@@ -1065,7 +1064,8 @@ def cek_nt(onceki):
 
 
 # ===================================================================== kayıt defteri
-# siklik: "gunluk" kaynaklar her gün, "haftalik" olanlar yalnız tam taramada (pazartesi) kontrol edilir.
+# siklik: "gunluk" kaynaklar her gün, "haftalik" olanlar yalnız tam taramada (pazartesi) kontrol edilir. "yerel" olanlar GitHub'dan
+# okunamaz (bot koruması): GitHub'da çalışmaz, Mac'teki haftalık görevle (izleme/yerel_izle.sh) kontrol edilir.
 # birim: raporda kayıtların adı.
 KAYNAKLAR = {
     "bykt": dict(ad="bykt.org", site="https://bykt.org", cek=cek_bykt, siklik="gunluk", birim="marka",
@@ -1090,15 +1090,14 @@ KAYNAKLAR = {
                 birim="veri dosyası", kapsam="indirme sayfasındaki veri seti"),
     "ak": dict(ad="Abbott & Keefer", site="https://directory.abbottandkeefer.com", cek=cek_ak, siklik="gunluk",
                birim="marka", kapsam="marka dizini (yalnız eklenen ve çıkan markalar izlenir)"),
-    "bc": dict(ad="Boycat", site="https://research.boycat.io", cek=cek_bc, siklik="haftalik", birim="marka",
+    "bc": dict(ad="Boycat", site="https://research.boycat.io", cek=cek_bc, siklik="yerel", birim="marka",
                kapsam="veritabanındaki 199 marka (seviye ve gerekçe); listeye yeni giren marka görülmez"),
     "nt": dict(ad="No Thanks", site=NT_URL, cek=cek_nt, siklik="gunluk", birim="uygulama",
                kapsam="yalnız App Store sürümü; liste uygulamanın içinde, karşılaştırmak için güncel kopya gerekir"),
     "yr": dict(ad="Yerli Reçete", site=YR, cek=cek_yr, siklik="gunluk", birim="ilaç",
                kapsam="veritabanına ilaçları alınan 24 firma (Yerli Reçete boykot listesi değildir)"),
     "bmk": dict(ad="Boykot Market", site=BMK + "/tr/", cek=cek_bmk, siklik="haftalik", birim="marka", kapsam="listenin tamamı"),
-    "bl": dict(ad="BoykotListe", site="https://boykotliste.com", cek=cek_bl, siklik="gunluk", birim="marka",
-               kapsam="site haritası (yalnız eklenen ve çıkan markalar izlenir)"),
+    "bl": dict(ad="BoykotListe", site="https://boykotliste.com", cek=cek_bl, siklik="gunluk", birim="marka", kapsam="listenin tamamı"),
     "gm": dict(ad="Genç Müslümanlar", site=GM, cek=cek_gm, siklik="gunluk", birim="marka", kapsam="listenin tamamı"),
     "bi": dict(ad="Boycott Israel", site=BI, cek=cek_bi, siklik="gunluk", birim="şirket", kapsam="listenin tamamı"),
 }

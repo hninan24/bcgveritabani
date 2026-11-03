@@ -26,6 +26,7 @@ DERECE = {
     "bd": {"Uygun": 0, "Araştırılıyor": 0, "Ahlaken Boykot": 0, "Şüpheli": 1, "İkincil Boykot": 2, "Boykot": 3},
     "bco": {"Boykot değil": 0, "Boykot": 1},
     "bi": {"Düşük": 1, "Orta": 2, "Yüksek": 3, "Çok yüksek": 4},
+    "bl": {"Düşük": 1, "Orta": 2, "Yüksek": 3},
     "bc": {"Level 3: Broad Connections": 1, "Level 2: Connected Companies": 2, "Official BDS Priority Campaign": 3},
 }
 DOSYA = {"dbio", "inv"}          # kayıtları veri dosyası olan kaynaklar

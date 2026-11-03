@@ -11,7 +11,8 @@ GitHub Actions'taki **Kaynak izleme** iş akışı (`.github/workflows/izleme.ym
 | Zaman | Kontrol edilen kaynaklar |
 |---|---|
 | Her gün 07:17 (TSİ) | bykt, Bilinçli Tüketim, Eczanede Boykot, Who Profits, AFSC Gazze listesi, DBIO, AFSC Investigate, Abbott & Keefer, BoykotListe, Genç Müslümanlar, Boycott Israel, Yerli Reçete, No Thanks |
-| Pazartesi 07:47 (TSİ) | Yukarıdakiler ve tam tarama gerektiren Boykot Dedektifi, Kolay Boykot, Boykot.co, Boykot Market ve Boycat |
+| Pazartesi 07:47 (TSİ) | Yukarıdakiler ve tam tarama gerektiren Boykot Dedektifi, Kolay Boykot, Boykot.co ve Boykot Market |
+| Pazartesi 10:00, Mac'ten | Boycat (site GitHub'ın sunucularını engelliyor) |
 
 GitHub zamanlanmış çalışmaları yoğunluğa göre birkaç dakika ile bir saat arasında geciktirebilir. Elle çalıştırmak için deponun **Actions** sekmesinde **Kaynak izleme → Run workflow** seçilir. Kutuya `hizli`, `tam` ya da virgülle kaynak adları (örneğin `bd,kb`) yazılır.
 
@@ -31,8 +32,8 @@ GitHub zamanlanmış çalışmaları yoğunluğa göre birkaç dakika ile bir sa
 | AFSC Investigate | İndirme sayfasındaki veri seti (ad ve içerik) | yeni ya da değişen veri seti |
 | Abbott & Keefer | Site haritasındaki marka sayfaları | yalnız eklenen ve çıkan markalar |
 | Boykot Market | Arama dosyası ve bütün marka sayfaları (yaklaşık 6.300 sayfa, 10–15 dakika) | listenin tamamı |
-| Boycat | research.boycat.io'daki şirket sayfaları: seviye ve gerekçe | veritabanındaki 199 marka; listeye yeni giren marka görülmez |
-| BoykotListe | Site haritasındaki marka sayfaları. Veriyi veren `/api/` yolu robots.txt ile botlara kapalı, sayfalar da veriyi oradan yüklüyor. | yalnız eklenen ve çıkan markalar; hüküm ve metin değişikliği görülmez |
+| Boycat | research.boycat.io'daki şirket sayfaları: seviye ve gerekçe. Mac'teki görevle kontrol edilir. | veritabanındaki 199 marka; listeye yeni giren marka görülmez |
+| BoykotListe | Sitenin “Veriyi İndir” dosyası (`/api/export`). robots.txt bu yolu botlara kapatıyor; kullanıcı kararıyla günde bir kez okunur. | listenin tamamı |
 | Genç Müslümanlar | Liste sayfası (başlıklar, metinler, bağlantılar) | listenin tamamı |
 | Boycott Israel | Liste sayfası (şirketler, seviyeler, metinler, alt markalar) | listenin tamamı |
 | Yerli Reçete | Sitenin veri paketi. Paket adı aynıysa indirilmez. | veritabanına ilaçları alınan 24 firma |
@@ -78,13 +79,13 @@ Geri çekmeler, veritabanı derlenirken olay kaydından kendiliğinden işaretle
 3. `python3 build_db.py v && python3 build_outputs.py v`, ardından `python3 build_db.py vi && python3 build_outputs.py vi`.
 4. VI'nın html'i bu depoda `index.html` olarak güncellenir ve gönderilir.
 
-İlk anlık görüntüler, veritabanının o gün kullandığı yerel dışa aktarımlardan kuruldu (`izleme_tohum.py`). Böylece izlemenin ilk raporu, veritabanına henüz işlenmemiş değişiklikleri gösterir. Bu dışa aktarımlar şunlardır: bykt 20.10.2026, Bilinçli Tüketim 18.10.2026, Boykot Dedektifi 07.10.2026, Kolay Boykot ve Eczanede Boykot 19.10.2026, Boykot.co 24.10.2026 (izlemeye 26.10.2026'da eklendi), Who Profits 19.10.2026, AFSC Gazze 05.10.2026, Abbott & Keefer 02.10.2026, DBIO 2025, AFSC Investigate Temmuz 2025. Sonradan eklenenler: Boycat 24.10.2026, No Thanks 26.10.2026 (uygulama sürümü 3.5.0), Yerli Reçete 30.10.2026, Boykot Market, Genç Müslümanlar ve Boycott Israel 02.11.2026, BoykotListe 03.11.2026 (site haritası).
+İlk anlık görüntüler, veritabanının o gün kullandığı yerel dışa aktarımlardan kuruldu (`izleme_tohum.py`). Böylece izlemenin ilk raporu, veritabanına henüz işlenmemiş değişiklikleri gösterir. Bu dışa aktarımlar şunlardır: bykt 20.10.2026, Bilinçli Tüketim 18.10.2026, Boykot Dedektifi 07.10.2026, Kolay Boykot ve Eczanede Boykot 19.10.2026, Boykot.co 24.10.2026 (izlemeye 26.10.2026'da eklendi), Who Profits 19.10.2026, AFSC Gazze 05.10.2026, Abbott & Keefer 02.10.2026, DBIO 2025, AFSC Investigate Temmuz 2025. Sonradan eklenenler: Boycat 24.10.2026, No Thanks 26.10.2026 (uygulama sürümü 3.5.0), Yerli Reçete 30.10.2026, Boykot Market, BoykotListe, Genç Müslümanlar ve Boycott Israel 02.11.2026.
 
 ## Sınırlar
 
 - Who Profits ve Abbott & Keefer'da yalnız eklenen ve çıkan kayıtlar izlenir. Şirket metinlerindeki ya da etiketlerdeki değişiklikler görünmez.
 - DBIO ve Investigate'te yalnız veri dosyasının değişip değişmediğine bakılır. Değişirse yeni dosya elle incelenir.
 - Boykot.co'da bazı marka sayfaları sürekli sunucu hatası (500) verir. Bu markalar kategori satırındaki ya da yan karttaki bilgiyle (ad, durum, kısaltılmış metin) kaydedilir. Daha önce tam okunmuş bir sayfa bozulursa önceki kaydı korunur. Kategori sayfaları yalnız boykottaki markaları listelediği için “Boykot değil” markalar yalnız kartlardan bulunur; hiçbir karta düşmeyen “Boykot değil” kaydı görülmez.
-- Boycat'in sitesi (research.boycat.io) GitHub'ın sunucularına HTTP 403 ile bot koruması döndürüyor (03.11.2026'da iki deneme). Aynı sayfalar başka adreslerden açılıyor. GitHub'da okunamadığı sürece Boycat kontrol edilmiş sayılmaz; son başarılı kontrolün üzerinden 7 gün geçince haftalık çalışma hata verir. Yerelde çalıştırmak için: `python izleme/izle.py bc`, ardından değişen dosyalar gönderilir.
+- Boycat'in sitesi (research.boycat.io) GitHub'ın sunucularına HTTP 403 ile bot koruması döndürüyor, bu yüzden GitHub'da çalışmaz. Mac'teki launchd görevi (`~/Library/LaunchAgents/com.boykot.izleme-yerel.plist`, betik `yerel_izle.sh`) her pazartesi 10:00'da kontrol eder, sonucu depoya gönderir ve değişiklik varsa Issue'ya yazar. Mac o saatte uykudaysa uyanınca çalışır, kapalıysa o hafta atlanır. Kendi depo kopyası ve Python ortamı `~/Library/Application Support/boykot-izleme/` altındadır, kaydı `~/Library/Logs/boykot-izleme.log`. Elle çalıştırmak için: `launchctl kickstart gui/$(id -u)/com.boykot.izleme-yerel`. Kaldırmak için: `launchctl bootout gui/$(id -u)/com.boykot.izleme-yerel`, ardından plist ve klasör silinir.
 - Boykot Dedektifi Cloudflare arkasındadır. GitHub'ın sunucularını engellerse haftalık tarama hata verir. Bu durumda tarama yerelde çalıştırılır: `python izleme/izle.py bd`, ardından değişen dosyalar gönderilir.
 - Bir sitenin sayfa yapısı değişirse ayrıştırıcı kayıtları okuyamaz ya da yanlış okur. Okunan kayıt sayısı önceki kontrole göre çok düşükse ya da kayıtların yarısından fazlası birden değişmiş görünüyorsa kaynak “kontrol edilemedi” sayılır ve anlık görüntüsü güncellenmez. Değişiklik gerçekse iş akışı **zorla** kutusu işaretlenerek yeniden çalıştırılır. Ayrıştırıcı bozulduysa `izleme/kaynaklar.py` düzeltilir.

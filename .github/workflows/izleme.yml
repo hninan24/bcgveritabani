@@ -5,11 +5,11 @@ name: Kaynak izleme
 on:
   schedule:
     - cron: "17 4 * * *"   # her gün 07:17 (TSİ): hızlı kaynaklar
-    - cron: "47 4 * * 1"   # pazartesi 07:47 (TSİ): tüm kaynaklar (Boykot Dedektifi, Kolay Boykot, Boykot.co, Boykot Market ve Boycat taraması dahil)
+    - cron: "47 4 * * 1"   # pazartesi 07:47 (TSİ): tüm kaynaklar (Boykot Dedektifi, Kolay Boykot, Boykot.co ve Boykot Market taraması dahil; Boycat Mac'ten, izleme/yerel_izle.sh)
   workflow_dispatch:
     inputs:
       kapsam:
-        description: "hizli, tam ya da virgülle kaynaklar (bykt,bt,bd,kb,bco,eb,wp,afsc,dbio,inv,ak,bc,nt,yr,bmk,bl,gm,bi)"
+        description: "hizli, tam ya da virgülle kaynaklar (bykt,bt,bd,kb,bco,eb,wp,afsc,dbio,inv,ak,nt,yr,bmk,bl,gm,bi)"
         default: hizli
       zorla:
         description: "Kayıtların yarısından fazlası değişse de anlık görüntüyü güncelle (site gerçekten toplu değiştiyse)"

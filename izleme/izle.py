@@ -197,7 +197,7 @@ def bolum(k, farklar, db, sinir=None, metinli=True):
 # ------------------------------------------------------------------ çalıştırma
 def secim(arg):
     if arg in ("tam", "hepsi"):
-        return list(KAYNAKLAR)
+        return [k for k, v in KAYNAKLAR.items() if v["siklik"] != "yerel"]
     if arg in ("hizli", "gunluk", ""):
         return [k for k, v in KAYNAKLAR.items() if v["siklik"] == "gunluk"]
     ks = [x.strip() for x in arg.split(",") if x.strip()]
