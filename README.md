@@ -12,6 +12,18 @@ Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şun
 
 Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrılır.
 
+## Kodlu sürüm
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
+
+Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter) ve kod atamaları uygulanmıştır. Ana site kodsuz kalır.
+
+- 2.611 kuruluş V'teki kendi kodlarını aldı (5.514 kod ataması).
+- 1.776 kuruluş kodu yalnız çatısından, 37 kuruluş yalnız alt markalarından alır.
+- 6.919 kuruluş henüz kodsuzdur; bunlar ikinci aşamada ele alınacak.
+
+Öncelikli Boykot Listesi bu sayfada ana siteninkinden ayrı tutulur.
+
 ## Listeler
 
 | Liste | Kayıt |
