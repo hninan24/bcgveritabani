@@ -236,6 +236,13 @@ select.sel { width: 100%; padding: 6px 8px; border: 1px solid var(--line); borde
 .obl-rate select.set { border-color: var(--accent); background: var(--accent-weak); color: var(--fg); font-weight: 600; }
 .obl-rate select:disabled { cursor: default; opacity: .75; }
 .obl-ctl.ys { gap: 4px; }
+/* Kampanya Listesi düğmesi: yalnız ÖBL'deki kuruluşlarda görünür, aç/kapa çalışır */
+.obl-btns { display: grid; gap: 6px; justify-items: end; align-content: start; }
+.dr-h .obl-btns { display: flex; flex-wrap: wrap; justify-content: flex-end; }
+.obl-btn.kl svg { width: 14px; height: 14px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.obl-btn.kl[aria-pressed="true"] svg { fill: currentColor; }
+.obl-btn.kl.on, .dr-h .obl-btn.kl.on { cursor: pointer; border-color: var(--accent); }
+.obl-btn.kl.on:disabled { cursor: default; }
 /* yıldız: kampanya önceliği (D.yildiz) */
 .obl-star { width: 46px; height: 46px; display: grid; place-items: center; border: 0; background: none; border-radius: 8px; padding: 0; cursor: pointer; color: var(--muted); }
 .obl-star svg { width: 36px; height: 36px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; transition: transform .12s ease-out; }
@@ -419,9 +426,10 @@ a.kvw:hover, a.kvw:focus-visible { color: var(--accent); text-decoration-style: 
 }
 @media (max-width: 600px) {
   .row.ob { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
-  .row.ob > .obl-btn { justify-self: start; }
+  .row.ob > .obl-btn, .row.ob > .obl-btns { justify-self: start; }
+  .obl-btns { justify-items: start; }
   .obl-ctl { justify-items: start; }
-  .obl-ctl.ys { grid-auto-flow: column; align-items: center; justify-content: start; gap: 10px; }
+  .obl-ctl.ys { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
   .obl-rates { flex-wrap: wrap; }
 }
 @media (max-width: 420px) { .tab { padding: 9px 8px 11px; font-size: 13.5px; } }
@@ -439,6 +447,7 @@ a.kvw:hover, a.kvw:focus-visible { color: var(--accent); text-decoration-style: 
     <nav class="tabs" role="tablist" aria-label="Görünüm">
       <button class="tab" role="tab" id="tab-kurulus" aria-selected="true" data-view="kurulus">Kuruluşlar</button>
       <button class="tab" role="tab" id="tab-obl" aria-selected="false" data-view="obl" hidden>Öncelikli Boykot Listesi<span class="tabn" id="oblTabN">0</span></button>
+      <button class="tab" role="tab" id="tab-kl" aria-selected="false" data-view="kl">Kampanya Listesi<span class="tabn" id="klTabN">0</span></button>
       <button class="tab" role="tab" id="tab-guncel" aria-selected="false" data-view="guncel" hidden>Güncellemeler<span class="tabn" id="guTabN">0</span></button>
       <button class="tab" role="tab" id="tab-ozet" aria-selected="false" data-view="ozet">Özet</button>
       <button class="tab" role="tab" id="tab-yontem" aria-selected="false" data-view="yontem">Yöntem</button>
@@ -480,6 +489,40 @@ a.kvw:hover, a.kvw:focus-visible { color: var(--accent); text-decoration-style: 
     </section>
   </section>
 
+  <section id="v-kl" class="wrap app" hidden>
+    <aside class="panel obl-side" aria-label="Liste özeti">
+      <div class="fsec">
+        <h3>Kampanya Listesi</h3>
+        <div class="obl-stat"><b id="klRootsN">0</b><span>kuruluş listede görünüyor</span></div>
+        <div class="obl-stat"><b id="klAllN">0</b><span>kuruluş alt markalarla birlikte</span></div>
+      </div>
+      <div class="fsec">
+        <p class="obl-p">Kampanya Listesi'ne yalnızca Öncelikli Boykot Listesi'ndeki kuruluşlar eklenebilir. Kuruluş burada da çatısıyla ve bütün alt markalarıyla birlikte yer alır. Öncelikli Boykot Listesi'nden çıkarılan kuruluş bu listeden de düşer.</p>
+        <p class="obl-p">Excel dosyası Öncelikli Boykot Listesi sekmesinden alınır; bu liste dosyada “Kampanya Listesi” sayfasındadır.</p>
+      </div>
+      <div class="fsec"><p class="obl-p" id="klStore">Liste yükleniyor…</p></div>
+    </aside>
+    <section aria-label="Kampanya Listesi">
+      <div class="bar">
+        <label class="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="klq" type="search" placeholder="Listede ara (alt markalar dahil)" autocomplete="off" aria-label="Kampanya Listesinde ara">
+        </label>
+        <span class="count" id="klCount"></span>
+        <select class="sortsel" id="klSort" aria-label="Sıralama">
+          <option value="at">Eklenme sırasına göre</option>
+          <option value="lists">Liste sayısına göre</option>
+          <option value="codes">Kod sayısına göre</option>
+          <option value="name">Ada göre (A–Z)</option>
+          <option value="kids">Alt marka sayısına göre</option>
+          <option value="kume">Kategoriye göre kümele</option>
+        </select>
+      </div>
+      <div class="list" id="klList"></div>
+      <button class="more" id="klMore" hidden>Daha fazla göster</button>
+    </section>
+  </section>
+
   <section id="v-obl" class="wrap app" hidden>
     <aside class="panel obl-side" aria-label="Liste özeti">
       <div class="fsec">
@@ -497,7 +540,7 @@ a.kvw:hover, a.kvw:focus-visible { color: var(--accent); text-decoration-style: 
       </div>
       <div class="fsec">
         <p class="obl-p">Kuruluşlar sekmesinde bir marka eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. Burada yalnızca çatılar ve çatısı olmayan kuruluşlar görünür. Alt markalar, satıra tıklayınca açılan ayrıntı panelinde listelenir.</p>
-        <p class="obl-p" id="oblStarP" hidden>Satırdaki yıldız kampanya önceliğini gösterir. Yıldızlanan çatılar listenin başında toplanır. Yıldızsızlar, suçu sabit olduğu hâlde günlük tüketimde olmadığı için aşağıda kalır. Excel'e aktarınca yıldızlılar ayrıca “Kampanya” sayfasında yer alır.</p>
+        <p class="obl-p" id="oblStarP" hidden>Satırdaki yıldız kampanya önceliğini gösterir. Yıldızlanan çatılar listenin başında toplanır. Yıldızsızlar, suçu sabit olduğu hâlde günlük tüketimde olmadığı için aşağıda kalır. Excel'e aktarınca yıldızlılar ayrıca “Kampanya önceliği” sayfasında yer alır.</p>
       </div>
       <div class="fsec"><p class="obl-p" id="oblStore">Liste yükleniyor…</p><div class="obl-miss" id="oblMiss" hidden></div></div>
     </aside>
@@ -581,6 +624,7 @@ const OKU = new Set(D.okuma || []);           // metni yönergeye göre okunarak
 const isOku = id => HAS(id) && OKU.has(LIDX[id]);
 const HAM = new Set(D.ham || []);             // Çalışma V: orijinal hâliyle, kod üretmeden eklenen listeler (BD, bykt)
 const isHam = id => HAS(id) && HAM.has(LIDX[id]);
+const KL = !!D.yildiz;                         // Kampanya Listesi sekmesi: yıldızdan bağımsız, ÖBL'deki çatıların seçimi (Çalışma VI)
 const YILDIZ = !!D.yildiz;                     // ÖBL satırında açılır dereceler yerine kampanya önceliği yıldızı (Çalışma VI)
 const NOC = !!D.kodsuz;                       // Çalışma VI: kriter kodları yok (kod filtreleri, çipler, kod kartları gösterilmez)
 // Kategori (2026-10-28): listelerin kendi kategori etiketlerinden ana kategori. e.kt = [[kategori, tür]]; tür 0 liste
@@ -956,7 +1000,7 @@ function rowHTML(e, m, ctx, note) {
       ${sub ? `<div class="r2">${sub}</div>` : ''}
       <div class="badges">${listBadges(e)}</div>
       ${m.size ? `<div class="chips">${chipsFor(m, ctx === 'obl' ? new Set() : S.codes)}</div>` : ''}
-    </div>${ctx === 'obl' ? oblCtl(e) : oblBtn(e, ctx)}</article>`;
+    </div>${ctx === 'obl' ? oblCtl(e) : ctx === 'kl' ? klCtl(e) : oblBtns(e, ctx)}</article>`;
 }
 function renderActive() {
   const a = [];
@@ -988,7 +1032,7 @@ function open(id, push) {
   current = id;
   $('#back').hidden = !hist.length;
   $('#detail').innerHTML = detailHTML(E[id]);
-  $('#drObl').innerHTML = oblBtn(E[id], 'drawer');
+  $('#drObl').innerHTML = oblBtns(E[id], 'drawer');
   $('#scrim').hidden = false; $('#drawer').hidden = false;
   $('#detail').scrollTop = 0;
 }
@@ -1253,6 +1297,7 @@ function pairFilter(a, b) {
 // yerel dosyada tarayıcı belleği. Belgeler kararlı anahtarı (kk) ve adı taşır; veritabanı yeniden üretilince de eşleşir.
 const OBL_LS = 'okv.obl.v', OBL_RLS = 'okv.obl.r';
 const OS = { q: '', qn: '', sort: 'at', limit: 60 };
+const KLS = { q: '', qn: '', sort: 'at', limit: 60 };   // Kampanya Listesi sekmesi
 const KEYIDX = new Map(), NAMEIDX = new Map();
 E.forEach(e => { if (e.kk) KEYIDX.set(e.kk, e.id); const k = norm(e.n); if (!NAMEIDX.has(k)) NAMEIDX.set(k, e.id); });
 const oblDocId = k => ('k-' + encodeURIComponent(k).replace(/%/g, '~').replace(/[!*'()]/g, c => '~' + c.charCodeAt(0).toString(16).toUpperCase())).slice(0, 190);
@@ -1292,7 +1337,7 @@ function oblCtl(e) {
   if (YILDIZ) {
     const on = starOf(e.id);
     const lab = on ? `Kampanya önceliğini kaldır: ${e.n}` : `Kampanya önceliği ver: ${e.n}`;
-    return `<div class="obl-ctl ys"><button type="button" class="obl-star" data-star="${e.id}" aria-pressed="${on}"${dis} aria-label="${esc(lab)}" title="${on ? 'Kampanya önceliği verildi; kaldırmak için tıklayın' : 'Kampanya önceliği ver'}">${STAR_SVG}</button>${oblBtn(e, 'obl')}</div>`;
+    return `<div class="obl-ctl ys"><button type="button" class="obl-star" data-star="${e.id}" aria-pressed="${on}"${dis} aria-label="${esc(lab)}" title="${on ? 'Kampanya önceliği verildi; kaldırmak için tıklayın' : 'Kampanya önceliği ver'}">${STAR_SVG}</button>${klBtn(e)}${oblBtn(e, 'obl')}</div>`;
   }
   const sels = RATE_F.map(([f, lab]) => {
     const cur = rateOf(e.id, f);
@@ -1312,10 +1357,43 @@ function oblRatesShow() {      // açılır menüleri yerinde güncelle (odak ve
 function oblRatesChanged() {
   oblRateMap();
   if (!YILDIZ) { oblRatesShow(); return; }
-  if ($('#v-obl').hidden) return;
-  const f = document.activeElement && document.activeElement.dataset ? document.activeElement.dataset.star : undefined;
-  oblRender();                                   // yıldız sırayı değiştirir: liste yeniden çizilir, odak yıldızda kalır
-  if (f !== undefined) { const b = document.querySelector(`#oblList [data-star="${f}"]`); if (b) b.focus({ preventScroll: true }); }
+  const ds = (document.activeElement && document.activeElement.dataset) || {};
+  const fs = ds.star !== undefined ? `[data-star="${ds.star}"]` : ds.kl !== undefined ? `[data-kl="${ds.kl}"]` : '';
+  klShow();
+  if (!$('#v-obl').hidden) oblRender();          // yıldız sırayı değiştirir: liste yeniden çizilir, odak düğmede kalır
+  if (fs) { const b = document.querySelector(`main ${fs}, #drawer ${fs}`) || document.querySelector(fs); if (b) b.focus({ preventScroll: true }); }
+}
+const KL_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4"/><path d="M5 4h13l-3 4.5 3 4.5H5"/></svg>';
+const klOf = rid => !!rateOf(rid, 'kl');
+function klBtn(e) {               // ÖBL'deki kuruluşlara özgü; alt markada da çatıyı ekler
+  if (!KL || !inObl(e)) return '';
+  const R = E[e.root], on = klOf(R.id);
+  if (OBL.ro && !on) return '';
+  const tip = on ? (OBL.ro ? 'Kampanya Listesinde' : 'Kampanya Listesinde; çıkarmak için tıklayın') : e.root !== e.id ? `${R.n} çatısıyla birlikte eklenir` : 'Kampanya Listesine eklenir';
+  return `<button type="button" class="obl-btn kl${on ? ' on' : ''}" data-kl="${R.id}" aria-pressed="${on}"${OBL.ready && !OBL.ro ? '' : ' disabled'} title="${esc(tip)}">${KL_SVG}${on ? 'Kampanya Listesinde' : 'Kampanya Listesine Ekle'}</button>`;
+}
+const oblBtns = (e, ctx) => KL ? `<span class="obl-btns" data-btns="${e.id}">${oblBtn(e, ctx)}${klBtn(e)}</span>` : oblBtn(e, ctx);
+const klCtl = e => `<div class="obl-ctl">${OBL.ro ? '' : `<button type="button" class="obl-btn rm" data-kl="${e.id}" title="${esc(e.n)} Kampanya Listesinden çıkarılır; Öncelikli Boykot Listesinde kalır">Kampanya Listesinden çıkar</button>`}</div>`;
+const klRoots = () => [...OBL.roots.entries()].filter(([r]) => klOf(r));
+function klShow() {               // açık sekmelerdeki düğmeleri ve sayıları tazele
+  if (!KL) return;
+  $('#klTabN').textContent = fmt(klRoots().length);
+  document.querySelectorAll('#list [data-btns]').forEach(b => { b.outerHTML = oblBtns(E[+b.dataset.btns]); });
+  if (current !== null) $('#drObl').innerHTML = oblBtns(E[current], 'drawer');
+  if (!$('#v-kl').hidden) klRender();
+}
+const klBusy = new Set();
+async function klSet(rid, on, at) {
+  if (!OBL.ready || OBL.ro || klBusy.has(rid) || !OBL.roots.has(rid)) return false;
+  klBusy.add(rid);
+  try { return await oblRateWrite(rid, { kl: on, klAt: at }, 'Kampanya Listesi kaydedilemedi. Bağlantınızı kontrol edip yeniden deneyin.'); }
+  finally { klBusy.delete(rid); }
+}
+async function klToggle(rid) {
+  const on = !klOf(rid), old = rateOf(rid, 'klAt');
+  if (!(await klSet(rid, on, on ? new Date().toISOString() : ''))) return;
+  if (on) toast(`${E[rid].n} Kampanya Listesine eklendi.`);
+  else toast(`${E[rid].n} Kampanya Listesinden çıkarıldı.`, () => klSet(rid, true, old));
 }
 function oblRateSaveLocal() { try { localStorage.setItem(OBL_RLS, JSON.stringify([...OBL.rates])); } catch (_) {} }
 // çatı satırının "oblr" belgesine alan yaz (ilk yazım belgeyi kurar, sonrakiler yalnız o alanı günceller)
@@ -1426,8 +1504,9 @@ function oblChanged() {
   if (!OBL.busy) $('#oblXlsx').disabled = !OBL.ready || !OBL.roots.size;
   if ($('#hideOblN')) $('#hideOblN').textContent = OBL.roots.size ? fmt(all) : '';
   if (S.hideObl && !$('#v-kurulus').hidden) render();
-  else document.querySelectorAll('#list [data-obl]').forEach(b => { b.outerHTML = oblBtn(E[+b.dataset.obl]); });
-  if (current !== null) $('#drObl').innerHTML = oblBtn(E[current], 'drawer');
+  else if (!KL) document.querySelectorAll('#list [data-obl]').forEach(b => { b.outerHTML = oblBtn(E[+b.dataset.obl]); });
+  if (KL) klShow();
+  else if (current !== null) $('#drObl').innerHTML = oblBtn(E[current], 'drawer');
   if (!$('#v-obl').hidden) oblRender();
 }
 function oblStoreText() {
@@ -1440,8 +1519,8 @@ function oblFamQ(e) {
   if (!e._fq) e._fq = [e.q, ...(e.fam || []).map(j => E[j].q)].join(' | ');
   return e._fq;
 }
-function oblSort(res) {         // res: [{e, x}] → sekmedeki sıralama (dışa aktarma da aynı sırayı kullanır); yıldızlılar önce
-  res.forEach(o => { o.m = effFull(o.e); o.s = YILDIZ && starOf(o.e.id) ? 1 : 0; });
+function oblSort(res, ST = OS) { // res: [{e, x}] → sekmedeki sıralama (dışa aktarma da aynı sırayı kullanır); ÖBL'de yıldızlılar önce
+  res.forEach(o => { o.m = effFull(o.e); o.s = ST === OS && YILDIZ && starOf(o.e.id) ? 1 : 0; });
   const byName = (a, b) => a.e.n.localeCompare(b.e.n, 'tr');
   const byLists = (a, b) => b.e.lf.length - a.e.lf.length || b.m.size - a.m.size || byName(a, b);
   const by = {
@@ -1451,21 +1530,44 @@ function oblSort(res) {         // res: [{e, x}] → sekmedeki sıralama (dışa
     name: byName,
     kids: (a, b) => b.e.kidsN - a.e.kidsN || byName(a, b),
     kume: byLists,              // kümede kart içi sıra: en çok listede geçen önce; dışa aktarma da bu sırayı alır
-  }[OS.sort];
+  }[ST.sort];
   return res.sort((a, b) => b.s - a.s || by(a, b));
 }
 // Kategoriye göre kümele: bir kuruluş kaç ana kategorideyse o kadar kartta görünür (birincil kategori yok).
-function oblKartlar(res, rowOf) {
+function oblKartlar(res, rowOf, yil = YILDIZ) {
   const m = new Map();
   res.forEach(o => { (o.e.kc.length ? o.e.kc : [-1]).forEach(k => { if (!m.has(k)) m.set(k, []); m.get(k).push(o); }); });
   const ad = k => k < 0 ? 'Kategorisiz' : KAT.ad[k];
   const sira = [...m.keys()].sort((a, b) => (a < 0) - (b < 0) || ad(a).localeCompare(ad(b), 'tr'));
   const coklu = res.some(o => o.e.kc.length > 1);
-  const not = `<p class="obl-kart-n">${coklu ? 'Birden çok kategorisi olan kuruluş her kategorinin kartında görünür. ' : ''}${YILDIZ ? 'Kart içinde yıldızlılar önce, sonra en çok listede geçenden en aza doğru sıralanır.' : 'Kart içinde en çok listede geçenden en aza doğru sıralanır.'}</p>`;
+  const not = `<p class="obl-kart-n">${coklu ? 'Birden çok kategorisi olan kuruluş her kategorinin kartında görünür. ' : ''}${yil ? 'Kart içinde yıldızlılar önce, sonra en çok listede geçenden en aza doğru sıralanır.' : 'Kart içinde en çok listede geçenden en aza doğru sıralanır.'}</p>`;
   return { n: sira.length, html: not + sira.map(k => {
-    const a = m.get(k), y = YILDIZ ? a.filter(o => o.s).length : 0;
+    const a = m.get(k), y = yil ? a.filter(o => o.s).length : 0;
     return `<section class="obl-kart" aria-label="${esc(ad(k))}"><div class="obl-kart-h"><h3>${esc(ad(k))}</h3><span class="n">${fmt(a.length)} kuruluş</span>${y ? `<span class="y">${fmt(y)} yıldızlı</span>` : ''}</div>${a.map(rowOf).join('')}</section>`;
   }).join('') };
+}
+const oblRow = ctx => ({ e, x, m }) => {
+  const picked = [...new Set(x.seeds.filter(j => j !== e.id).map(j => E[j].n))];
+  const note = picked.length ? `<span class="sel-n">seçilen: ${esc(picked.join(', '))}</span>` : '';
+  return rowHTML(e, m, ctx, note);
+};
+function klRender() {
+  const roots = klRoots();
+  $('#klRootsN').textContent = fmt(roots.length);
+  $('#klAllN').textContent = fmt(roots.reduce((n, [r]) => n + famN(E[r]), 0));
+  $('#klStore').textContent = oblStoreText();
+  // "Eklenme sırası" burada Kampanya Listesine eklenme zamanıdır
+  let res = roots.map(([r, x]) => ({ e: E[r], x: { ...x, at: rateOf(r, 'klAt') } }));
+  if (KLS.qn) res = res.filter(({ e }) => oblFamQ(e).includes(KLS.qn));
+  oblSort(res, KLS);
+  const kume = KLS.sort === 'kume', rowOf = oblRow('kl');
+  const kart = kume && res.length ? oblKartlar(res, rowOf, false) : null;
+  $('#klCount').innerHTML = (KLS.qn ? `<b>${fmt(res.length)}</b> / ${fmt(roots.length)} kuruluş` : `<b>${fmt(res.length)}</b> kuruluş`) + (kart ? ` · <b>${fmt(kart.n)}</b> kategori` : '');
+  const shown = kume ? res : res.slice(0, KLS.limit);
+  $('#klList').innerHTML = kart ? kart.html : shown.length ? shown.map(rowOf).join('')
+    : roots.length ? `<div class="empty">“${esc(KLS.q)}” listede yok.</div>`
+    : `<div class="obl-empty"><b>Liste henüz boş.</b> Öncelikli Boykot Listesi'ndeki bir kuruluşun üzerindeki “Kampanya Listesine Ekle” düğmesine basın. Kuruluş çatısıyla ve bütün alt markalarıyla birlikte buraya gelir.</div>`;
+  const more = $('#klMore'); more.hidden = kume || res.length <= KLS.limit; more.textContent = `Daha fazla göster (${fmt(res.length - KLS.limit)} kaldı)`;
 }
 function oblRender() {
   const roots = [...OBL.roots.entries()];
@@ -1486,11 +1588,7 @@ function oblRender() {
   const gh = (k, n) => k === 'kmp'
     ? `<div class="obl-gh kmp">${STAR_SVG}<span>Kampanya önceliği</span><span class="n">${fmt(n)}</span><span class="d">yıldızlananlar</span></div>`
     : `<div class="obl-gh"><span>Diğerleri</span><span class="n">${fmt(n)}</span><span class="d">suçu sabit, günlük tüketimde olmadığı için kampanya önceliği verilmeyenler</span></div>`;
-  const rowOf = ({ e, x, m }) => {
-    const picked = [...new Set(x.seeds.filter(j => j !== e.id).map(j => E[j].n))];
-    const note = picked.length ? `<span class="sel-n">seçilen: ${esc(picked.join(', '))}</span>` : '';
-    return rowHTML(e, m, 'obl', note);
-  };
+  const rowOf = oblRow('obl');
   const kart = kume ? oblKartlar(res, rowOf) : null;
   if (kart) $('#oblCount').innerHTML += ` · <b>${fmt(kart.n)}</b> kategori`;
   const parts = [];
@@ -1751,18 +1849,19 @@ function oblSheets() {
   const base = e => [TYPES[e.t], e.c || '', KAT ? katAdlar(e, true) : (e.s || []).join(', '), (e.a || []).join(' · ')];
   const SEK = KAT ? 'Kategori' : 'Sektör';
   const codeCols = NOC ? [] : [{ h: 'Kendi kodları', w: 16, wrap: true }];
-  const rateCols = YILDIZ ? [{ h: 'Kampanya önceliği', w: 11 }] : [{ h: 'Günlük yaygınlığı', w: 13 }, { h: 'Muadil varlığı', w: 13 }];
-  const rateVals = e => YILDIZ ? [starOf(e.id) ? 'evet' : ''] : [rateOf(e.id, 'g'), rateOf(e.id, 'm')];
+  const rateCols = YILDIZ ? [{ h: 'Kampanya önceliği', w: 11 }, { h: 'Kampanya Listesi', w: 11 }] : [{ h: 'Günlük yaygınlığı', w: 13 }, { h: 'Muadil varlığı', w: 13 }];
+  const rateVals = e => YILDIZ ? [starOf(e.id) ? 'evet' : '', klOf(e.id) ? 'evet' : ''] : [rateOf(e.id, 'g'), rateOf(e.id, 'm')];
   // 1. Çatılar: listedeki her aile tek satır
   const s1 = { name: 'Çatılar', freeze: [2, 1], rows: [], cols: [{ h: 'Sıra', w: 6 }, { h: 'Kuruluş', w: 30 }, { h: 'Tür', w: 16 }, { h: 'Ülke', w: 12 },
     { h: SEK, w: 24, wrap: true }, { h: 'Diğer adlar', w: 22, wrap: true }, { h: 'Alt marka ve şirket (bütün düzeyler)', w: 13 }, { h: 'Seçilen marka', w: 22, wrap: true },
     { h: 'Eklenme', w: 16 }, ...rateCols, { h: 'Listeler', w: 30, wrap: true }, { h: 'Liste sayısı', w: 8 }, ...lcols,
     { h: 'Alt markalar listelerde', w: 50, wrap: true }, ...codeCols, ...(NOC ? [] : [{ h: 'Alt markalardan gelen kodlar', w: 20, wrap: true }])] };
   // 0. Kampanya (D.yildiz): yıldızlanan çatılar bir arada; alt markaların adlarıyla
-  const sK = { name: 'Kampanya', freeze: [2, 1], rows: [], cols: [{ h: 'Sıra', w: 6 }, { h: 'Kuruluş', w: 30 }, { h: 'Tür', w: 16 }, { h: 'Ülke', w: 12 },
+  const sK = { name: 'Kampanya önceliği', freeze: [2, 1], rows: [], cols: [{ h: 'Sıra', w: 6 }, { h: 'Kuruluş', w: 30 }, { h: 'Tür', w: 16 }, { h: 'Ülke', w: 12 },
     { h: SEK, w: 24, wrap: true }, { h: 'Diğer adlar', w: 22, wrap: true }, { h: 'Alt marka ve şirket (bütün düzeyler)', w: 13 }, { h: 'Alt markalar', w: 50, wrap: true },
     { h: 'Seçilen marka', w: 22, wrap: true }, { h: 'Eklenme', w: 16 }, { h: 'Listeler', w: 30, wrap: true }, { h: 'Liste sayısı', w: 8 }, ...lcols,
     { h: 'Alt markalar listelerde', w: 50, wrap: true }] };
+  const sL = { ...sK, name: 'Kampanya Listesi', rows: [] };   // Kampanya Listesi sekmesindeki çatılar, aynı sütunlar
   // 2. Tüm kuruluşlar: çatı ve bütün alt markaları ağaç sırasıyla (düzey 0 = çatı)
   const s2 = { name: 'Tüm kuruluşlar', freeze: [2, 1], rows: [], hi: new Set(), cols: [{ h: 'Çatı', w: 26 }, { h: 'Kuruluş', w: 30 }, { h: 'Düzey', w: 7 },
     { h: 'Bağlı olduğu şirket', w: 24 }, { h: 'Tür', w: 16 }, { h: 'Ülke', w: 12 }, { h: SEK, w: 24, wrap: true }, { h: 'Diğer adlar', w: 22, wrap: true },
@@ -1780,8 +1879,9 @@ function oblSheets() {
     const picked = [...new Set(x.seeds.map(j => E[j].n))].join(', '), lvs = LISTS.map((_, l) => lvText(e, l)), fsum = famSummary(tree);
     s1.rows.push([i + 1, e.n, ...base(e), tree.length - 1 || '', picked, atStr(x.at), ...rateVals(e),
       listNames(e), e.lf.length, ...lvs, fsum, ...(NOC ? [] : [codeStr(e.k), codeStr(e.u)])]);
-    if (YILDIZ && starOf(e.id)) sK.rows.push([sK.rows.length + 1, e.n, ...base(e), tree.length - 1 || '', tree.filter(([, d]) => d).map(([j]) => E[j].n).join(', '),
-      picked, atStr(x.at), listNames(e), e.lf.length, ...lvs, fsum]);
+    const altSatir = () => [e.n, ...base(e), tree.length - 1 || '', tree.filter(([, d]) => d).map(([j]) => E[j].n).join(', '), picked, atStr(x.at), listNames(e), e.lf.length, ...lvs, fsum];
+    if (YILDIZ && starOf(e.id)) sK.rows.push([sK.rows.length + 1, ...altSatir()]);
+    if (KL && klOf(e.id)) sL.rows.push([sL.rows.length + 1, ...altSatir()]);
     tree.forEach(([j, d]) => {
       const k = E[j];
       if (!d) s2.hi.add(s2.rows.length);
@@ -1790,7 +1890,7 @@ function oblSheets() {
       acRecords(k).forEach(a => s3.rows.push(acRow(e, k, a)));
     });
   });
-  const sheets = YILDIZ ? [sK, s1, s2, s3] : [s1, s2, s3];
+  const sheets = YILDIZ ? [sL, sK, s1, s2, s3] : [s1, s2, s3];
   if (!NOC) sheets.push({ name: 'Kriter kodları', rows: D.codes.map(([c, g, n, d]) => [c, `${g}. ${GN[g]}`, n, d]),
     cols: [{ h: 'Kod', w: 7 }, { h: 'Grup', w: 30, wrap: true }, { h: 'Kriter', w: 40, wrap: true }, { h: 'Tanım', w: 90, wrap: true }] });
   const now = new Date(), sortLab = OS.sort === 'kume' ? 'Liste sayısına göre' : ($('#oblSort').selectedOptions[0] || {}).textContent || '';
@@ -1800,8 +1900,8 @@ function oblSheets() {
     ['Nasıl okunur', 'Bir marka listeye eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. “Çatılar” sayfasında her aile tek satırdır; “Seçilen marka” listeye eklenirken tıklanan markadır; “Günlük yaygınlığı” ve “Muadil varlığı” listede çatı satırına atanan derecelerdir (Yüksek, Orta, Düşük; boş = atanmamış). “Tüm kuruluşlar” sayfasında çatı ve bütün alt markaları ağaç sırasıyla yer alır (Düzey 0 = çatı, vurgulu satır). “Açıklamalar” sayfasında her kuruluşun her listedeki kaydı hüküm, gerekçe metni, bağlantı ve kanıt linkleriyle verilir.'],
   ];
   if (YILDIZ) {
-    info.splice(info.findIndex(r => r[0] === 'Sıralama'), 0, ['Kampanya önceliği (yıldızlı)', sK.rows.length]);
-    info.find(r => r[0] === 'Nasıl okunur')[1] = 'Bir marka listeye eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. Listede yıldızlanan çatılar kampanya önceliği verilenlerdir; “Kampanya” sayfasında bir aradadır ve alt markalarının adlarıyla verilir. Yıldızsızlar, suçu sabit olduğu hâlde günlük tüketimde olmadığı için listenin aşağısında kalır. “Çatılar” sayfasında her aile tek satırdır; yıldızlılar önce gelir ve “Kampanya önceliği” sütununda “evet” yazar. “Seçilen marka” listeye eklenirken tıklanan markadır. “Tüm kuruluşlar” sayfasında çatı ve bütün alt markaları ağaç sırasıyla yer alır (Düzey 0 = çatı, vurgulu satır). “Açıklamalar” sayfasında her kuruluşun her listedeki kaydı hüküm, gerekçe metni, bağlantı ve kanıt linkleriyle verilir.';
+    info.splice(info.findIndex(r => r[0] === 'Sıralama'), 0, ['Kampanya Listesi', sL.rows.length], ['Kampanya önceliği (yıldızlı)', sK.rows.length]);
+    info.find(r => r[0] === 'Nasıl okunur')[1] = 'Bir marka listeye eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. “Kampanya Listesi” sayfası Kampanya Listesi sekmesindeki çatıları, yıldızdan bağımsız olarak, alt markalarının adlarıyla verir. Listede yıldızlanan çatılar kampanya önceliği verilenlerdir; “Kampanya önceliği” sayfasında bir aradadır ve alt markalarının adlarıyla verilir. Yıldızsızlar, suçu sabit olduğu hâlde günlük tüketimde olmadığı için listenin aşağısında kalır. “Çatılar” sayfasında her aile tek satırdır; yıldızlılar önce gelir ve “Kampanya önceliği” sütununda “evet” yazar. “Seçilen marka” listeye eklenirken tıklanan markadır. “Tüm kuruluşlar” sayfasında çatı ve bütün alt markaları ağaç sırasıyla yer alır (Düzey 0 = çatı, vurgulu satır). “Açıklamalar” sayfasında her kuruluşun her listedeki kaydı hüküm, gerekçe metni, bağlantı ve kanıt linkleriyle verilir.';
   }
   if (OBL.miss.length) info.push(['Veritabanında bulunamayan seçimler', OBL.miss.map(([, d]) => d.n).join(', ')]);
   info.push(['Atıf', 'Who Profits metinleri: Who Profits Research Center (whoprofits.org). Investigate ve AFSC metinleri: Reproduced with permission of American Friends Service Committee.']);
@@ -2179,7 +2279,7 @@ if (NOC) {                                      // kod kaynağı lejantı ve "Ko
 }
 const NO_YONTEM = !!D.noYontem;                // Çalışma V: Yöntem sekmesi siteden kaldırıldı
 if (NO_YONTEM) { $('#tab-yontem').remove(); $('#v-yontem').remove(); }
-const VIEWS = ['kurulus'].concat(OBL.on ? ['obl'] : [], GU.on ? ['guncel'] : [], ['ozet'], NO_YONTEM ? [] : ['yontem'], SZ ? ['kriterler', 'kavramlar'] : []);
+const VIEWS = ['kurulus'].concat(OBL.on ? ['obl'] : [], KL ? ['kl'] : [], GU.on ? ['guncel'] : [], ['ozet'], NO_YONTEM ? [] : ['yontem'], SZ ? ['kriterler', 'kavramlar'] : []);
 function go(v, keepHash) {
   if (!VIEWS.includes(v)) v = 'kurulus';
   VIEWS.forEach(x => {
@@ -2189,6 +2289,7 @@ function go(v, keepHash) {
   if (v === 'ozet' && !$('#ozet').innerHTML) buildOzet();
   if (v === 'yontem' && !$('#yontem').innerHTML) buildYontem();
   if (v === 'obl') oblRender();
+  if (v === 'kl') klRender();
   if (v === 'guncel' && !$('#guBody')) guBuild();
   if (v === 'kurulus' && S.hideObl) render();
   if (v === 'kriterler' && !$('#krRoot').innerHTML) buildKriterler();
@@ -2200,6 +2301,7 @@ document.addEventListener('click', ev => {
   const ob = ev.target.closest('[data-obl]'); if (ob) { if (!ob.disabled) oblAdd(+ob.dataset.obl); return; }
   const orm = ev.target.closest('[data-oblrm]'); if (orm) { oblRemove(+orm.dataset.oblrm); return; }
   const sb = ev.target.closest('[data-star]'); if (sb) { if (!sb.disabled) oblStar(+sb.dataset.star); return; }
+  const kb = ev.target.closest('[data-kl]'); if (kb) { if (!kb.disabled) klToggle(+kb.dataset.kl); return; }
   const o = ev.target.closest('button[data-ent]'); if (o) { ev.preventDefault(); open(+o.dataset.ent, !$('#drawer').hidden); return; }
   if (ev.target.closest('.obl-rate')) return;     // açılır menü seçimi ayrıntı panelini açmaz
   const r = ev.target.closest('.row'); if (r) open(+r.dataset.id, false);
@@ -2215,7 +2317,12 @@ let qt; $('#q').addEventListener('input', ev => { clearTimeout(qt); qt = setTime
 $('#sort').onchange = ev => { S.sort = ev.target.value; render(); };
 $('#more').onclick = () => { S.limit += 120; render(); };
 let oqt; $('#oblq').addEventListener('input', ev => { clearTimeout(oqt); oqt = setTimeout(() => { OS.q = ev.target.value.trim(); OS.qn = norm(OS.q); OS.limit = 60; oblRender(); }, 120); });
-if (!KAT) $('#oblSort option[value="kume"]').remove();
+if (!KAT) document.querySelectorAll('option[value="kume"]').forEach(x => x.remove());
+if (KL) {
+  let kqt; $('#klq').addEventListener('input', ev => { clearTimeout(kqt); kqt = setTimeout(() => { KLS.q = ev.target.value.trim(); KLS.qn = norm(KLS.q); KLS.limit = 60; klRender(); }, 120); });
+  $('#klSort').onchange = ev => { KLS.sort = ev.target.value; klRender(); };
+  $('#klMore').onclick = () => { KLS.limit += 120; klRender(); };
+} else { $('#tab-kl').remove(); $('#v-kl').remove(); }
 $('#oblSort').onchange = ev => { OS.sort = ev.target.value; oblRender(); };
 $('#oblMore').onclick = () => { OS.limit += 120; oblRender(); };
 $('#oblXlsx').onclick = () => oblExport();
@@ -2229,7 +2336,7 @@ if (OBL.on) { $('#tab-obl').hidden = false; oblInit(); }
 if (GU.on) { $('#tab-guncel').hidden = false; guSirala(); guSay(); guCanli(); } else { $('#tab-guncel').remove(); $('#v-guncel').remove(); }
 function route(h) {
   const [v, t] = h.split('.');
-  if (v === 'ozet' || v === 'yontem' || v === 'obl' || v === 'guncel') go(v, true);
+  if (v === 'ozet' || v === 'yontem' || v === 'obl' || v === 'kl' || v === 'guncel') go(v, true);
   else if (SZ && (v === 'kriterler' || v === 'kavramlar')) {
     go(v, true);
     if (t) requestAnimationFrame(() => v === 'kriterler' ? showKriter(t, false) : showKavram(t, false));
