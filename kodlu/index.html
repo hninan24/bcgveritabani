@@ -1623,6 +1623,8 @@ async function oblInit() {
   } catch (_) { db = null; }
   if (!db) {
     OBL.mode = 'local';
+    // Kodlu sürüm ilk açılışta ana sitenin (aynı adres, aynı tarayıcı) ÖBL'sini olduğu gibi kopyalar; ana sitenin listesi değişmez
+    if (D.depoEk) try { [[OBL_LS, 'okv.obl.v'], [OBL_RLS, 'okv.obl.r']].forEach(([k, a]) => { const v = localStorage.getItem(a); if (localStorage.getItem(k) === null && v !== null) localStorage.setItem(k, v); }); } catch (_) {}
     try { const v = JSON.parse(localStorage.getItem(OBL_LS) || '[]'); if (Array.isArray(v)) OBL.seeds = new Map(v); } catch (_) {}
     try { const v = JSON.parse(localStorage.getItem(OBL_RLS) || '[]'); if (Array.isArray(v)) OBL.rates = new Map(v); } catch (_) {}
     OBL.ready = true; oblChanged(); return;

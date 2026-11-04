@@ -22,7 +22,7 @@ Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter)
 - 1.776 kuruluş kodu yalnız çatısından, 37 kuruluş yalnız alt markalarından alır.
 - 6.919 kuruluş henüz kodsuzdur; bunlar ikinci aşamada ele alınacak.
 
-Öncelikli Boykot Listesi bu sayfada ana siteninkinden ayrı tutulur.
+Öncelikli Boykot Listesi bu sayfada ana siteninkinden ayrı tutulur. Sayfa aynı tarayıcıda ilk açıldığında ana sitedeki liste yıldızları ve kampanya seçimleriyle olduğu gibi kopyalanır; sonraki değişiklikler iki sayfa arasında geçmez.
 
 ## Listeler
 
