@@ -1,5 +1,625 @@
 [
  {
+  "id": "2026-11-04|nt|uygulama|bilgi",
+  "tespit": "2026-11-04",
+  "liste": "nt",
+  "kimlik": "uygulama",
+  "marka": "No Thanks uygulaması",
+  "cati": null,
+  "tur": "bilgi",
+  "url": "https://apps.apple.com/us/app/no-thanks-app/id6476206516",
+  "onceki": "surum: 3.5.2",
+  "sonraki": "surum: 3.5.3",
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|216|metin",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "216",
+  "marka": "SOCAR",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/socar",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "SOCAR, Azerbaycan"
+    ],
+    [
+     "-",
+     "Devletine"
+    ],
+    [
+     "+",
+     "devletine"
+    ],
+    [
+     "=",
+     "ait bir petrol ve doğal gaz şirketidir. SOCAR,"
+    ],
+    [
+     "-",
+     "1"
+    ],
+    [
+     "+",
+     "BP ve İsrailli NewMed Energy ile birlikte Mart 2025'te İsrail Enerji Bakanlığı'ndan doğal gaz arama lisansı alan konsorsiyumun %33,34 paylı işletmecisidir. Buna ek olarak SOCAR, Haziran 2025'ten beri İsrail'in en büyük ikinci doğal gaz sahası olan Tamar'da %10 paya sahiptir. SOCAR,"
+    ],
+    [
+     "=",
+     "Temmuz 2026'dan beri Bakü-Tiflis-Ceyhan (BTC) Boru"
+    ],
+    [
+     "-",
+     "Hattı’nın"
+    ],
+    [
+     "+",
+     "Hattı'nın"
+    ],
+    [
+     "=",
+     "işletmecisi ve %32,97 payla en büyük"
+    ],
+    [
+     "-",
+     "hissedarıdır;"
+    ],
+    [
+     "+",
+     "hissedarıdır. Azerbaycan Devlet Gümrük Komitesi'ne göre Azerbaycan, 2024'te İsrail'e 1,17 milyon ton petrol ihraç etmiştir. Kpler verisine göre 2025'te İsrail'in petrol ithalatının %46,4'ü, BTC hattıyla Ceyhan'a taşınan Azerbaycan petrolü olmuştur;"
+    ],
+    [
+     "=",
+     "bu"
+    ],
+    [
+     "-",
+     "hat üzerinden İsrail’e petrol ihracatında bulunmaktadır. 7 Ekim 2023 sonrası süreçte verilen tüm tepkilere rağmen,"
+    ],
+    [
+     "+",
+     "sevkiyat 2022'den bu yana en yüksek düzeye ulaşmıştır."
+    ],
+    [
+     "=",
+     "SOCAR,"
+    ],
+    [
+     "-",
+     "İsrail'e petrol sevkiyatını durdurmamıştır. Ayrıca SOCAR, İsrail adına Doğu Akdeniz'de gaz ve petrol arama lisansı olan konsorsiyumun paydaşlarındandır. Buna ek olarak İsrail'in elektrik üretimi ve gaz arzının ana kaynaklarından biri olan Tamar gaz sahasında %10 hisseye sahiptir. SOCAR, Türkiye’de"
+    ],
+    [
+     "+",
+     "Türkiye'de"
+    ],
+    [
+     "=",
+     "SOCAR ve Hazar markalarıyla yaklaşık 285 akaryakıt istasyonu üzerinden perakende satış yapmaktadır. İsrail ile doğrudan"
+    ],
+    [
+     "-",
+     "işbirliği"
+    ],
+    [
+     "+",
+     "iş birliği"
+    ],
+    [
+     "=",
+     "halinde olmak, SOCAR'ı üç çarpılı şirket sınıfına dahil …"
+    ]
+   ]
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|216|kaynak",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "216",
+  "marka": "SOCAR",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/socar",
+  "baglanti": {
+   "eklenen": [
+    "https://interfax.com/newsroom/top-stories/116670/",
+    "https://www.interfax.com/newsroom/top-stories/110424/",
+    "https://www.mees.com/2025/6/27/news-in-brief/socar-finalizes-10-tamar-entry/09eb9180-534e-11f0-be5f-47af2e1d814f",
+    "https://interfax.com/newsroom/top-stories/109333/",
+    "https://www.bairdmaritime.com/shipping/tankers/turkey-trade-ban-fails-to-halt-azerbaijani-oil-flows-to-israel-as-imports-hit-three-year-high",
+    "https://socar.com.tr/activity-fields/socar-ticaret"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|380|metin",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "380",
+  "marka": "Shell",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/shell",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… merkezli bir petrol ve doğal gaz şirketidir. Shell,"
+    ],
+    [
+     "-",
+     "Türkiye’de"
+    ],
+    [
+     "+",
+     "Türkiye'de"
+    ],
+    [
+     "=",
+     "%70 payla sahibi olduğu Shell & Turcas Petrol A.Ş. aracılığıyla"
+    ],
+    [
+     "-",
+     "1200'den"
+    ],
+    [
+     "+",
+     "1.200'den"
+    ],
+    [
+     "=",
+     "fazla bayi istasyonuyla faaliyet göstermektedir. Shell, Eylül 2026'da üç çarpılı"
+    ],
+    [
+     "-",
+     "BP’nin"
+    ],
+    [
+     "+",
+     "BP'nin"
+    ],
+    [
+     "=",
+     "işlettiği Brezilya açıklarındaki Tupinambá (%50) ve Meksika"
+    ],
+    [
+     "-",
+     "Körfezi’ndeki"
+    ],
+    [
+     "+",
+     "Körfezi'ndeki"
+    ],
+    [
+     "=",
+     "Conifer (%30) arama sahalarına ortak olmak üzere BP ile anlaşmıştır."
+    ],
+    [
+     "-",
+     "Shell’in"
+    ],
+    [
+     "+",
+     "Shell ve BP, Trinidad ve Tobago'daki Atlantic LNG sıvılaştırılmış doğal gaz tesisinin iki büyük ortağıdır. Shell'in"
+    ],
+    [
+     "=",
+     "Türkiye şirketi Shell & Turcas, Marmara Depoculuk Hizmetleri"
+    ],
+    [
+     "-",
+     "A.Ş.’yi"
+    ],
+    [
+     "+",
+     "A.Ş.'yi"
+    ],
+    [
+     "=",
+     "üç çarpılı Petrol Ofisi ile %50-%50 ortaklıkla, müşterek olarak yönetmektedir. İsrail"
+    ],
+    [
+     "-",
+     "devletiyle"
+    ],
+    [
+     "+",
+     "ile"
+    ],
+    [
+     "=",
+     "doğrudan iş birliği yapan şirketlerle ortaklık kurmak,"
+    ],
+    [
+     "-",
+     "Shell’i"
+    ],
+    [
+     "+",
+     "Shell'i"
+    ],
+    [
+     "=",
+     "bir çarpılı şirket sınıfına dahil etmektedir."
+    ]
+   ]
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|380|kaynak",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "380",
+  "marka": "Shell",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/shell",
+  "baglanti": {
+   "eklenen": [
+    "https://lngprime.com/americas/trinidad-seals-atlantic-lng-restructuring-deal-with-shell-and-bp/99416"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|215|metin",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "215",
+  "marka": "Petrol Ofisi",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/petrol-ofisi",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Hollanda merkezli Vitol Group, Petrol Ofisi'nin"
+    ],
+    [
+     "-",
+     "%97,98'lik hakim hissedarıdır."
+    ],
+    [
+     "+",
+     "sahibidir. Petrol Ofisi, Türkiye'de 2.700'e yakın istasyonla faaliyet göstermektedir."
+    ],
+    [
+     "=",
+     "Vitol,"
+    ],
+    [
+     "-",
+     "İsrail tarafından Doğu Akdeniz,"
+    ],
+    [
+     "+",
+     "Energean şirketinin İsrail'in kontrolündeki"
+    ],
+    [
+     "=",
+     "Karish Petrol ve Gaz Sahası'ndan"
+    ],
+    [
+     "-",
+     "çıkarılan"
+    ],
+    [
+     "+",
+     "çıkardığı"
+    ],
+    [
+     "=",
+     "ham petrolün Avrupa'ya sevkinde boşaltım ve pazarlama (offload and market) hizmetini"
+    ],
+    [
+     "-",
+     "üstlenmiştir. Ayrıca"
+    ],
+    [
+     "+",
+     "üstlenmiştir (Şubat 2023). Oil Change International ve SOMO'nun Eylül 2026 raporuna göre"
+    ],
+    [
+     "=",
+     "Vitol,"
+    ],
+    [
+     "-",
+     "13"
+    ],
+    [
+     "=",
+     "Ekim 2023 –"
+    ],
+    [
+     "-",
+     "30"
+    ],
+    [
+     "=",
+     "Haziran 2026 arasında 16 kargoyla"
+    ],
+    [
+     "-",
+     "İsrail’e"
+    ],
+    [
+     "+",
+     "İsrail'e"
+    ],
+    [
+     "=",
+     "yaklaşık 14 milyon varil ham petrol taşımıştır; bunun … milyon varili Bakü-Tiflis-Ceyhan boru hattıyla gelen Azerbaycan petrolüdür."
+    ],
+    [
+     "-",
+     "Vitol’ün"
+    ],
+    [
+     "+",
+     "Aynı rapora göre Vitol'ün ve BAE merkezli Heritage Petroleum'un İsrail'e taşıdığı 22 milyon varil ham petrol, İsrail'in devlet şirketi Europe Asia Pipeline Company'ye (EAPC) teslim edilmiştir. Vitol'ün"
+    ],
+    [
+     "=",
+     "2025'te"
+    ],
+    [
+     "-",
+     "İsrail’e"
+    ],
+    [
+     "+",
+     "İsrail'e"
+    ],
+    [
+     "=",
+     "taşıdığı"
+    ],
+    [
+     "-",
+     "hacim,"
+    ],
+    [
+     "+",
+     "ham petrol hacmi,"
+    ],
+    [
+     "=",
+     "2020–2024 yıllık ortalamasının 4 katından"
+    ],
+    [
+     "-",
+     "fazladır (Oil Change International ve SOMO, 3 Eylül 2026)."
+    ],
+    [
+     "+",
+     "fazla olmuştur."
+    ],
+    [
+     "=",
+     "İsrail devletiyle doğrudan"
+    ],
+    [
+     "-",
+     "işbirliği"
+    ],
+    [
+     "+",
+     "iş birliği"
+    ],
+    [
+     "=",
+     "halinde olmak, Petrol Ofisi'ni üç çarpılı şirket sınıfına …"
+    ]
+   ]
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|215|kaynak",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "215",
+  "marka": "Petrol Ofisi",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/petrol-ofisi",
+  "baglanti": {
+   "eklenen": [
+    "https://www.vitol.com/vitol-owned-petrol-ofisi-agrees-to-purchase-bps-turkish-fuel-operations",
+    "https://www.bloomberght.com/bp-petrol-ofisi-birlesmesi-tamamlandi-3743125",
+    "https://spglobal.com/commodityinsights/en/market-insights/latest-news/oil/021423-israel-makes-first-ever-crude-oil-exports-as-karish-gas-giant-ramps-up",
+    "https://oilchange.org/publications/vitol-heritage-fzco-israel-oil/"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|198|metin",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "198",
+  "marka": "BP",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/bp",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "BP,"
+    ],
+    [
+     "-",
+     "Bakü–Tiflis–Ceyhan"
+    ],
+    [
+     "+",
+     "İsrail'den alınan doğal gaz arama lisansında %33,33 paya sahiptir. Lisansın diğer ortakları, işletmeci SOCAR (%33,34) ve İsrailli NewMed Energy'dir (%33,33). Konsorsiyum Ekim 2023'te İsrail'in açtığı doğal gaz arama ihalesini kazanmış, İsrail Enerji Bakanlığı lisansı Mart 2025'te Leviathan sahası yakınındaki 1.677 km²'lik Bölge I için vermiş, ortaklık sözleşmesi Aralık 2025'te imzalanmıştır. BP, Bakü-Tiflis-Ceyhan"
+    ],
+    [
+     "=",
+     "(BTC) petrol boru hattında %30,10 hisseye sahiptir ve hattı"
+    ],
+    [
+     "-",
+     "1"
+    ],
+    [
+     "=",
+     "Temmuz 2026'ya kadar"
+    ],
+    [
+     "-",
+     "işletmiştir (bu"
+    ],
+    [
+     "+",
+     "işletmiştir; bu"
+    ],
+    [
+     "=",
+     "tarihten beri hattın işletmecisi, %32,97 ile en büyük hissedar olan"
+    ],
+    [
+     "-",
+     "SOCAR’dır); çok sayıda soruşturma"
+    ],
+    [
+     "+",
+     "SOCAR'dır. BP, Türkiye'deki akaryakıt"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "hukuki belge, bu hattı İsrail’e ham petrol için ana tedarik yolu olarak tanımlamakta ve İsrail’in ham petrol ithalatının yaklaşık %28–30’unu sağladığını belirtmektedir. Bu ham petrol İsrail’de rafine edilmekte ve ülkenin askerî araçları ile jetlerini yakıtlandırmak için kullanılmaktadır. Ek olarak, BP, SOCAR (işletmeci, %33,34) ve İsrailli şirket NewMed Energy (%33,33) ile birlikte %33,33 paya sahip olduğu bir konsorsiyum aracılığıyla İsrail’in açık deniz doğalgaz sektörüne girmiştir: konsorsiyum Ekim 2023'te İsrail’in Münhasır Ekonomik Bölgesi’ndeki arama ihalesini kazanmış, lisans 17 Mart 2…"
+    ],
+    [
+     "+",
+     "terminal"
+    ],
+    [
+     "=",
+     "operasyonlarını Petrol"
+    ],
+    [
+     "-",
+     "Ofisi’ne"
+    ],
+    [
+     "+",
+     "Ofisi'ne"
+    ],
+    [
+     "=",
+     "satmıştır: anlaşma"
+    ],
+    [
+     "-",
+     "14"
+    ],
+    [
+     "=",
+     "Kasım 2023'te imzalanmış, devir"
+    ],
+    [
+     "-",
+     "1"
+    ],
+    [
+     "=",
+     "Kasım 2024'te tamamlanmış, birleşme"
+    ],
+    [
+     "-",
+     "28"
+    ],
+    [
+     "=",
+     "Şubat 2025'te tescil edilmiştir."
+    ],
+    [
+     "-",
+     "Türkiye’deki"
+    ],
+    [
+     "+",
+     "Türkiye'deki"
+    ],
+    [
+     "=",
+     "yaklaşık 770 BP istasyonu artık"
+    ],
+    [
+     "-",
+     "Vitol’e"
+    ],
+    [
+     "+",
+     "Vitol'e"
+    ],
+    [
+     "=",
+     "ait Petrol"
+    ],
+    [
+     "-",
+     "Ofisi’ne bağlıdır"
+    ],
+    [
+     "+",
+     "Ofisi'ne bağlıdır. İsrail'den doğal gaz arama lisansı almak, İsrail ile doğrudan iş birliği anlamına gelmekte"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Petrol Ofisi markasına geçmesi planlanmaktadır."
+    ],
+    [
+     "+",
+     "BP'yi üç çarpılı şirket sınıfına dahil etmektedir."
+    ]
+   ]
+  },
+  "tarih": "2026-11-03"
+ },
+ {
+  "id": "2026-11-04|bt|198|kaynak",
+  "tespit": "2026-11-04",
+  "liste": "bt",
+  "kimlik": "198",
+  "marka": "BP",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/bp",
+  "baglanti": {
+   "eklenen": [
+    "https://www.interfax.com/newsroom/top-stories/110424/",
+    "https://www.bairdmaritime.com/shipping/tankers/turkey-trade-ban-fails-to-halt-azerbaijani-oil-flows-to-israel-as-imports-hit-three-year-high",
+    "https://www.bloomberght.com/petrol-ofisi-nin-bp-alimi-tamamlandi-3733554",
+    "https://www.bloomberght.com/bp-petrol-ofisi-birlesmesi-tamamlandi-3743125"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-03"
+ },
+ {
   "id": "2026-11-03|nt|uygulama|bilgi",
   "tespit": "2026-11-03",
   "liste": "nt",
