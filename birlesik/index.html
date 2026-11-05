@@ -1008,7 +1008,7 @@ function render() {
   const base = [], res = [];
   const ct = {}, lct = {}, tct = {}, kct = {};
   for (const e of E) {
-    if (e.yt && !(S.catiGor && S.qn)) continue;     // yalnız temsil için tutulan çatı: düz listede yok; çatı görünümünde adıyla aranabilir
+    if (e.yt && !((S.catiGor || S.gerGor) && S.qn)) continue;     // yalnız temsil için tutulan çatı: düz listede yok; çatı ve gruplu görünümde adıyla aranabilir
     if (!passBase(e)) continue;
     const m = eff(e); e._m = m; base.push(e);
     if (S.hideEmpty && m.size === 0) continue;

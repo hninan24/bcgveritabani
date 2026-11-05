@@ -25,7 +25,7 @@
   --bg: #edf1ef; --surface: #ffffff; --surface-2: #e3eae7; --line: #cdd7d2; --fg: #17211d; --muted: #586862;
   --accent: #1d5d55; --accent-ink: #ffffff; --accent-weak: #d3e6e0; --focus: #2b7cd3;
   --kesin: #b3261e; --insaf: #9a5a00; --alin: #2b7537;
-  --gA: #b0432b; --gB: #8a5a00; --gC: #5f7019; --gD: #1d6a86; --gE: #4757b0; --gF: #773d97; --gG: #ac2e66; --gI: #626c68;
+  --gA: #b0432b; --gB: #8a5a00; --gC: #5f7019; --gD: #1d6a86; --gE: #4757b0; --gF: #773d97; --gG: #ac2e66; --gH: #6d6048; --gI: #626c68;
   --font-d: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --font-b: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --font-m: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -36,7 +36,7 @@
     --bg: #0f1614; --surface: #17201d; --surface-2: #1e2925; --line: #2c3a35; --fg: #e3ebe7; --muted: #95a69f;
     --accent: #5db1a3; --accent-ink: #0b1311; --accent-weak: #1d3631; --focus: #6aa8ef;
     --kesin: #f0766a; --insaf: #e2a447; --alin: #72c47f;
-    --gA: #e8826a; --gB: #d9a645; --gC: #abc05a; --gD: #62b6d4; --gE: #9aa6f2; --gF: #c590e3; --gG: #ec76a9; --gI: #a7b1ad;
+    --gA: #e8826a; --gB: #d9a645; --gC: #abc05a; --gD: #62b6d4; --gE: #9aa6f2; --gF: #c590e3; --gG: #ec76a9; --gH: #c5b48f; --gI: #a7b1ad;
     --shadow: 0 10px 40px rgba(0, 0, 0, .5);
     color-scheme: dark;
   }
@@ -45,7 +45,7 @@
   --bg: #0f1614; --surface: #17201d; --surface-2: #1e2925; --line: #2c3a35; --fg: #e3ebe7; --muted: #95a69f;
   --accent: #5db1a3; --accent-ink: #0b1311; --accent-weak: #1d3631; --focus: #6aa8ef;
   --kesin: #f0766a; --insaf: #e2a447; --alin: #72c47f;
-  --gA: #e8826a; --gB: #d9a645; --gC: #abc05a; --gD: #62b6d4; --gE: #9aa6f2; --gF: #c590e3; --gG: #ec76a9; --gI: #a7b1ad;
+  --gA: #e8826a; --gB: #d9a645; --gC: #abc05a; --gD: #62b6d4; --gE: #9aa6f2; --gF: #c590e3; --gG: #ec76a9; --gH: #c5b48f; --gI: #a7b1ad;
   --shadow: 0 10px 40px rgba(0, 0, 0, .5);
   color-scheme: dark;
 }
@@ -125,6 +125,7 @@ select.sel { width: 100%; padding: 6px 8px; border: 1px solid var(--line); borde
 .gg-b { margin-top: 8px; }
 .gg-more { width: 100%; margin-top: 4px; }
 .crow.kd { grid-template-columns: 44px minmax(0, 1fr) auto; }
+.crow.kd.gd { grid-template-columns: minmax(0, 1fr) auto; margin-bottom: 8px; }
 .kd-ic { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; padding: 0; border: 1px solid transparent; border-radius: 6px; background: none; color: var(--muted); cursor: pointer; }
 .kd-ic:hover, .kd-ic[aria-expanded="true"] { border-color: var(--line); color: var(--fg); background: var(--bg); }
 .kd-m { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
@@ -177,7 +178,8 @@ select.sel { width: 100%; padding: 6px 8px; border: 1px solid var(--line); borde
 .chip.est { text-decoration: underline dotted; text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
 .chip.sel { box-shadow: 0 0 0 2px color-mix(in srgb, var(--gc) 45%, transparent); }
 .g-A { --gc: var(--gA); } .g-B { --gc: var(--gB); } .g-C { --gc: var(--gC); } .g-D { --gc: var(--gD); } .g-E { --gc: var(--gE); }
-.g-F { --gc: var(--gF); } .g-G { --gc: var(--gG); } .g-I { --gc: var(--gI); }
+.g-F { --gc: var(--gF); } .g-G { --gc: var(--gG); } .g-H { --gc: var(--gH); } .g-I { --gc: var(--gI); }
+.kn { font-size: 11px; color: var(--muted); align-self: center; margin: 0 4px 0 -1px; }
 .more { margin: 14px auto 0; display: block; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 9px 18px; cursor: pointer; font-weight: 600; }
 .empty { padding: 40px 20px; text-align: center; color: var(--muted); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); margin-bottom: 10px; align-items: center; }
@@ -995,16 +997,18 @@ function inhHTML(e) {
   }
   return h;
 }
-function chipsFor(m, sel = S.codes) {
+// kodun yanındaki ufak not (D.birlesik): AR-GE merkezi gibi; devralınan kodda çatının notu
+const kodNotu = (e, c) => { if (!D.birlesik) return ''; const q = !e.k[c] && e.i && e.i[c] !== undefined ? E[e.i[c]] : e; return ((q.dn && q.dn[c]) || []).join(', '); };
+function chipsFor(m, sel = S.codes, e) {
   const order = D.codes.map(c => c[0]);
   return [...m.entries()].sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0])).map(([c, k]) =>
-    `<span class="chip g-${CI[c].g} ${k === 'own' ? '' : k}${sel.has(c) ? ' sel' : ''}" title="${esc(c + ' ' + CI[c].n + (k === 'inh' ? ' (çatıdan)' : k === 'up' ? ' (alt markalardan)' : k === 'est' ? ' (metinden çıkarıldı)' : ''))}">${c}</span>`).join('');
+    `<span class="chip g-${CI[c].g} ${k === 'own' ? '' : k}${sel.has(c) ? ' sel' : ''}" title="${esc(c + ' ' + CI[c].n + (k === 'inh' ? ' (çatıdan)' : k === 'up' ? ' (alt markalardan)' : k === 'est' ? ' (metinden çıkarıldı)' : ''))}">${c}</span>${e && kodNotu(e, c) ? `<span class="kn">${esc(kodNotu(e, c))}</span>` : ''}`).join('');
 }
 function render() {
   const base = [], res = [];
   const ct = {}, lct = {}, tct = {}, kct = {};
   for (const e of E) {
-    if (e.yt && !(S.catiGor && S.qn)) continue;     // yalnız temsil için tutulan çatı: düz listede yok; çatı görünümünde adıyla aranabilir
+    if (e.yt && !((S.catiGor || S.gerGor) && S.qn)) continue;     // yalnız temsil için tutulan çatı: düz listede yok; çatı ve gruplu görünümde adıyla aranabilir
     if (!passBase(e)) continue;
     const m = eff(e); e._m = m; base.push(e);
     if (S.hideEmpty && m.size === 0) continue;
@@ -1093,7 +1097,7 @@ function rowHTML(e, m, ctx, note) {
       <div class="r1"><span class="nm">${esc(e.n)}</span><span class="typ">${esc(TYPES[e.t])}</span>${e.c ? `<span class="ctry">${esc(e.c)}</span>` : ''}</div>
       ${sub ? `<div class="r2">${sub}</div>` : ''}
       <div class="badges">${listBadges(e)}</div>
-      ${m.size ? `<div class="chips">${chipsFor(m, ctx === 'obl' ? new Set() : S.codes)}</div>` : ''}
+      ${m.size ? `<div class="chips">${chipsFor(m, ctx === 'obl' ? new Set() : S.codes, e)}</div>` : ''}
     </div>${ctx === 'obl' ? oblCtl(e) : ctx === 'kl' ? klCtl(e) : oblBtns(e, ctx)}</article>`;
 }
 function renderActive() {
@@ -1126,12 +1130,24 @@ const hist = [];
 function arastirmaHTML(e) {
   if (!D.gerekce) return '';
   const r = E[e.root], bas = e.root === e.id ? 'Araştırma' : `Araştırma (çatı: ${esc(r.n)})`;
-  if (!r.gr) return `<dt>${bas}</dt><dd><span style="color:var(--muted)">Kodsuz: Araştırma sekmesinde kaydı yok</span></dd>`;
+  const ust = KD.ger ? gdKart(e, r) : '';
+  if (!r.gr) return `${ust}<dt>${bas}</dt><dd><span style="color:var(--muted)">Araştırma sekmesinde kaydı yok</span></dd>`;
   const satir = x => {
     const link = (x[4].match(/https?:\/\/\S+/g) || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])}</a>`).join(' · ');
     return `<div class="ar-k"><p><b>${esc(x[0])}</b>${x[3] ? ` · Öncelik: ${esc(x[3])}` : ''}</p><p>Gerekçe: ${esc(x[2]) || '<span style="color:var(--muted)">atanmamış</span>'}</p>${x[5] ? `<p>${esc(x[5])}</p>` : ''}${link ? `<p>Kanıt: ${link}</p>` : ''}</div>`;
   };
-  return `<dt>${bas}</dt><dd>${r.gr.map(satir).join('')}</dd>`;
+  return `${ust}<dt>${bas}</dt><dd>${r.gr.map(satir).join('')}</dd>`;
+}
+// kartın Gerekçe bölümü: gerekçe ailenin; alt markanın kartından da çatınınki düzenlenir
+function gdKart(e, r) {
+  const o = KD.ov[r.kk] || {};
+  const sat = r.grs.filter(g => g >= 0).map(g => {
+    const kay = (r.gr || []).filter(x => x[1].includes(g)).map(x => x[0]);
+    const tarih = o.ek && o.ek[GER[g]];
+    return `<div class="crow kd gd"><div><div class="t">${esc(GER[g])}</div><div class="s">${tarih ? `Sizin eklediğiniz · ${esc(trDate(tarih))}` : `Araştırma: ${esc([...new Set(kay)].join(', '))}`}</div></div>${kdKalem(r, String(g))}</div>`;
+  }).join('');
+  const bos = sat ? '' : `<p class="s" style="color:var(--muted);margin:0">${esc(gerAd(r.grs[0]))}</p>`;
+  return `<dt>${e.root === e.id ? 'Gerekçe' : `Gerekçe (çatı: ${esc(r.n)})`}</dt><dd>${sat}${bos}${kdAlt(r)}</dd>`;
 }
 function open(id, push) {
   if (push && current !== null) hist.push(current);
@@ -1145,10 +1161,16 @@ function open(id, push) {
 }
 // ---------- Kod düzenleme (D.kodDuzenle): değişiklikler kuruluşun kararlı anahtarıyla tarayıcıda; veri dosyası değişmez.
 // ov[kk] = { ek: {kod: tarih}, cik: {kod: tarih} }. Devir kuralı V'inki: çatıdan alta (i), alttan doğrudan çatıya (u), E1 taşınmaz.
-const KD = { on: !!D.kodDuzenle, ov: {}, ls: 'okv.kodduz' + (D.depoEk || ''), acik: null, mod: '', q: '', sec: 0 };
+// D.gerDuzenle: aynı arayüz gerekçe için; kayıt ailenin en üst çatısında, gerekçe adıyla: ov[kk] = { ek: {ad: tarih}, cik: {ad: tarih} }.
+const KD = { on: !!(D.kodDuzenle || D.gerDuzenle), ger: !!D.gerDuzenle, ov: {}, ls: 'okv.kodduz' + (D.depoEk || ''), acik: null, mod: '', q: '', sec: 0 };
 const KD_IKON = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>';
 function kdHazir() {
   if (!KD.on) return;
+  if (KD.ger) {
+    E.forEach(e => { if (e.root === e.id) e.gb = [...new Set((e.gr || []).flatMap(x => x[1]))]; });
+    try { KD.ov = JSON.parse(localStorage.getItem(KD.ls) || '{}') || {}; } catch (_) { KD.ov = {}; }
+    kdUygula(); return;
+  }
   KD.cf = CONF.indexOf('elle');
   E.forEach(e => { e.k0 = e.k; e.i0 = e.i || {}; e.u0 = e.u || {}; });
   // u'daki sayıya elenen alt markalar da dahildir; tek listede kalıp süzülenlerin payı sabit tutulur
@@ -1157,29 +1179,44 @@ function kdHazir() {
   kdUygula();
 }
 function kdUygula() {
+  if (KD.ger) {
+    E.forEach(e => { if (e.root !== e.id) return;
+      const o = KD.ov[e.kk] || {}, s = e.gb.filter(g => !(o.cik && o.cik[GER[g]]));
+      Object.keys(o.ek || {}).forEach(ad => { const g = GER.indexOf(ad); if (g >= 0 && !s.includes(g)) s.push(g); });
+      e.grs = s.length ? s : [e.gr ? -2 : -1]; });
+    return;
+  }
   E.forEach(e => { const o = KD.ov[e.kk]; const k = { ...e.k0 }; if (o) { for (const c in o.cik || {}) delete k[c]; for (const c in o.ek || {}) if (!k[c]) k[c] = [KD.cf, [], []]; } e.k = k; });
   E.forEach(e => { const inh = {}; let j = e.p, d = 0; while (j !== undefined && d < 6) { for (const c in E[j].k) if (!e.k[c] && inh[c] === undefined && c !== 'E1') inh[c] = j; j = E[j].p; d++; } e.i = inh; });
   E.forEach(e => { const up = { ...e.uE }; (e.ch || []).forEach(j => { for (const c in E[j].k) if (c !== 'E1') up[c] = (up[c] || 0) + 1; }); for (const c in e.k) delete up[c]; e.u = up; });
   E.forEach(e => { const o = KD.ov[e.kk]; if (o) for (const c in o.cik || {}) { delete e.i[c]; delete e.u[c]; } });
 }
-const kdVar = (e, c) => !!(e.k[c] || (e.i && e.i[c] !== undefined) || (e.u && e.u[c] !== undefined));
+const kdVar = (e, c) => KD.ger ? E[e.root].grs.includes(+c) : !!(e.k[c] || (e.i && e.i[c] !== undefined) || (e.u && e.u[c] !== undefined));
 function kdKaydet() {
   for (const k in KD.ov) { const o = KD.ov[k]; if (!Object.keys(o.ek || {}).length && !Object.keys(o.cik || {}).length) delete KD.ov[k]; }
   try { localStorage.setItem(KD.ls, JSON.stringify(KD.ov)); } catch (_) { toast('Tarayıcı belleğine yazılamadı; değişiklik sayfa kapanınca kaybolur.'); }
 }
 const kdBugun = () => new Date().toISOString().slice(0, 10);
 function kdEkle(e, c) {
+  if (KD.ger) { const r = E[e.root], ad = GER[+c], o = KD.ov[r.kk] = KD.ov[r.kk] || { ek: {}, cik: {} };
+    if (o.cik[ad]) delete o.cik[ad];
+    if (!r.gb.includes(+c)) o.ek[ad] = kdBugun();
+    kdUygula(); return; }
   const o = KD.ov[e.kk] = KD.ov[e.kk] || { ek: {}, cik: {} };
   if (o.cik && o.cik[c]) { delete o.cik[c]; kdUygula(); }
   if (!e.k0[c]) { o.ek = o.ek || {}; o.ek[c] = kdBugun(); }
 }
 function kdKaldir(e, c) {
+  if (KD.ger) { const r = E[e.root], ad = GER[+c], o = KD.ov[r.kk] = KD.ov[r.kk] || { ek: {}, cik: {} };
+    delete o.ek[ad];
+    if (r.gb.includes(+c)) o.cik[ad] = kdBugun();
+    kdUygula(); return; }
   const o = KD.ov[e.kk] = KD.ov[e.kk] || { ek: {}, cik: {} };
   if (o.ek && o.ek[c]) { delete o.ek[c]; kdUygula(); }
   if (kdVar(e, c)) { o.cik = o.cik || {}; o.cik[c] = kdBugun(); }
 }
 function kdGeriAl(e, c) {
-  const o = KD.ov[e.kk]; if (!o) return;
+  const o = KD.ov[KD.ger ? E[e.root].kk : e.kk]; if (!o) return;
   if (o.ek) delete o.ek[c]; if (o.cik) delete o.cik[c];
 }
 // değişiklikten sonra kod hesabı, liste ve kart yenilenir; kartın kaydırma yeri korunur
@@ -1191,37 +1228,49 @@ function kdYenile(e) {
 function kdKart() { const y = $('#detail').scrollTop; $('#detail').innerHTML = detailHTML(E[current]); $('#detail').scrollTop = y; const i = $('#detail').querySelector('.kd-ac input'); if (i) { i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }
 function kdSecenek(e) {
   const q = norm(KD.q), eski = KD.mod === 'degistir' ? KD.acik : null;
+  if (KD.ger) return GER.map((ad, i) => [String(i), '', ad, '']).filter(c => c[0] !== eski && !kdVar(e, c[0]) && (!q || norm(c[2]).includes(q)))
+    .sort((a, b) => (norm(b[2]).startsWith(q) ? 1 : 0) - (norm(a[2]).startsWith(q) ? 1 : 0));
   return D.codes.filter(c => c[0] !== eski && !kdVar(e, c[0]) && (!q || norm(c[0] + ' ' + c[2]).includes(q)))
     .sort((a, b) => (norm(b[0]).startsWith(q) ? 1 : 0) - (norm(a[0]).startsWith(q) ? 1 : 0));
 }
 function kdOl(e) {
   const s = kdSecenek(e); KD.sec = Math.min(KD.sec, Math.max(0, s.length - 1));
-  return s.length ? s.map((c, i) => `<li role="option" data-kd-sec="${c[0]}"${i === KD.sec ? ' class="on" aria-selected="true"' : ''} title="${esc(c[3])}"><b>${c[0]}</b><span>${esc(c[2])}</span></li>`).join('') : '<li class="yok">Eşleşen kod yok</li>';
+  return s.length ? s.map((c, i) => `<li role="option" data-kd-sec="${c[0]}"${i === KD.sec ? ' class="on" aria-selected="true"' : ''} title="${esc(c[3])}">${KD.ger ? '' : `<b>${c[0]}</b>`}<span>${esc(c[2])}</span></li>`).join('') : `<li class="yok">Eşleşen ${KD.ger ? 'gerekçe' : 'kod'} yok</li>`;
 }
 function kdKutu(e) {
-  return `<div class="kd-ac"><input type="text" id="kdGir" value="${esc(KD.q)}" placeholder="Kod ya da kriter adı yazın" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="kdOl" aria-label="Kod ara"><ul class="kd-ol" id="kdOl" role="listbox">${kdOl(e)}</ul></div>`;
+  return `<div class="kd-ac"><input type="text" id="kdGir" value="${esc(KD.q)}" placeholder="${KD.ger ? 'Gerekçe yazın' : 'Kod ya da kriter adı yazın'}" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="kdOl" aria-label="${KD.ger ? 'Gerekçe ara' : 'Kod ara'}"><ul class="kd-ol" id="kdOl" role="listbox">${kdOl(e)}</ul></div>`;
 }
 function kdKalem(e, c) {
   if (!KD.on) return '';
   const acik = KD.acik === c;
-  return `<button class="kd-ic" data-kd="${c}" aria-expanded="${acik}" aria-label="${c} kodunu düzenle" title="Düzenle">${KD_IKON}</button>` +
+  return `<button class="kd-ic" data-kd="${c}" aria-expanded="${acik}" aria-label="${KD.ger ? esc(GER[+c]) + ' gerekçesini' : c + ' kodunu'} düzenle" title="Düzenle">${KD_IKON}</button>` +
     (acik ? (KD.mod === 'degistir' ? kdKutu(e) : `<div class="kd-m"><button class="kd-btn" data-kd-deg="${c}">Değiştir</button><button class="kd-btn" data-kd-kal="${c}">Kaldır</button></div>`) : '');
 }
 function kdAlt(e) {
   if (!KD.on) return '';
   const o = KD.ov[e.kk] || {}, kal = Object.keys(o.cik || {}), ek = Object.keys(o.ek || {});
-  const parca = [...ek.map(c => `<button class="linkbtn" data-kd-geri="${c}">${c} eklemesini geri al</button>`), ...kal.map(c => `<button class="linkbtn" data-kd-geri="${c}">${c} geri getir</button>`)];
-  return `${parca.length ? `<div class="kd-kal">${kal.length ? `Kaldırdıklarınız: ${kal.join(', ')} · ` : ''}${parca.join(' · ')}</div>` : ''}
-    ${KD.acik === '+' ? kdKutu(e) : `<button class="kd-btn kd-ekle" data-kd-ekle="1">+ Kod ekle</button>`}
+  const parca = [...ek.map(c => `<button class="linkbtn" data-kd-geri="${esc(c)}">${esc(c)} eklemesini geri al</button>`), ...kal.map(c => `<button class="linkbtn" data-kd-geri="${esc(c)}">${esc(c)} geri getir</button>`)];
+  return `${parca.length ? `<div class="kd-kal">${kal.length ? `Kaldırdıklarınız: ${esc(kal.join(', '))} · ` : ''}${parca.join(' · ')}</div>` : ''}
+    ${KD.acik === '+' ? kdKutu(e) : `<button class="kd-btn kd-ekle" data-kd-ekle="1">+ ${KD.ger ? 'Gerekçe' : 'Kod'} ekle</button>`}
     ${parca.length || KD.acik ? `<p class="kd-not">Değişiklikler bu tarayıcıda saklanır; başkaları görmez. Paylaşmak için sol menüden Excel'e aktarın.</p>` : ''}`;
 }
 function kdSol() {
   const k = $('#kdSol'); if (!k) return;
   const n = Object.keys(KD.ov).filter(x => E.some(e => e.kk === x)).length;
-  k.innerHTML = n ? `<h3>Kod değişiklikleriniz</h3><p>${fmt(n)} kuruluşta değişiklik var; yalnız bu tarayıcıda.</p><button class="kd-btn" id="kdXlsx">Excel'e aktar</button>` : '';
+  k.innerHTML = n ? `<h3>${KD.ger ? 'Gerekçe' : 'Kod'} değişiklikleriniz</h3><p>${fmt(n)} kuruluşta değişiklik var; yalnız bu tarayıcıda.</p><button class="kd-btn" id="kdXlsx">Excel'e aktar</button>` : '';
   k.hidden = !n;
 }
+async function gdExcel() {
+  const sat = E.filter(e => e.root === e.id && KD.ov[e.kk]).sort((a, b) => a.n.localeCompare(b.n, 'tr')).map(e => {
+    const o = KD.ov[e.kk];
+    return [e.n, e.kidsN ? 'evet' : '', TYPES[e.t], Object.keys(o.ek || {}).join('; '), Object.keys(o.cik || {}).join('; '), e.gb.map(g => GER[g]).join('; '),
+      e.grs.map(gerAd).join('; '), [...Object.values(o.ek || {}), ...Object.values(o.cik || {})].sort().pop() || '', e.kk];
+  });
+  const blob = await XL.book([{ name: 'Gerekçe değişiklikleri', freeze: [1, 1], rows: sat, cols: [['Aile', 32], ['Alt markası var', 10], ['Tür', 16], ['Eklenen gerekçeler', 44], ['Kaldırılan gerekçeler', 44], ["Araştırma'daki gerekçeler", 44], ['Şimdiki gerekçeler', 44], ['Tarih', 12], ['Anahtar', 28]].map(([h, w]) => ({ h, w })) }], `Gerekçe değişiklikleri · ${document.title}`);
+  if (await saveFile(`Gerekçe değişiklikleri (${document.title}) ${kdBugun()}.xlsx`, blob)) toast(`Excel dosyası hazır: ${fmt(sat.length)} aile.`);
+}
 async function kdExcel() {
+  if (KD.ger) return gdExcel();
   const sat = E.filter(e => KD.ov[e.kk]).sort((a, b) => a.n.localeCompare(b.n, 'tr')).map(e => {
     const o = KD.ov[e.kk], ad = c => `${c} ${CI[c] ? CI[c].n : ''}`.trim();
     const tarih = [...Object.values(o.ek || {}), ...Object.values(o.cik || {})].sort().pop() || '';
@@ -1229,7 +1278,7 @@ async function kdExcel() {
       [...Object.keys(e.k0)].sort().join(', '), [...new Set([...Object.keys(e.k), ...Object.keys(e.i), ...Object.keys(e.u)])].sort().join(', '), tarih, e.kk];
   });
   const gun = kdBugun();
-  const blob = await XL.book([{ name: 'Kod değişiklikleri', freeze: [1, 1], rows: sat, cols: [['Kuruluş', 32], ['En üst çatı', 28], ['Tür', 16], ['Eklenen kodlar', 44], ['Kaldırılan kodlar', 44], ["V'teki kendi kodları", 22], ['Şimdiki bütün kodları', 26], ['Tarih', 12], ['Anahtar', 28]].map(([h, w]) => ({ h, w })) }], `Kod değişiklikleri · ${document.title}`);
+  const blob = await XL.book([{ name: 'Kod değişiklikleri', freeze: [1, 1], rows: sat, cols: [['Kuruluş', 32], ['En üst çatı', 28], ['Tür', 16], ['Eklenen kodlar', 44], ['Kaldırılan kodlar', 44], [D.birlesik ? 'Verideki kendi kodları' : "V'teki kendi kodları", 22], ['Şimdiki bütün kodları', 26], ['Tarih', 12], ['Anahtar', 28]].map(([h, w]) => ({ h, w })) }], `Kod değişiklikleri · ${document.title}`);
   if (await saveFile(`Kod değişiklikleri (${document.title}) ${gun}.xlsx`, blob)) toast(`Excel dosyası hazır: ${fmt(sat.length)} kuruluş.`);
 }
 function kdOlaylar() {
@@ -1240,7 +1289,7 @@ function kdOlaylar() {
     const e = E[current], v = b.dataset;
     if (v.kd) { const ac = KD.acik === v.kd; KD.acik = ac ? null : v.kd; KD.mod = ''; KD.q = ''; KD.sec = 0; kdKart(); }
     else if (v.kdDeg) { KD.mod = 'degistir'; KD.q = ''; KD.sec = 0; kdKart(); }
-    else if (v.kdKal) { kdKaldir(e, v.kdKal); kdYenile(e); toast(`${v.kdKal} kaldırıldı.`); }
+    else if (v.kdKal) { kdKaldir(e, v.kdKal); kdYenile(e); toast(`${KD.ger ? GER[+v.kdKal] : v.kdKal} kaldırıldı.`); }
     else if (v.kdEkle) { KD.acik = '+'; KD.mod = 'ekle'; KD.q = ''; KD.sec = 0; kdKart(); }
     else if (v.kdGeri) { kdGeriAl(e, v.kdGeri); kdYenile(e); }
     else if (v.kdSec) kdAta(e, v.kdSec);
@@ -1260,7 +1309,8 @@ function kdAta(e, c) {
   if (eski) kdKaldir(e, eski);
   kdEkle(e, c);
   kdYenile(e);
-  toast(eski ? `${eski} yerine ${c} atandı.` : `${c} atandı.`);
+  const kad = x => KD.ger ? GER[+x] : x;
+  toast(eski ? `${kad(eski)} yerine ${kad(c)} atandı.` : `${kad(c)} atandı.`);
 }
 let current = null;
 function closeDrawer() { $('#scrim').hidden = true; $('#drawer').hidden = true; hist.length = 0; current = null; }
@@ -1284,6 +1334,11 @@ function katHTML(e) {
     `${LS[l]}: ${KAT.et[t]} (${n === 2 ? `${KAT.ad[k]}, kontrol listesinde çıkarıldı` : KAT_NEDEN[n]})`).join(' · '))}</div>`;
   return h;
 }
+const kdNotHTML = (e, c) => kodNotu(e, c) ? ` <span class="kn" style="margin:0 0 0 4px">${esc(kodNotu(e, c))}</span>` : '';
+const arDayanak = x => {
+  const link = (x[2].match(/https?:\/\/\S+/g) || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])}</a>`).join(' · ');
+  return `<div class="ev">Araştırma: <b>${esc(x[0])}</b> · Gerekçe: ${esc(x[1])}${x[3] ? ` · ${esc(x[3])}` : ''}${link ? ` · ${link}` : ''}</div>`;
+};
 function detailHTML(e) {
   let h = `<h2>${esc(e.n)}</h2><div class="meta"><span>${esc(TYPES[e.t])}</span>${e.c ? `<span>${esc(e.c)}</span>` : ''}${e.s ? `<span>${esc(e.s.join(', '))}</span>` : ''}${KAT && e.kc.length ? `<span>${esc(katAdlar(e))}</span>` : ''}</div>`;
   h += `<div class="dsec"><dl class="kv">`;
@@ -1311,13 +1366,14 @@ function detailHTML(e) {
     if (e.k[c]) {
       const [cf, ls, ev] = e.k[c];
       const elle = KD.on && KD.ov[e.kk] && KD.ov[e.kk].ek && KD.ov[e.kk].ek[c];
-      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip g-${g}${EST.has(cf) ? ' est' : ''}">${c}</span><div><div class="t">${esc(CI[c].n)}</div>
-        <div class="s">${elle ? `Sizin eklediğiniz · ${esc(trDate(elle))}` : `Kendi kaydı · ${ls.map(l => LS[l]).join(', ')} · <span class="conf">${CONF[cf]}</span>`}</div>
-        ${ev.map(([l, cf2, t]) => `<div class="ev">${LS[l]}: ${cf2 === 1 ? `<q>${esc(t)}</q>` : esc(t)}</div>`).join('')}</div>${kdKalem(e, c)}</div>`);
+      const ar = (e.ar && e.ar[c]) || [];
+      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip g-${g}${EST.has(cf) ? ' est' : ''}">${c}</span><div><div class="t">${esc(CI[c].n)}${kdNotHTML(e, c)}</div>
+        <div class="s">${elle ? `Sizin eklediğiniz · ${esc(trDate(elle))}` : ls.length || !ar.length ? `Kendi kaydı · ${ls.map(l => LS[l]).join(', ')} · <span class="conf">${CONF[cf]}</span>` : 'Araştırma sekmesinin gerekçesinden'}</div>
+        ${ev.map(([l, cf2, t]) => `<div class="ev">${LS[l]}: ${cf2 === 1 ? `<q>${esc(t)}</q>` : esc(t)}</div>`).join('')}${ar.map(arDayanak).join('')}</div>${kdKalem(e, c)}</div>`);
     } else if (e.i && e.i[c] !== undefined) {
-      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip inh g-${g}">${c}</span><div><div class="t">${esc(CI[c].n)}</div><div class="s">Çatıdan devralındı: ${elink(e.i[c])}</div></div>${kdKalem(e, c)}</div>`);
+      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip inh g-${g}">${c}</span><div><div class="t">${esc(CI[c].n)}${kdNotHTML(e, c)}</div><div class="s">Çatıdan devralındı: ${elink(e.i[c])}</div></div>${kdKalem(e, c)}</div>`);
     } else {
-      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip up g-${g}">${c}</span><div><div class="t">${esc(CI[c].n)}</div><div class="s">${fmt(e.u[c])} alt markanın kaydından</div></div>${kdKalem(e, c)}</div>`);
+      rows.push(`<div class="crow${KD.on ? ' kd' : ''}"><span class="chip up g-${g}">${c}</span><div><div class="t">${esc(CI[c].n)}${kdNotHTML(e, c)}</div><div class="s">${fmt(e.u[c])} alt markanın kaydından</div></div>${kdKalem(e, c)}</div>`);
     }
   });
   const noCode = HAM.size ? `Bu kuruluşa kriter kodu atanmadı: diğer listelerin kategorisinde ya da açıklamasında, ya da çatı şirketinde kodlanan bir gerekçe yok.${e.lists.some(l => HAM.has(l)) ? ` ${esc(andJoin([...HAM].map(l => LISTS[l][1])))} hükümleri kategoriye atanmadığı için kod üretmez; aşağıda Açıklamalar bölümünde.` : ''}`
@@ -2565,7 +2621,7 @@ $('#sub').textContent = `${LISTS.length} liste · ${fmt(nGor.length)} kuruluş (
 S.ger = new Set(); S.ggA = new Set(); S.ggL = {};
 kdHazir();
 if (D.gerekce || D.kriterGrup) {
-  if (D.kriterGrup) { $('#gerGorAd').textContent = 'Kritere Göre Grupla'; $('#gerGorWrap').title = "Aileler Ortak Kriter Veritabanı V'in kodlarına göre gruplanır; birden çok kodu olan aile her kodun altında görünür"; }
+  if (D.kriterGrup) { $('#gerGorAd').textContent = 'Kritere Göre Grupla'; $('#gerGorWrap').title = D.birlesik ? "Aileler V'in kodlarına ve Araştırma gerekçelerinden gelen kodlara göre gruplanır; birden çok kodu olan aile her kodun altında görünür" : "Aileler Ortak Kriter Veritabanı V'in kodlarına göre gruplanır; birden çok kodu olan aile her kodun altında görünür"; }
   const gg = $('#gerGor'), cgi = $('#catiGor'), LSG = 'okv.gergor' + (D.depoEk || '');
   S.gerGor = true;                                  // bu sürümün varsayılan görünümü
   try { if (localStorage.getItem(LSG) === '0') S.gerGor = false; } catch (_) {}
