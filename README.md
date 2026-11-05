@@ -18,6 +18,14 @@ Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/iki-liste/**
 
 Yalnız en az iki listede geçen 3.362 kuruluşu gösterir; tek listede geçenler çıkarılmıştır. **Çatıya Göre Görüntüle** seçeneği açılınca her aile (1.387) bir kez, en üstteki üyesinin sırasında, çatısının adıyla görünür: Dove'un yerinde Unilever çıkar ve Unilever'in alt markaları listede tekrar görünmez. Bu sürümün Öncelikli Boykot Listesi ayrı tutulur; ilk açılışta ana sitenin listesi kopyalanır.
 
+## Kriter gruplu sürüm
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kriter/**
+
+En az iki listede geçen 1.387 aileyi Ortak Kriter Veritabanı V'in kod atamalarına göre gruplar: 675 aile kodlu, 712 aile Kodsuz. Kodlar V'in 20 Ekim verisindendir; 4 Kasım'daki okuma çalışması dahil değildir.
+
+Kuruluş kartındaki Kriter kodları bölümünden kod eklenebilir, değiştirilebilir ya da kaldırılabilir. Değişiklikler yalnız o tarayıcıda saklanır, başkaları görmez ve veritabanına işlenmez; paylaşmak için sol menüdeki **Excel'e aktar** kullanılır.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
