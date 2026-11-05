@@ -12,6 +12,12 @@ Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şun
 
 Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrılır.
 
+## En az iki liste sürümü
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/iki-liste/**
+
+Yalnız en az iki listede geçen 3.362 kuruluşu gösterir; tek listede geçenler çıkarılmıştır. **Çatıya Göre Görüntüle** seçeneği açılınca her aile (1.387) bir kez, en üstteki üyesinin sırasında, çatısının adıyla görünür: Dove'un yerinde Unilever çıkar ve Unilever'in alt markaları listede tekrar görünmez. Bu sürümün Öncelikli Boykot Listesi ayrı tutulur; ilk açılışta ana sitenin listesi kopyalanır.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
