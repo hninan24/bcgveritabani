@@ -34,6 +34,12 @@ En az iki listede geçen 1.387 aileyi Ortak Kriter Veritabanı V'in kod atamalar
 
 Kuruluş kartındaki Kriter kodları bölümünden kod eklenebilir, değiştirilebilir ya da kaldırılabilir. Değişiklikler yalnız o tarayıcıda saklanır, başkaları görmez ve veritabanına işlenmez; paylaşmak için sol menüdeki **Excel'e aktar** kullanılır.
 
+## Kriter ve gerekçe birleşik sürüm
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik/**
+
+En az iki listede geçen 1.387 aileyi, Ortak Kriter Veritabanı V'in kodları ile Araştırma sekmesinin gerekçelerinden eşleştirilen kodlara göre gruplar: 860 aile kodlu, 527 aile Kodsuz. Kod seti bu sürümde H · Dolaylı İlişki grubuyla (H1–H13) genişler. Gerekçe Atanmamış ve Kapsam Dışı kod vermez; eşleştirmesi olmayan dört gerekçe de kod vermez. AR-GE merkezi, fabrika, teknoloji merkezi ve veri merkezi gerekçelerinden gelen D3 kodunun yanında ufak not görünür. Kartta kod eklenip değiştirilebilir; değişiklikler yalnız o tarayıcıda saklanır ve Excel'e aktarılabilir.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
