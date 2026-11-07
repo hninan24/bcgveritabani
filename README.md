@@ -40,6 +40,12 @@ Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik/**
 
 En az iki listede geçen 1.387 aileyi, Ortak Kriter Veritabanı V'in kodları ile Araştırma sekmesinin gerekçelerinden eşleştirilen kodlara göre gruplar: 860 aile kodlu, 527 aile Kodsuz. Kod seti bu sürümde H · Dolaylı İlişki grubuyla (H1–H13) genişler. Gerekçe Atanmamış ve Kapsam Dışı kod vermez; eşleştirmesi olmayan dört gerekçe de kod vermez. D3 kodunun alt kodları vardır (D3-Fabrika / üretim tesisi, D3-Veri merkezi, D3-AR-GE merkezi, D3-Savunma teknolojisi geliştirme, D3-Teknoloji merkezi); kod atarken seçilebilir, aile yine D3 grubunda görünür. Kartta kod eklenip değiştirilebilir; değişiklikler yalnız o tarayıcıda saklanır ve Excel'e aktarılabilir.
 
+## Kriter ve gerekçe birleşik sürüm, 2. sürüm
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik-2/**
+
+Onaylanan kriter setiyle hazırlandı: A–G aynı; D3'ün yedi alt kodu (Fabrika / Üretim Tesisi, AR-GE Merkezi, Teknoloji Merkezi, Veri Merkezi, Savunma Teknolojisi Geliştirme, Şirket Satın Alma / Ortaklık, Girişim (Startup) Yatırımı); H · Dolaylı İlişki (H1–H8, İsrail'le ticaret) ve I · Boykotlu Markayla Bağ (I1–I4). D3 İsrail'e sermaye ya da kalıcı tesis girmesi, H İsrail'le ticaret, I boykotlu bir marka ya da ürünle bağdır; kod almak her zaman boykot anlamına gelmez, aynı türden ilişkileri kümeler. 1.387 ailenin 859'u kodlu, 528'i Kodsuz. Önceki sürümde tarayıcıda yapılan kod değişiklikleri ilk açılışta bu sürüme taşınır; I kodlarına "I2-Burger King" gibi marka notu yazılabilir.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
