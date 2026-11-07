@@ -7,7 +7,7 @@ KOK="$HOME/Library/Application Support/boykot-izleme"
 KAYNAK="${1:-bc}"
 GECICI=$(mktemp -d)
 trap 'rm -rf "$GECICI"' EXIT
-export PATH="/opt/homebrew/bin:/usr/bin:/bin" PYTHONDONTWRITEBYTECODE=1 GITHUB_REPOSITORY="hninan24/ortak-kriter-veritabani"
+export PATH="/opt/homebrew/bin:/usr/bin:/bin" PYTHONDONTWRITEBYTECODE=1 GITHUB_REPOSITORY="hninan24/bcgveritabani"
 export BILDIRIM="$GECICI/bildirim.md" BILDIRIM_KISI="@hninan24" GITHUB_OUTPUT="$GECICI/cikti"
 cd "$KOK/depo" || exit 2
 echo "=== $(date '+%F %T') $KAYNAK"

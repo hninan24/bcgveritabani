@@ -1,6 +1,6 @@
 # Boykot Çalışma Grubu Veritabanı
 
-İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
+İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/bcgveritabani/**
 
 Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şunlar gösterilir:
 
@@ -14,13 +14,13 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 
 ## En az iki liste sürümü
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/iki-liste/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/iki-liste/**
 
 Yalnız en az iki listede geçen 3.362 kuruluşu gösterir; tek listede geçenler çıkarılmıştır. **Çatıya Göre Görüntüle** seçeneği açılınca her aile (1.387) bir kez, en üstteki üyesinin sırasında, çatısının adıyla görünür: Dove'un yerinde Unilever çıkar ve Unilever'in alt markaları listede tekrar görünmez. Bu sürümün Öncelikli Boykot Listesi ayrı tutulur; ilk açılışta ana sitenin listesi kopyalanır.
 
 ## Gerekçe gruplu sürüm
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/gerekce/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/gerekce/**
 
 En az iki listede geçen 1.387 aileyi, Boykot Çalışma Grubu'nun çatı şirket araştırma tablosundaki Gerekçe sütununa göre gruplar: 323 aile gerekçeli, 9 aile gerekçe atanmamış, 1.055 aile Kodsuz. Kuruluş kartında araştırmanın gerekçe, öncelik, açıklama ve kanıt alanları görünür.
 
@@ -28,7 +28,7 @@ Kuruluş kartından ailenin gerekçesi eklenebilir, değiştirilebilir ya da kal
 
 ## Kriter gruplu sürüm
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kriter/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/kriter/**
 
 En az iki listede geçen 1.387 aileyi Ortak Kriter Veritabanı V'in kod atamalarına göre gruplar: 675 aile kodlu, 712 aile Kodsuz. Kodlar V'in 20 Ekim verisindendir; 4 Kasım'daki okuma çalışması dahil değildir.
 
@@ -36,25 +36,25 @@ Kuruluş kartındaki Kriter kodları bölümünden kod eklenebilir, değiştiril
 
 ## Kriter ve gerekçe birleşik sürüm
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/birlesik/**
 
 En az iki listede geçen 1.387 aileyi, Ortak Kriter Veritabanı V'in kodları ile Araştırma sekmesinin gerekçelerinden eşleştirilen kodlara göre gruplar: 860 aile kodlu, 527 aile Kodsuz. Kod seti bu sürümde H · Dolaylı İlişki grubuyla (H1–H13) genişler. Gerekçe Atanmamış ve Kapsam Dışı kod vermez; eşleştirmesi olmayan dört gerekçe de kod vermez. D3 kodunun alt kodları vardır (D3-Fabrika / üretim tesisi, D3-Veri merkezi, D3-AR-GE merkezi, D3-Savunma teknolojisi geliştirme, D3-Teknoloji merkezi); kod atarken seçilebilir, aile yine D3 grubunda görünür. Kartta kod eklenip değiştirilebilir; değişiklikler yalnız o tarayıcıda saklanır ve Excel'e aktarılabilir.
 
 ## Kriter ve gerekçe birleşik sürüm, 2. sürüm
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik-2/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/birlesik-2/**
 
 Onaylanan kriter setiyle hazırlandı: A–G aynı; D3'ün yedi alt kodu (Fabrika / Üretim Tesisi, AR-GE Merkezi, Teknoloji Merkezi, Veri Merkezi, Savunma Teknolojisi Geliştirme, Şirket Satın Alma / Ortaklık, Girişim (Startup) Yatırımı); H · Dolaylı İlişki (H1–H8, İsrail'le ticaret) ve I · Boykotlu Markayla Bağ (I1–I5; I5 tedarik, lojistik ve kampanya anlaşmaları, 7 Kasım'da eklendi). D3 İsrail'e sermaye ya da kalıcı tesis girmesi, H İsrail'le ticaret, I boykotlu bir marka ya da ürünle bağdır; kod almak her zaman boykot anlamına gelmez, aynı türden ilişkileri kümeler. Metninde çatı bilgisi olan 256 Kodsuz marka çatısına bağlandı ve çatının kodlarını devraldı: 197'sinde Boykot Market başlığı ile No Thanks cümlesi aynı çatıyı söylüyordu, 59'u 7 Kasım 2026'da güncel web kaynaklarıyla doğrulandı (11'inde çatı düzeltildi, örneğin Unilever dondurmaları → The Magnum Ice Cream Company; 15 öneri reddedildi). 1.139 ailenin 861'i kodlu, 278'i Kodsuz. Önceki sürümde tarayıcıda yapılan kod değişiklikleri ilk açılışta bu sürüme taşınır; I kodlarına "I2-Burger King" gibi marka notu yazılabilir.
 
 ## Ortak düzenleme sürümü
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/ortak/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/ortak/**
 
 Veri 2. sürümle aynıdır. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
 
 ## Kodlu sürüm
 
-Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/kodlu/**
 
 Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter) ve kod atamaları uygulanmıştır. Ana site kodsuz kalır.
 
@@ -149,7 +149,7 @@ Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünü
 
 ## Kaynak izleme
 
-Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot, Boykot.co ve Boykot Market'i her pazartesi; GitHub'dan okunamayan Boycat'i her pazartesi Mac'ten) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/ortak-kriter-veritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
+Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot, Boykot.co ve Boykot Market'i her pazartesi; GitHub'dan okunamayan Boycat'i her pazartesi Mac'ten) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/bcgveritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
 
 ## Öncelikli Boykot Listesi (ÖBL) nasıl hazırlanır
 
