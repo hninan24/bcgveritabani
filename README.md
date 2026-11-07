@@ -46,6 +46,12 @@ Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/birlesik-2/**
 
 Onaylanan kriter setiyle hazırlandı: A–G aynı; D3'ün yedi alt kodu (Fabrika / Üretim Tesisi, AR-GE Merkezi, Teknoloji Merkezi, Veri Merkezi, Savunma Teknolojisi Geliştirme, Şirket Satın Alma / Ortaklık, Girişim (Startup) Yatırımı); H · Dolaylı İlişki (H1–H8, İsrail'le ticaret) ve I · Boykotlu Markayla Bağ (I1–I5; I5 tedarik, lojistik ve kampanya anlaşmaları, 7 Kasım'da eklendi). D3 İsrail'e sermaye ya da kalıcı tesis girmesi, H İsrail'le ticaret, I boykotlu bir marka ya da ürünle bağdır; kod almak her zaman boykot anlamına gelmez, aynı türden ilişkileri kümeler. Metninde çatı bilgisi olan 256 Kodsuz marka çatısına bağlandı ve çatının kodlarını devraldı: 197'sinde Boykot Market başlığı ile No Thanks cümlesi aynı çatıyı söylüyordu, 59'u 7 Kasım 2026'da güncel web kaynaklarıyla doğrulandı (11'inde çatı düzeltildi, örneğin Unilever dondurmaları → The Magnum Ice Cream Company; 15 öneri reddedildi). 1.139 ailenin 861'i kodlu, 278'i Kodsuz. Önceki sürümde tarayıcıda yapılan kod değişiklikleri ilk açılışta bu sürüme taşınır; I kodlarına "I2-Burger King" gibi marka notu yazılabilir.
 
+## Ortak düzenleme sürümü
+
+Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/ortak/**
+
+Veri 2. sürümle aynıdır. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/ortak-kriter-veritabani/kodlu/**
