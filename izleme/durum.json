@@ -2,15 +2,15 @@
  "afsc": {
   "durum": "ok",
   "parmak_izi": "bb8636835005fc2918486af694aa034c5fedd78322aa7b4741ca503693a2a4cd",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "ak": {
   "durum": "ok",
   "parmak_izi": "7c5c77cccfe41e4df4768fdeefb19a936ed7214a21eb54a5e3b744fa15339645",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-02"
  },
  "bc": {
@@ -39,15 +39,15 @@
  "bi": {
   "durum": "ok",
   "parmak_izi": "f771efc6fba9861b99420e88c9e1a94dc22ca10dd442205971509ec8d74ada30",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "bl": {
   "durum": "ok",
   "parmak_izi": "37507656890a78fc625b77cdfa22065fe9ae95863e1628469f77dbc00886306c",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "bmk": {
@@ -60,46 +60,46 @@
  "bt": {
   "durum": "ok",
   "parmak_izi": "e44c8f75aa492d60",
-  "son_basari": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
   "son_degisiklik": "2026-11-04T15:10:55+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-18"
  },
  "bykt": {
   "durum": "ok",
   "parmak_izi": "HtJkb7ZpiVzl/OJjG+Lziw==",
-  "son_basari": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
   "son_degisiklik": "2026-10-23T15:44:32+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-20"
  },
  "dbio": {
-  "durum": "engel: https://dontbuyintooccupation.org/wp-content/uploads/2025/11/Creditor_data-251119-1.csv: HTTP 202, sitenin bot koruması",
+  "durum": "ok",
   "parmak_izi": "7113c27ae328f22d4a31b419ed4e5f657f819b3543f2008853faee7b5988ea58",
-  "son_basari": "2026-11-06T15:08:42+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-05"
  },
  "eb": {
   "durum": "ok",
   "parmak_izi": "8ba620b68577111cfc4373e6c829d5826b64705e0086d5c5fd3a6655928d3e0d",
-  "son_basari": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
   "son_degisiklik": "2026-10-21T12:23:16+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "gm": {
   "durum": "ok",
   "parmak_izi": "df8ccb1885229713915525d4cc90f2185ed0ef7bde9bf28df4e1bed2dfd476e6",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "inv": {
   "durum": "ok",
   "parmak_izi": "f397e83c71017f944e72e059c0aee87175e75ab59e49d235ca28d14fbdaf1022",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2025-07"
  },
  "kb": {
@@ -112,24 +112,24 @@
  "nt": {
   "durum": "ok",
   "parmak_izi": "3.5.3",
-  "son_basari": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
   "son_degisiklik": "2026-11-04T15:10:55+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-26"
  },
  "wp": {
   "durum": "ok",
   "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
-  "son_basari": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
   "son_degisiklik": "2026-10-20T15:23:49+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "yr": {
   "durum": "ok",
   "parmak_izi": "/_next/static/chunks/app/page-d6709ecf6d7eae14.js",
-  "son_basari": "2026-11-07T14:05:23+03:00",
-  "son_kontrol": "2026-11-07T14:05:23+03:00",
+  "son_basari": "2026-11-08T14:17:52+03:00",
+  "son_kontrol": "2026-11-08T14:17:52+03:00",
   "veri_tarihi": "2026-10-30"
  }
 }
