@@ -1,5 +1,124 @@
 [
  {
+  "id": "2026-11-16|bt|160|metin",
+  "tespit": "2026-11-16",
+  "liste": "bt",
+  "kimlik": "160",
+  "marka": "Volvo Group",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/volvo-group",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… göre İsrail, Ekim 2023’ten sonra Gazze’de yaptığı yıkımlarda"
+    ],
+    [
+     "-",
+     "Volvo’nun"
+    ],
+    [
+     "+",
+     "Volvo Group’un"
+    ],
+    [
+     "=",
+     "da aralarında bulunduğu şirketlerin iş makinelerini daha yoğun kullanmaya başlamıştır. Yine rapora göre"
+    ],
+    [
+     "-",
+     "Volvo,"
+    ],
+    [
+     "+",
+     "Volvo Group,"
+    ],
+    [
+     "=",
+     "İsrail’deki satıcısıyla birlikte, yerleşimlere hizmet için satılan zırhlı otobüsleri üreten Merkavim’in ortak sahibidir. Bu"
+    ],
+    [
+     "-",
+     "satıcı, Volvo otomobillerinin de İsrail ithalatçısı olan Mayer’s’tır;"
+    ],
+    [
+     "+",
+     "satıcı Mayer’s şirketidir."
+    ],
+    [
+     "=",
+     "Mayer’s, BM İnsan Hakları Yüksek Komiserliği’nin yerleşimlerle bağlantılı … veya Batı Şeria’daki yıkımlarda kullanılan teçhizatı tedarik etmek,"
+    ],
+    [
+     "-",
+     "Volvo’yu"
+    ],
+    [
+     "+",
+     "Volvo Group’u"
+    ],
+    [
+     "=",
+     "üç çarpılı şirket sınıfına dahil etmektedir."
+    ]
+   ]
+  },
+  "tarih": "2026-11-15"
+ },
+ {
+  "id": "2026-11-16|bt|160|bilgi",
+  "tespit": "2026-11-16",
+  "liste": "bt",
+  "kimlik": "160",
+  "marka": "Volvo Group",
+  "cati": null,
+  "tur": "bilgi",
+  "url": "https://bilinclituketim.com/brand/volvo-group",
+  "onceki": "sayfa: https://bilinclituketim.com/brand/volvo",
+  "sonraki": "sayfa: https://bilinclituketim.com/brand/volvo-group",
+  "tarih": "2026-11-15"
+ },
+ {
+  "id": "2026-11-16|bt|160|ad",
+  "tespit": "2026-11-16",
+  "liste": "bt",
+  "kimlik": "160",
+  "marka": "Volvo Group",
+  "cati": null,
+  "tur": "ad",
+  "url": "https://bilinclituketim.com/brand/volvo-group",
+  "onceki": "Volvo",
+  "sonraki": "Volvo Group",
+  "tarih": "2026-11-15"
+ },
+ {
+  "id": "2026-11-16|bt|211|seviye_dusurme",
+  "tespit": "2026-11-16",
+  "liste": "bt",
+  "kimlik": "211",
+  "marka": "Ofçay",
+  "cati": "Jacobs",
+  "tur": "seviye_dusurme",
+  "url": "https://bilinclituketim.com/brand/ofcay",
+  "onceki": "2 Çarpılı Şirket",
+  "sonraki": "Listede değil (0)",
+  "tarih": "2026-08-08"
+ },
+ {
+  "id": "2026-11-16|bt|58|seviye_dusurme",
+  "tespit": "2026-11-16",
+  "liste": "bt",
+  "kimlik": "58",
+  "marka": "İpana",
+  "cati": "Procter and Gamble (P&G)",
+  "tur": "seviye_dusurme",
+  "url": "https://bilinclituketim.com/brand/ipana",
+  "onceki": "3 Çarpılı Şirket",
+  "sonraki": "Listede değil (0)",
+  "tarih": "2026-08-08"
+ },
+ {
   "id": "2026-11-15|bt|160|metin",
   "tespit": "2026-11-15",
   "liste": "bt",

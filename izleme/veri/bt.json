@@ -28,7 +28,7 @@
     "sitede": "Hayır"
    },
    "eklenme": "2023-11-07",
-   "hukum": "3 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "kaynaklar": [
     "https://bdsmovement.net/boycott-puma#tab1",
@@ -948,7 +948,7 @@
    "url": "https://bilinclituketim.com/brand/sprite"
   },
   "160": {
-   "ad": "Volvo",
+   "ad": "Volvo Group",
    "ek": {
     "sitede": "Evet"
    },
@@ -970,9 +970,9 @@
     "https://www.volvogroup.com/en/about-us/what-we-do/our-brands.html",
     "https://www.volvocars.com/il/v/legal/privacy"
    ],
-   "metin": "BM Filistin Özel Raportörü Francesca Albanese’nin Temmuz 2025 tarihli raporuna göre Volvo Group’un iş makineleri en az 2007’den bu yana Doğu Kudüs ve Batı Şeria’da Filistinlilere ait alanların yıkımında kullanılmıştır. Rapora göre İsrail, Ekim 2023’ten sonra Gazze’de yaptığı yıkımlarda Volvo’nun da aralarında bulunduğu şirketlerin iş makinelerini daha yoğun kullanmaya başlamıştır. Yine rapora göre Volvo, İsrail’deki satıcısıyla birlikte, yerleşimlere hizmet için satılan zırhlı otobüsleri üreten Merkavim’in ortak sahibidir. Bu satıcı, Volvo otomobillerinin de İsrail ithalatçısı olan Mayer’s’tır; Mayer’s, BM İnsan Hakları Yüksek Komiserliği’nin yerleşimlerle bağlantılı şirketler veri tabanında yer almaktadır. Kudüs veya Batı Şeria’daki yıkımlarda kullanılan teçhizatı tedarik etmek, Volvo’yu üç çarpılı şirket sınıfına dahil etmektedir.",
-   "tarih": "2026-11-14",
-   "url": "https://bilinclituketim.com/brand/volvo"
+   "metin": "BM Filistin Özel Raportörü Francesca Albanese’nin Temmuz 2025 tarihli raporuna göre Volvo Group’un iş makineleri en az 2007’den bu yana Doğu Kudüs ve Batı Şeria’da Filistinlilere ait alanların yıkımında kullanılmıştır. Rapora göre İsrail, Ekim 2023’ten sonra Gazze’de yaptığı yıkımlarda Volvo Group’un da aralarında bulunduğu şirketlerin iş makinelerini daha yoğun kullanmaya başlamıştır. Yine rapora göre Volvo Group, İsrail’deki satıcısıyla birlikte, yerleşimlere hizmet için satılan zırhlı otobüsleri üreten Merkavim’in ortak sahibidir. Bu satıcı Mayer’s şirketidir. Mayer’s, BM İnsan Hakları Yüksek Komiserliği’nin yerleşimlerle bağlantılı şirketler veri tabanında yer almaktadır. Kudüs veya Batı Şeria’daki yıkımlarda kullanılan teçhizatı tedarik etmek, Volvo Group’u üç çarpılı şirket sınıfına dahil etmektedir.",
+   "tarih": "2026-11-15",
+   "url": "https://bilinclituketim.com/brand/volvo-group"
   },
   "161": {
    "ad": "Tata Group",
@@ -1097,7 +1097,7 @@
     "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "kaynaklar": [
     "https://www.zorluenerji.com.tr/tr/yatirimci-iliskileri/hakkimizda/bagli-ortakliklar-ve-istirakler",
@@ -1124,10 +1124,10 @@
    "ad": "Vestel",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1137,10 +1137,10 @@
    "ad": "Regal",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1150,10 +1150,10 @@
    "ad": "TAÇ",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1163,10 +1163,10 @@
    "ad": "Linens",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1176,10 +1176,10 @@
    "ad": "Valeron",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1189,10 +1189,10 @@
    "ad": "Pierre Cardin Home",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1202,10 +1202,10 @@
    "ad": "Zorlu Center",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1215,10 +1215,10 @@
    "ad": "Zorlu PSM",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2023-12-03",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu Holding'in alt markasıdır.",
    "tarih": "2026-08-08",
@@ -1513,7 +1513,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2024-05-02",
+   "eklenme": "2024-05-03",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Burger King'in alt markasıdır.",
@@ -1779,7 +1779,7 @@
     "sitede": "Hayır"
    },
    "eklenme": "2024-05-19",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": true,
    "metin": "Jacobs'un alt markasıdır.",
    "tarih": "2026-08-08",
@@ -2272,10 +2272,10 @@
    "ad": "Windsor",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2025-03-05",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu'nun alt markasıdır.",
    "tarih": "2026-08-08",
@@ -2285,10 +2285,10 @@
    "ad": "SEG",
    "cati": "Zorlu Holding",
    "ek": {
-    "sitede": "Evet"
+    "sitede": "Hayır"
    },
    "eklenme": "2025-03-05",
-   "hukum": "2 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": false,
    "metin": "Zorlu'nun alt markasıdır.",
    "tarih": "2026-08-08",
@@ -2377,7 +2377,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "1 Çarpılı Şirket",
    "kapsam": true,
    "kaynaklar": [
@@ -2396,7 +2396,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "1 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Converse'in gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile kadın ve erkek çorabı üretimi konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Converse'in ABD Kanada, Avrupa, Ortadoğu ve Afrika'da satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Converse’i bir çarpılı şirket sınıfına dahil etmektedir.",
@@ -2409,7 +2409,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "1 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Ralph Lauren'in alt markasıdır.",
@@ -2421,7 +2421,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "1 Çarpılı Şirket",
    "kapsam": true,
    "kaynaklar": [
@@ -2436,7 +2436,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "kaynaklar": [
@@ -2455,7 +2455,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2468,7 +2468,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2481,7 +2481,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2494,7 +2494,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2507,7 +2507,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2533,7 +2533,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-10-07",
+   "eklenme": "2025-10-08",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "metin": "Johnson & Johnson'ın alt markasıdır.",
@@ -2860,7 +2860,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2885,7 +2885,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2897,7 +2897,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2909,7 +2909,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2921,7 +2921,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2933,7 +2933,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2945,7 +2945,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2957,7 +2957,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2969,7 +2969,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2981,7 +2981,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -2993,7 +2993,7 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2025-11-23",
+   "eklenme": "2025-11-24",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
    "tarih": "2026-08-08",
@@ -4086,10 +4086,10 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2026-11-14",
+   "eklenme": "2026-11-15",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
-   "tarih": "2026-11-14",
+   "tarih": "2026-11-15",
    "url": "https://bilinclituketim.com/brand/scania"
   },
   "384": {
@@ -4098,10 +4098,10 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2026-11-14",
+   "eklenme": "2026-11-15",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
-   "tarih": "2026-11-14",
+   "tarih": "2026-11-15",
    "url": "https://bilinclituketim.com/brand/iveco"
   },
   "385": {
@@ -4110,10 +4110,10 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2026-11-14",
+   "eklenme": "2026-11-15",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
-   "tarih": "2026-11-14",
+   "tarih": "2026-11-15",
    "url": "https://bilinclituketim.com/brand/range-rover"
   },
   "386": {
@@ -4122,10 +4122,10 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2026-11-14",
+   "eklenme": "2026-11-15",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
-   "tarih": "2026-11-14",
+   "tarih": "2026-11-15",
    "url": "https://bilinclituketim.com/brand/defender"
   },
   "387": {
@@ -4134,10 +4134,10 @@
    "ek": {
     "sitede": "Evet"
    },
-   "eklenme": "2026-11-14",
+   "eklenme": "2026-11-15",
    "hukum": "3 Çarpılı Şirket",
    "kapsam": true,
-   "tarih": "2026-11-14",
+   "tarih": "2026-11-15",
    "url": "https://bilinclituketim.com/brand/discovery"
   },
   "39": {
@@ -4438,7 +4438,7 @@
     "sitede": "Hayır"
    },
    "eklenme": "2023-11-07",
-   "hukum": "3 Çarpılı Şirket",
+   "hukum": "Listede değil (0)",
    "kapsam": true,
    "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
    "tarih": "2026-08-08",
@@ -5090,8 +5090,8 @@
  },
  "kaynak": "bt",
  "meta": {
-  "uretim": "2026-11-14T21:30:01.364784+00:00"
+  "uretim": "2026-11-15T20:50:57.939030+00:00"
  },
- "parmak_izi": "bcc3abf9776499ca",
- "tarih": "2026-11-15T14:58:17+03:00"
+ "parmak_izi": "433770058fe441ff",
+ "tarih": "2026-11-16T15:47:28+03:00"
 }
