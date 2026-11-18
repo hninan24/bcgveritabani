@@ -37,10 +37,10 @@
   "veri_tarihi": "2026-10-07"
  },
  "bi": {
-  "durum": "hata: Boycott Israel: sayfada yalnız 0 kayıt okundu",
+  "durum": "engel: Boycott Israel: sayfada yalnız 0 kayıt okundu (HTTP 200, 12058 bayt, sunucu openresty/1.31.1.1, başlık «Bir dakika lütfen…»)",
   "parmak_izi": "f771efc6fba9861b99420e88c9e1a94dc22ca10dd442205971509ec8d74ada30",
   "son_basari": "2026-11-17T16:29:08+03:00",
-  "son_kontrol": "2026-11-18T16:05:49+03:00",
+  "son_kontrol": "2026-11-18T16:15:51+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "bl": {
@@ -90,10 +90,10 @@
   "veri_tarihi": "2026-10-19"
  },
  "gm": {
-  "durum": "hata: Genç Müslümanlar: sayfada yalnız 0 başlık okundu",
+  "durum": "engel: Genç Müslümanlar: sayfada yalnız 0 başlık okundu (HTTP 200, 11933 bayt, sunucu openresty/1.31.1.1, başlık «Bir dakika lütfen…»)",
   "parmak_izi": "df8ccb1885229713915525d4cc90f2185ed0ef7bde9bf28df4e1bed2dfd476e6",
   "son_basari": "2026-11-17T16:29:08+03:00",
-  "son_kontrol": "2026-11-18T16:05:49+03:00",
+  "son_kontrol": "2026-11-18T16:15:51+03:00",
   "veri_tarihi": "2026-11-02"
  },
  "inv": {
@@ -120,11 +120,11 @@
   "veri_tarihi": "2026-10-26"
  },
  "wp": {
-  "durum": "hata: Who Profits: dizinde yalnız 0 şirket okundu",
+  "durum": "engel: Who Profits: dizinde yalnız 0 şirket okundu (HTTP 200, 7227 bayt, sunucu cloudflare, başlık «Bir dakika lütfen…»)",
   "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
   "son_basari": "2026-11-17T16:29:08+03:00",
   "son_degisiklik": "2026-10-20T15:23:49+03:00",
-  "son_kontrol": "2026-11-18T16:05:49+03:00",
+  "son_kontrol": "2026-11-18T16:15:51+03:00",
   "veri_tarihi": "2026-10-19"
  },
  "yr": {
