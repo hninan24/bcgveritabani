@@ -23,7 +23,7 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kaynaklar import KAYNAKLAR, EngelHatasi  # noqa: E402
+from kaynaklar import KAYNAKLAR, GeciciHata  # noqa: E402
 import olaylar  # noqa: E402
 
 KOK = Path(__file__).resolve().parent
@@ -34,7 +34,7 @@ ALANLAR = ("ad", "hukum", "kapsam", "cati", "metin", "kaynaklar", "url", "ek")
 ETIKET = {"ad": "Ad", "hukum": "Hüküm", "cati": "Çatı", "metin": "Gerekçe metni", "kaynaklar": "Kaynak bağlantıları",
           "url": "Sayfa adresi", "ek": "Diğer alanlar"}
 BILDIRIM_SINIR = 25          # bildirimde kaynak başına gösterilen en fazla madde
-ENGEL_GUN = 7                # sitenin bot koruması bu kadar gün sürerse çalışma hatalı sayılır (daha kısası geçici sayılır)
+ENGEL_GUN = 7                # kaynak (bot koruması, bağlantı, boş sayfa) bu kadar gün okunamazsa çalışma hatalı sayılır (daha kısası geçici)
 
 
 def oku(p, vars=None):
@@ -222,8 +222,8 @@ def main():
             r = K["cek"](onceki)
         except Exception as e:  # noqa: BLE001
             msg = str(e) or type(e).__name__
-            if isinstance(e, EngelHatasi):
-                # site bot korumasıyla geri çevirdi: son başarılı kontrolden bu yana ENGEL_GUN geçmediyse geçici sayılır
+            if isinstance(e, GeciciHata):
+                # bot koruması, bağlantı hatası ya da boş sayfa: son başarılı kontrolden bu yana ENGEL_GUN geçmediyse geçici sayılır
                 sb = dk.get("son_basari")
                 gun = (simdi - dt.datetime.fromisoformat(sb)).days if sb else None
                 if gun is not None and gun < ENGEL_GUN:
@@ -278,7 +278,7 @@ def main():
     if hatalar:
         ust.append("Kontrol edilemeyen: " + "; ".join(f"{KAYNAKLAR[k]['ad']} ({v})" for k, v in hatalar.items()) + ".")
     if engeller:
-        ust.append("Geçici olarak okunamayan (sitenin bot koruması, önceki anlık görüntü korundu): "
+        ust.append("Geçici olarak okunamayan (bot koruması, bağlantı hatası ya da boş sayfa; önceki anlık görüntü korundu): "
                    + "; ".join(f"{KAYNAKLAR[k]['ad']} ({v})" for k, v in engeller.items()) + ".")
     for k, v in uyarilar.items():
         ust.append(f"{KAYNAKLAR[k]['ad']}: " + "; ".join(v) + ".")

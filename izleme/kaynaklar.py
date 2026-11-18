@@ -33,9 +33,21 @@ class KaynakHatasi(Exception):
     pass
 
 
-class EngelHatasi(KaynakHatasi):
+class GeciciHata(KaynakHatasi):
+    """Kaynak bu kez okunamadı ama sorun büyük olasılıkla geçici: önceki anlık görüntü korunur, son başarılı kontrolden bu
+    yana izle.ENGEL_GUN gün geçmediyse çalışma hatalı sayılmaz (rapora "geçici olarak okunamayan" diye yazılır)."""
+
+
+class EngelHatasi(GeciciHata):
     """Site isteği bot korumasıyla geri çevirdi: SiteGround'un HTTP 202 doğrulama sayfası, Cloudflare'in 403/503 sayfası.
     Çoğunlukla GitHub'ın sunucu adreslerine özgü ve geçicidir (aynı sayfa başka yerden açılır)."""
+
+
+class BosSayfaHatasi(GeciciHata):
+    """Sayfa açıldı ama içinde hiç kayıt yok. 2026-11-16 ve 18'de Who Profits, Genç Müslümanlar ve Boycott Israel GitHub'ın
+    sunucusuna aynı anda böyle döndü; aynı sayfalar Mac'ten tam okunuyordu, 17'sinde GitHub'dan da okundu. Liste bir anda
+    sıfırlanmaz: bu bir doğrulama ya da hata sayfasıdır. Yapı gerçekten değiştiyse sıfır her gün sürer ve süre dolunca hata
+    olur. Birkaç kayıt eksikse (sıfır değilse) KaynakHatasi kalır: o, ayrıştırıcının bozulduğunu gösterir."""
 
 
 ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "just a moment", "cf_chl", "imunify")
@@ -54,6 +66,7 @@ def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
     for i in range(deneme):
         try:
             r = oturum().get(url, timeout=60, **kw)
+            _yerel.son = r
             if r.status_code in kabul or r.status_code == 404:
                 return r
             son = f"HTTP {r.status_code}"
@@ -62,10 +75,34 @@ def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
                 break
         except requests.RequestException as e:
             son, engel = type(e).__name__, False
+            ag = isinstance(e, (requests.ConnectionError, requests.Timeout))
+        else:
+            ag = False
         time.sleep(min(120, bekle * 2 ** i))
     if engel:
         raise EngelHatasi(f"{url}: {son}, sitenin bot koruması")
+    if ag:                                 # beş denemede de bağlantı kurulamadı (2026-11-15 Genç Müslümanlar: ConnectTimeout)
+        raise GeciciHata(f"{url}: {son}, bağlantı kurulamadı")
     raise KaynakHatasi(f"{url}: {son}")
+
+
+def teshis():
+    """Bu iş parçacığında son alınan yanıtın kısa tanımı (hata iletisine eklenir: GitHub'ın sunucusuna ne döndüğü görünsün)."""
+    r = getattr(_yerel, "son", None)
+    if r is None:
+        return "yanıt yok"
+    t = r.text[:200000]
+    m = re.search(r"<title[^>]*>(.*?)</title>", t, re.S | re.I)
+    baslik = H.unescape(re.sub(r"\s+", " ", m.group(1))).strip()[:80] if m else ""
+    iz = [x for x in ENGEL_IZI if x in t[:20000].lower()]
+    return ", ".join(x for x in (f"HTTP {r.status_code}", f"{len(r.content)} bayt", f"sunucu {r.headers.get('server') or '?'}",
+                                 f"başlık «{baslik}»" if baslik else "başlık yok", f"bot izi {'/'.join(iz)}" if iz else "",
+                                 r.url if r.url != getattr(r.request, "url", r.url) else "") if x)
+
+
+def az_okundu(ileti, n):
+    """Beklenenden az kayıt: hiç yoksa geçici (BosSayfaHatasi), birkaç tane varsa hata. İletiye son yanıtın tanımı eklenir."""
+    raise (BosSayfaHatasi if n == 0 else KaynakHatasi)(f"{ileti} ({teshis()})")
 
 
 def metin_coz(r):
@@ -242,7 +279,7 @@ def cek_bd(onceki, isci=3):
     yollar = sorted(set(re.findall(r'href="(/b/[^"]+)"', sm)))
     eski = onceki.get("kayitlar") or {}
     if len(yollar) < 0.8 * max(len(eski), 1000):
-        raise KaynakHatasi(f"Boykot Dedektifi: site haritasında yalnız {len(yollar)} marka (önceki {len(eski)})")
+        az_okundu(f"Boykot Dedektifi: site haritasında yalnız {len(yollar)} marka (önceki {len(eski)})", len(yollar))
     recs, alinamayan, yok = [], [], []
     kilit = threading.Lock()
 
@@ -355,7 +392,7 @@ def cek_kb(onceki):
             s += 1
             time.sleep(0.3)
     if not kartlar.get(843):
-        raise KaynakHatasi("Kolay Boykot: Filistin İçin listesi okunamadı")
+        az_okundu("Kolay Boykot: Filistin İçin listesi okunamadı", 0)
     seviye = {ms: etiket for cid, ks in kartlar.items() if cid != 843 for ms, etiket, _, _ in ks}
     # Aynı adreste iki kayıt olabilir (26.10.2026 toplu eklemesi: "Capri Sun" 8361, "Capri-Sun" 1389): küçük numaralı eski kayıt
     fil = {}
@@ -447,7 +484,7 @@ def cek_eb(onceki):
     ana = sayfa(EB + "/tr")
     firmalar, tarih = _eb_ana(ana)
     if not firmalar:
-        raise KaynakHatasi("Eczanede Boykot: ana sayfada boykot firması okunamadı")
+        az_okundu("Eczanede Boykot: ana sayfada boykot firması okunamadı", 0)
     ureticiler = {}
     for q in EB_TOHUM + [f["firma"].lower() for f in firmalar]:
         for k in _eb_kartlar(sayfa(EB + "/tr?q=" + urllib.parse.quote(q))):
@@ -466,7 +503,7 @@ def cek_eb(onceki):
             if k["durum"] == "boykot" and k["link"]:
                 urunler[k["link"]] = k
     if len(urunler) < 100:
-        raise KaynakHatasi(f"Eczanede Boykot: yalnız {len(urunler)} boykot ürünü okundu")
+        az_okundu(f"Eczanede Boykot: yalnız {len(urunler)} boykot ürünü okundu", len(urunler))
     yeni = normalle_eb(firmalar, urunler.values(), tarih)
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)),
             "meta": {"uretici": sorted(ureticiler), "urun": len(urunler)}}
@@ -496,7 +533,7 @@ def cek_wp(onceki):
             gor.setdefault(i, _wp_ad(ad))
         time.sleep(1)
     if len(gor) < 0.8 * max(len(eski), 300):
-        raise KaynakHatasi(f"Who Profits: dizinde yalnız {len(gor)} şirket okundu")
+        az_okundu(f"Who Profits: dizinde yalnız {len(gor)} şirket okundu", len(gor))
     yeni = {i: eski.get(i) or kayit(gor[i], None, True, None, None, (), f"https://www.whoprofits.org/companies/company/{i}")
             for i in sorted(gor, key=int)}
     return {"kayitlar": yeni, "parmak_izi": sha(",".join(sorted(gor))), "meta": {"sirket": len(gor)}}
@@ -530,7 +567,7 @@ def normalle_afsc(t):
 def cek_afsc(onceki):
     yeni = normalle_afsc(sayfa_metni(AFSC))
     if len(yeni) < 20:
-        raise KaynakHatasi(f"AFSC: sayfada yalnız {len(yeni)} şirket okundu")
+        az_okundu(f"AFSC: sayfada yalnız {len(yeni)} şirket okundu", len(yeni))
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)),
             "meta": {"sirket": len(yeni)}}
 
@@ -544,18 +581,18 @@ def dosya_kaydi(ad, icerik, url):
 
 
 def dosyalar(onceki, sayfa, bul, ad):
-    """Veri dosyası kaynakları (DBIO, Investigate): dosya bağlantıları sayfadan okunur. Sayfa bot korumasına takılırsa
+    """Veri dosyası kaynakları (DBIO, Investigate): dosya bağlantıları sayfadan okunur. Sayfa okunamazsa (bot koruması, boş sayfa)
     önceki kontroldeki dosyalar doğrudan indirilir; sayfaya yeni dosya eklendiyse sayfa açıldığı ilk gün görülür."""
     uyari = []
     try:
         urls = bul(al(sayfa).text)
         if not urls:
-            raise KaynakHatasi(f"{ad}: sayfada veri dosyası bağlantısı bulunamadı")
-    except EngelHatasi:
+            az_okundu(f"{ad}: sayfada veri dosyası bağlantısı bulunamadı", 0)
+    except GeciciHata as e:
         urls = [r["url"] for r in (onceki.get("kayitlar") or {}).values() if r.get("url")]
         if not urls:
             raise
-        uyari.append("veri sayfası sitenin bot korumasına takıldı; bilinen veri dosyaları doğrudan kontrol edildi")
+        uyari.append(f"veri sayfası okunamadı ({e}); bilinen veri dosyaları doğrudan kontrol edildi")
     yeni = {}
     for u in urls:
         n = u.rsplit("/", 1)[-1]
@@ -585,7 +622,7 @@ def cek_ak(onceki):
     urls = sorted(set(re.findall(r"<loc>(https://directory\.abbottandkeefer\.com/brand-entry/[^<]+)</loc>", xml)))
     eski = onceki.get("kayitlar") or {}
     if len(urls) < 0.8 * max(len(eski), 500):
-        raise KaynakHatasi(f"Abbott & Keefer: site haritasında yalnız {len(urls)} marka")
+        az_okundu(f"Abbott & Keefer: site haritasında yalnız {len(urls)} marka", len(urls))
     yeni, n = {}, 0
     for u in urls:
         slug = u.rsplit("/", 1)[-1]
@@ -693,7 +730,7 @@ def cek_bco(onceki, isci=3):
         time.sleep(0.3)
     eski_boykot = sum(1 for v in eski.values() if v.get("hukum") == "Boykot")
     if len(kat_satir) < 0.8 * max(eski_boykot, 500):
-        raise KaynakHatasi(f"Boykot.co: kategori sayfalarında yalnız {len(kat_satir)} marka (önceki {eski_boykot})")
+        az_okundu(f"Boykot.co: kategori sayfalarında yalnız {len(kat_satir)} marka (önceki {eski_boykot})", len(kat_satir))
     sayfalar, kartlar, bozuk, yok, alinamayan = {}, {}, set(), set(), set()
     kilit = threading.Lock()
 
@@ -845,7 +882,7 @@ def normalle_bi(sirketler):
 def cek_bi(onceki):
     yeni = normalle_bi(bi_ayristir(sayfa_metni(BI)))
     if len(yeni) < 0.8 * max(len(onceki.get("kayitlar") or {}), 100):
-        raise KaynakHatasi(f"Boycott Israel: sayfada yalnız {len(yeni)} kayıt okundu")
+        az_okundu(f"Boycott Israel: sayfada yalnız {len(yeni)} kayıt okundu", len(yeni))
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"kayit": len(yeni)}}
 
 
@@ -876,7 +913,7 @@ def cek_bl(onceki):
     d = json.loads(metin_coz(al(BL)))
     yeni = normalle_bl(d["brands"])
     if len(yeni) < 0.8 * max(len(onceki.get("kayitlar") or {}), 300):
-        raise KaynakHatasi(f"BoykotListe: dosyada yalnız {len(yeni)} satır okundu")
+        az_okundu(f"BoykotListe: dosyada yalnız {len(yeni)} satır okundu", len(yeni))
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"satir": len(yeni)}}
 
 
@@ -912,7 +949,7 @@ def cek_gm(onceki):
     if len(ham) < 0.8 * max(len(onceki.get("kayitlar") or {}), 60):
         if "imunify" in h.lower():         # sunucunun bot doğrulama sayfası
             raise EngelHatasi(f"{GM}: sitenin bot koruması")
-        raise KaynakHatasi(f"Genç Müslümanlar: sayfada yalnız {len(ham)} başlık okundu")
+        az_okundu(f"Genç Müslümanlar: sayfada yalnız {len(ham)} başlık okundu", len(ham))
     m = re.search(r'article:modified_time" content="([^"]+)"', h)
     yeni = normalle_gm(ham, m.group(1) if m else None)
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)), "meta": {"baslik": len(ham)}}
@@ -948,7 +985,7 @@ def cek_bmk(onceki, isci=4):
     slugs = [b["slug"] for b in al(BMK + "/brands-search.json").json()["brands"]]
     eski = onceki.get("kayitlar") or {}
     if len(slugs) < 0.8 * max(len(eski), 3000):
-        raise KaynakHatasi(f"Boykot Market: arama dosyasında yalnız {len(slugs)} marka (önceki {len(eski)})")
+        az_okundu(f"Boykot Market: arama dosyasında yalnız {len(slugs)} marka (önceki {len(eski)})", len(slugs))
     recs, alinamayan = [], []
     kilit = threading.Lock()
 
@@ -1003,7 +1040,7 @@ def normalle_yr(ilaclar, firmalar):
 def cek_yr(onceki):
     m = re.search(r"/_next/static/chunks/app/page-[0-9a-f]+\.js", al(YR + "/").text)
     if not m:
-        raise KaynakHatasi("Yerli Reçete: ana sayfada veri paketi bulunamadı")
+        az_okundu("Yerli Reçete: ana sayfada veri paketi bulunamadı", 0)
     iz = m.group(0)
     if iz == onceki.get("parmak_izi"):
         return {"degismedi": True, "parmak_izi": iz}
