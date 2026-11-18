@@ -50,7 +50,9 @@ class BosSayfaHatasi(GeciciHata):
     olur. Birkaç kayıt eksikse (sıfır değilse) KaynakHatasi kalır: o, ayrıştırıcının bozulduğunu gösterir."""
 
 
-ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "just a moment", "cf_chl", "imunify")
+# "bir dakika lütfen": Cloudflare doğrulama sayfasının Türkçesi (istekler Accept-Language: tr ile gidiyor). 2026-11-18 Who Profits
+# (cloudflare), Genç Müslümanlar ve Boycott Israel (openresty) GitHub'a bunu HTTP 200 ile döndürdü.
+ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "just a moment", "cf_chl", "imunify", "bir dakika lütfen")
 
 
 def oturum():
@@ -102,7 +104,11 @@ def teshis():
 
 def az_okundu(ileti, n):
     """Beklenenden az kayıt: hiç yoksa geçici (BosSayfaHatasi), birkaç tane varsa hata. İletiye son yanıtın tanımı eklenir."""
-    raise (BosSayfaHatasi if n == 0 else KaynakHatasi)(f"{ileti} ({teshis()})")
+    if n == 0:
+        r = getattr(_yerel, "son", None)
+        bot = r is not None and any(x in r.text[:20000].lower() for x in ENGEL_IZI)
+        raise (EngelHatasi if bot else BosSayfaHatasi)(f"{ileti} ({teshis()}{', sitenin bot koruması' if bot else ''})")
+    raise KaynakHatasi(f"{ileti} ({teshis()})")
 
 
 def metin_coz(r):
