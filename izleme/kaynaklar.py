@@ -1158,7 +1158,9 @@ KAYNAKLAR = {
                kapsam="yalnız App Store sürümü; liste uygulamanın içinde, karşılaştırmak için güncel kopya gerekir"),
     "yr": dict(ad="Yerli Reçete", site=YR, cek=cek_yr, siklik="gunluk", birim="ilaç",
                kapsam="veritabanına ilaçları alınan 24 firma (Yerli Reçete boykot listesi değildir)"),
-    "bmk": dict(ad="Boykot Market", site=BMK + "/tr/", cek=cek_bmk, siklik="haftalik", birim="marka", kapsam="listenin tamamı"),
+    # 2026-11-18 (kullanıcı: "Boykot market veriyi bozuyor sahip olduğu hacim ve kararsız tarafıyla"): veritabanından çıkarıldı, izleme
+    # durduruldu. siklik "kapali": hizli ve tam çalışmalara girmez; elle adıyla (bmk) çalıştırılabilir.
+    "bmk": dict(ad="Boykot Market", site=BMK + "/tr/", cek=cek_bmk, siklik="kapali", birim="marka", kapsam="listenin tamamı"),
     "bl": dict(ad="BoykotListe", site="https://boykotliste.com", cek=cek_bl, siklik="gunluk", birim="marka", kapsam="listenin tamamı"),
     "gm": dict(ad="Genç Müslümanlar", site=GM, cek=cek_gm, siklik="gunluk", birim="marka", kapsam="listenin tamamı"),
     "bi": dict(ad="Boycott Israel", site=BI, cek=cek_bi, siklik="gunluk", birim="şirket", kapsam="listenin tamamı"),

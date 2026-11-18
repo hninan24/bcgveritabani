@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/bcgveritabani/**
 
-Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 20 listeden toplanan 7.871 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -11,6 +11,8 @@ Veritabanında 21 listeden toplanan 11.343 kuruluş var. Her kuruluş için şun
 - kategori (listelerin kendi kategorilerinden).
 
 Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrılır.
+
+**18 Kasım 2026: Boykot Market çıkarıldı.** Listenin hacmi ve kararsızlığı veriyi bozuyordu: 9 Kasım'da site 2.193 markasını birden değiştirdi (1.870 gerekçe metni yeniden yazıldı, 513 çatı değişti, 202 marka çıktı, 118 marka girdi). Ana site ve ortak düzenleme sürümü Boykot Market olmadan kuruldu; liste kaynak izlemeden de alındı. Yalnız Boykot Market'te geçen 3.475 kuruluş çıktı; başka listede de geçen kuruluşlar o listelerin kayıtlarıyla duruyor. Boykot Market'ten çatı alan 55 Kolay Boykot markası (Old Navy, ZYN, Veuve Clicquot…) Kolay Boykot'un kendi ortak gerekçesindeki çatıya bağlandı. Kategorisini yalnız Boykot Market etiketinden alan 61 kuruluş önceki kategorisini korudu. Ayrı sayfalardaki diğer sürümler (en az iki liste, gerekçe gruplu, kriter gruplu, birleşik, birleşik 2, kodlu) bu tarihten önce hazırlandı ve Boykot Market'i içerir.
 
 ## En az iki liste sürümü
 
@@ -50,7 +52,7 @@ Onaylanan kriter setiyle hazırlandı: A–G aynı; D3'ün yedi alt kodu (Fabrik
 
 Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/ortak/**
 
-Veri 2. sürümle aynıdır. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
+Veri 2. sürümün kurallarıyla, 18 Kasım 2026'dan beri Boykot Market olmadan kurulur: 2.140 kuruluş, 703 aile (21'i Kodsuz). Boykot Market'le en az iki listeye çıkan aileler (çoğu Who Profits ve DBIO'da tek kalan şirketler) eşiğin altına indi; kanıtı yalnız Boykot Market metninde olan okuma kodları düştü. Ortak kayıtta kod düzenlemesi ya da ÖBL seçimi olan 18 kuruluş (Vodafone, Nissan, Mitsubishi, Organon, Fakir…) eşiğin altına indiği hâlde görünür kalır. 2. sürüm sayfası (/birlesik-2/) Boykot Market'li veriyle durur. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
 
 ## Kodlu sürüm
 
@@ -68,7 +70,6 @@ Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter)
 
 | Liste | Kayıt |
 |---|---:|
-| Boykot Market (boykotmarket.com) | 6.342 |
 | Boykot Dedektifi (boykotdedektifi.com) | 2.556 |
 | No Thanks (iOS uygulaması, üç seviye) | 2.191 |
 | DBIO — Don't Buy Into Occupation (2025) | 1.218 |
@@ -92,7 +93,9 @@ Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter)
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 3 Kasım 2026. bykt 3 Kasım, Bilinçli Tüketim 2 Kasım verisine geçirildi (bekleyen olaylar işlendi; Bilinçli Tüketim'e Hazar ve Shell eklendi). Kolay Boykot'un “Filistin İçin” listesi yenilendi: liste 330 markadan 1.518 adrese çıktı (site 26 Ekim'de çatı şirketlerin alt markalarını topluca eklemiş). Veritabanına 1.384 kayıt alındı; 471 kuruluş yeni.
+Son güncelleme: 18 Kasım 2026. Boykot Market çıkarıldı (yukarıda). Bilinçli Tüketim 18 Kasım verisine geçirildi: Scania, Range Rover, Iveco, HD Hyundai, Ford, Discovery ve Defender eklendi; İpana ve Ofçay'ı Bilinçli Tüketim “Listede değil” derecesine indirdi, bu kayıtlar “geri çekildi” işaretli. Kolay Boykot'un 16 Kasım'da kaldırdığı Kinder ürünleri, Kitkat, Ferrero Rocher ve Cadbury Dairy Milk kayıtları “geri çekildi” işaretli. Boykot Dedektifi'nin üç değişikliği (Dost Kitabevi, Carrefour SA Türkiye, 3G Capital) bekliyor.
+
+3 Kasım 2026: bykt 3 Kasım, Bilinçli Tüketim 2 Kasım verisine geçirildi (bekleyen olaylar işlendi; Bilinçli Tüketim'e Hazar ve Shell eklendi). Kolay Boykot'un “Filistin İçin” listesi yenilendi: liste 330 markadan 1.518 adrese çıktı (site 26 Ekim'de çatı şirketlerin alt markalarını topluca eklemiş). Veritabanına 1.384 kayıt alındı; 471 kuruluş yeni.
 
 - **Seviye.** Yeni markaların çoğu sitenin beş seviyesinden hiçbirinde değil. 938 marka “Seviyesiz” etiketiyle alındı; Kolay Boykot filtresinde ayrı seçenek.
 - **Alınmayanlar.** Sayfası açılmayan 130 ürün adı (iPhone, Whopper…) alınmadı, izleniyor. Rozeti “Boykot” olmaktan çıkan Capri-Sun, Flormar, Hugo Boss ve 19 Ekim'de de bu rozeti taşımayan Protex'in Kolay Boykot kaydı “geri çekildi” işaretli; bu kuruluşlar diğer listelerdeki kayıtlarıyla duruyor.
@@ -101,7 +104,7 @@ Son güncelleme: 3 Kasım 2026. bykt 3 Kasım, Bilinçli Tüketim 2 Kasım veris
 
 Daha önce (2 Kasım 2026) dört liste eklendi:
 
-- **Boykot Market** (6.342 marka). Sitenin kendi BDS / AMP / Boykot Market etiketi solda filtre olarak var. Bu etiket derece değil; site boş kalan değerleri de BDS sayıyor.
+- **Boykot Market** (6.342 marka; 18 Kasım 2026'da çıkarıldı). Sitenin kendi BDS / AMP / Boykot Market etiketi solda filtre olarak var. Bu etiket derece değil; site boş kalan değerleri de BDS sayıyor.
 - **BoykotListe** (415 satır). Yüksek / Orta / Düşük risk solda filtre olarak var.
 - **Boycott Israel** (74 şirket, 140 alt marka). Çok yüksek / Yüksek / Orta / Düşük etki solda filtre olarak var. Sayfanın dipnotu GPT-4 ile derlenen veri de kullanıldığını söylüyor.
 - **Genç Müslümanlar** (93 kayıt, tek düzey, sayfa Kasım 2023 tarihli).
@@ -149,7 +152,7 @@ Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünü
 
 ## Kaynak izleme
 
-Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot, Boykot.co ve Boykot Market'i her pazartesi; GitHub'dan okunamayan Boycat'i her pazartesi Mac'ten) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/bcgveritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
+Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot ve Boykot.co'yu her pazartesi; GitHub'dan okunamayan Boycat'i her pazartesi Mac'ten) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/bcgveritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
 
 ## Öncelikli Boykot Listesi (ÖBL) nasıl hazırlanır
 
