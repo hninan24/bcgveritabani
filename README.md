@@ -184,6 +184,6 @@ Excel dosyasında şu sayfalar var:
 
 ## Dosyalar
 
-- `site/`: Boykot Çalışma Grubu web sitesi (tek dosya `index.html` ve `logolar.jpg`).
+- `site/`: Boykot Çalışma Grubu web sitesi (tek dosya `index.html` ve topluluk logoları `logolar/`).
 - `izleme/`: kaynak izleme betiği, anlık görüntüler ve raporlar.
 - `index.html`: sitenin tamamı. Veri sayfanın içindedir. Dosyayı indirip internet olmadan da açabilirsiniz; bu durumda seçimleriniz o tarayıcının yerel belleğinde tutulur.
