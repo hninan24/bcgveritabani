@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/bcgveritabani/**
 
-Veritabanında 20 listeden toplanan 7.883 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 20 listeden toplanan 7.794 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -52,7 +52,7 @@ Onaylanan kriter setiyle hazırlandı: A–G aynı; D3'ün yedi alt kodu (Fabrik
 
 Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/ortak/**
 
-Veri 2. sürümün kurallarıyla, 18 Kasım 2026'dan beri Boykot Market olmadan kurulur: 2.140 kuruluş, 702 aile. Boykot Market'le en az iki listeye çıkan aileler (çoğu Who Profits ve DBIO'da tek kalan şirketler) eşiğin altına indi; kanıtı yalnız Boykot Market metninde olan okuma kodları düştü. Ortak kayıtta kod düzenlemesi ya da ÖBL seçimi olan 18 kuruluş (Vodafone, Nissan, Mitsubishi, Organon, Fakir…) eşiğin altına indiği hâlde görünür kalır. 2. sürüm sayfası (/birlesik-2/) Boykot Market'li veriyle durur. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
+Veri 2. sürümün kurallarıyla, 18 Kasım 2026'dan beri Boykot Market olmadan kurulur: 2.151 kuruluş, 701 aile. Boykot Market'le en az iki listeye çıkan aileler (çoğu Who Profits ve DBIO'da tek kalan şirketler) eşiğin altına indi; kanıtı yalnız Boykot Market metninde olan okuma kodları düştü. Ortak kayıtta kod düzenlemesi ya da ÖBL seçimi olan 18 kuruluş (Vodafone, Nissan, Mitsubishi, Organon, Fakir…) eşiğin altına indiği hâlde görünür kalır. 2. sürüm sayfası (/birlesik-2/) Boykot Market'li veriyle durur. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
 
 ## Kodlu sürüm
 
@@ -93,7 +93,9 @@ Aynı kuruluşlara Ortak Kriter Veritabanı V'in kriter seti (7 grup, 27 kriter)
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 20 Kasım 2026. Bilinçli Tüketim 20 Kasım verisine geçirildi: Volvo Group'un markaları (Mack Trucks, Volvo Penta, Renault Trucks, Prevost, Nova Bus, Rokbak), DJI ve markaları, HD Hyundai'nin DEVELON'u eklendi. Mack Trucks, FDH'nin Nestlé altındaki Mack'inden ayrı tutuldu. Boykot Dedektifi 18 Kasım taramasına geçirildi: Dost Kitabevi eklendi, Carrefour SA Türkiye “Şüpheli” oldu, 3G Capital'in metni güncellendi, Turkcell'in kaydı “geri çekildi” işaretli (Türkiye Varlık Fonu yalnız bu kayıtla çatı olduğu için düştü). HD Hyundai Heavy Industries, HD Hyundai'nin alt markası yapıldı.
+Son güncelleme: 20 Kasım 2026. Yazım farkıyla ikiye bölünmüş kayıtlar düzeltildi (çalışma grubunun onayıyla): aynı markanın farklı yazımları birleşti (ör. Becca / Becca Cosmetics, Next / Next Fashion, Origins / Orgins, Goodyear / Godyear, Lavazza / Lavazza Coffee), listelerin çatıyı farklı yazdığı satırlar var olan kuruluşa bağlandı (Gratis, Komagene, Hikvision, Capri Holdings…) ve adı ile metni başka bir kuruluşun alt markası olduğunu söyleyen kayıtlar o kuruluşun altına alındı (Tata Motors ve TCS → Tata Group, Paramount Pictures → Paramount, Chase Bank → JPMorgan Chase…). 85 birleştirme, 50 alt marka bağlantısı.
+
+Aynı gün: Bilinçli Tüketim 20 Kasım verisine geçirildi: Volvo Group'un markaları (Mack Trucks, Volvo Penta, Renault Trucks, Prevost, Nova Bus, Rokbak), DJI ve markaları, HD Hyundai'nin DEVELON'u eklendi. Mack Trucks, FDH'nin Nestlé altındaki Mack'inden ayrı tutuldu. Boykot Dedektifi 18 Kasım taramasına geçirildi: Dost Kitabevi eklendi, Carrefour SA Türkiye “Şüpheli” oldu, 3G Capital'in metni güncellendi, Turkcell'in kaydı “geri çekildi” işaretli (Türkiye Varlık Fonu yalnız bu kayıtla çatı olduğu için düştü). HD Hyundai Heavy Industries, HD Hyundai'nin alt markası yapıldı.
 
 18 Kasım 2026: Boykot Market çıkarıldı (yukarıda). Bilinçli Tüketim 18 Kasım verisine geçirildi: Scania, Range Rover, Iveco, HD Hyundai, Ford, Discovery ve Defender eklendi; İpana ve Ofçay'ı Bilinçli Tüketim “Listede değil” derecesine indirdi, bu kayıtlar “geri çekildi” işaretli. Kolay Boykot'un 16 Kasım'da kaldırdığı Kinder ürünleri, Kitkat, Ferrero Rocher ve Cadbury Dairy Milk kayıtları “geri çekildi” işaretli.
 
