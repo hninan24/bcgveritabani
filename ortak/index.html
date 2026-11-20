@@ -1207,7 +1207,7 @@ FB.hazir = !FB.on ? Promise.resolve(false) : (async () => {
   await new Promise(son => { let ilk = true;
     U.onAuthStateChanged(FB.auth, async u => { await fbYetki(u); if (ilk) { ilk = false; son(); } else fbYetkiDegisti(); }); });
   return true;
-})().catch(err => { console.error(err); FB.hata = true; return false; });
+})().catch(err => { console.error(err); FB.hata = true; FB.hataKod = fbKod(err); return false; });
 function fbYetkiDegisti() {
   KD.yaz = FB.yazar; KD.acik = null; KD.mod = '';
   OBL.ro = !FB.yazar; OBL.uid = (FB.auth && FB.auth.currentUser && FB.auth.currentUser.uid) || null;
@@ -1221,12 +1221,19 @@ async function fbBasla() {
   KD.yaz = FB.yazar; if (FB.yazar) fbYetkiDegisti(); else fbPanel();
   if (!KD.on) return;
   setTimeout(() => { if (!FB.kodHazir && !FB.hata) { FB.yavas = true; fbPanel(); } }, 15000);   // veritabanına ulaşılamıyor: SDK hata vermeden bekler
-  FB.S.onSnapshot(FB.S.doc(FB.db, 'ortak', 'kodduz'), s => {
+  // 2026-11-20: okuma hatasında (bağlantı, günlük okuma kotası) birkaç kez kendiliğinden yeniden dener; yetki hatasında denemez
+  let deneme = 0;
+  const abone = () => FB.S.onSnapshot(FB.S.doc(FB.db, 'ortak', 'kodduz'), s => {
     const ov = (s.exists() && s.data().ov) || {};
-    FB.ov0 = fbKopya(ov); KD.ov = fbKopya(ov); FB.kodHazir = true;
+    FB.ov0 = fbKopya(ov); KD.ov = fbKopya(ov); FB.kodHazir = true; FB.hata = false; FB.hataKod = '';
     kdUygula(); render(); kdSol(); fbPanel();
     if (current !== null && !KD.acik) { const y = $('#detail').scrollTop; $('#detail').innerHTML = detailHTML(E[current]); $('#detail').scrollTop = y; }
-  }, err => { console.error(err); FB.hata = true; fbPanel(); toast('Ortak kod kayıtları okunamadı; sayfa yalnızca verideki kodları gösteriyor.'); });
+  }, err => {
+    console.error(err); FB.hata = true; FB.hataKod = fbKod(err); fbPanel();
+    if (FB.hataKod !== 'not_granted' && deneme++ < 6) setTimeout(abone, 15000 * deneme);
+    else toast('Ortak kod kayıtları okunamadı; sayfa yalnızca verideki kodları gösteriyor.');
+  });
+  abone();
 }
 // kdKaydet'ten: son okunan ortak kayıtla farklı olan kuruluşları alan alan yazar (aynı anda başka kuruluşu düzenleyen silinmez)
 function fbKodYaz() {
@@ -1266,7 +1273,7 @@ function fbPanel() {
   const k = $('#fbSol'); if (!k) return;
   let h = '<h3>Ortak düzenleme</h3>';
   if (FB.yavas && !FB.kodHazir && !FB.hata) h += '<p>Ortak kayda henüz ulaşılamadı. Bağlantı kurulunca elle yapılan değişiklikler kendiliğinden görünecek; şimdilik verideki kodlar gösteriliyor.</p>';
-  if (FB.hata) h += '<p>Ortak kayıt yüklenemedi. Sayfa verideki kodları gösteriyor; elle yapılan değişiklikler ve Öncelikli Boykot Listesi görünmüyor.</p>';
+  if (FB.hata) h += `<p>Ortak kayıt yüklenemedi${FB.hataKod === 'quota_exceeded' ? ': ortak kaydın günlük okuma kotası doldu. Kota her gün 11.00’de (TSİ) yenilenir' : FB.hataKod ? ` (${esc(FB.hataKod)})` : ''}. Kayıtlar silinmedi; sayfa birkaç dakika içinde yeniden deniyor. Bu arada sayfa verideki kodları gösteriyor; elle yapılan değişiklikler ve Öncelikli Boykot Listesi görünmüyor.</p><button class="kd-btn" id="fbYenile">Sayfayı yenile</button>`;
   else if (!FB.U) h += '<p>Ortak kayıt yükleniyor…</p>';
   else if (!FB.eposta) {
     h += '<p>Kod değişiklikleri ve Öncelikli Boykot Listesi herkes için ortaktır. Değişiklikleri düzenleyiciler yapar.</p>';
@@ -1288,6 +1295,7 @@ function fbPanel() {
       FB.gonderildi = ep; FB.form = false; fbPanel(); }
     catch (err) { console.error(err); toast('Giriş bağlantısı gönderilemedi: ' + ((err && err.code) || 'bilinmeyen hata')); } }; }
   const g = $('#fbGiris'); if (g) g.onclick = () => { FB.form = true; fbPanel(); };
+  const yn = $('#fbYenile'); if (yn) yn.onclick = () => location.reload();
   const c = $('#fbCikis'); if (c) c.onclick = () => FB.U.signOut(FB.auth);
   const a = $('#fbAktar'); if (a) a.onclick = () => { a.disabled = true; fbAktar(); };
 }
@@ -2090,10 +2098,13 @@ async function oblInit() {
     OBL.ro = true;
     if (!(await FB.hazir)) { OBL.err = 'fb'; oblChanged(); return; }
     db = FB.ad; OBL.mode = 'db'; OBL.db = db; OBL.ro = !FB.yazar; OBL.uid = (FB.auth && FB.auth.currentUser && FB.auth.currentUser.uid) || null;
+    let d1 = 0, d2 = 0;                           // okuma hatasında kendiliğinden yeniden dener (2026-11-20)
     const sub = () => db.collection('obl').limit(2000).onSnapshot(snap => { OBL.seeds = new Map(snap.docs.map(d => [d.id, d.data()])); OBL.ready = true; OBL.err = null; oblChanged(); fbPanel(); },
-      err => { OBL.err = err.code || 'error'; oblChanged(); });
+      err => { OBL.err = err.code || 'error'; oblChanged(); if (err.code !== 'not_granted' && d1++ < 6) setTimeout(sub, 15000 * d1); });
     sub();
-    db.collection('oblr').limit(2000).onSnapshot(snap => { OBL.rates = new Map(snap.docs.map(d => [d.id, d.data()])); oblRatesChanged(); fbPanel(); }, () => {});
+    const subR = () => db.collection('oblr').limit(2000).onSnapshot(snap => { OBL.rates = new Map(snap.docs.map(d => [d.id, d.data()])); oblRatesChanged(); fbPanel(); },
+      err => { if (err.code !== 'not_granted' && d2++ < 6) setTimeout(subR, 15000 * d2); });
+    subR();
     return;
   }
   const hasClaude = window.claude && typeof window.claude.use === 'function';
