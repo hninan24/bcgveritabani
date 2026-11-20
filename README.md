@@ -54,6 +54,12 @@ Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/ortak/**
 
 Veri 2. sürümün kurallarıyla, 18 Kasım 2026'dan beri Boykot Market olmadan kurulur: 2.151 kuruluş, 695 aile. Boykot Market'le en az iki listeye çıkan aileler (çoğu Who Profits ve DBIO'da tek kalan şirketler) eşiğin altına indi; kanıtı yalnız Boykot Market metninde olan okuma kodları düştü. Ortak kayıtta kod düzenlemesi ya da ÖBL seçimi olan 18 kuruluş (Vodafone, Nissan, Mitsubishi, Organon, Fakir…) eşiğin altına indiği hâlde görünür kalır. 2. sürüm sayfası (/birlesik-2/) Boykot Market'li veriyle durur. Fark şu: kod değişiklikleri ve Öncelikli Boykot Listesi her ziyaretçinin kendi tarayıcısında değil, ortak bir veritabanında (Firebase Firestore) tutulur. Siteye giren herkes aynı hâli görür; sayfa açıkken yapılan değişiklikler yenilemeden gelir. Ziyaretçiler yalnız görüntüler. Düzenleyiciler sol menüdeki "Ortak düzenleme" bölümünden e-posta bağlantısıyla giriş yapar (şifre yok); düzenleme yetkisi Firebase konsolundaki `duzenleyiciler` koleksiyonuna e-posta adresiyle belge eklenerek verilir. 2. sürümde tarayıcıda yapılmış kod değişiklikleri ve ÖBL kayıtları, giriş yapınca çıkan "Ortak kayda aktar" düğmesiyle taşınır. Her değişiklik kim ve ne zaman bilgisiyle ayrıca kaydedilir.
 
+## Boykot Çalışma Grubu web sitesi
+
+Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/site/**
+
+Boykot Çalışma Grubu'nun tanıtım sitesi: Ana Sayfa, Metodoloji, Karar Simülatörü (hazırlanıyor), Öncelikli Boykot Listesi, Güncellemeler ve Özet. Veri ortak düzenleme sürümünden alınır: 695 çatı altında 2.151 kuruluş; Durum filtresinde İncelenen Kuruluşlar, Öncelikli Boykot Listesi (181 çatı) ve Kampanya Hedefi (77 çatı). Liste çatı görünümüyle açılır, isteyen tüm kuruluşları tek tek görebilir. Her kuruluşun dosyasında kriter kodları, araştırma gerekçesi, listelerdeki kayıtlar, açıklamalar ve kaynaklar, çatı ve alt markaları vardır. Sayfa ortak kaydın bir anlık görüntüsüdür; ortak düzenlemede yapılan değişiklikler site yeniden derlenince gelir. Güncellemeler sekmesi kaynak izlemenin kaydını canlı okur.
+
 ## Kodlu sürüm
 
 Ayrı sayfa: **https://hninan24.github.io/bcgveritabani/kodlu/**
@@ -178,5 +184,6 @@ Excel dosyasında şu sayfalar var:
 
 ## Dosyalar
 
+- `site/`: Boykot Çalışma Grubu web sitesi (tek dosya `index.html` ve `logolar.jpg`).
 - `izleme/`: kaynak izleme betiği, anlık görüntüler ve raporlar.
 - `index.html`: sitenin tamamı. Veri sayfanın içindedir. Dosyayı indirip internet olmadan da açabilirsiniz; bu durumda seçimleriniz o tarayıcının yerel belleğinde tutulur.
