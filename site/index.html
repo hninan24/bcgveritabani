@@ -309,6 +309,114 @@ dialog.kdlg::backdrop { background: var(--scrim); }
 }
 @media (max-width: 559px) { .kgrid { grid-template-columns: 1fr; } .kaynaklar { grid-template-columns: 1fr 1fr; } .kcard li { font-size: 13px; } }
 
+/* ============ Karar Simülatörü ============ */
+.sim { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: var(--sp-6); align-items: start; padding-top: var(--sp-6); padding-bottom: var(--sp-8); }
+@media (max-width: 1023px) { .sim { grid-template-columns: minmax(0, 1fr); } }
+.sim-st { list-style: none; margin: 0 0 var(--sp-5); padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: var(--r-lg); overflow: hidden; }
+.sim-st li + li { border-left: 1px solid var(--line); }
+.sim-st button { width: 100%; height: 44px; border: 0; background: var(--surface); display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12.5px; font-weight: 500; color: var(--muted); padding: 0 6px; white-space: nowrap; }
+.sim-st button span { width: 20px; height: 20px; border-radius: 99px; display: grid; place-items: center; background: var(--surface-3); font-size: 11px; font-weight: 600; flex: none; }
+.sim-st button:hover { background: var(--surface-2); color: var(--ink); }
+.sim-st button.on { background: var(--primary-soft); color: var(--primary-ink); font-weight: 600; }
+.sim-st button.on span { background: var(--primary); color: var(--on-primary); }
+.sim-st button.ok span { background: color-mix(in srgb, var(--primary) 16%, transparent); color: var(--primary); }
+@media (max-width: 639px) { .sim-st button { flex-direction: column; gap: 3px; height: 54px; font-size: 11px; } }
+.sim-h { margin-bottom: var(--sp-5); }
+.sim-h h2 { font-size: var(--fs-xl); letter-spacing: -.011em; margin-top: 4px; }
+.sim-h p { color: var(--muted); font-size: 14px; line-height: 1.6; margin-top: 6px; max-width: 75ch; }
+.sim-lbl { display: block; font-size: 13px; font-weight: 600; margin: 0 0 8px; }
+.sim-ip { font-size: 12.5px; color: var(--muted); margin: 6px 0 var(--sp-5); }
+.sim-ad { display: flex; gap: 8px; }
+.sim-ad input, .sim-not input { flex: 1; min-width: 0; height: var(--ctl); border: 1px solid var(--line-2); border-radius: var(--r); padding: 0 12px; background: var(--surface); color: var(--ink); font-size: 14px; }
+.sim-ad input:focus, .sim-not input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 14%, transparent); }
+@media (max-width: 639px) { .sim-ad { flex-direction: column; } .sim-ad input, .sim-not input { font-size: 16px; } }
+.sim-kaynak { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin-bottom: var(--sp-4); }
+.sim-kaynak.geri { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.sim-kaynak label { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 12px; border: 1px solid var(--line); border-radius: var(--r); font-size: 13px; cursor: pointer; }
+.sim-kaynak label:has(input:checked) { border-color: color-mix(in srgb, var(--primary) 45%, transparent); background: var(--primary-soft); color: var(--primary-ink); font-weight: 500; }
+@media (max-width: 639px) { .sim-kaynak, .sim-kaynak.geri { grid-template-columns: 1fr; } }
+input[type="checkbox"] { accent-color: var(--primary); width: 15px; height: 15px; flex: none; margin: 0; }
+.sim-sec { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.sim-sec button, .sim-etki button { text-align: left; border: 1px solid var(--line-2); background: var(--surface); border-radius: var(--r-lg); padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; transition: border-color var(--t-fast), background var(--t-fast); }
+.sim-sec button b, .sim-etki button b { font-size: 13.5px; font-weight: 700; letter-spacing: .01em; }
+.sim-sec button span, .sim-etki button span { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.sim-sec button:hover, .sim-etki button:hover { border-color: var(--ink-2); }
+.sim-sec button.on.e { border-color: var(--primary); background: var(--primary-soft); } .sim-sec button.on.e b { color: var(--primary-ink); }
+.sim-sec button.on.h { border-color: var(--red); background: var(--red-soft); } .sim-sec button.on.h b { color: var(--red); }
+@media (max-width: 639px) { .sim-sec { grid-template-columns: 1fr; } }
+.sim-etki { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.sim-etki button .ea { font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--primary); }
+.sim-etki button.on { border-color: var(--primary); background: var(--primary-soft); }
+@media (max-width: 639px) { .sim-etki { grid-template-columns: 1fr; } }
+.sim-gs { display: grid; border-top: 1px solid var(--line); }
+.sim-g { border-bottom: 1px solid var(--line); }
+.sim-g summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 8px 2px; }
+.sim-g summary::-webkit-details-marker { display: none; }
+.sim-g summary .harf { width: 22px; height: 22px; border-radius: 6px; display: grid; place-items: center; font-weight: 700; font-size: 11.5px; color: var(--gc); background: color-mix(in srgb, var(--gc) 12%, transparent); flex: none; }
+.sim-g summary .t { font-size: 13.5px; font-weight: 600; flex: 1; }
+.sim-g summary .sy { font-size: 11.5px; font-weight: 600; color: var(--gc); }
+.sim-g summary > svg { width: 15px; height: 15px; color: var(--muted); transition: transform var(--t); }
+.sim-g[open] summary > svg { transform: rotate(90deg); }
+.sim-ks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 2px 0 14px 32px; }
+@media (max-width: 767px) { .sim-ks { grid-template-columns: 1fr; padding-left: 0; } }
+.sim-k { border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; transition: border-color var(--t-fast), background var(--t-fast); }
+.sim-k.on { border-color: color-mix(in srgb, var(--gc) 45%, transparent); background: color-mix(in srgb, var(--gc) 5%, var(--surface)); }
+.sim-k > label { display: flex; align-items: flex-start; gap: 8px; cursor: pointer; }
+.sim-k > label input { margin-top: 2px; }
+.sim-k .kad { font-size: 13px; font-weight: 600; line-height: 1.4; }
+.sim-k > p { font-size: 12px; color: var(--muted); line-height: 1.5; margin: 4px 0 0 23px; }
+.sim-alt { display: grid; gap: 4px; margin: 8px 0 0 23px; padding-left: 10px; border-left: 1.5px solid color-mix(in srgb, var(--gc) 35%, transparent); }
+.sim-alt label { display: flex; align-items: center; gap: 7px; font-size: 12px; cursor: pointer; }
+.sim-not { margin: 8px 0 0 23px; display: flex; }
+.sim-not input { height: 34px; font-size: 13px; }
+.sim-sonucu { border-left: 3px solid var(--line-2); padding: 8px 12px; margin-bottom: var(--sp-4); display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.sim-sonucu b { font-size: 12.5px; letter-spacing: .03em; }
+.sim-sonucu span { font-size: 12.5px; color: var(--muted); }
+.sim-sonucu.dv { border-left-color: var(--primary); } .sim-sonucu.dv b { color: var(--primary-ink); }
+.sim-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: var(--sp-5); padding-top: var(--sp-4); border-top: 1px solid var(--line); flex-wrap: wrap; }
+.sim-nav .btn[disabled] { opacity: .45; cursor: not-allowed; }
+.sr-nav .sp { flex: 1; }
+.sim-kok { position: sticky; top: calc(var(--hdr) + 20px); border: 1px solid var(--line); border-radius: var(--r-xl); padding: 16px; display: grid; gap: 12px; }
+@media (max-width: 1023px) { .sim-kok { position: static; } }
+.sk-h { display: flex; align-items: center; justify-content: space-between; }
+.sk-kutu { display: grid; gap: 2px; }
+.sk-ad { font-size: var(--fs-md); font-weight: 700; overflow-wrap: anywhere; }
+.sk-kay { font-size: 11.5px; color: var(--muted); }
+.sk-s { border-left: 3px solid var(--line-2); padding: 8px 0 8px 12px; }
+.sk-s b { font-size: 14.5px; }
+.sk-s p { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.sk-s.kd { border-left-color: var(--red); } .sk-s.kd b { color: var(--red); }
+.sk-s.ag, .sk-s.hk { border-left-color: var(--primary); } .sk-s.ag b, .sk-s.hk b { color: var(--primary-ink); }
+.sk-adim { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.sk-adim li { display: grid; grid-template-columns: 18px 1fr; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.sk-n { font-size: 11px; font-weight: 600; color: var(--muted); }
+.sk-a { font-size: 12.5px; font-weight: 500; }
+.sk-d { grid-column: 2; display: flex; flex-wrap: wrap; gap: 4px; font-size: 12.5px; }
+.sk-d .ok, .srp .ok { color: var(--primary); font-weight: 600; } .sk-d .no, .srp .no { color: var(--red); font-weight: 600; }
+.sk-m { justify-self: start; }
+.sr-bas { border-left: 3px solid var(--line-2); padding: 12px 16px; background: var(--surface-2); border-radius: 0 var(--r) var(--r) 0; margin-bottom: var(--sp-5); }
+.sr-bas b { font-size: var(--fs-lg); }
+.sr-bas p { font-size: 13.5px; color: var(--ink-2); margin-top: 2px; }
+.sr-bas.kd { border-left-color: var(--red); background: var(--red-soft); } .sr-bas.kd b { color: var(--red); }
+.sr-bas.ag, .sr-bas.hk { border-left-color: var(--primary); background: var(--primary-soft); } .sr-bas.ag b, .sr-bas.hk b { color: var(--primary-ink); }
+dl.srp { margin: 0; border-top: 1px solid var(--line); }
+dl.srp > div { display: grid; grid-template-columns: 220px 1fr; gap: 4px 20px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+dl.srp dt { font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
+dl.srp dd { margin: 0; font-size: 13.5px; line-height: 1.55; }
+dl.srp dd p { margin-top: 4px; font-size: 12.5px; }
+@media (max-width: 639px) { dl.srp > div { grid-template-columns: 1fr; } }
+ul.sr-k { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+ul.sr-k li { display: flex; gap: 8px; align-items: baseline; }
+ul.sr-k i { font-style: normal; color: var(--muted); }
+.sr-benzer { margin-top: var(--sp-5); }
+.sr-benzer h3 { font-size: 14px; font-weight: 700; }
+.sr-benzer > p { font-size: 12.5px; margin: 2px 0 8px; }
+.sr-benzer ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.sr-benzer li { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.sr-benzer li a { font-weight: 600; text-decoration: none; }
+.sr-benzer li a:hover { text-decoration: underline; }
+.sr-benzer li .mut { margin-left: auto; font-size: 12px; }
+
 /* ============ Liste sayfası ============ */
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: var(--sp-5); border: 1px solid var(--line); border-radius: var(--r-xl); }
 .stat { padding: 14px 20px; }
@@ -859,9 +967,185 @@ function metod() {
   }
 }
 
+// ---------- Karar Simülatörü (yeni metodolojinin 5 adımı; sonuçta karar kademesi yok, metodolojinin kendi sonuç ifadeleri ve eşleşen kodlar)
+const SIM_KAYNAK = ['Resmi Şirket Açıklaması', 'Faaliyet Raporu', 'KAP / SEC Bildirimleri', 'Şirket Web Sitesi', 'Güvenilir Medya Kaynakları', 'Mahkeme Kayıtları'];
+const SIM_GERI = ['Faaliyeti sonlandırdı mı?', 'Ortaklığı bitirdi mi?', 'Yatırımını çekti mi?', 'Destek açıklamasını geri aldı mı?'];
+const SIM_ETKI = [
+  ['cati', 'Ana şirket (çatı)', 'Dikey Etki', 'Marka Mirası / Bulaşma', 'Ana şirketin boykot statüsü, alt markalara ve o markayı taşıyan yerel operasyonlara yukarıdan aşağıya doğrudan bulaşır.'],
+  ['alt', 'Alt marka ya da yerel operasyon', 'Dikey Etki', 'Marka Mirası / Bulaşma', 'Ana şirketin boykot statüsü, alt markalara ve o markayı taşıyan yerel operasyonlara yukarıdan aşağıya doğrudan bulaşır.'],
+  ['kardes', 'Kardeş şirket (holdingin bağımsız bir kolu)', 'Yatay Etki', 'Kardeş Şirket İzolasyonu', 'Holdinglerin boykotlu bir şirketle kurduğu ortaklık, holdingin tamamen bağımsız diğer kollarına (kardeş şirketlere) yatay olarak sıçramaz.'],
+  ['pasif', 'Pasif portföy yatırımı ya da otomatik borsa işlemi', 'Pasif Etki', 'Finansal Portföy & Borsa İzolasyonu', 'Yönetim kontrolü sağlamayan, yalnızca fon getirisi amaçlı pasif hisse ve ETF yatırımları boykot doğurmaz. Halka açık piyasalarda robotik algoritmalar ve endeks fonları tarafından otomatik yapılan işlemler kapsam dışıdır.'],
+];
+const SIM_ADIM = [['Kanıt', 'Kanıt Doğrulama'], ['A–G', 'Siyonist Rejime Doğrudan Katkı'], ['H ve K', 'Ticaret Ağı ve Dolaylı Bağ'], ['Geri Adım', 'Geri Adım'], ['Etki', 'Etki Yönü ve İzolasyon']];
+const SM = { ad: '', kaynak: '', kanit: null, kaynaklar: new Set(), kod: new Set(), alt: {}, not: {}, geri: new Set(), geriGordu: false, etki: '', adim: 1, sonuc: false, gordu: new Set([1]), acik: new Set() };
+function simSifirla() { Object.assign(SM, { ad: '', kaynak: '', kanit: null, kaynaklar: new Set(), kod: new Set(), alt: {}, not: {}, geri: new Set(), geriGordu: false, etki: '', adim: 1, sonuc: false, gordu: new Set([1]), acik: new Set() }); }
+const simAG = () => [...SM.kod].filter(c => 'ABCDEFG'.includes(grp(c))).sort();
+const simHK = () => [...SM.kod].filter(c => !'ABCDEFG'.includes(grp(c))).sort();
+const simKodAd = c => c + ((SM.alt[c] && SM.alt[c].size) ? ` (${[...SM.alt[c]].join(', ')})` : SM.not[c] ? ` (${SM.not[c]})` : '');
+// sonuç: metodolojinin kendi ifadeleri; karar kademesi verilmez
+function simSonuc() {
+  const ag = simAG(), hk = simHK(), e = SIM_ETKI.find(x => x[0] === SM.etki);
+  if (SM.kanit === false) return { tur: 'kd', bas: 'Kapsam Dışı', ac: 'İddia birincil resmi kaynaklarla teyit edilmedi; belgesiz iddialar kapsam dışı bırakılır.' };
+  if (SM.kanit === null) return { tur: 'bk', bas: 'Değerlendirme sürüyor', ac: 'Kanıt doğrulama adımı yanıtlanmadı.' };
+  if (SM.etki === 'pasif') return { tur: 'kd', bas: 'Kapsam Dışı · Pasif Etki', ac: e[4] };
+  let bas, ac;
+  if (ag.length) { bas = 'Siyonist Rejime Doğrudan Katkı'; ac = `${ag.length} kriter (A–G) eşleşti${hk.length ? `; ayrıca ${hk.length} ticaret ağı ya da dolaylı bağ kriteri (H, K)` : ''}.`; }
+  else if (hk.length) { bas = 'Ticaret Ağı ve Dolaylı Bağ'; ac = `${hk.length} kriter (H, K) eşleşti; doğrudan katkı kriteri (A–G) yok.`; }
+  else { bas = 'Kriter eşleşmesi yok'; ac = 'Kanıt doğrulandı ama A–G, H ve K kriterlerinden hiçbiri işaretlenmedi.'; }
+  return { tur: ag.length ? 'ag' : hk.length ? 'hk' : 'bk', bas, ac };
+}
+function simGeriMetin() {
+  if (SM.geri.size) return ['dv', 'YENİDEN DEĞERLENDİR', 'Kategori düşer'];
+  if (SM.geriGordu) return ['', 'MEVCUT KARAR', 'Olduğu gibi kalır'];
+  return ['', 'Bekleniyor', ''];
+}
+// veritabanında seçilen kodları taşıyan çatılar (en çok ortak kodu olan önce)
+function simBenzer() {
+  const sec = [...SM.kod]; if (!sec.length) return { hepsi: 0, liste: [] };
+  const puan = FAM.map(R => [R, sec.filter(c => R.fkc.has(c)).length]).filter(x => x[1]);
+  puan.sort((a, b) => b[1] - a[1] || b[0].ob - a[0].ob || b[0].lists.length - a[0].lists.length || byName(a[0], b[0]));
+  return { hepsi: puan.filter(x => x[1] === sec.length).length, liste: puan.slice(0, 6) };
+}
+function simKokpit() {
+  const s = simSonuc(), g = simGeriMetin(), e = SIM_ETKI.find(x => x[0] === SM.etki), ag = simAG(), hk = simHK();
+  const satir = (no, ad, deger) => `<li><span class="sk-n">${no}</span><span class="sk-a">${ad}</span><span class="sk-d">${deger}</span></li>`;
+  const kodlar = l => l.length ? l.map(c => `<span class="chip g-${grp(c)}" title="${esc(KADI(c))}">${c}</span>`).join('') : '<span class="mut">Yok</span>';
+  return `<div class="sk-kutu">
+      <span class="etiket">Marka</span><b class="sk-ad">${esc(SM.ad || 'İsimsiz marka')}</b>${SM.kaynak ? `<span class="sk-kay">Veritabanından: ${esc(SM.kaynak)}</span>` : ''}
+    </div>
+    <div class="sk-kutu sk-s ${s.tur}"><span class="etiket">Sonuç</span><b>${esc(s.bas)}</b><p>${esc(s.ac)}</p></div>
+    <ul class="sk-adim">
+      ${satir(1, 'Kanıt', SM.kanit === true ? '<span class="ok">✓ Doğrulandı</span>' : SM.kanit === false ? '<span class="no">✕ Kapsam dışı</span>' : '<span class="mut">Bekleniyor</span>')}
+      ${satir(2, 'Doğrudan katkı', kodlar(ag))}
+      ${satir(3, 'Ticaret ağı / dolaylı bağ', kodlar(hk))}
+      ${satir(4, 'Geri adım', g[0] ? `<span class="ok">${g[1]}</span>` : `<span class="${SM.geriGordu ? '' : 'mut'}">${g[1]}</span>`)}
+      ${satir(5, 'Etki yönü', e ? esc(e[2]) : '<span class="mut">Bekleniyor</span>')}
+    </ul>
+    <a class="btn ghost sk-m" href="#/metodoloji">Metodolojiyi incele →</a>`;
+}
+function simAdimBaslik() {
+  return `<ol class="sim-st">${SIM_ADIM.map(([k], i) => { const n = i + 1, on = !SM.sonuc && SM.adim === n, bitti = SM.sonuc || SM.gordu.has(n + 1) || (n === 5 && SM.etki);
+    return `<li><button type="button" data-sadim="${n}" class="${on ? 'on' : ''}${bitti && !on ? ' ok' : ''}" ${on ? 'aria-current="step"' : ''}><span>${bitti && !on ? '✓' : n}</span>${k}</button></li>`; }).join('')}</ol>`;
+}
+function simKriterGrup(g) {
+  const [h, ad, , kodlar] = g;
+  const secili = kodlar.filter(([c]) => SM.kod.has(c)).length;
+  return `<details class="sim-g g-${h}" data-sgrup="${h}"${secili || SM.acik.has(h) ? ' open' : ''}><summary><span class="harf">${h}</span><span class="t">${esc(ad)}</span>${secili ? `<span class="sy">${secili} seçili</span>` : ''}${I.chev}</summary>
+    <div class="sim-ks">${kodlar.map(([c, kad, ktn]) => {
+      const on = SM.kod.has(c);
+      let ek = '';
+      if (on && V.altTanim[c]) ek = `<div class="sim-alt">${V.altTanim[c].map(([a]) => `<label><input type="checkbox" data-salt="${c}" value="${esc(a)}"${SM.alt[c] && SM.alt[c].has(a) ? ' checked' : ''}> ${esc(a)}</label>`).join('')}</div>`;
+      if (on && h === 'K') ek = `<div class="sim-not"><input type="text" data-snot="${c}" value="${esc(SM.not[c] || '')}" placeholder="İlgili boykotlu marka (ör. Burger King)" aria-label="${c} için ilgili boykotlu marka"></div>`;
+      return `<div class="sim-k${on ? ' on' : ''}"><label><input type="checkbox" data-skod="${c}"${on ? ' checked' : ''}><span class="chip g-${h}">${c}</span><span class="kad">${esc(kad)}</span></label><p>${esc(ktn)}</p>${ek}</div>`;
+    }).join('')}</div></details>`;
+}
+function simPanel() {
+  const ileri = (n, t) => `<div class="sim-nav">${n > 2 ? `<button type="button" class="btn" data-sgit="${n - 2}">← Geri</button>` : '<span></span>'}<button type="button" class="btn pri" data-sgit="${n}">${t}</button></div>`;
+  if (SM.sonuc) return simRapor();
+  const A = SM.adim;
+  if (A === 1) return `<div class="sim-h"><span class="etiket">1. Adım</span><h2>Kanıt Doğrulama</h2><p>İddialar birincil resmi kaynaklardan teyit edilir; belgesiz iddialar kapsam dışı bırakılır.</p></div>
+    <label class="sim-lbl" for="sad">İncelenecek marka ya da şirket</label>
+    <div class="sim-ad"><input id="sad" type="text" value="${esc(SM.ad)}" placeholder="Ör. Starbucks" autocomplete="off" list="simListe"><datalist id="simListe">${FAM.slice().sort(byName).map(R => `<option value="${esc(R.n)}">`).join('')}</datalist>
+      <button type="button" class="btn" id="sdoldur" title="Bu ad veritabanında bir çatıysa kodlarını simülatöre yükler">Veritabanından doldur</button></div>
+    <p class="sim-ip">İsteğe bağlı. Veritabanındaki bir çatıyı seçip “Veritabanından doldur”a basarsanız kodları sonraki adımlara yüklenir.</p>
+    <p class="sim-lbl">İddia aşağıdaki kaynaklardan en az biriyle doğrulanıyor mu?</p>
+    <div class="sim-kaynak">${SIM_KAYNAK.map(k => `<label><input type="checkbox" data-skay value="${esc(k)}"${SM.kaynaklar.has(k) ? ' checked' : ''}> ${esc(k)}</label>`).join('')}</div>
+    <div class="sim-sec">
+      <button type="button" data-skanit="1" class="${SM.kanit === true ? 'on e' : ''}"><b>EVET · DEVAM ET</b><span>İddia en az bir birincil resmi kaynakla doğrulanıyor.</span></button>
+      <button type="button" data-skanit="0" class="${SM.kanit === false ? 'on h' : ''}"><b>HAYIR · KAPSAM DIŞI</b><span>Belge yok; iddia yalnız sosyal medyada ya da doğrulanmamış.</span></button>
+    </div>
+    ${SM.kanit === false ? `<div class="sim-nav"><span></span><button type="button" class="btn pri" data-ssonuc>Sonucu gör</button></div>` : ileri(2, '2. Adıma ilerle →')}`;
+  if (A === 2) return `<div class="sim-h"><span class="etiket">2. Adım</span><h2>Siyonist Rejime Doğrudan Katkı Var mı?</h2><p>Şirket; Siyonist rejimin askeri kurumlarına, işgal politikalarına veya yasadışı yerleşimlerine bilerek, doğrudan maddi veya manevi (ideolojik/propaganda) destek sağlıyor mu?</p></div>
+    <p class="sim-ip">Kanıtlanan her ilişki için uyan alt kriterleri işaretleyin. Uymayan grupları boş bırakabilirsiniz.</p>
+    <div class="sim-gs">${V.gruplar.filter(g => 'ABCDEFG'.includes(g[0])).map(simKriterGrup).join('')}</div>${ileri(3, '3. Adıma ilerle →')}`;
+  if (A === 3) return `<div class="sim-h"><span class="etiket">3. Adım</span><h2>Siyonist Ticaret Ağında Yer Alıyor mu veya Dolaylı Bağı Var mı?</h2><p>Şirketin bizzat Siyonist iç pazarında ticari operasyonu veya boykotlu küresel şirketlerle yürüttüğü stratejik, finansal ve ticari sözleşmeleri var mı?</p></div>
+    <div class="sim-gs">${V.gruplar.filter(g => !'ABCDEFG'.includes(g[0])).map(simKriterGrup).join('')}</div>${ileri(4, '4. Adıma ilerle →')}`;
+  if (A === 4) return `<div class="sim-h"><span class="etiket">4. Adım</span><h2>Geri Adım</h2><p>Şirketin tepkiler sonrası attığı düzeltici adımlar ve sözleşme iptalleri incelenir.</p></div>
+    <p class="sim-lbl">Şirket aşağıdaki adımları attı mı?</p>
+    <div class="sim-kaynak geri">${SIM_GERI.map(k => `<label><input type="checkbox" data-sgeri value="${esc(k)}"${SM.geri.has(k) ? ' checked' : ''}> ${esc(k)}</label>`).join('')}</div>
+    <div class="sim-sonucu ${SM.geri.size ? 'dv' : ''}">${SM.geri.size ? '<b>EVET · YENİDEN DEĞERLENDİR</b><span>Kategori düşer</span>' : '<b>HAYIR · MEVCUT KARAR</b><span>Olduğu gibi kalır</span>'}</div>
+    ${ileri(5, '5. Adıma ilerle →')}`;
+  return `<div class="sim-h"><span class="etiket">5. Adım</span><h2>Etki Yönü ve İzolasyon</h2><p>Boykot statüsünün şirketler arası hiyerarşide nasıl aktarıldığı, kardeş şirketlerin nasıl korunduğu ve pasif finansal işlemlerin muafiyeti belirlenir.</p></div>
+    <p class="sim-lbl">Değerlendirilen kuruluş hangisi?</p>
+    <div class="sim-etki">${SIM_ETKI.map(([k, t, ad, alt, ac]) => `<button type="button" data-setki="${k}" class="${SM.etki === k ? 'on' : ''}"><b>${esc(t)}</b><span class="ea">${esc(ad)} · ${esc(alt)}</span><span>${esc(ac)}</span></button>`).join('')}</div>
+    <div class="sim-nav"><button type="button" class="btn" data-sgit="4">← Geri</button><button type="button" class="btn pri" data-ssonuc${SM.etki ? '' : ' disabled'}>Sonucu gör</button></div>`;
+}
+function simRaporMetin() {
+  const s = simSonuc(), g = simGeriMetin(), e = SIM_ETKI.find(x => x[0] === SM.etki), ag = simAG(), hk = simHK();
+  return [`Karar Simülatörü · ${SM.ad || 'İsimsiz marka'}`, `Sonuç: ${s.bas}. ${s.ac}`,
+    `1. Kanıt: ${SM.kanit === true ? 'doğrulandı' + (SM.kaynaklar.size ? ` (${[...SM.kaynaklar].join(', ')})` : '') : SM.kanit === false ? 'doğrulanmadı, kapsam dışı' : 'yanıtlanmadı'}`,
+    `2. Doğrudan katkı (A–G): ${ag.length ? ag.map(c => `${simKodAd(c)} ${KADI(c)}`).join('; ') : 'yok'}`,
+    `3. Ticaret ağı ve dolaylı bağ (H, K): ${hk.length ? hk.map(c => `${simKodAd(c)} ${KADI(c)}`).join('; ') : 'yok'}`,
+    `4. Geri adım: ${g[1]}${g[2] ? ` (${g[2]})` : ''}${SM.geri.size ? ': ' + [...SM.geri].join(', ') : ''}`,
+    `5. Etki yönü: ${e ? `${e[1]}: ${e[2]} (${e[3]})` : 'yanıtlanmadı'}`].join('\n');
+}
+function simRapor() {
+  const s = simSonuc(), g = simGeriMetin(), e = SIM_ETKI.find(x => x[0] === SM.etki), ag = simAG(), hk = simHK(), b = simBenzer();
+  const kodSatir = l => l.length ? `<ul class="sr-k">${l.map(c => `<li><span class="chip g-${grp(c)}">${c}</span><span>${esc(KADI(c))}${SM.alt[c] && SM.alt[c].size ? ` <i>· ${esc([...SM.alt[c]].join(', '))}</i>` : SM.not[c] ? ` <i>· ${esc(SM.not[c])}</i>` : ''}</span></li>`).join('')}</ul>` : '<p class="mut">Yok</p>';
+  return `<div class="sim-h"><span class="etiket">Değerlendirme Raporu</span><h2>${esc(SM.ad || 'İsimsiz marka')}</h2></div>
+    <div class="sr-bas ${s.tur}"><b>${esc(s.bas)}</b><p>${esc(s.ac)}</p></div>
+    <dl class="srp">
+      <div><dt>1. Kanıt Doğrulama</dt><dd>${SM.kanit === true ? `<span class="ok">✓ Doğrulandı · DEVAM ET</span>${SM.kaynaklar.size ? `<p class="mut">${esc([...SM.kaynaklar].join(' · '))}</p>` : ''}` : SM.kanit === false ? '<span class="no">✕ Doğrulanmadı · KAPSAM DIŞI</span>' : '<span class="mut">Yanıtlanmadı</span>'}</dd></div>
+      ${SM.kanit === false ? '' : `<div><dt>2. Doğrudan Katkı (A–G)</dt><dd>${kodSatir(ag)}</dd></div>
+      <div><dt>3. Ticaret Ağı ve Dolaylı Bağ (H, K)</dt><dd>${kodSatir(hk)}</dd></div>
+      <div><dt>4. Geri Adım</dt><dd><b>${g[1]}</b>${g[2] ? ` <span class="mut">· ${g[2]}</span>` : ''}${SM.geri.size ? `<p class="mut">${esc([...SM.geri].join(' · '))}</p>` : ''}</dd></div>
+      <div><dt>5. Etki Yönü ve İzolasyon</dt><dd>${e ? `<b>${esc(e[2])}</b> <span class="mut">· ${esc(e[3])} · ${esc(e[1])}</span><p>${esc(e[4])}</p>` : '<span class="mut">Yanıtlanmadı</span>'}</dd></div>`}
+    </dl>
+    ${b.liste.length ? `<div class="sr-benzer"><h3>Veritabanında bu kodları taşıyan çatılar</h3><p class="mut">${b.hepsi ? `Seçilen ${SM.kod.size} kodun hepsini taşıyan ${fmt(b.hepsi)} çatı var. ` : ''}En çok ortak kodu olanlar:</p>
+      <ul>${b.liste.map(([R, n]) => `<li><a href="#/obl/${encodeURIComponent(R.id)}">${esc(R.n)}</a>${R.ob ? ' <span class="durum ob" title="Öncelikli Boykot Listesi">ÖBL</span>' : ''}<span class="mut">${n} / ${SM.kod.size} kod</span></li>`).join('')}</ul></div>` : ''}
+    <div class="sim-nav sr-nav"><button type="button" class="btn" data-sgit="1">Adımları düzenle</button><span class="sp"></span><button type="button" class="btn" id="skopya">Raporu kopyala</button><button type="button" class="btn pri" id="syeni">Yeni değerlendirme</button></div>`;
+}
+function simCiz() {
+  if (!$('#simPanel')) return;
+  $('#simAdim').innerHTML = simAdimBaslik();
+  $('#simPanel').innerHTML = simPanel();
+  $('#simKokpit').innerHTML = simKokpit();
+}
+function simDoldur(ad) {
+  const R = FAM.find(x => norm(x.n) === norm(ad)) || BYID.get(norm(ad));
+  if (!R) { toast('Bu ad veritabanındaki çatılar arasında yok'); return false; }
+  simSifirla();
+  SM.ad = R.n; SM.kaynak = R.n; SM.kanit = true; SM.etki = 'cati'; SM.geriGordu = true;
+  R.kod.forEach(([c, , alt]) => { SM.kod.add(c); if (alt && alt.length) { if (V.altTanim[c]) SM.alt[c] = new Set(alt); else SM.not[c] = alt.join(', '); } });
+  SM.gordu = new Set([1, 2, 3, 4, 5, 6]); SM.sonuc = true;
+  return true;
+}
 function simul() {
-  app.innerHTML = pageHead('Karar Simülatörü', I.sim, 'Karar Simülatörü', '') +
-    `<div class="wrap ph"><div class="ic">${I.clock}</div><h2>Bu bölüm hazırlanıyor.</h2></div>`;
+  app.innerHTML = pageHead('Karar Simülatörü', I.sim, 'Karar Simülatörü',
+    'Bir şirketi metodolojinin beş adımından geçirin: kanıtı doğrulayın, uyan kriterleri işaretleyin, geri adımı ve etki yönünü belirleyin. Veritabanındaki bir çatıyı seçerek kayıtlı kodlarıyla da deneyebilirsiniz.') + `
+  <div class="wrap sim">
+    <div class="sim-sol">
+      <div id="simAdim"></div>
+      <div class="sim-panel" id="simPanel" aria-live="polite"></div>
+    </div>
+    <aside class="sim-kok" aria-label="Anlık değerlendirme"><div class="sk-h"><span class="etiket">Anlık değerlendirme</span><button type="button" class="btn ghost" id="ssifir">Sıfırla</button></div><div id="simKokpit"></div></aside>
+  </div>`;
+  const git = n => { SM.sonuc = false; SM.adim = n; SM.gordu.add(n); if (n >= 5) SM.geriGordu = true; simCiz(); $('#simAdim').scrollIntoView({ block: 'nearest', behavior: RM.matches ? 'auto' : 'smooth' }); };
+  app.querySelector('.sim').addEventListener('click', ev => {
+    const t = ev.target;
+    const a = t.closest('[data-sadim]'); if (a) return git(+a.dataset.sadim);
+    const gt = t.closest('[data-sgit]'); if (gt) return git(+gt.dataset.sgit);
+    const kn = t.closest('[data-skanit]'); if (kn) { SM.kanit = kn.dataset.skanit === '1'; simCiz(); return; }
+    const et = t.closest('[data-setki]'); if (et) { SM.etki = et.dataset.setki; simCiz(); return; }
+    if (t.closest('[data-ssonuc]')) { if (SM.kanit === false || SM.etki) { SM.sonuc = true; SM.geriGordu = SM.geriGordu || SM.kanit !== false; simCiz(); $('#simAdim').scrollIntoView({ block: 'nearest' }); } return; }
+    if (t.closest('#sdoldur')) { const ad = ($('#sad').value || '').trim(); if (ad && simDoldur(ad)) { simCiz(); toast(`${SM.ad}: veritabanındaki ${SM.kod.size} kod yüklendi`); } else if (!ad) toast('Önce bir çatı adı yazın ya da listeden seçin'); return; }
+    if (t.closest('#skopya')) { const m = simRaporMetin(); (navigator.clipboard ? navigator.clipboard.writeText(m) : Promise.reject()).then(() => toast('Rapor kopyalandı'), () => toast('Kopyalanamadı')); return; }
+    if (t.closest('#syeni') || t.closest('#ssifir')) { simSifirla(); simCiz(); return; }
+  });
+  app.querySelector('.sim').addEventListener('change', ev => {
+    const t = ev.target;
+    if (t.matches('[data-skod]')) { const c = t.dataset.skod; if (t.checked) SM.kod.add(c); else { SM.kod.delete(c); delete SM.alt[c]; delete SM.not[c]; } simCiz(); return; }
+    if (t.matches('[data-salt]')) { const c = t.dataset.salt; SM.alt[c] = SM.alt[c] || new Set(); if (t.checked) SM.alt[c].add(t.value); else SM.alt[c].delete(t.value); $('#simKokpit').innerHTML = simKokpit(); return; }
+    if (t.matches('[data-skay]')) { if (t.checked) SM.kaynaklar.add(t.value); else SM.kaynaklar.delete(t.value); if (SM.kaynaklar.size && SM.kanit === null) { SM.kanit = true; simCiz(); } return; }
+    if (t.matches('[data-sgeri]')) { if (t.checked) SM.geri.add(t.value); else SM.geri.delete(t.value); SM.geriGordu = true; simCiz(); return; }
+  });
+  app.querySelector('.sim').addEventListener('toggle', ev => { const d = ev.target; if (d.matches && d.matches('[data-sgrup]')) { if (d.open) SM.acik.add(d.dataset.sgrup); else SM.acik.delete(d.dataset.sgrup); } }, true);
+  app.querySelector('.sim').addEventListener('input', ev => {
+    const t = ev.target;
+    if (t.id === 'sad') { SM.ad = t.value.trim(); SM.kaynak = ''; $('#simKokpit').innerHTML = simKokpit(); return; }
+    if (t.matches('[data-snot]')) { SM.not[t.dataset.snot] = t.value.trim(); $('#simKokpit').innerHTML = simKokpit(); }
+  });
+  simCiz();
 }
 
 // ---------- Öncelikli Boykot Listesi (bütün kuruluşlar; Durum filtresiyle ÖBL ve Kampanya Hedefi)
