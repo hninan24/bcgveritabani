@@ -52,6 +52,7 @@
 
 /* ============ Temel ============ */
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }   /* .btn/.more gibi display kuralları hidden özniteliğini ezmesin */
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--hdr) + 16px); }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 400 var(--fs-base)/1.6 var(--font); font-feature-settings: "cv11", "ss01"; -webkit-font-smoothing: antialiased; padding-bottom: calc(var(--tab) + env(safe-area-inset-bottom)); }
 a { color: var(--primary); text-underline-offset: 2px; }
