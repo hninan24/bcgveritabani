@@ -75,7 +75,8 @@ svg.i { width: 18px; height: 18px; flex: none; }
 /* ============ Üst çubuk ============ */
 header.top { position: sticky; top: 0; z-index: 50; height: var(--hdr); background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid var(--line); }
 .top .wrap { display: flex; align-items: center; gap: var(--sp-2); height: 100%; }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); min-width: 0; margin-right: auto; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); min-width: 0; margin-right: auto; flex: none; }
+@media (max-width: 1279px) { .brand { flex: 0 1 auto; } }
 .mark { flex: none; width: 32px; height: 32px; border-radius: 8px; background: var(--primary); color: var(--on-primary); display: grid; place-items: center; font-weight: 700; font-size: 11px; letter-spacing: .02em; }
 .brand b { font-size: 15px; font-weight: 700; letter-spacing: -.006em; line-height: 1.2; }
 nav.main { display: flex; align-items: center; gap: 2px; }
@@ -90,7 +91,9 @@ nav.main a[aria-current="page"] .nbadge { background: color-mix(in srgb, var(--p
 .iconbtn svg { width: 17px; height: 17px; }
 .iconbtn:hover { background: var(--surface-2); border-color: var(--line-2); color: var(--ink); }
 #menuBtn { display: none; }
-@media (max-width: 1099px) { nav.main { display: none; } #menuBtn { display: grid; } }
+nav.main a svg { display: none; }   /* üst menü yalnız metin; simgeler yan menüde ve alt çubukta */
+@media (max-width: 1439px) { nav.main a { padding: 0 9px; } }
+@media (max-width: 1279px) { nav.main { display: none; } #menuBtn { display: grid; } }
 .theme-ico-l { display: none; }
 :root[data-theme="dark"] .theme-ico-d { display: none; } :root[data-theme="dark"] .theme-ico-l { display: block; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .theme-ico-d { display: none; } :root:not([data-theme="light"]) .theme-ico-l { display: block; } }
@@ -772,11 +775,12 @@ const SAYFALAR = [
   ['metodoloji', 'Metodoloji', I.metod, 'Metodoloji'],
   ['simulator', 'Karar Simülatörü', I.sim, ''],
   ['obl', 'Öncelikli Boykot Listesi', I.doc, 'ÖBL'],
-  ['guncellemeler', 'Güncellemeler', I.gu, 'Güncel'],
+  ['kurulus', 'İncelenen Kuruluşlar', I.bldg, 'İncelenen'],
+  ['guncellemeler', 'Güncellemeler', I.gu, ''],
   ['ozet', 'Özet', I.ozet, 'Özet'],
 ];
 const GU = { rows: V.olaylar.slice(), q: '', l: '', y: '', p: '', limit: 150, yuklendi: false };
-const sayi = r => r === 'obl' ? fmt(FAM.length) : r === 'guncellemeler' ? fmt(GU.rows.length) : '';
+const sayi = r => r === 'obl' ? fmt(NOBR) : r === 'kurulus' ? fmt(FAM.length) : r === 'guncellemeler' ? fmt(GU.rows.length) : '';
 function navCiz() {
   $('#nav').innerHTML = SAYFALAR.map(([r, t, ic]) => `<a href="#/${r}" data-r="${r}">${r ? ic : ''}${t}${sayi(r) ? `<span class="nbadge">${sayi(r)}</span>` : ''}</a>`).join('');
   $('#sideNav').innerHTML = SAYFALAR.map(([r, t, ic]) => `<a href="#/${r}" data-r="${r}">${ic}${t}${sayi(r) ? `<span class="nbadge">${sayi(r)}</span>` : ''}</a>`).join('');
@@ -813,11 +817,12 @@ function route() {
   const rr = SAYFALAR.some(s => s[0] === r) ? r : '';
   document.querySelectorAll('[data-r]').forEach(a => { if (a.dataset.r === rr) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   yanMenu(false); filtreCekmece(false);
-  const sayfa = { '': home, metodoloji: metod, simulator: simul, obl: oblSayfa, guncellemeler: guSayfa, ozet: ozetSayfa }[rr];
+  const liste = rr === 'obl' || rr === 'kurulus';
+  const sayfa = { '': home, metodoloji: metod, simulator: simul, obl: p => oblSayfa(p, 'obl'), kurulus: p => oblSayfa(p, 'kurulus'), guncellemeler: guSayfa, ozet: ozetSayfa }[rr];
   const ayni = app.dataset.r === rr;
-  if (!(ayni && rr === 'obl')) { sayfa(p); app.dataset.r = rr; window.scrollTo(0, 0); belir(); }
+  if (!(ayni && liste)) { sayfa(p); app.dataset.r = rr; window.scrollTo(0, 0); belir(); }
   else oblFromParams(p);
-  if (rr === 'obl' && arg) dosyaAc(decodeURIComponent(arg), false); else dosyaKapat(false);
+  if (liste && arg) dosyaAc(decodeURIComponent(arg), false); else dosyaKapat(false);
   document.title = (rr ? SAYFALAR.find(s => s[0] === rr)[1] + ' · ' : '') + 'Boykot Çalışma Grubu Veritabanı';
 }
 window.addEventListener('hashchange', route);
@@ -892,7 +897,7 @@ function kartKriter(g, iki) {
     <div class="kh"><span class="harf" aria-hidden="true">${h}</span><span class="sy">${kodlar.length} alt kriter</span></div>
     <h3>${esc(ad)}</h3>
     <ul>${kodlar.map(([c, kad]) => `<li><b>${c}</b><span>${esc(kad)}${V.altTanim[c] ? `<span class="altk" aria-label="${c} alt kodları">${V.altTanim[c].map(([a]) => `<i>${esc(a)}</i>`).join('')}</span>` : ''}</span></li>`).join('')}</ul>
-    <div class="kf">${n ? `<a href="#/obl?kod=${h}" title="${esc(ad)} kodunu alan çatılar">${fmt(n)} ÇATI</a>` : '<span></span>'}<button type="button" data-detay="${h}">Detay →</button></div>
+    <div class="kf">${n ? `<a href="#/kurulus?kod=${h}" title="${esc(ad)} kodunu alan incelenen çatılar">${fmt(n)} ÇATI</a>` : '<span></span>'}<button type="button" data-detay="${h}">Detay →</button></div>
   </div>`;
 }
 // alt kodu olan kriter (D3): alt kodların tanımları ve her birini taşıyan çatı sayısı
@@ -908,7 +913,7 @@ function kriterDetay(h) {
   const n = grupSay(h);
   d.innerHTML = `<div class="dh"><span class="chip g-${h}">${h}</span><h3>${esc(ad)}</h3><button class="iconbtn" data-dkapat aria-label="Kapat">${I.x}</button></div>
     <div class="db"><p>${esc(tanim)}</p>${kodlar.map(([c, kad, ktn]) => `<div><b><span class="chip g-${h}">${c}</span>${esc(kad)}</b><p>${esc(ktn)}</p>${V.altTanim[c] ? altDetay(c, h) : ''}</div>`).join('')}</div>
-    <div class="df"><button class="btn" data-dkapat>Kapat</button>${n ? `<a class="btn pri" href="#/obl?kod=${h}" data-dkapat>${fmt(n)} çatıyı göster</a>` : ''}</div>`;
+    <div class="df"><button class="btn" data-dkapat>Kapat</button>${n ? `<a class="btn pri" href="#/kurulus?kod=${h}" data-dkapat>${fmt(n)} çatıyı göster</a>` : ''}</div>`;
   d.showModal();
 }
 function metod() {
@@ -1092,7 +1097,7 @@ function simRapor() {
       <div><dt>5. Etki Yönü ve İzolasyon</dt><dd>${e ? `<b>${esc(e[2])}</b> <span class="mut">· ${esc(e[3])} · ${esc(e[1])}</span><p>${esc(e[4])}</p>` : '<span class="mut">Yanıtlanmadı</span>'}</dd></div>`}
     </dl>
     ${b.liste.length ? `<div class="sr-benzer"><h3>Veritabanında bu kodları taşıyan çatılar</h3><p class="mut">${b.hepsi ? `Seçilen ${SM.kod.size} kodun hepsini taşıyan ${fmt(b.hepsi)} çatı var. ` : ''}En çok ortak kodu olanlar:</p>
-      <ul>${b.liste.map(([R, n]) => `<li><a href="#/obl/${encodeURIComponent(R.id)}">${esc(R.n)}</a>${R.ob ? ' <span class="durum ob" title="Öncelikli Boykot Listesi">ÖBL</span>' : ''}<span class="mut">${n} / ${SM.kod.size} kod</span></li>`).join('')}</ul></div>` : ''}
+      <ul>${b.liste.map(([R, n]) => `<li><a href="#/kurulus/${encodeURIComponent(R.id)}">${esc(R.n)}</a>${R.ob ? ' <span class="durum ob" title="Öncelikli Boykot Listesi">ÖBL</span>' : ''}<span class="mut">${n} / ${SM.kod.size} kod</span></li>`).join('')}</ul></div>` : ''}
     <div class="sim-nav sr-nav"><button type="button" class="btn" data-sgit="1">Adımları düzenle</button><span class="sp"></span><button type="button" class="btn" id="skopya">Raporu kopyala</button><button type="button" class="btn pri" id="syeni">Yeni değerlendirme</button></div>`;
 }
 function simCiz() {
@@ -1161,7 +1166,9 @@ const SORT = {
   at: (a, b) => (b.at || '').localeCompare(a.at || '') || ((b.p == null) - (a.p == null)) || byName(a, b),
   kume: byLists,
 };
-const DURUM = [['', 'İncelenen Kuruluşlar'], ['o', 'Öncelikli Boykot Listesi'], ['k', 'Kampanya Hedefi']];
+const DURUM_K = [['', 'İncelenen Kuruluşlar'], ['o', 'Öncelikli Boykot Listesi'], ['k', 'Kampanya Hedefi']];
+const DURUM_O = [['', 'Tümü'], ['k', 'Kampanya Hedefi']];
+const DURUM = () => OS.kip === 'obl' ? DURUM_O : DURUM_K;
 const SRC_AD = { own: 'kendi kaydından', est: 'açıklama metninden', inh: 'çatıdan devralındı', up: 'alt markalarından' };
 const cati = e => e.p != null ? E[e.p] : null;
 function chipK(k) {
@@ -1177,10 +1184,11 @@ const BIRIM = () => OS.birim === 'tum' ? 'kuruluş' : 'çatı';
 function filtrele(over) {
   const S = over ? { ...OS, ...over } : OS;
   const qn = norm(S.q);
-  if (S.birim === 'tum') return ENT.filter(e => (!S.durum || (S.durum === 'k' ? e.k : e.ob))
+  if (S.birim === 'tum') return ENT.filter(e => (S.kip !== 'obl' || e.ob) && (!S.durum || (S.durum === 'k' ? e.k : e.ob))
     && (!S.kod || e.gs.includes(S.kod)) && (!S.alt || e.kc.includes(S.alt))
     && (!S.kat || e.kat.includes(S.kat)) && (!qn || e.q.includes(qn)));
   return FAM.filter(R => {
+    if (S.kip === 'obl' && !R.ob) return false;
     if (S.durum && !(S.durum === 'k' ? R.k : R.ob)) return false;
     if (S.kod && !R.fgs.has(S.kod)) return false;
     if (S.alt && !R.fkc.has(S.alt)) return false;
@@ -1190,15 +1198,27 @@ function filtrele(over) {
     return true;
   });
 }
-function oblSayfa(p) {
-  app.innerHTML = pageHead('Öncelikli Boykot Listesi', I.doc, 'Öncelikli Boykot Listesi',
-    'Boykot Çalışma Grubu Veritabanı’ndaki çatı şirketler, alt markaları ve dosyaları. Durum filtresiyle Öncelikli Boykot Listesi’ndekileri ya da Kampanya Hedeflerini ayırabilirsiniz. Arama çubuğuna şirket ya da marka adı, kriter kodu veya kategori yazarak; kriter ve sektör filtreleriyle inceleyebilirsiniz.', `
+function oblSayfa(p, kip) {
+  OS.kip = kip;
+  const ob = kip === 'obl';
+  const katN = ob ? new Set(ENT.filter(e => e.ob).flatMap(e => e.kat)).size : KATLAR.length;
+  app.innerHTML = (ob
+    ? pageHead('Öncelikli Boykot Listesi', I.doc, 'Öncelikli Boykot Listesi',
+      'Boykot Çalışma Grubu’nun Öncelikli Boykot Listesi’ndeki çatı şirketler, alt markaları ve dosyaları. Durum filtresiyle Kampanya Hedeflerini ayırabilirsiniz. Arama çubuğuna şirket ya da marka adı, kriter kodu veya kategori yazarak; kriter ve sektör filtreleriyle inceleyebilirsiniz.', `
     <div class="stats">
-      <div class="stat"><b>${fmt(FAM.length)}</b><span>çatı · alt markalarıyla ${fmt(ENT.length)} kuruluş</span></div>
       <div class="stat g"><b>${fmt(NOBR)}</b><span>Öncelikli Boykot Listesi çatısı</span></div>
       <div class="stat r"><b>${fmt(NKR)}</b><span>Kampanya Hedefi çatısı</span></div>
-      <div class="stat"><b>${fmt(KATLAR.length)}</b><span>sektör</span></div>
-    </div>`) + `
+      <div class="stat"><b>${fmt(NOB)}</b><span>alt markalarıyla kuruluş</span></div>
+      <div class="stat"><b>${fmt(katN)}</b><span>sektör</span></div>
+    </div>`)
+    : pageHead('İncelenen Kuruluşlar', I.bldg, 'İncelenen Kuruluşlar',
+      'Boykot Çalışma Grubu Veritabanı’nda incelenen bütün çatı şirketler, alt markaları ve dosyaları. Durum filtresiyle Öncelikli Boykot Listesi’ndekileri ya da Kampanya Hedeflerini ayırabilirsiniz. Arama çubuğuna şirket ya da marka adı, kriter kodu veya kategori yazarak; kriter ve sektör filtreleriyle inceleyebilirsiniz.', `
+    <div class="stats">
+      <div class="stat"><b>${fmt(FAM.length)}</b><span>incelenen çatı · alt markalarıyla ${fmt(ENT.length)} kuruluş</span></div>
+      <div class="stat g"><b>${fmt(NOBR)}</b><span>Öncelikli Boykot Listesi’nde</span></div>
+      <div class="stat r"><b>${fmt(NKR)}</b><span>Kampanya Hedefi</span></div>
+      <div class="stat"><b>${fmt(katN)}</b><span>sektör</span></div>
+    </div>`)) + `
   <div class="lbar"><div class="wrap">
     <label class="search">${I.search}<span class="sr">Kuruluşlarda ara</span><input id="oq" type="search" placeholder="Şirket, marka, kriter kodu (A1, D3) ya da kategori" autocomplete="off" enterkeyhint="search"></label>
     <label class="sr" for="osort">Sıralama</label>
@@ -1270,11 +1290,11 @@ function hashQs() {
   if (OS.kat) p.set('kat', OS.kat); if (OS.sort !== 'lists') p.set('sira', OS.sort); if (OS.birim === 'tum') p.set('birim', 'tum');
   const s = p.toString(); return s ? '?' + s : '';
 }
-function hashYaz() { history.replaceState(null, '', '#/obl' + hashQs()); }
+function hashYaz() { history.replaceState(null, '', '#/' + (OS.kip || 'kurulus') + hashQs()); }
 const fopt = (f, v, t, n, on, cls = '', pre = '<span class="rd" aria-hidden="true"></span>') => `<button type="button" class="fopt${cls}" data-f="${f}" data-v="${esc(v)}" aria-pressed="${on}">${pre}<span class="t">${t}</span><span class="n">${fmt(n)}</span></button>`;
 function filtreCiz() {
   const n = over => filtrele(over).length;
-  let h = `<div class="fsec"><h3>${I.filter}Durum</h3>${DURUM.map(([v, t]) => fopt('durum', v, t, n({ durum: v }), OS.durum === v, v === 'k' ? ' km' : '')).join('')}</div>`;
+  let h = `<div class="fsec"><h3>${I.filter}Durum</h3>${DURUM().map(([v, t]) => fopt('durum', v, t, n({ durum: v }), OS.durum === v, v === 'k' ? ' km' : '')).join('')}</div>`;
   h += `<div class="fsec"><h3>${I.code}Kriter</h3>${fopt('kod', '', 'Tümü', n({ kod: '', alt: '' }), !OS.kod)}` + V.gruplar.map(([g, ad]) => {
     const c = n({ kod: g, alt: '' }); if (!c && OS.kod !== g) return '';
     let s = fopt('kod', g, esc(ad), c, OS.kod === g, ` g g-${g}`, `<span class="lt" aria-hidden="true">${g}</span>`);
@@ -1293,7 +1313,7 @@ function filtreCiz() {
 function aktifCiz() {
   const a = [];
   if (OS.q) a.push(['q', `“${OS.q}”`]);
-  if (OS.durum) a.push(['durum', DURUM.find(d => d[0] === OS.durum)[1]]);
+  if (OS.durum) a.push(['durum', (DURUM().find(d => d[0] === OS.durum) || ['', OS.durum])[1]]);
   if (OS.kod) a.push(['kod', `${OS.kod} · ${GR[OS.kod][1]}`]);
   if (OS.alt) a.push(['alt', `${OS.alt} · ${KADI(OS.alt)}`]);
   if (OS.kat) a.push(['kat', OS.kat]);
@@ -1310,7 +1330,7 @@ function kart(e) {
   const alt = [e.t, e.c, c ? `çatı: ${c.n}` : ''].filter(Boolean).map(esc).join(' · ');
   return `<article class="card ocard${e.k ? ' kh' : e.ob ? ' oh' : ''}">
     ${durumlar(e)}
-    <div><h3><a href="#/obl/${encodeURIComponent(e.id)}${hashQs()}">${esc(e.n)}</a></h3><div class="sub">${alt}</div></div>
+    <div><h3><a href="#/${OS.kip || 'kurulus'}/${encodeURIComponent(e.id)}${hashQs()}">${esc(e.n)}</a></h3><div class="sub">${alt}</div></div>
     ${kodlar.length ? `<div class="codes">${goster.map(chipK).join('')}${kodlar.length > 6 ? `<span class="chip n" title="${esc(kodlar.slice(6).map(k => k[0]).join(', '))}">+${kodlar.length - 6}</span>` : ''}</div>` : ''}
     ${katlar.length ? `<div class="kat">${esc(katlar.slice(0, 2).join(' · '))}${katlar.length > 2 ? ` <span class="mut" title="${esc(katlar.slice(2).join(', '))}">+${katlar.length - 2}</span>` : ''}</div>` : ''}
     ${why ? `<p class="why">${esc(why)}</p>` : ''}
@@ -1322,7 +1342,7 @@ function oblRender() {
   if (!$('#ogrid')) return;
   filtreCiz(); aktifCiz();
   const res = filtrele().sort(SORT[OS.sort]);
-  const top = OS.birim === 'tum' ? ENT.length : FAM.length;
+  const top = OS.kip === 'obl' ? (OS.birim === 'tum' ? NOB : NOBR) : (OS.birim === 'tum' ? ENT.length : FAM.length);
   $('#ocnt').innerHTML = `<b>${fmt(res.length)}</b> ${BIRIM()}${res.length !== top ? ` <span class="mut">/ ${fmt(top)}</span>` : ''}`;
   $('#fpOk').textContent = `${fmt(res.length)} sonuç göster`;
   app.querySelectorAll('.seg button[data-g]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.g === OS.gorunum)));
@@ -1364,7 +1384,7 @@ function agac(r) {
 let sonOdak = null;
 function dosyaAc(id, push = true) {
   const e = BYID.get(id); if (!e) return;
-  if (push) { location.hash = '#/obl/' + encodeURIComponent(id) + hashQs(); return; }
+  if (push) { const r = app.dataset.r === 'obl' || app.dataset.r === 'kurulus' ? app.dataset.r : 'kurulus'; location.hash = '#/' + r + '/' + encodeURIComponent(id) + (r === OS.kip ? hashQs() : ''); return; }
   if (!$('#ovl').classList.contains('open')) sonOdak = document.activeElement;
   const kodlar = e.kod.slice().sort((a, b) => a[0].localeCompare(b[0]));
   const R = E[e.r], o = OBLR[e.r];
@@ -1427,7 +1447,7 @@ function dosyaAc(id, push = true) {
 function dosyaKapat(push) {
   if (!$('#ovl').classList.contains('open')) return;
   $('#ovl').classList.remove('open'); document.body.style.overflow = '';
-  if (push) location.hash = '#/obl' + hashQs();
+  if (push) location.hash = '#/' + (app.dataset.r === 'obl' || app.dataset.r === 'kurulus' ? app.dataset.r : 'kurulus') + hashQs();
   if (sonOdak && document.contains(sonOdak)) sonOdak.focus({ preventScroll: true });
 }
 $('#ovl').addEventListener('click', ev => { if (ev.target.id === 'ovl') dosyaKapat(true); });
@@ -1501,7 +1521,7 @@ function guSayfa() {
   $('#guY').onchange = ev => { GU.y = ev.target.value; GU.limit = 150; guRender(); };
   $('#guP').onchange = ev => { GU.p = ev.target.value; GU.limit = 150; guRender(); };
   $('#guMore').onclick = () => { GU.limit += 300; guRender(); };
-  $('#guBody').addEventListener('click', ev => { const b = ev.target.closest('[data-obl]'); if (b) location.hash = '#/obl/' + encodeURIComponent(b.dataset.obl); });
+  $('#guBody').addEventListener('click', ev => { const b = ev.target.closest('[data-obl]'); if (b) location.hash = '#/kurulus/' + encodeURIComponent(b.dataset.obl); });
   guRender(); guCanli();
 }
 function guRender() {
