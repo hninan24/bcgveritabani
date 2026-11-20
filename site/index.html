@@ -163,11 +163,6 @@ nav.tabbar { display: none; }
 .hero { padding: clamp(56px, 8vw, 104px) 0 clamp(48px, 6vw, 80px); text-align: center; }
 .hero h1 { font-size: clamp(32px, 4.2vw, 46px); font-weight: 700; letter-spacing: -.024em; line-height: 1.12; margin: 0 0 var(--sp-5); }
 .hero p { max-width: 640px; margin: 0 auto var(--sp-3); color: var(--ink-2); font-size: clamp(15.5px, 1.4vw, 17px); line-height: 1.7; }
-.hsearch { max-width: 520px; margin: var(--sp-6) auto 0; display: flex; gap: 6px; padding: 5px; background: var(--surface); border: 1px solid var(--line-2); border-radius: 12px; }
-.hsearch:focus-within { border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 16%, transparent); }
-.hsearch label { flex: 1; display: flex; align-items: center; gap: 10px; padding-left: 10px; color: var(--muted); }
-.hsearch input { border: 0; outline: 0; background: none; width: 100%; height: 38px; font-size: 15px; color: var(--ink); }
-.hsearch .btn { height: 38px; }
 .hb { border-top: 1px solid var(--line); padding: var(--sp-8) 0; }
 .hb-h { display: flex; align-items: baseline; gap: 14px; margin-bottom: var(--sp-6); }
 .hb-h h2 { font-size: var(--fs-2xl); letter-spacing: -.017em; }
@@ -321,7 +316,7 @@ dialog.kdlg::backdrop { background: var(--scrim); }
 .search svg { color: var(--muted); width: 16px; height: 16px; }
 .search input { border: 0; outline: 0; background: none; color: var(--ink); width: 100%; height: 100%; font-size: 14px; }
 select.sel { border: 1px solid var(--line-2); border-radius: var(--r); padding: 0 34px 0 12px; height: var(--ctl); background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235B6474' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center; appearance: none; -webkit-appearance: none; color: var(--ink); font-size: 13.5px; max-width: 100%; min-width: 0; }
-@media (max-width: 767px) { .search input, select.sel, .hsearch input { font-size: 16px; } }
+@media (max-width: 767px) { .search input, select.sel { font-size: 16px; } }
 .fbtn { display: none !important; }
 @media (max-width: 1099px) { .fbtn { display: inline-flex !important; } }
 .fbtn .n { min-width: 18px; height: 18px; padding: 0 5px; border-radius: 99px; background: var(--primary); color: var(--on-primary); font-size: 11px; display: inline-grid; place-items: center; }
@@ -722,7 +717,6 @@ function home() {
     <h1>Niçin Bir Aradayız?</h1>
     <p>Boykot Çalışma Grubu Türkiye’de yürütülen boykot çalışmalarının niteliğini ve etkisini artırmak için bir araya gelmiş bir topluluktur.</p>
     <p>Amacımız, farklı bilgi, tecrübe ve emekleri buluşturarak boykot konusunda ortak bir yol haritası ve strateji oluşturmak; boykot çalışmalarının daha güçlü bir şekilde ilerlemesini sağlamaktır.</p>
-    <form class="hsearch" id="hsearch" role="search"><label>${I.search}<span class="sr">Kuruluş ara</span><input id="hq" type="search" placeholder="Şirket ya da marka ara" autocomplete="off" enterkeyhint="search"></label><button class="btn pri" type="submit">Ara</button></form>
   </div></section>
   <section class="hb"><div class="wrap dar"><div class="sorum reveal">
     <ol>
@@ -763,7 +757,6 @@ function home() {
     <p class="etiket uyeler-h">Boykot Çalışma Grubu</p>
     <ul class="uyeler">${UYE.map(([f, ad, w, h]) => `<li style="width:${Math.max(80, w)}px"><span class="lg"><img src="logolar/${f}.webp" alt="${esc(ad)}" width="${w}" height="${h}" loading="lazy" decoding="async"></span><span>${esc(ad)}</span></li>`).join('')}</ul>
   </div></section>`;
-  $('#hsearch').onsubmit = ev => { ev.preventDefault(); const q = $('#hq').value.trim(); location.hash = '#/obl' + (q ? '?q=' + encodeURIComponent(q) : ''); };
 }
 
 // ---------- metodoloji (düzen boykotmasasi.com metodoloji sayfasından; 2. ve 3. adımın soruları oradan)
