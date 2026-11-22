@@ -1183,9 +1183,12 @@ const LADI = Object.fromEntries(V.listeler);
 const AD2E = (() => { const m = new Map(); E.forEach(e => [e.n, ...e.a].forEach(n => { const k = norm(n); m.set(k, m.has(k) && m.get(k) !== e.id ? null : e.id); })); return m; })();
 const GU_ONEM = ['ekleme', 'cikarma', 'seviye_yukseltme', 'seviye_dusurme', 'seviye', 'cati', 'ad', 'kaynak', 'metin', 'bilgi', 'veri'];
 function guSirala() { const o = r => { if ((r.i || '').includes('|_liste|')) return -1; const i = GU_ONEM.indexOf(r.y); return i < 0 ? 99 : i; }; GU.rows.sort((a, b) => (b.d > a.d) - (b.d < a.d) || o(a) - o(b) || a.l.localeCompare(b.l, 'tr') || a.m.localeCompare(b.m, 'tr')); }
-function guCanli() {        // GitHub Pages'te izlemenin güncel olay kaydı (sayfanın derlenmesinden sonraki olaylar "henüz işlenmedi")
-  if (GU.yuklendi || !/\.github\.io$/.test(location.hostname)) return; GU.yuklendi = true;
-  fetch('../izleme/olaylar.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).then(O => {
+// İzlemenin güncel olay kaydı (sayfanın derlenmesinden sonraki olaylar "henüz işlenmedi" olarak eklenir).
+// Mutlak adresten okunur: site github.io'da da başka bir alan adında (bcg.boykotmasasi.com) da aynı kaydı görür; GitHub Pages CORS'a izin veriyor.
+const OLAY_URL = 'https://hninan24.github.io/bcgveritabani/izleme/olaylar.json';
+function guCanli() {
+  if (GU.yuklendi) return; GU.yuklendi = true;
+  fetch(OLAY_URL, { cache: 'no-store' }).then(r => r.ok ? r.json() : []).then(O => {
     const var_ = new Set(GU.rows.map(r => r.i)); let n = 0;
     (Array.isArray(O) ? O : []).forEach(o => {
       if (var_.has(o.id) || !LADI[o.liste]) return;
