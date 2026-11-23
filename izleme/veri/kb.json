@@ -1,6 +1,15 @@
 {
  "ad": "Kolay Boykot (Filistin İçin)",
  "kayitlar": {
+  "10778": {
+   "ad": "LAVAZZA",
+   "ek": {
+    "durum": "Boykot"
+   },
+   "hukum": "Boykot Kararlı",
+   "kapsam": true,
+   "url": "https://www.kolayboykot.com/marka/lavazza"
+  },
   "1101": {
    "ad": "Coca-Cola",
    "ek": {
@@ -540,6 +549,16 @@
    "kapsam": true,
    "metin": "Procter and Gamble, kısa yazılımıyla P&G’nin, Tel Aviv’de ciddi kaynak aktarımı yaptığı bir Araştırma-Geliştirme Merkezi mevcuttur.",
    "url": "https://www.kolayboykot.com/marka/orkid"
+  },
+  "13299": {
+   "ad": "Chokella",
+   "ek": {
+    "durum": "Boykot"
+   },
+   "hukum": "Boykot Kararlı",
+   "kapsam": true,
+   "metin": "Nestle, İsrail’in önde gelen gıda üreticisi Osem’in %53,8’ine sahip olan İsviçreli çok uluslu bir yiyecek ve içecek şirketidir. Aynı zamanda Nestle’nin, Gazze Şeridi’ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot’ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır.",
+   "url": "https://www.kolayboykot.com/marka/chokella"
   },
   "1330": {
    "ad": "Oral-B",
@@ -6906,26 +6925,6 @@
    "metin": "JAB Holding JDE Peet's yani Jacobs'un %68'ine sahiptir. Bu kuruluş The Kitchen Hub ve Strauss Group (Jacobs vb.) ile yürüttüğü teknolojik ve ticari ortaklıklar üzerinden İsrail'e doğrudan finansal destek sağlamaktadır.",
    "url": "https://www.kolayboykot.com/marka/l-or-espresso"
   },
-  "8281": {
-   "ad": "Jacobs Krönung",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "JAB Holding JDE Peet's yani Jacobs'un %68'ine sahiptir. Bu kuruluş The Kitchen Hub ve Strauss Group (Jacobs vb.) ile yürüttüğü teknolojik ve ticari ortaklıklar üzerinden İsrail'e doğrudan finansal destek sağlamaktadır.",
-   "url": "https://www.kolayboykot.com/marka/jacobs-kronung"
-  },
-  "8282": {
-   "ad": "Jacobs Barista Editions",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "JAB Holding JDE Peet's yani Jacobs'un %68'ine sahiptir. Bu kuruluş The Kitchen Hub ve Strauss Group (Jacobs vb.) ile yürüttüğü teknolojik ve ticari ortaklıklar üzerinden İsrail'e doğrudan finansal destek sağlamaktadır.",
-   "url": "https://www.kolayboykot.com/marka/jacobs-barista-editions"
-  },
   "8283": {
    "ad": "GilletteLabs",
    "ek": {
@@ -10042,36 +10041,6 @@
    "metin": "Schwarz Group/Lidl, İsrail bağlantılı faaliyetler (Albaad/İsrail üretimi ürünler, İsrail teknoloji iş birliği) nedeniyle boykot listelerinde.",
    "url": "https://www.kolayboykot.com/marka/pilos"
   },
-  "8619": {
-   "ad": "Starbucks Reserve",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
-   "url": "https://www.kolayboykot.com/marka/starbucks-reserve"
-  },
-  "8620": {
-   "ad": "Starbucks VIA",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
-   "url": "https://www.kolayboykot.com/marka/starbucks-via"
-  },
-  "8621": {
-   "ad": "Starbucks Refreshers",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
-   "url": "https://www.kolayboykot.com/marka/starbucks-refreshers"
-  },
   "8622": {
    "ad": "Frappuccino",
    "hukum": "Seviyesiz",
@@ -10169,26 +10138,6 @@
    "kapsam": false,
    "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
    "url": "https://www.kolayboykot.com/marka/seattle-s-best-coffee"
-  },
-  "8636": {
-   "ad": "Starbucks at Home",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
-   "url": "https://www.kolayboykot.com/marka/starbucks-at-home"
-  },
-  "8637": {
-   "ad": "Starbucks by Nespresso",
-   "ek": {
-    "durum": "Boykot"
-   },
-   "hukum": "Seviyesiz",
-   "kapsam": true,
-   "metin": "Starbucks, Amerika’nın çok uluslu bir kafe zinciridir. Starbucks, Afganistan ve Irak’taki ABD üslerinde ve Guantanamo Körfezi’ndeki yasadışı işkence merkezinde satış noktaları açmıştır. Starbucks aynı zamanda İsrail için bağış toplama etkinliklerine de sponsorluk yapıyor.",
-   "url": "https://www.kolayboykot.com/marka/starbucks-by-nespresso"
   },
   "8638": {
    "ad": "Coca-Cola Zero Sugar",
@@ -14682,8 +14631,8 @@
  },
  "kaynak": "kb",
  "meta": {
-  "marka": 1507
+  "marka": 1502
  },
- "parmak_izi": "ad346fe72fcb144554afc321cffc3675e1da37b345add669e38ca24c370db876",
- "tarih": "2026-11-16T16:09:03+03:00"
+ "parmak_izi": "eb6a1309a896f0e513795bcb87a69ac5e83479b4662869292a239029882da5aa",
+ "tarih": "2026-11-23T18:22:31+03:00"
 }

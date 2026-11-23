@@ -19778,11 +19778,17 @@
    "url": "https://boykotdedektifi.com/b/kiwi2-2842"
   },
   "2843": {
-   "ad": "Cajun corner",
+   "ad": "Cajun Corner",
    "cati": "Cajun Gıda Turizm Sanayi ve Ticaret Limited Şirketi",
    "hukum": "Uygun",
    "kapsam": false,
-   "metin": "Cajun Corner, 2010'lu yılların başında Murat Saylık tarafından Ankara'da kurulan bir hızlı servis restoran zinciridir. Türkiye merkezli olan firma, New Orleans mutfağına özgü \"Cajun\" baharatlı tavuk konseptini yerelleştirerek sunmaktadır. Güncel olarak Türkiye'nin pek çok ilinde 100'den fazla şubesiyle franchise (bayilik) sistemi üzerinden restoran ve paket servis alanlarında faaliyetlerini sürdürmektedir.",
+   "kaynaklar": [
+    "https://cajuncorner.com.tr/hakkimizda/",
+    "https://tr.linkedin.com/in/ahmet-turgut-51980323b",
+    "https://www.bayimolurmusun.com.tr/tr/haberler/franchise-haberleri/turkiyenin-yerli-ve-milli-en-hizli-buyuyen-fast-food-zincir-markasi-cajun-corner-ile-kendi-isinin-patronu-ol",
+    "https://www.medyafranchise.com.tr/anasayfa/amerikan-devlerine-rakip-1469"
+   ],
+   "metin": "Cajun Corner, A. Turgut tarafından 2017 yılında Ankara'da kurulmuş yerli sermayeli bir çıtır tavuk ve fast food zinciridir. Boykot edilmemektedir. Türkiye merkezlidir ve uygundur.[1, 2, 3, 4]",
    "url": "https://boykotdedektifi.com/b/cajun-corner-2843"
   },
   "2844": {
@@ -25118,7 +25124,7 @@
    "cati": "BİM",
    "hukum": "Uygun",
    "kapsam": false,
-   "metin": "Adora; 1995 yılında kurulan Türkiye merkezli perakende zinciri BİM Birleşik Mağazalar A.Ş. tarafından oluşturulmuş bir özel marka (private label) dondurma serisidir. Güncel olarak gıda (dondurma ve buzlu tatlılar) alanında faaliyet göstermekte olup, ağırlıklı olarak Türkiye pazarındaki BİM mağazalarında doğrudan tüketicilere sunulmaktadır.",
+   "metin": "Adora; Türkiye merkezli perakende zinciri BİM Birleşik Mağazalar A.Ş. tarafından oluşturulmuş bir özel marka (private label) dondurma serisidir. Güncel olarak gıda (dondurma ve buzlu tatlılar) alanında faaliyet göstermekte olup, ağırlıklı olarak Türkiye pazarındaki BİM mağazalarında doğrudan tüketicilere sunulmaktadır.",
    "url": "https://boykotdedektifi.com/b/adora-3352"
   },
   "3353": {
@@ -25168,17 +25174,6 @@
    "kapsam": false,
    "metin": "Max Fly, 1997 yılında kurulan %100 yerli sermayeli Oğuz Gıda Sanayi ve Ticaret A.Ş. tarafından üretilen Türkiye merkezli bir enerji içeceği markasıdır. Güncel olarak içecek (enerji içeceği, meyve suyu, gazoz) sektöründe faaliyet göstermekte olup, üretimlerini Türkiye'deki (Adana, Sakarya, Bolu, Bursa, Konya) entegre tesislerinde gerçekleştirerek hem iç pazara hem de 100'ü aşkın ülkeye ihracat yapmaktadır.\nuygundur",
    "url": "https://boykotdedektifi.com/b/max-fly-3358"
-  },
-  "3359": {
-   "ad": "havit",
-   "cati": "Guangzhou Havit Technology Co., Ltd.",
-   "hukum": "İkincil Boykot",
-   "kapsam": true,
-   "kaynaklar": [
-    "https://havitsmart.com/tr/blogs/haberler/havit-markasi-genel-bakis"
-   ],
-   "metin": "Havit, 1998 yılında Ms. Lee (Ouhaixia) tarafından Çin'in Guangzhou şehrinde kurulmuştur. Çin merkezli olan bu teknoloji şirketi; güncel olarak bilgisayar çevre birimleri (klavye, mouse), ses donanımları (kulaklık, hoparlör) ve akıllı elektronik aletler pazarında üretim yapmakta olup ürünlerini Kuzey Amerika, Avrupa, Asya ve Orta Doğu dâhil olmak üzere geniş çaplı global bir pazarda satışa sunmaktadır.\nAraştırmamız neticesinde Çine ait küresel markalar Doğu türkistandaki zulümden dolayı kısmen Boykot listemizdedir",
-   "url": "https://boykotdedektifi.com/b/havit-3359"
   },
   "336": {
    "ad": "Cafe Crown",
@@ -37344,8 +37339,8 @@
  },
  "kaynak": "bd",
  "meta": {
-  "site_haritasi": 3952
+  "site_haritasi": 3951
  },
- "parmak_izi": "12f9781ce4b615fd0ff6915afabea6d4124c7f946adcb38667061693f14c5411",
- "tarih": "2026-11-16T16:09:03+03:00"
+ "parmak_izi": "387939032c2a41fc26fc28dc48dede806bcd91ac41c20005f9a920068a35c06d",
+ "tarih": "2026-11-23T18:22:31+03:00"
 }
