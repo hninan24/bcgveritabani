@@ -1,5 +1,47 @@
 [
  {
+  "id": "2026-11-23|wp|7375|cikarma",
+  "tespit": "2026-11-23",
+  "liste": "wp",
+  "kimlik": "7375",
+  "marka": "Electra Afikim (formerly Afikim)",
+  "cati": null,
+  "tur": "cikarma",
+  "url": "https://www.whoprofits.org/companies/company/7375",
+  "kapsam": "cikti",
+  "eski": {
+   "url": "https://www.whoprofits.org/companies/company/7375"
+  }
+ },
+ {
+  "id": "2026-11-23|wp|3636|cikarma",
+  "tespit": "2026-11-23",
+  "liste": "wp",
+  "kimlik": "3636",
+  "marka": "Electra",
+  "cati": null,
+  "tur": "cikarma",
+  "url": "https://www.whoprofits.org/companies/company/3636",
+  "kapsam": "cikti",
+  "eski": {
+   "url": "https://www.whoprofits.org/companies/company/3636"
+  }
+ },
+ {
+  "id": "2026-11-23|wp|4069|cikarma",
+  "tespit": "2026-11-23",
+  "liste": "wp",
+  "kimlik": "4069",
+  "marka": "CIM Lustigman",
+  "cati": null,
+  "tur": "cikarma",
+  "url": "https://www.whoprofits.org/companies/company/4069",
+  "kapsam": "cikti",
+  "eski": {
+   "url": "https://www.whoprofits.org/companies/company/4069"
+  }
+ },
+ {
   "id": "2026-11-22|bt|132|seviye_dusurme",
   "tespit": "2026-11-22",
   "liste": "bt",

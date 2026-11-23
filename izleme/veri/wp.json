@@ -21,11 +21,6 @@
    "kapsam": true,
    "url": "https://www.whoprofits.org/companies/company/3634"
   },
-  "3636": {
-   "ad": "Electra",
-   "kapsam": true,
-   "url": "https://www.whoprofits.org/companies/company/3636"
-  },
   "3638": {
    "ad": "Egis Rail",
    "kapsam": true,
@@ -1181,11 +1176,6 @@
    "kapsam": true,
    "url": "https://www.whoprofits.org/companies/company/4068"
   },
-  "4069": {
-   "ad": "CIM Lustigman",
-   "kapsam": true,
-   "url": "https://www.whoprofits.org/companies/company/4069"
-  },
   "4072": {
    "ad": "Yatir Quarry",
    "kapsam": true,
@@ -2231,11 +2221,6 @@
    "kapsam": true,
    "url": "https://www.whoprofits.org/companies/company/7374"
   },
-  "7375": {
-   "ad": "Electra Afikim (formerly Afikim)",
-   "kapsam": true,
-   "url": "https://www.whoprofits.org/companies/company/7375"
-  },
   "7376": {
    "ad": "Meshek Energy-Renewable Energies",
    "kapsam": true,
@@ -2354,8 +2339,8 @@
  },
  "kaynak": "wp",
  "meta": {
-  "sirket": 470
+  "sirket": 467
  },
- "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
- "tarih": "2026-10-20T15:23:49+03:00"
+ "parmak_izi": "9e60067591c3df26be112ac99a50908505f693714db3a332a35683a749cf7d6e",
+ "tarih": "2026-11-23T17:42:31+03:00"
 }
