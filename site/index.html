@@ -375,6 +375,8 @@ select.sel { border: 1px solid var(--line-2); border-radius: var(--r); padding: 
 @media (pointer: coarse) { .fopt { min-height: 44px; } }
 .fsub { margin: 2px 0 6px 16px; padding-left: 10px; border-left: 1.5px solid color-mix(in srgb, var(--gc) 35%, transparent); }
 .fsub .fopt { font-size: 12.5px; min-height: 30px; }
+.fsub2 { margin: 2px 0 6px 22px; }
+.fsub2 .fopt { font-size: 12px; min-height: 28px; color: var(--muted); }
 .fmore { margin: 4px 0 0 2px; }
 .res-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; min-height: 36px; }
 .res-h .cnt { font-size: 13.5px; color: var(--muted); } .res-h .cnt b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -865,7 +867,7 @@ function metod() {
 
 // ---------- Öncelikli Boykot Listesi (bütün kuruluşlar; Durum filtresiyle ÖBL ve Kampanya Hedefi)
 const SIRALAR = [['lists', 'Liste sayısına göre'], ['codes', 'Kod sayısına göre'], ['name', 'Ada göre (A–Z)'], ['kids', 'Alt marka sayısına göre'], ['at', 'ÖBL’ye eklenme sırasına göre'], ['kume', 'Kategoriye göre kümele']];
-const OS = { q: '', durum: '', kod: '', alt: '', kat: '', birim: 'cati', sort: 'lists', limit: 60, katTum: false, gorunum: ls.get('bcg.gorunum') || 'kart' };
+const OS = { q: '', durum: '', kod: '', alt: '', ak: '', kat: '', birim: 'cati', sort: 'lists', limit: 60, katTum: false, gorunum: ls.get('bcg.gorunum') || 'kart' };
 const byName = (a, b) => a.n.localeCompare(b.n, 'tr');
 const byLists = (a, b) => b.lists.length - a.lists.length || b.kod.length - a.kod.length || byName(a, b);
 const SORT = {
@@ -891,17 +893,20 @@ const obBadge = () => '<span class="durum ob">Öncelikli Boykot Listesi</span>';
 const kmBadge = () => '<span class="durum km">Kampanya Hedefi</span>';
 const durumlar = e => e.ob || e.k ? `<div class="durumlar">${e.ob ? obBadge() : ''}${e.k ? kmBadge() : ''}</div>` : '';
 const BIRIM = () => OS.birim === 'tum' ? 'kuruluş' : 'çatı';
+// alt kodu olan kriterlerde (D3) kuruluşun o alt kodu taşıyıp taşımadığı
+const akVar = (e, c, a) => e.kod.some(k => k[0] === c && (k[2] || []).includes(a));
 function filtrele(over) {
   const S = over ? { ...OS, ...over } : OS;
   const qn = norm(S.q);
   if (S.birim === 'tum') return ENT.filter(e => (S.kip !== 'obl' || e.ob) && (!S.durum || (S.durum === 'k' ? e.k : e.ob))
-    && (!S.kod || e.gs.includes(S.kod)) && (!S.alt || e.kc.includes(S.alt))
+    && (!S.kod || e.gs.includes(S.kod)) && (!S.alt || e.kc.includes(S.alt)) && (!S.ak || akVar(e, S.alt, S.ak))
     && (!S.kat || e.kat.includes(S.kat)) && (!qn || e.q.includes(qn)));
   return FAM.filter(R => {
     if (S.kip === 'obl' && !R.ob) return false;
     if (S.durum && !(S.durum === 'k' ? R.k : R.ob)) return false;
     if (S.kod && !R.fgs.has(S.kod)) return false;
     if (S.alt && !R.fkc.has(S.alt)) return false;
+    if (S.ak && !R.uy.some(u => akVar(u, S.alt, S.ak))) return false;
     if (S.kat && !R.fkat.has(S.kat)) return false;
     if (qn) { R.es = R.q.includes(qn) ? [] : R.uy.filter(u => u !== R && u.q.includes(qn)).map(u => u.n); if (!R.q.includes(qn) && !R.es.length) return false; }
     else R.es = [];
@@ -965,17 +970,17 @@ function oblSayfa(p, kip) {
   $('#ogrid').addEventListener('click', ev => { if (ev.target.closest('a')) return; const c = ev.target.closest('.ocard'); if (c) c.querySelector('h3 a').click(); });
   $('#fbtn').onclick = () => filtreCekmece(true);
   $('#fpX').onclick = $('#fpOk').onclick = $('#fScrim').onclick = () => filtreCekmece(false);
-  const temizle = () => { Object.assign(OS, { q: '', durum: '', kod: '', alt: '', kat: '', limit: 60 }); $('#oq').value = ''; oblRender(); hashYaz(); };
+  const temizle = () => { Object.assign(OS, { q: '', durum: '', kod: '', alt: '', ak: '', kat: '', limit: 60 }); $('#oq').value = ''; oblRender(); hashYaz(); };
   $('#fpClr').onclick = temizle;
   $('#fpb').addEventListener('click', ev => {
     const b = ev.target.closest('[data-f]');
-    if (b) { const f = b.dataset.f, v = b.dataset.v; OS[f] = OS[f] === v && v !== '' ? '' : v; if (f === 'kod') OS.alt = ''; OS.limit = 60; oblRender(); hashYaz(); const yeni = $(`#fpb [data-f="${f}"][data-v="${CSS.escape(v)}"]`); if (yeni) yeni.focus({ preventScroll: true }); return; }
+    if (b) { const f = b.dataset.f, v = b.dataset.v; OS[f] = OS[f] === v && v !== '' ? '' : v; if (f === 'kod') { OS.alt = ''; OS.ak = ''; } if (f === 'alt') OS.ak = ''; OS.limit = 60; oblRender(); hashYaz(); const yeni = $(`#fpb [data-f="${f}"][data-v="${CSS.escape(v)}"]`); if (yeni) yeni.focus({ preventScroll: true }); return; }
     if (ev.target.closest('#katTum')) { OS.katTum = !OS.katTum; filtreCiz(); $('#katTum').focus(); }
   });
   $('#aktif').addEventListener('click', ev => {
     const b = ev.target.closest('[data-rm]'); if (!b) return;
     if (b.dataset.rm === '*') return temizle();
-    OS[b.dataset.rm] = ''; if (b.dataset.rm === 'kod') OS.alt = ''; if (b.dataset.rm === 'q') $('#oq').value = '';
+    OS[b.dataset.rm] = ''; if (b.dataset.rm === 'kod') { OS.alt = ''; OS.ak = ''; } if (b.dataset.rm === 'alt') OS.ak = ''; if (b.dataset.rm === 'q') $('#oq').value = '';
     OS.limit = 60; oblRender(); hashYaz();
   });
   oblFromParams(p);
@@ -988,7 +993,7 @@ function filtreCekmece(ac) {
   if (ac) setTimeout(() => $('#fpX').focus(), 60); else $('#fbtn').focus({ preventScroll: true });
 }
 function oblFromParams(p) {
-  OS.q = p.get('q') || ''; OS.durum = p.get('durum') || ''; OS.kod = p.get('kod') || ''; OS.alt = p.get('alt') || ''; OS.kat = p.get('kat') || '';
+  OS.q = p.get('q') || ''; OS.durum = p.get('durum') || ''; OS.kod = p.get('kod') || ''; OS.alt = p.get('alt') || ''; OS.ak = OS.alt ? (p.get('ak') || '') : ''; OS.kat = p.get('kat') || '';
   OS.sort = SORT[p.get('sira')] ? p.get('sira') : 'lists'; OS.birim = p.get('birim') === 'tum' ? 'tum' : 'cati';
   if ($('#oq') && $('#oq').value !== OS.q) $('#oq').value = OS.q;
   if ($('#osort')) $('#osort').value = OS.sort;
@@ -996,7 +1001,7 @@ function oblFromParams(p) {
 }
 function hashQs() {
   const p = new URLSearchParams();
-  if (OS.q) p.set('q', OS.q); if (OS.durum) p.set('durum', OS.durum); if (OS.kod) p.set('kod', OS.kod); if (OS.alt) p.set('alt', OS.alt);
+  if (OS.q) p.set('q', OS.q); if (OS.durum) p.set('durum', OS.durum); if (OS.kod) p.set('kod', OS.kod); if (OS.alt) p.set('alt', OS.alt); if (OS.ak) p.set('ak', OS.ak);
   if (OS.kat) p.set('kat', OS.kat); if (OS.sort !== 'lists') p.set('sira', OS.sort); if (OS.birim === 'tum') p.set('birim', 'tum');
   const s = p.toString(); return s ? '?' + s : '';
 }
@@ -1010,7 +1015,14 @@ function filtreCiz() {
     let s = fopt('kod', g, esc(ad), c, OS.kod === g, ` g g-${g}`, `<span class="lt" aria-hidden="true">${g}</span>`);
     if (OS.kod === g) {
       const alt = GR[g][3].map(k => [k[0], k[1], n({ alt: k[0] })]).filter(k => k[2] || OS.alt === k[0]);
-      s += `<div class="fsub g-${g}">${alt.map(([c2, ad2, m]) => fopt('alt', c2, `<span class="chip g-${g}">${c2}</span> ${esc(ad2)}`, m, OS.alt === c2, '', '')).join('')}</div>`;
+      s += `<div class="fsub g-${g}">${alt.map(([c2, ad2, m]) => {
+        let x = fopt('alt', c2, `<span class="chip g-${g}">${c2}</span> ${esc(ad2)}`, m, OS.alt === c2, '', '');
+        if (OS.alt === c2 && V.altTanim[c2]) {
+          const ak = V.altTanim[c2].map(([a]) => [a, n({ ak: a })]).filter(([a, m2]) => m2 || OS.ak === a);
+          x += `<div class="fsub fsub2 g-${g}">${ak.map(([a, m2]) => fopt('ak', a, esc(a), m2, OS.ak === a, '', '')).join('')}</div>`;
+        }
+        return x;
+      }).join('')}</div>`;
     }
     return s;
   }).join('') + `</div>`;
@@ -1026,9 +1038,10 @@ function aktifCiz() {
   if (OS.durum) a.push(['durum', (DURUM().find(d => d[0] === OS.durum) || ['', OS.durum])[1]]);
   if (OS.kod) a.push(['kod', `${OS.kod} · ${GR[OS.kod][1]}`]);
   if (OS.alt) a.push(['alt', `${OS.alt} · ${KADI(OS.alt)}`]);
+  if (OS.ak) a.push(['ak', `${OS.alt} · ${OS.ak}`]);
   if (OS.kat) a.push(['kat', OS.kat]);
   $('#aktif').innerHTML = a.map(([k, t]) => `<button type="button" data-rm="${k}" aria-label="Filtreyi kaldır: ${esc(t)}">${esc(t)}${I.x}</button>`).join('') + (a.length > 1 ? `<button type="button" class="clr" data-rm="*">Tümünü temizle</button>` : '');
-  $('#fbtnN').textContent = [OS.durum, OS.kod, OS.alt, OS.kat].filter(Boolean).length || '';
+  $('#fbtnN').textContent = [OS.durum, OS.kod, OS.alt, OS.ak, OS.kat].filter(Boolean).length || '';
 }
 function kart(e) {
   const kodlar = e.kod.slice().sort((a, b) => a[0].localeCompare(b[0]));
@@ -1062,7 +1075,7 @@ function oblRender() {
   if (!res.length) {
     g.innerHTML = `<div class="empty card" style="grid-column:1/-1"><h3>Sonuç bulunamadı</h3><p>${OS.q ? `“${esc(OS.q)}” için ` : ''}bu filtrelerle eşleşen kuruluş yok. Aramayı kısaltmayı ya da bazı filtreleri kaldırmayı deneyin.</p>
       <div class="acts">${OS.q ? '<button class="btn" data-bos="q">Aramayı temizle</button>' : ''}<button class="btn pri" data-bos="*">Bütün filtreleri temizle</button></div></div>`;
-    g.querySelectorAll('[data-bos]').forEach(b => b.onclick = () => { if (b.dataset.bos === 'q') OS.q = ''; else Object.assign(OS, { q: '', durum: '', kod: '', alt: '', kat: '' }); $('#oq').value = OS.q; oblRender(); hashYaz(); });
+    g.querySelectorAll('[data-bos]').forEach(b => b.onclick = () => { if (b.dataset.bos === 'q') OS.q = ''; else Object.assign(OS, { q: '', durum: '', kod: '', alt: '', ak: '', kat: '' }); $('#oq').value = OS.q; oblRender(); hashYaz(); });
     more.hidden = true; return;
   }
   if (OS.sort === 'kume') {
