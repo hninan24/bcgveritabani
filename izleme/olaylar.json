@@ -1,5 +1,317 @@
 [
  {
+  "id": "2026-11-24|bt|419|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "419",
+  "marka": "Zappos",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/zappos-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|410|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "410",
+  "marka": "Whole Foods",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/aws-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|416|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "416",
+  "marka": "Twitch",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/twitch-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|277|cikarma",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "277",
+  "marka": "Twitch",
+  "cati": "Amazon",
+  "tur": "cikarma",
+  "url": "https://bilinclituketim.com/brand/twitch",
+  "onceki": "3 Çarpılı Şirket",
+  "kapsam": "cikti",
+  "eski": {
+   "hukum": "3 Çarpılı Şirket",
+   "url": "https://bilinclituketim.com/brand/twitch",
+   "cati": "Amazon"
+  }
+ },
+ {
+  "id": "2026-11-24|bt|411|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "411",
+  "marka": "Shopbop",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/amazon-prime",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|418|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "418",
+  "marka": "Ring",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/ring-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|417|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "417",
+  "marka": "Prime Video",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/prime-video-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|274|ad",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "274",
+  "marka": "Metro-Goldwyn-Mayer ( Amazon MGM Studios )",
+  "cati": "Amazon",
+  "tur": "ad",
+  "url": "https://bilinclituketim.com/brand/metro-goldwyn-mayer",
+  "onceki": "Metro-Goldwyn-Mayer",
+  "sonraki": "Metro-Goldwyn-Mayer ( Amazon MGM Studios )",
+  "tarih": "2026-11-24"
+ },
+ {
+  "id": "2026-11-24|bt|412|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "412",
+  "marka": "Luna",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/luna",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|415|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "415",
+  "marka": "Fire",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/alexa-1",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|279|ad",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "279",
+  "marka": "Blink",
+  "cati": "Amazon",
+  "tur": "ad",
+  "url": "https://bilinclituketim.com/brand/prime-video",
+  "onceki": "Prime Video",
+  "sonraki": "Blink",
+  "tarih": "2026-11-24"
+ },
+ {
+  "id": "2026-11-24|bt|409|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "409",
+  "marka": "AWS",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/aws",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|272|ad",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "272",
+  "marka": "Amazon Prime",
+  "cati": "Amazon",
+  "tur": "ad",
+  "url": "https://bilinclituketim.com/brand/ring",
+  "onceki": "Ring",
+  "sonraki": "Amazon Prime",
+  "tarih": "2026-11-24"
+ },
+ {
+  "id": "2026-11-24|bt|104|metin",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "104",
+  "marka": "Amazon",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bilinclituketim.com/brand/amazon",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "Amazon,"
+    ],
+    [
+     "-",
+     "İsrail’in"
+    ],
+    [
+     "+",
+     "Google ile birlikte İsrail ordusuna bulut ve yapay zekâ hizmeti sağlayan 1,2 milyar dolarlık"
+    ],
+    [
+     "=",
+     "Nimbus"
+    ],
+    [
+     "-",
+     "Projesi’nde yer almaktadır."
+    ],
+    [
+     "+",
+     "Projesi’nin iki sağlayıcısından biridir. Ekim 2023’te kendi iç bulutu yetersiz kalınca İsrail Ordusu, Gazze’deki katliamlarında Amazon’un bulutunu giderek daha fazla kullanmaya başlamıştır. +972’ye göre bu buluttaki istihbarat, defalarca hava saldırılarından önce ek bilgi için kullanılmıştır."
+    ],
+    [
+     "=",
+     "Bu"
+    ],
+    [
+     "-",
+     "proje"
+    ],
+    [
+     "+",
+     "saldırılarda başta kadınlar, çocuklar ve bebekler olmak üzere çok sayıda sivil Filistinli şehit olmuştur. Ordu, 2024 başında Filistinlilere ait 3,5 milyon fotoğrafı Amazon’un yüz tanıma hizmeti Rekognition’ı kullanabilmek için buluta yüklemiştir. Amazon, Rekognition erişimi de satın alan"
+    ],
+    [
+     "=",
+     "İsrail"
+    ],
+    [
+     "-",
+     "hükümeti"
+    ],
+    [
+     "+",
+     "Savunma Bakanlığı’na sattığı hizmetlerde %35 indirim uygulamış; Gazze’de kullanılan bomba, füze ve insansız hava araçlarının üreticileri Rafael ve IAI’ye bulut ve yapay zeka teknolojileri sağlamıştır. Amazon, 2037’ye kadar İsrail’e 7,2 milyar dolar yatırım yapmayı planlamaktadır. İsrail hükûmeti ile doğrudan iş birliği yapmak"
+    ],
+    [
+     "=",
+     "ve İsrail ordusuna"
+    ],
+    [
+     "-",
+     "bulut (cloud) servisi sunan bir bilişim projesidir. Proje kapsamında İsrail devlet kurumlarına yapay zeka ve makine öğrenmesi hizmetleri de sunulmaktadır. Amazon, katkı sunduğu bu teknolojiler nedeniyle Filistinliler hakkında daha fazla yasadışı veri toplanmasına olanak sağlamakta ve İsrail'in Filistin topraklarındaki yasa dışı işgalinin genişlemesine aracılık etmektedir. Amazon, 2037 yılına kadar İsrail’e 7.2 milyar dolar bulut (cloud) yatırımı yapmayı hedeflemektedir. İsrail devletiyle"
+    ],
+    [
+     "=",
+     "doğrudan"
+    ],
+    [
+     "-",
+     "işbirliği halinde olmak, İsrail ordusu için teknoloji üretmek ve işgal rejimine altyapı sağlamak,"
+    ],
+    [
+     "+",
+     "hizmet sunmak, Amazon’u"
+    ],
+    [
+     "=",
+     "üç çarpılı"
+    ],
+    [
+     "-",
+     "boykot sebebidir."
+    ],
+    [
+     "+",
+     "şirket sınıfına dahil etmektedir."
+    ]
+   ]
+  },
+  "tarih": "2026-11-24"
+ },
+ {
+  "id": "2026-11-24|bt|104|kaynak",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "104",
+  "marka": "Amazon",
+  "cati": null,
+  "tur": "kaynak",
+  "url": "https://bilinclituketim.com/brand/amazon",
+  "baglanti": {
+   "eklenen": [
+    "https://documents.un.org/doc/undoc/gen/g25/094/40/pdf/g2509440.pdf",
+    "https://www.timesofisrael.com/israel-signs-deal-for-cloud-services-with-google-amazon/",
+    "https://press.aboutamazon.com/2023/8/aws-launches-infrastructure-region-in-israel",
+    "https://www.972mag.com/lavender-ai-israeli-army-gaza/",
+    "https://theintercept.com/2025/10/24/amazon-weapons-gaza-israel-rafael-iai/",
+    "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+    "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
+    "https://www.972mag.com/cloud-israeli-army-gaza-amazon-google-microsoft/",
+    "https://www.npr.org/2026/09/30/nx-s1-5974309/naza-filmmakers-on-what-they-learned-making-the-doc-and-the-backlash-it-received",
+    "https://www.theguardian.com/us-news/2025/oct/29/google-amazon-israel-contract-secret-code",
+    "https://www.hrw.org/news/2024/09/10/gaza-israeli-militarys-digital-tools-risk-civilian-harm",
+    "https://www.amnesty.org/en/documents/mde15/6701/2023/en/",
+    "https://www.thenation.com/article/economy/amazon-prime-day-israel/"
+   ],
+   "cikan": []
+  },
+  "tarih": "2026-11-24"
+ },
+ {
+  "id": "2026-11-24|bt|414|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "414",
+  "marka": "Alexa",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/alexa",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
+  "id": "2026-11-24|bt|413|ekleme",
+  "tespit": "2026-11-24",
+  "liste": "bt",
+  "kimlik": "413",
+  "marka": "AbeBooks",
+  "cati": "Amazon",
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/abebooks",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-11-23"
+ },
+ {
   "id": "2026-11-23|wp|7375|cikarma",
   "tespit": "2026-11-23",
   "liste": "wp",
