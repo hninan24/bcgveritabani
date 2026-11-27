@@ -1,5 +1,36 @@
 [
  {
+  "id": "2026-11-27|bykt|MuS8LhOGou97vWjhm1o5|metin",
+  "tespit": "2026-11-27",
+  "liste": "bykt",
+  "kimlik": "MuS8LhOGou97vWjhm1o5",
+  "marka": "Fakir",
+  "cati": "Saruhan Holding",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/fakir",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… Procter & Gamble (P&G) menşeli Braun (Braun Household)"
+    ],
+    [
+     "-",
+     "ve küresel İtalyan markası De'Longhi'nin Türkiye'deki"
+    ],
+    [
+     "+",
+     "markasının"
+    ],
+    [
+     "=",
+     "\"Resmi ve Tek Yetkili Distribütörü\" olmuştur. Fakir'in de …"
+    ]
+   ]
+  },
+  "tarih": "2026-11-27"
+ },
+ {
   "id": "2026-11-24|bt|419|ekleme",
   "tespit": "2026-11-24",
   "liste": "bt",
